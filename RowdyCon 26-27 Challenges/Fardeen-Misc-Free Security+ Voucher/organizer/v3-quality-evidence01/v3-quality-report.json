@@ -1,0 +1,2602 @@
+{
+  "method": "Informed UI review with public API navigation",
+  "live_stage": "/tmp/iq-v3-stage02/The Impossible Security+ Quiz",
+  "human_playtesting": false,
+  "human_listening": false,
+  "checks": {
+    "audio": {
+      "failed": "{'peak': 0, 'rms': 0, 'nonzero': 0, 'samples': 0, 'outputs': []}",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 35, in check\n    try:R['checks'][name]=fn()\n                          ^^^^\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 44, in audio_check\n    page.evaluate('window.__capture=window.__measure(1400,\"GainNode\")');key('START');start=page.evaluate('window.__capture');assert start['peak']>0,start\n                                                                                                                                    ^^^^^^^^^^^^^^^\nAssertionError: {'peak': 0, 'rms': 0, 'nonzero': 0, 'samples': 0, 'outputs': []}\n"
+    },
+    "whitespace": {
+      "bracketed": "[ ]",
+      "draft_survived_reload": true,
+      "keyboard_submit_advanced": true
+    },
+    "links": {
+      "focus_destinations": [
+        "DESTINATION\nhttps://payroll.rowdy.test.secure-login.test/",
+        "DESTINATION\nhttps://payroll.rowdy.test@account-help.test/",
+        "DESTINATION\nhttps://payroll.rowdy.test/",
+        "DESTINATION\nhttps://payroll-rowdy.test/"
+      ]
+    },
+    "backup": {
+      "failed": "Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"REMOVABLE DRIVE DEVICE 09\", exact=True)\n",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 35, in check\n    try:R['checks'][name]=fn()\n                          ^^^^\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 67, in backup_check\n    key('Select shortcut');key('COPY');click('REMOVABLE DRIVE DEVICE 09');key('PASTE');shortcut=state()['draft']['copied'];assert shortcut['kind']=='shortcut',shortcut;sizes('q10-shortcut')\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 18, in click\n    def click(name):page.get_by_role('button',name=name,exact=True).click();idle()\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 15543, in click\n    self._sync(\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_locator.py\", line 160, in click\n    return await self._frame.click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 549, in click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 558, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"REMOVABLE DRIVE DEVICE 09\", exact=True)\n\n"
+    },
+    "vestibule": {
+      "closed_door_blocks_walk": true,
+      "visitor_movement_reversible": true,
+      "keyboard_admission_advanced": true
+    },
+    "recorder_recovery": {
+      "captured_after_wrong": "demo-user: goose\nCrumbs1!\n",
+      "recovered_with_old_tape_retained": true
+    },
+    "retained_evidence": {
+      "failed": "Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"USB BACKUP RETAINED FILE\", exact=True)\n",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 35, in check\n    try:R['checks'][name]=fn()\n                          ^^^^\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 84, in retained_check\n    click('USB BACKUP RETAINED FILE');digest=page.get_by_label('Artifact digest').input_value();assert len(digest)==64;sizes('q17-full-evidence');page.keyboard.press('Escape');focus=page.evaluate('document.activeElement.innerText');assert 'USB BACKUP' in focus,focus\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/iq-v3-quality01/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 18, in click\n    def click(name):page.get_by_role('button',name=name,exact=True).click();idle()\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 15543, in click\n    self._sync(\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_locator.py\", line 160, in click\n    return await self._frame.click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 549, in click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 558, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"USB BACKUP RETAINED FILE\", exact=True)\n\n"
+    },
+    "log_chain": {
+      "all_hashes_match_bytes": true,
+      "chain": [
+        "Q15-CHECKPOINT",
+        "EV-7C2",
+        "EV-3A8",
+        "EV-9F1"
+      ],
+      "latest_deny": "EV-9F1",
+      "focus_restored": "Inspect log EV-9F1",
+      "focus_cycle": [
+        {
+          "name": "Previous fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Record fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "Previous fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        }
+      ],
+      "archive_advanced": true
+    }
+  },
+  "screenshots": [
+    {
+      "text": "1.\nSSH. DEFAULT PORT.\n\n20\n21\n23\n25\nEXTRA CREDIT\n+1\nMultiple choice. Allegedly.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "20",
+          "disabled": false,
+          "rect": {
+            "x": 262.3399963378906,
+            "y": 227.1750030517578,
+            "w": 396.6750183105469,
+            "h": 122.11595153808594
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "21",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 227.1750030517578,
+            "w": 396.675048828125,
+            "h": 122.11595153808594
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "23",
+          "disabled": false,
+          "rect": {
+            "x": 262.3399963378906,
+            "y": 382.5009460449219,
+            "w": 396.6750183105469,
+            "h": 122.11593627929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "25",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 382.5009460449219,
+            "w": 396.675048828125,
+            "h": 122.11593627929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Extra credit plus one",
+          "disabled": false,
+          "rect": {
+            "x": 668.1715087890625,
+            "y": 588.132080078125,
+            "w": 64.2135009765625,
+            "h": 87.69390869140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "failure-audio"
+    },
+    {
+      "text": "3.\nWHICH PASSWORD IS STRONG?\n\npassword\npassword\npassword\npassword\n\nAll four contain the same eight characters.\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Password A, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 199.5,
+            "w": 448.33502197265625,
+            "h": 125.45999145507812
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password B, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 199.5,
+            "w": 448.3349609375,
+            "h": 125.45999145507812
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password C, bold type",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 352.635009765625,
+            "w": 448.33502197265625,
+            "h": 125.45999145507812
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password D, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 352.635009765625,
+            "w": 448.3349609375,
+            "h": 125.45999145507812
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q03-typography-1366"
+    },
+    {
+      "text": "3.\nWHICH PASSWORD IS STRONG?\n\npassword\npassword\npassword\npassword\n\nAll four contain the same eight characters.\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Password A, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 340,
+            "w": 486,
+            "h": 136
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password B, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 340,
+            "w": 486,
+            "h": 136
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password C, bold type",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 506,
+            "w": 486,
+            "h": 136
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Password D, regular type",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 506,
+            "w": 486,
+            "h": 136
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q03-typography-1920"
+    },
+    {
+      "text": "5.\nALLOW NOBODY INTO PAYROLL.\n\nPAYROLL ACCESS\nAUTHORIZED ACCOUNTS: 0\n\u2610 ALICE\nnamed account\n\u2610 BOB\nnamed account\n\u2610 EVE\nnamed account\n\u2611 NOBODY\nnamed account\n1 accounts granted\nAPPLY ACCESS\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Allow account ALICE",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 267.7650146484375,
+            "w": 449.25750732421875,
+            "h": 106.26046752929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account BOB",
+          "disabled": false,
+          "rect": {
+            "x": 698.6824951171875,
+            "y": 267.7650146484375,
+            "w": 449.2574462890625,
+            "h": 106.26046752929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account EVE",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 390.6304626464844,
+            "w": 449.25750732421875,
+            "h": 106.26046752929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account NOBODY",
+          "disabled": false,
+          "rect": {
+            "x": 698.6824951171875,
+            "y": 390.6304626464844,
+            "w": 449.2574462890625,
+            "h": 106.26046752929688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "APPLY ACCESS",
+          "disabled": false,
+          "rect": {
+            "x": 908.0900268554688,
+            "y": 520.8759765625,
+            "w": 226.93499755859375,
+            "h": 68.06317138671875
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q05-nobody-1366"
+    },
+    {
+      "text": "5.\nALLOW NOBODY INTO PAYROLL.\n\nPAYROLL ACCESS\nAUTHORIZED ACCOUNTS: 0\n\u2610 ALICE\nnamed account\n\u2610 BOB\nnamed account\n\u2610 EVE\nnamed account\n\u2611 NOBODY\nnamed account\n1 accounts granted\nAPPLY ACCESS\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Allow account ALICE",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 414,
+            "w": 487,
+            "h": 115.1875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account BOB",
+          "disabled": false,
+          "rect": {
+            "x": 977,
+            "y": 414,
+            "w": 487,
+            "h": 115.1875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account EVE",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 547.1875,
+            "w": 487,
+            "h": 115.1875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Allow account NOBODY",
+          "disabled": false,
+          "rect": {
+            "x": 977,
+            "y": 547.1875,
+            "w": 487,
+            "h": 115.1875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "APPLY ACCESS",
+          "disabled": false,
+          "rect": {
+            "x": 1204,
+            "y": 688.375,
+            "w": 246,
+            "h": 73.78125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q05-nobody-1920"
+    },
+    {
+      "text": "6.\nPASSWORD OR PIN. KEY REQUIRED FOR EITHER.\n\n(PASSWORD OR PIN) AND KEY\nPASSWORD OR (PIN AND KEY)\nPASSWORD AND PIN AND KEY\n(PASSWORD OR PIN) OR KEY\nAND: both required\nOR: either accepted\nPassword / PIN: something you know \u00b7 key: something you have\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "(PASSWORD OR PIN) AND KEY",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 182.89500427246094,
+            "w": 453.8699951171875,
+            "h": 145.3513946533203
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASSWORD OR (PIN AND KEY)",
+          "disabled": false,
+          "rect": {
+            "x": 694.0700073242188,
+            "y": 182.89500427246094,
+            "w": 453.86993408203125,
+            "h": 145.3513946533203
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASSWORD AND PIN AND KEY",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 350.38641357421875,
+            "w": 453.8699951171875,
+            "h": 145.35140991210938
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "(PASSWORD OR PIN) OR KEY",
+          "disabled": false,
+          "rect": {
+            "x": 694.0700073242188,
+            "y": 350.38641357421875,
+            "w": 453.86993408203125,
+            "h": 145.35140991210938
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q06-expression-1366"
+    },
+    {
+      "text": "6.\nPASSWORD OR PIN. KEY REQUIRED FOR EITHER.\n\n(PASSWORD OR PIN) AND KEY\nPASSWORD OR (PIN AND KEY)\nPASSWORD AND PIN AND KEY\n(PASSWORD OR PIN) OR KEY\nAND: both required\nOR: either accepted\nPassword / PIN: something you know \u00b7 key: something you have\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "(PASSWORD OR PIN) AND KEY",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 322,
+            "w": 492,
+            "h": 157.5625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASSWORD OR (PIN AND KEY)",
+          "disabled": false,
+          "rect": {
+            "x": 972,
+            "y": 322,
+            "w": 492,
+            "h": 157.5625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASSWORD AND PIN AND KEY",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 503.5625,
+            "w": 492,
+            "h": 157.5625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "(PASSWORD OR PIN) OR KEY",
+          "disabled": false,
+          "rect": {
+            "x": 972,
+            "y": 503.5625,
+            "w": 492,
+            "h": 157.5625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q06-expression-1920"
+    },
+    {
+      "text": "7.\nENTER THE PASSWORD BETWEEN THE BRACKETS: [ ]\n\nCASE-SENSITIVE PASSWORD\n[ ]\nStored length: 1 character\nEnter the bracketed password\n0 characters entered\nSIGN IN\nOne character. How hard can it be?\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Exam password",
+          "disabled": false,
+          "rect": {
+            "x": 247.5800018310547,
+            "y": 420.8999938964844,
+            "w": 507.375,
+            "h": 71.95501708984375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "SIGN IN",
+          "disabled": false,
+          "rect": {
+            "x": 247.5800018310547,
+            "y": 542.6699829101562,
+            "w": 507.375,
+            "h": 73.800048828125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q07-empty-1366"
+    },
+    {
+      "text": "7.\nENTER THE PASSWORD BETWEEN THE BRACKETS: [ ]\n\nCASE-SENSITIVE PASSWORD\n[ ]\nStored length: 1 character\nEnter the bracketed password\n0 characters entered\nSIGN IN\nOne character. How hard can it be?\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Exam password",
+          "disabled": false,
+          "rect": {
+            "x": 488,
+            "y": 580,
+            "w": 550,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "SIGN IN",
+          "disabled": false,
+          "rect": {
+            "x": 488,
+            "y": 712,
+            "w": 550,
+            "h": 80
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q07-empty-1920"
+    },
+    {
+      "text": "7.\nENTER THE PASSWORD BETWEEN THE BRACKETS: [ ]\n\nCASE-SENSITIVE PASSWORD\n[ ]\nStored length: 1 character\nEnter the bracketed password\n1 characters entered\nSIGN IN\nOne character. How hard can it be?\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Exam password",
+          "disabled": false,
+          "rect": {
+            "x": 247.5800018310547,
+            "y": 420.8999938964844,
+            "w": 507.375,
+            "h": 71.95501708984375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "SIGN IN",
+          "disabled": false,
+          "rect": {
+            "x": 247.5800018310547,
+            "y": 542.6699829101562,
+            "w": 507.375,
+            "h": 73.800048828125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q07-one-space-1366"
+    },
+    {
+      "text": "7.\nENTER THE PASSWORD BETWEEN THE BRACKETS: [ ]\n\nCASE-SENSITIVE PASSWORD\n[ ]\nStored length: 1 character\nEnter the bracketed password\n1 characters entered\nSIGN IN\nOne character. How hard can it be?\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Exam password",
+          "disabled": false,
+          "rect": {
+            "x": 488,
+            "y": 580,
+            "w": 550,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "SIGN IN",
+          "disabled": false,
+          "rect": {
+            "x": 488,
+            "y": 712,
+            "w": 550,
+            "h": 80
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q07-one-space-1920"
+    },
+    {
+      "text": "8.\nOPEN payroll.rowdy.test. NOT A LOOKALIKE.\n\nA\npayroll.rowdy.test\nB\npayroll.rowdy.test\nC\npayroll.rowdy.test\nD\npayroll.rowdy.test\nDESTINATION\nhttps://payroll-rowdy.test/\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "A\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 190.27500915527344,
+            "w": 448.33502197265625,
+            "h": 119.92500305175781
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "B\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 190.27500915527344,
+            "w": 448.3349609375,
+            "h": 119.92500305175781
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "C\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 337.875,
+            "w": 448.33502197265625,
+            "h": 119.92501831054688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "D\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 337.875,
+            "w": 448.3349609375,
+            "h": 119.92501831054688
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q08-focused-destination-1366"
+    },
+    {
+      "text": "8.\nOPEN payroll.rowdy.test. NOT A LOOKALIKE.\n\nA\npayroll.rowdy.test\nB\npayroll.rowdy.test\nC\npayroll.rowdy.test\nD\npayroll.rowdy.test\nDESTINATION\nhttps://payroll-rowdy.test/\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "A\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 330,
+            "w": 486,
+            "h": 130
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "B\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 330,
+            "w": 486,
+            "h": 130
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "C\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 490,
+            "w": 486,
+            "h": 130
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "D\npayroll.rowdy.test",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 490,
+            "w": 486,
+            "h": 130
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q08-focused-destination-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nShortcut on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "failure-backup"
+    },
+    {
+      "text": "11.\nADMIT ONLY C-701. CLOSE EVERY OTHER ENTRANCE.\n\nClick a door or hatch. Use each person's WALK arrow.\n\nPUBLIC\nVESTIBULE\nSECURE\nACCESS\nC-701\nEMPTY\nC-701\nWALK \u2192\nVISITOR\nWALK \u2192\nOUTER\nCLOSED\nINNER\nADMIT \u2192\nTO SECURE\nCLOSED\n\nOUTER CLOSED \u00b7 WALKING BLOCKED\n\nMAINTENANCE HATCH \u00b7 OPEN\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Walk C-701 to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 232.82000732421875,
+            "y": 419.05499267578125,
+            "w": 103.32000732421875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Walk VISITOR to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 350.9000244140625,
+            "y": 419.05499267578125,
+            "w": 103.31997680664062,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open outer door",
+          "disabled": false,
+          "rect": {
+            "x": 474.5150146484375,
+            "y": 271.45501708984375,
+            "w": 94.094970703125,
+            "h": 201.10498046875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Admit to secure",
+          "disabled": false,
+          "rect": {
+            "x": 821.375,
+            "y": 271.45501708984375,
+            "w": 123.614990234375,
+            "h": 201.10498046875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Close maintenance hatch",
+          "disabled": false,
+          "rect": {
+            "x": 491.1199951171875,
+            "y": 526.0650024414062,
+            "w": 383.760009765625,
+            "h": 95.94000244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q11-start-1366"
+    },
+    {
+      "text": "11.\nADMIT ONLY C-701. CLOSE EVERY OTHER ENTRANCE.\n\nClick a door or hatch. Use each person's WALK arrow.\n\nPUBLIC\nVESTIBULE\nSECURE\nACCESS\nC-701\nEMPTY\nC-701\nWALK \u2192\nVISITOR\nWALK \u2192\nOUTER\nCLOSED\nINNER\nADMIT \u2192\nTO SECURE\nCLOSED\n\nOUTER CLOSED \u00b7 WALKING BLOCKED\n\nMAINTENANCE HATCH \u00b7 OPEN\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Walk C-701 to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 472,
+            "y": 578,
+            "w": 112,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Walk VISITOR to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 600,
+            "y": 578,
+            "w": 112,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open outer door",
+          "disabled": false,
+          "rect": {
+            "x": 734,
+            "y": 418,
+            "w": 102,
+            "h": 218
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Admit to secure",
+          "disabled": false,
+          "rect": {
+            "x": 1110,
+            "y": 418,
+            "w": 134,
+            "h": 218
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Close maintenance hatch",
+          "disabled": false,
+          "rect": {
+            "x": 752,
+            "y": 694,
+            "w": 416,
+            "h": 104
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q11-start-1920"
+    },
+    {
+      "text": "11.\nADMIT ONLY C-701. CLOSE EVERY OTHER ENTRANCE.\n\nClick a door or hatch. Use each person's WALK arrow.\n\nPUBLIC\nVESTIBULE\nSECURE\nACCESS\nC-701\nC-701\n\u2190 WALK\nVISITOR\nWALK \u2192\nOUTER\nCLOSED\nINNER\nADMIT \u2192\nTO SECURE\nCLOSED\n\nOUTER CLOSED \u00b7 WALKING BLOCKED\n\nMAINTENANCE HATCH \u00b7 CLOSED\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Walk C-701 to public",
+          "disabled": true,
+          "rect": {
+            "x": 551.013916015625,
+            "y": 419.05499267578125,
+            "w": 103.32000732421875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Walk VISITOR to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 350.9000244140625,
+            "y": 419.05499267578125,
+            "w": 103.31997680664062,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open outer door",
+          "disabled": false,
+          "rect": {
+            "x": 474.5150146484375,
+            "y": 271.45501708984375,
+            "w": 94.094970703125,
+            "h": 201.10498046875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Admit to secure",
+          "disabled": false,
+          "rect": {
+            "x": 821.375,
+            "y": 271.45501708984375,
+            "w": 123.614990234375,
+            "h": 201.10498046875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open maintenance hatch",
+          "disabled": false,
+          "rect": {
+            "x": 491.1199951171875,
+            "y": 526.0650024414062,
+            "w": 383.760009765625,
+            "h": 95.94000244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q11-ready-1366"
+    },
+    {
+      "text": "11.\nADMIT ONLY C-701. CLOSE EVERY OTHER ENTRANCE.\n\nClick a door or hatch. Use each person's WALK arrow.\n\nPUBLIC\nVESTIBULE\nSECURE\nACCESS\nC-701\nC-701\n\u2190 WALK\nVISITOR\nWALK \u2192\nOUTER\nCLOSED\nINNER\nADMIT \u2192\nTO SECURE\nCLOSED\n\nOUTER CLOSED \u00b7 WALKING BLOCKED\n\nMAINTENANCE HATCH \u00b7 CLOSED\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Walk C-701 to public",
+          "disabled": true,
+          "rect": {
+            "x": 860,
+            "y": 578,
+            "w": 112,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Walk VISITOR to vestibule",
+          "disabled": true,
+          "rect": {
+            "x": 600,
+            "y": 578,
+            "w": 112,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open outer door",
+          "disabled": false,
+          "rect": {
+            "x": 734,
+            "y": 418,
+            "w": 102,
+            "h": 218
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Admit to secure",
+          "disabled": false,
+          "rect": {
+            "x": 1110,
+            "y": 418,
+            "w": 134,
+            "h": 218
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Open maintenance hatch",
+          "disabled": false,
+          "rect": {
+            "x": 752,
+            "y": 694,
+            "w": 416,
+            "h": 104
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q11-ready-1920"
+    },
+    {
+      "text": "14.\nCHOOSE A PASSWORD THIS RECORDER WILL NOT CAPTURE.\n\nCrumbs1!\nG00se$oup\nh0nkHONK\nBiscuit-47\nKEYSTROKE RECORDER\n\u25cf RECORDING \u00b7 STOP\ndemo-user: goose\n\nExam samples only.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Crumbs1!",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 179.2050018310547,
+            "w": 451.10247802734375,
+            "h": 99.62998962402344
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "G00se$oup",
+          "disabled": false,
+          "rect": {
+            "x": 696.8375244140625,
+            "y": 179.2050018310547,
+            "w": 451.1024169921875,
+            "h": 99.62998962402344
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "h0nkHONK",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 297.2850036621094,
+            "w": 451.10247802734375,
+            "h": 99.6300048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Biscuit-47",
+          "disabled": false,
+          "rect": {
+            "x": 696.8375244140625,
+            "y": 297.2850036621094,
+            "w": 451.1024169921875,
+            "h": 99.6300048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Stop recorder",
+          "disabled": false,
+          "rect": {
+            "x": 921.6392211914062,
+            "y": 454.1100158691406,
+            "w": 193.09075927734375,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q14-start-1366"
+    },
+    {
+      "text": "14.\nCHOOSE A PASSWORD THIS RECORDER WILL NOT CAPTURE.\n\nCrumbs1!\nG00se$oup\nh0nkHONK\nBiscuit-47\nKEYSTROKE RECORDER\n\u25cf RECORDING \u00b7 STOP\ndemo-user: goose\n\nExam samples only.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Crumbs1!",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 318,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "G00se$oup",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 318,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "h0nkHONK",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 446,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Biscuit-47",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 446,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Stop recorder",
+          "disabled": false,
+          "rect": {
+            "x": 1218.6875,
+            "y": 616,
+            "w": 209.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q14-start-1920"
+    },
+    {
+      "text": "14.\nCHOOSE A PASSWORD THIS RECORDER WILL NOT CAPTURE.\n\nCrumbs1!\nG00se$oup\nh0nkHONK\nBiscuit-47\nKEYSTROKE RECORDER\n\u25a0 STOPPED \u00b7 RESUME\ndemo-user: goose\nCrumbs1!\n\nExam samples only.\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Crumbs1!",
+          "disabled": false,
+          "rect": {
+            "x": 211.5042724609375,
+            "y": 179.2050018310547,
+            "w": 451.10247802734375,
+            "h": 99.62998962402344
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "G00se$oup",
+          "disabled": false,
+          "rect": {
+            "x": 690.28173828125,
+            "y": 179.2050018310547,
+            "w": 451.1025390625,
+            "h": 99.62998962402344
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "h0nkHONK",
+          "disabled": false,
+          "rect": {
+            "x": 211.5042724609375,
+            "y": 297.2850036621094,
+            "w": 451.10247802734375,
+            "h": 99.6300048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Biscuit-47",
+          "disabled": false,
+          "rect": {
+            "x": 690.28173828125,
+            "y": 297.2850036621094,
+            "w": 451.1025390625,
+            "h": 99.6300048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Resume recorder",
+          "disabled": false,
+          "rect": {
+            "x": 911.3934936523438,
+            "y": 454.1100158691406,
+            "w": 196.78082275390625,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q14-recovery-1366"
+    },
+    {
+      "text": "14.\nCHOOSE A PASSWORD THIS RECORDER WILL NOT CAPTURE.\n\nCrumbs1!\nG00se$oup\nh0nkHONK\nBiscuit-47\nKEYSTROKE RECORDER\n\u25a0 STOPPED \u00b7 RESUME\ndemo-user: goose\nCrumbs1!\n\nExam samples only.\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Crumbs1!",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 318,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "G00se$oup",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 318,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "h0nkHONK",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 446,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Biscuit-47",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 446,
+            "w": 489,
+            "h": 108
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Resume recorder",
+          "disabled": false,
+          "rect": {
+            "x": 1214.6875,
+            "y": 616,
+            "w": 213.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q14-recovery-1920"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nORIGINAL\nCOUNT = 42\nCHECKSUM 6\nREVISED COUNT\nCHECKSUM 6\nFILE THE CHANGE\nTOY CHECKSUM\n\nAdd the two decimal digits.\nOur integrity budget was cut.\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 236.510009765625,
+            "y": 448.57501220703125,
+            "w": 206.63998413085938,
+            "h": 90.40496826171875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "FILE THE CHANGE",
+          "disabled": false,
+          "rect": {
+            "x": 236.510009765625,
+            "y": 553.739990234375,
+            "w": 559.0349731445312,
+            "h": 72.12799072265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-checksum-1366"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nORIGINAL\nCOUNT = 42\nCHECKSUM 6\nREVISED COUNT\nCHECKSUM 6\nFILE THE CHANGE\nTOY CHECKSUM\n\nAdd the two decimal digits.\nOur integrity budget was cut.\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 476,
+            "y": 610,
+            "w": 224,
+            "h": 98
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "FILE THE CHANGE",
+          "disabled": false,
+          "rect": {
+            "x": 476,
+            "y": 724,
+            "w": 606,
+            "h": 78.1875
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-checksum-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrelease-410\nDETAILS\nUSE HASH\n2.1\nrelease-411\nDETAILS\nUSE HASH\n2.1\nrelease-412\nDETAILS\nUSE HASH\nUSB BACKUP\nRETAINED FILE\nDEPLOY REFERENCE\nLATEST \u2192 release-411\nDEPLOY \u2192\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect release-410",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 196.7324981689453,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-410",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 195.72352600097656,
+            "w": 101.47503662109375,
+            "h": 48.14295959472656
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-411",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 292.6725158691406,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-411",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 291.66351318359375,
+            "w": 101.47503662109375,
+            "h": 48.142974853515625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-412",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 388.6125183105469,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-412",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 387.603515625,
+            "w": 101.47503662109375,
+            "h": 48.142974853515625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect USB backup",
+          "disabled": false,
+          "rect": {
+            "x": 910.864990234375,
+            "y": 169.4118194580078,
+            "w": 252.75,
+            "h": 264.97137451171875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 509.46002197265625,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 533.4450073242188,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "failure-retained_evidence"
+    },
+    {
+      "text": "18.\nWHICH COPY MUST BE DESTROYED TO REVOKE CT-2048?\n\nCERTIFICATE COPY\nCT-2048\nContractor \u00b7 issued\n\u2261\nISSUER RECORD\nCT-2048\nRetained certificate history\nTHIS PAPER\nISSUER RECORD\nBOTH\nNEITHER\n\nIssuer office processes the revocation.\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "THIS PAPER",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 372.92999267578125,
+            "w": 451.10247802734375,
+            "h": 96.66070556640625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "ISSUER RECORD",
+          "disabled": false,
+          "rect": {
+            "x": 696.8375244140625,
+            "y": 372.92999267578125,
+            "w": 451.1024169921875,
+            "h": 96.66070556640625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "BOTH",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 488.04071044921875,
+            "w": 451.10247802734375,
+            "h": 96.66070556640625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "NEITHER",
+          "disabled": false,
+          "rect": {
+            "x": 696.8375244140625,
+            "y": 488.04071044921875,
+            "w": 451.1024169921875,
+            "h": 96.66070556640625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q18-neither-1366"
+    },
+    {
+      "text": "18.\nWHICH COPY MUST BE DESTROYED TO REVOKE CT-2048?\n\nCERTIFICATE COPY\nCT-2048\nContractor \u00b7 issued\n\u2261\nISSUER RECORD\nCT-2048\nRetained certificate history\nTHIS PAPER\nISSUER RECORD\nBOTH\nNEITHER\n\nIssuer office processes the revocation.\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "THIS PAPER",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 528,
+            "w": 489,
+            "h": 104.78125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "ISSUER RECORD",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 528,
+            "w": 489,
+            "h": 104.78125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "BOTH",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 652.78125,
+            "w": 489,
+            "h": 104.78125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "NEITHER",
+          "disabled": false,
+          "rect": {
+            "x": 975,
+            "y": 652.78125,
+            "w": 489,
+            "h": 104.78125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q18-neither-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1024.959228515625,
+            "y": 176.4375,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 372.92999267578125,
+            "w": 92.24998474121094,
+            "h": 36.9000244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 559.385009765625,
+            "y": 372.92999267578125,
+            "w": 97.7850341796875,
+            "h": 36.9000244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 372.92999267578125,
+            "w": 92.25,
+            "h": 36.9000244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1029.8599853515625,
+            "y": 372.92999267578125,
+            "w": 97.7850341796875,
+            "h": 36.9000244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 574.0350341796875,
+            "w": 92.24998474121094,
+            "h": 36.89996337890625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 559.385009765625,
+            "y": 574.0350341796875,
+            "w": 97.7850341796875,
+            "h": 36.89996337890625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 574.0350341796875,
+            "w": 92.25,
+            "h": 36.89996337890625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1029.8599853515625,
+            "y": 574.0350341796875,
+            "w": 97.7850341796875,
+            "h": 36.89996337890625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-chain-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1330.6875,
+            "y": 315,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 528,
+            "w": 100,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 826,
+            "y": 528,
+            "w": 106,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 528,
+            "w": 100,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1336,
+            "y": 528,
+            "w": 106,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 746,
+            "w": 100,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 826,
+            "y": 746,
+            "w": 106,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 746,
+            "w": 100,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1336,
+            "y": 746,
+            "w": 106,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-chain-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1024.959228515625,
+            "y": 176.4375,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 372.92999267578125,
+            "w": 92.24998474121094,
+            "h": 36.9000244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 559.385009765625,
+            "y": 372.92999267578125,
+            "w": 97.7850341796875,
+            "h": 36.9000244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 372.92999267578125,
+            "w": 92.25,
+            "h": 36.9000244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1029.8599853515625,
+            "y": 372.92999267578125,
+            "w": 97.7850341796875,
+            "h": 36.9000244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 574.0350341796875,
+            "w": 92.24998474121094,
+            "h": 36.89996337890625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 559.385009765625,
+            "y": 574.0350341796875,
+            "w": 97.7850341796875,
+            "h": 36.89996337890625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 574.0350341796875,
+            "w": 92.25,
+            "h": 36.89996337890625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1029.8599853515625,
+            "y": 574.0350341796875,
+            "w": 97.7850341796875,
+            "h": 36.89996337890625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 415.3650207519531,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-full-record-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 2\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1330.6875,
+            "y": 315,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 528,
+            "w": 100,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 826,
+            "y": 528,
+            "w": 106,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 528,
+            "w": 100,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1336,
+            "y": 528,
+            "w": 106,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 746,
+            "w": 100,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 826,
+            "y": 746,
+            "w": 106,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 746,
+            "w": 100,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1336,
+            "y": 746,
+            "w": 106,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 272,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 396,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-full-record-1920"
+    }
+  ],
+  "errors": [],
+  "status": "review completed; individual failures retained"
+}

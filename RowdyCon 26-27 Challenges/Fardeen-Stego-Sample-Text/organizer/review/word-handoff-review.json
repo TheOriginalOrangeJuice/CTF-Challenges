@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "scope": "Independent inspection of final Word render, extracted text, document hyperlink relationships and authoritative Markdown",
+  "supersedes": "Only the pending Word-handoff status in earlier checkpoint records; historical technical evidence remains scoped to its recorded revision",
+  "artifacts": {
+    "markdown": "../../Description.md",
+    "markdown_sha256": "6fcfeba93608a33a966abf85daef2290c3f34f583b2b39b227d35301768c07c6",
+    "word": "../../Description.docx",
+    "word_sha256": "2bc17021e16f9dfd5aade26dcd7248ba4dc9788977d518f09e7b5df10c3d437f",
+    "render_directory": "../document-review/",
+    "root_reported_generation_stage": "/tmp/rowdy-mlg-word-final-20261028-162004-1dcdf0/project"
+  },
+  "independently_viewed_pages": {
+    "page-1.png": "809d1935503a2fe7c9e1271500986272edb7ea325e6e0a873d4076226e9d13b6",
+    "page-2.png": "bd16a49e95b03df9dccdb5fc0e85ad926e126efea3ec26941fdf44ce1eadf7e0",
+    "page-3.png": "efe5dc82064ffa3ab02c1e7789d319e8c94993b4133e5b0b058cdcb053b6c96e",
+    "page-4.png": "e61bdb34ac99ac5052591a51c69a2ce753ddb9a29a4339f25f429ff39fdc39dc"
+  },
+  "checks": {
+    "five_sections_in_required_order": true,
+    "all_four_actual_application_images_present": true,
+    "images_show_final_gray_workstation_trimmer_and_master_meter": true,
+    "walkthrough_includes_edit_details_control": true,
+    "coordinates_orientation_and_dimensions_match_independent_public_recovery": true,
+    "flag_text_and_reward_screenshot_agree": true,
+    "flag": "RCC{r4w_rgb_m0nt4g3_7c2e}",
+    "shell_and_python_code_complete_readable_and_unclipped": true,
+    "no_missing_text_or_clipped_images_observed": true,
+    "word_archive_hyperlink_target": "challenge/public/media/recovered-project.zip",
+    "hyperlink_target_matches_markdown_and_exists": true
+  },
+  "nonblocking_layout_notes": [
+    "The longest source filename and sample_text.png wrap across lines in the coordinate table, but all characters and associated values remain readable",
+    "Steps 4 and 6 continue onto the next page without lost content"
+  ],
+  "limits": [
+    "Inspected root-produced actual render images; did not independently regenerate Word or launch Microsoft Word",
+    "Verified hyperlink relationships and target existence; did not exercise a click through Microsoft Word",
+    "Final whole-tree and HTTP parity is root-owned and follows this handoff review"
+  ]
+}

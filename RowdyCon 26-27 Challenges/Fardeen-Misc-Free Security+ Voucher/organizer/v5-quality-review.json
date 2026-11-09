@@ -1,0 +1,79 @@
+{
+  "revision": 5,
+  "status": "Scoped review passed with one minor presentation limitation; no blocking issue found",
+  "method": "Independent source-informed design review, public-API navigation, target-question keyboard/UI interaction, and visual inspection of actual captures",
+  "scope": [3, 4, 8, 12, 14],
+  "runtime": {
+    "environment": "Condev rowdy-impossible-dev",
+    "stage": "/tmp/iq-v5-stage03/The Impossible Security+ Quiz",
+    "base": "http://localhost:18115",
+    "live_process_at_review": 21409,
+    "live_cwd_verified": "/tmp/iq-v5-stage03/The Impossible Security+ Quiz/challenge",
+    "host_source_test_and_harness_hashes_compared": 35,
+    "differences": 0,
+    "parity_record": "v5-quality-evidence03/v5-quality-parity.json",
+    "ownership": "Root started and owns the service; reviewer did not start, stop, or alter it"
+  },
+  "automated_review": {
+    "report": "v5-quality-evidence03/v5-quality-report.json",
+    "checks": {
+      "semantic_password_scope": "passed",
+      "disk_volume_and_adjacency": "passed",
+      "packet_forwarding": "passed",
+      "printer_ordinal_and_queues": "passed",
+      "recorder_source_and_fifo": "passed"
+    },
+    "target_actions": "Keyboard focus, activation, numeric entry and native select operation; public API was used only to navigate between unrelated questions",
+    "viewports": [[1366, 768], [1920, 1080]],
+    "main_capture_count": 74,
+    "additional_scroll_report": "v5-quality-scroll04/v5-quality-report.json",
+    "additional_scroll_capture_count": 4,
+    "additional_scroll_result": "Ctrl+End reaches the final document page and complete loop-trace payload at both sizes; Escape restores opener focus",
+    "unexpected_console_or_page_errors": 0,
+    "expected_console_error": "One HTTP 400 for free rejection of an obstructed C: extension; no life or file bytes lost",
+    "transfer": "All 76 main evidence files and 5 additional scroll evidence files matched the generated SHA-256 manifests after copying to Windows",
+    "main_output_hashes": "v5-quality-evidence03/v5-quality-output-sha256.json",
+    "scroll_output_hashes": "v5-quality-scroll04/v5-quality-output-sha256.json"
+  },
+  "findings": {
+    "q3": "All four cards initially render at weight 700. Revealed source matches the supplied AST. With house styling disabled, the fully strong-covered password renders at weight 400 while a bold decoy remains heavy. Partial coverage, b markup, a class name and true ancestry form distinct evidence. Inspection is free and keyboard accessible.",
+    "q4": "The mixer changes its simulated percentage without changing drive capacity, file blocks or saved audio preferences. An obstructed resize rejects freely. Moving TOOLS to block 8 and then 10 preserves every supplied file byte; C: can extend to 8 GB and survive reload. The disk map makes adjacency observable.",
+    "q8": "Device inspection exposes layer and TTL rules before commitment. A router launch expires at TTL 0; a switch loop terminates with an actual trace; a three-switch route delivers while TTL stays 1. This is a bounded authored forwarding model.",
+    "q12": "Viewer ordinal and printed heading visibly differ. Canceling the PC queue leaves the printer buffer intact; printing emits that retained page before the requested page. Two copies fail. Reset restores the authored sample without refunding lives. Clearing both queues and printing ordinal 2 once succeeds. Full document and output bytes remain inspectable.",
+    "q14": "The final-tape rule explicitly includes retained and queued samples. Pausing the monitor leaves live INPUT capture active and displayed tape frozen. AUX prevents new INPUT capture but does not erase queued bytes. The previously absent sample succeeds with the appropriate source state. Tape and spool remain readable while paused; reset preserves spent lives."
+  },
+  "visual_review": {
+    "assessment": "The five scenes preserve the approved stage and visual language while presenting different objects and actions. Representative initial, evidence, prepared and failure states were inspected at both desktop sizes. Required text and controls remain readable and reachable.",
+    "main_captures_visually_inspected": [
+      "q04-obstructed-extension-1366", "q04-obstructed-extension-1920",
+      "q08-router-trace-1366", "q08-loop-trace-1920",
+      "q12-document-evidence-1366", "q12-document-evidence-1920",
+      "q03-house-style-1920", "q03-authored-style-1366", "q03-source-d-1920",
+      "q04-mixer-at-100-1920", "q04-tools-at-8-expanded-1366", "q08-switch-route-1920",
+      "q12-one-page-prepared-1366", "q12-buffer-survived-host-cancel-1920",
+      "q14-initial-1920", "q14-pending-spool-1366", "q14-paused-monitor-capture-1366",
+      "q14-live-tape-while-monitor-paused-1920", "q14-aux-prepared-1366",
+      "q12-initial-1920", "q03-authored-style-1920", "q04-tools-at-10-expanded-1920", "q14-initial-1366"
+    ],
+    "scroll_captures_visually_inspected": [
+      "q12-last-document-page-1366", "q12-last-document-page-1920",
+      "q08-loop-trace-payload-1366", "q08-loop-trace-payload-1920"
+    ],
+    "minor_limitation": "After an invalid Q4 resize, the shared dismissible status banner covers APPLY at both sizes. Its close button and correction controls remain available; keyboard dismissal and successful recovery passed. Root accepts this ordinary dismissible feedback as nonblocking.",
+    "geometry": "No reviewed controls extend outside the stage. The only unexpected control occlusion observation is the Q4 status banner described above. Background controls behind an open evidence dialog are expected to be covered."
+  },
+  "design_depth": {
+    "assessment": "The replacements add partition geometry, packet forwarding and printer transport state. Q3 and Q14 require scope and state interpretation instead of the former visibly bold choice and STOP-then-any choice. These are distinct discoveries without a repeated drag pattern. Essential rules and evidence are available before a wrong commitment.",
+    "calibration": "The preserved Hard–Very Hard label describes the approved overall quiz. This review does not establish that each replacement independently has that difficulty, or that the complete challenge is enjoyable to cold human players.",
+    "preserved_dependencies_reviewed_in_source": ["Q1 unchanged", "Q10 personal hash retention to Q17", "Q13 actual XOR to Q20", "Q14 recorder context contrasted with Q19 continued logging"]
+  },
+  "limits": [
+    "Not a cold human playtest; no independent enjoyment or difficulty calibration.",
+    "No audio playback or human listening was repeated; root owns preservation checks for unchanged audio.",
+    "No anti-agent effectiveness evaluation.",
+    "Unrelated questions were navigated through public API rather than independently replayed through every UI control.",
+    "Initial review02 parity check found a changed test file and a stale harness, so no browser review ran against that stage.",
+    "The first extra scroll probe asserted before scrolling settled; a corrected wait for the scroll endpoint passed without an application change.",
+    "No application files were edited by this reviewer. Root owns canonical document synchronization and final delivery parity."
+  ]
+}

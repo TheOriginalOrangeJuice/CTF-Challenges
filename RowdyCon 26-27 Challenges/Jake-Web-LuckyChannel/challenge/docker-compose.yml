@@ -1,0 +1,15 @@
+services:
+  lucky-channel:
+    build: .
+    image: lucky-channel-ctf
+    container_name: lucky-channel-ctf
+    environment:
+      # Configure the flag here (or export FLAG=... before `docker compose up`).
+      - FLAG=${FLAG:-flag{m0tt3ke_m0tt3ke_jwt_c0nfus10n_then_ss7i_desu~}}
+    ports:
+      - "1337:1337"
+    volumes:
+      # Drop your own images/gifs/videos in ./static/media to show them on-site
+      # (no rebuild needed).
+      - ./static/media:/app/static/media:ro
+    restart: unless-stopped

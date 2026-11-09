@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Backstage{% endblock %}
+{% block content %}
+<h2>&#9733; Lucky Channel ~ Backstage &#9733;</h2>
+
+<div class="tokenbox">
+  <b>Signed in as:</b> {{ data.user }} &nbsp; | &nbsp;
+  <b>role:</b> <span class="{{ 'rolead' if is_admin else 'roleus' }}">{{ data.role }}</span>
+</div>
+
+{% if is_admin %}
+  <p>Konata (staff): &quot;Showtime~! Write the next official broadcast below.
+  You can use template tags like <code>{% raw %}{{ site_name }}{% endraw %}</code>.&quot;</p>
+
+  <form method="post" class="authform">
+    <div>Broadcast copy:<br>
+      <textarea name="announcement" rows="4" cols="50"></textarea></div>
+    <div><input type="submit" value="&#9733; Preview broadcast &#9733;"></div>
+  </form>
+
+  {% if blocked %}
+    <p class="err">&#9888; Broadcast rejected by the content filter.
+    (Akira-sama banned a bunch of &quot;hacker words&quot; after the 2007 incident.)</p>
+  {% endif %}
+
+  {% if preview is not none and not blocked %}
+    <h3>&#9733; Preview &#9733;</h3>
+    <div class="preview">{{ preview }}</div>
+  {% endif %}
+{% else %}
+  <p class="err">&#9888; This is a regular member view.</p>
+  <p>Tsukasa: &quot;Umm... only staff with the <b>admin</b> role can post
+  broadcasts. Sorry! I don't really get how the badges work either...&quot;</p>
+  <p class="smol">Your token says role=<b>{{ data.role }}</b>. Staff tokens say
+  role=admin.</p>
+{% endif %}
+{% endblock %}

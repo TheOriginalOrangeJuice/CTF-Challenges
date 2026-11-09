@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "keyboard answer and immediate reload retain unsent draft",
+    "unblurred notes recover on reload and Escape saves the current value",
+    "lost acknowledged response and stale retry do not spend a second life or resubmit into next question",
+    "keyboard inspection selects bag with explicit pressed state",
+    "all NOT puzzle object properties have equivalent accessibility labels",
+    "game-over announcement is present in accessibility tree"
+  ],
+  "pageErrors": [],
+  "method": "Focused informed browser checks; no human playtesting claim"
+}

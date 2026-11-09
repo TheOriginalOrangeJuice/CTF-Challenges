@@ -1,0 +1,13 @@
+
+> impossible-security-quiz@1.0.0 build
+> tsc --noEmit && vite build && tsc -p tsconfig.server.json
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                   0.53 kB │ gzip:  0.36 kB
+../dist/public/assets/index-Bx9PDW5k.css   73.46 kB │ gzip: 17.07 kB
+../dist/public/assets/index-C-QRoRod.js   247.09 kB │ gzip: 77.38 kB
+✓ built in 1.13s

@@ -1,0 +1,168 @@
+{"step": "initial-navigation"}
+{"step": "snapshot-screenshot", "name": "01-title-1366"}
+{"step": "snapshot-dom", "name": "01-title-1366"}
+{"step": "snapshot-accessibility", "name": "01-title-1366"}
+{"step": "snapshot-complete", "name": "01-title-1366"}
+{"step": "initial-responses-draining", "count": 7}
+{"step": "initial-response-unavailable", "url": "http://localhost:18115/api/state", "status": 401, "inspection": "incomplete", "reason": "TimeoutError: "}
+{"step": "initial-responses-finished", "complete": 3, "warnings": 1}
+{"step": "snapshot-screenshot", "name": "02-keyboard-focus"}
+{"step": "snapshot-dom", "name": "02-keyboard-focus"}
+{"step": "snapshot-accessibility", "name": "02-keyboard-focus"}
+{"step": "snapshot-complete", "name": "02-keyboard-focus"}
+{"step": "snapshot-screenshot", "name": "03-title-1920"}
+{"step": "snapshot-dom", "name": "03-title-1920"}
+{"step": "snapshot-accessibility", "name": "03-title-1920"}
+{"step": "snapshot-complete", "name": "03-title-1920"}
+{"step": "snapshot-screenshot", "name": "04-title-reduced-motion"}
+{"step": "snapshot-dom", "name": "04-title-reduced-motion"}
+{"step": "snapshot-accessibility", "name": "04-title-reduced-motion"}
+{"step": "snapshot-complete", "name": "04-title-reduced-motion"}
+{"step": "snapshot-screenshot", "name": "q01-prepared"}
+{"step": "snapshot-dom", "name": "q01-prepared"}
+{"step": "snapshot-accessibility", "name": "q01-prepared"}
+{"step": "snapshot-complete", "name": "q01-prepared"}
+{"step": "question-commit", "question": 1, "control": "ANSWER"}
+{"step": "question-visible", "question": 2}
+{"step": "snapshot-screenshot", "name": "q02-prepared"}
+{"step": "snapshot-dom", "name": "q02-prepared"}
+{"step": "snapshot-accessibility", "name": "q02-prepared"}
+{"step": "snapshot-complete", "name": "q02-prepared"}
+{"step": "question-commit", "question": 2, "control": "ANSWER"}
+{"step": "question-visible", "question": 3}
+{"step": "snapshot-screenshot", "name": "q03-prepared"}
+{"step": "snapshot-dom", "name": "q03-prepared"}
+{"step": "snapshot-accessibility", "name": "q03-prepared"}
+{"step": "snapshot-complete", "name": "q03-prepared"}
+{"step": "question-commit", "question": 3, "control": "ANSWER"}
+{"step": "question-visible", "question": 4}
+{"step": "snapshot-screenshot", "name": "q04-prepared"}
+{"step": "snapshot-dom", "name": "q04-prepared"}
+{"step": "snapshot-accessibility", "name": "q04-prepared"}
+{"step": "snapshot-complete", "name": "q04-prepared"}
+{"step": "question-commit", "question": 4, "control": "ANSWER"}
+{"step": "question-visible", "question": 5}
+{"step": "snapshot-screenshot", "name": "q05-prepared"}
+{"step": "snapshot-dom", "name": "q05-prepared"}
+{"step": "snapshot-accessibility", "name": "q05-prepared"}
+{"step": "snapshot-complete", "name": "q05-prepared"}
+{"step": "question-commit", "question": 5, "control": "ANSWER"}
+{"step": "question-visible", "question": 6}
+{"step": "snapshot-screenshot", "name": "q06-prepared"}
+{"step": "snapshot-dom", "name": "q06-prepared"}
+{"step": "snapshot-accessibility", "name": "q06-prepared"}
+{"step": "snapshot-complete", "name": "q06-prepared"}
+{"step": "question-commit", "question": 6, "control": "ANSWER"}
+{"step": "question-visible", "question": 7}
+{"step": "snapshot-screenshot", "name": "q07-prepared"}
+{"step": "snapshot-dom", "name": "q07-prepared"}
+{"step": "snapshot-accessibility", "name": "q07-prepared"}
+{"step": "snapshot-complete", "name": "q07-prepared"}
+{"step": "question-commit", "question": 7, "control": "ANSWER"}
+{"step": "question-visible", "question": 8}
+{"step": "snapshot-screenshot", "name": "q08-prepared"}
+{"step": "snapshot-dom", "name": "q08-prepared"}
+{"step": "snapshot-accessibility", "name": "q08-prepared"}
+{"step": "snapshot-complete", "name": "q08-prepared"}
+{"step": "question-commit", "question": 8, "control": "ANSWER"}
+{"step": "question-visible", "question": 9}
+{"step": "snapshot-screenshot", "name": "q09-prepared"}
+{"step": "snapshot-dom", "name": "q09-prepared"}
+{"step": "snapshot-accessibility", "name": "q09-prepared"}
+{"step": "snapshot-complete", "name": "q09-prepared"}
+{"step": "question-commit", "question": 9, "control": "COPY"}
+{"step": "question-visible", "question": 10}
+{"step": "snapshot-screenshot", "name": "q10-prepared"}
+{"step": "snapshot-dom", "name": "q10-prepared"}
+{"step": "snapshot-accessibility", "name": "q10-prepared"}
+{"step": "snapshot-complete", "name": "q10-prepared"}
+{"step": "question-commit", "question": 10, "control": "ANSWER"}
+{"step": "question-visible", "question": 11}
+{"step": "snapshot-screenshot", "name": "q11-prepared"}
+{"step": "snapshot-dom", "name": "q11-prepared"}
+{"step": "snapshot-accessibility", "name": "q11-prepared"}
+{"step": "snapshot-complete", "name": "q11-prepared"}
+{"step": "question-commit", "question": 11, "control": "ANSWER"}
+{"step": "question-visible", "question": 12}
+{"step": "snapshot-screenshot", "name": "q12-prepared"}
+{"step": "snapshot-dom", "name": "q12-prepared"}
+{"step": "snapshot-accessibility", "name": "q12-prepared"}
+{"step": "snapshot-complete", "name": "q12-prepared"}
+{"step": "question-commit", "question": 12, "control": "ANSWER"}
+{"step": "question-visible", "question": 13}
+{"step": "snapshot-screenshot", "name": "q13-prepared"}
+{"step": "snapshot-dom", "name": "q13-prepared"}
+{"step": "snapshot-accessibility", "name": "q13-prepared"}
+{"step": "snapshot-complete", "name": "q13-prepared"}
+{"step": "question-commit", "question": 13, "control": "ANSWER"}
+{"step": "question-visible", "question": 14}
+{"step": "snapshot-screenshot", "name": "q14-recovered-photograph"}
+{"step": "snapshot-dom", "name": "q14-recovered-photograph"}
+{"step": "snapshot-accessibility", "name": "q14-recovered-photograph"}
+{"step": "snapshot-complete", "name": "q14-recovered-photograph"}
+{"step": "snapshot-screenshot", "name": "q14-prepared"}
+{"step": "snapshot-dom", "name": "q14-prepared"}
+{"step": "snapshot-accessibility", "name": "q14-prepared"}
+{"step": "snapshot-complete", "name": "q14-prepared"}
+{"step": "question-commit", "question": 14, "control": "ANSWER"}
+{"step": "question-visible", "question": 15}
+{"step": "snapshot-screenshot", "name": "q15-prepared"}
+{"step": "snapshot-dom", "name": "q15-prepared"}
+{"step": "snapshot-accessibility", "name": "q15-prepared"}
+{"step": "snapshot-complete", "name": "q15-prepared"}
+{"step": "question-commit", "question": 15, "control": "ANSWER"}
+{"step": "question-visible", "question": 16}
+{"step": "snapshot-screenshot", "name": "q16-public-interlocks"}
+{"step": "snapshot-dom", "name": "q16-public-interlocks"}
+{"step": "snapshot-accessibility", "name": "q16-public-interlocks"}
+{"step": "snapshot-complete", "name": "q16-public-interlocks"}
+{"step": "snapshot-screenshot", "name": "q16-prepared"}
+{"step": "snapshot-dom", "name": "q16-prepared"}
+{"step": "snapshot-accessibility", "name": "q16-prepared"}
+{"step": "snapshot-complete", "name": "q16-prepared"}
+{"step": "question-commit", "question": 16, "control": "EXECUTE"}
+{"step": "question-visible", "question": 17}
+{"step": "snapshot-screenshot", "name": "q17-prepared"}
+{"step": "snapshot-dom", "name": "q17-prepared"}
+{"step": "snapshot-accessibility", "name": "q17-prepared"}
+{"step": "snapshot-complete", "name": "q17-prepared"}
+{"step": "question-commit", "question": 17, "control": "ANSWER"}
+{"step": "question-visible", "question": 18}
+{"step": "snapshot-screenshot", "name": "q18-prepared"}
+{"step": "snapshot-dom", "name": "q18-prepared"}
+{"step": "snapshot-accessibility", "name": "q18-prepared"}
+{"step": "snapshot-complete", "name": "q18-prepared"}
+{"step": "question-commit", "question": 18, "control": "ANSWER"}
+{"step": "question-visible", "question": 19}
+{"step": "snapshot-screenshot", "name": "q19-prepared"}
+{"step": "snapshot-dom", "name": "q19-prepared"}
+{"step": "snapshot-accessibility", "name": "q19-prepared"}
+{"step": "snapshot-complete", "name": "q19-prepared"}
+{"step": "question-commit", "question": 19, "control": "ANSWER"}
+{"step": "question-visible", "question": 20}
+{"step": "snapshot-screenshot", "name": "q20-reversible-rejections"}
+{"step": "snapshot-dom", "name": "q20-reversible-rejections"}
+{"step": "snapshot-accessibility", "name": "q20-reversible-rejections"}
+{"step": "snapshot-complete", "name": "q20-reversible-rejections"}
+{"step": "snapshot-screenshot", "name": "q20-machine-result"}
+{"step": "snapshot-dom", "name": "q20-machine-result"}
+{"step": "snapshot-accessibility", "name": "q20-machine-result"}
+{"step": "snapshot-complete", "name": "q20-machine-result"}
+{"step": "snapshot-screenshot", "name": "q20-exposed-read-print"}
+{"step": "snapshot-dom", "name": "q20-exposed-read-print"}
+{"step": "snapshot-accessibility", "name": "q20-exposed-read-print"}
+{"step": "snapshot-complete", "name": "q20-exposed-read-print"}
+{"step": "snapshot-screenshot", "name": "q20-certified"}
+{"step": "snapshot-dom", "name": "q20-certified"}
+{"step": "snapshot-accessibility", "name": "q20-certified"}
+{"step": "snapshot-complete", "name": "q20-certified"}
+{"step": "snapshot-screenshot", "name": "certificate-recovered"}
+{"step": "snapshot-dom", "name": "certificate-recovered"}
+{"step": "snapshot-accessibility", "name": "certificate-recovered"}
+{"step": "snapshot-complete", "name": "certificate-recovered"}
+{"step": "snapshot-screenshot", "name": "certificate-1920-reduced-motion"}
+{"step": "snapshot-dom", "name": "certificate-1920-reduced-motion"}
+{"step": "snapshot-accessibility", "name": "certificate-1920-reduced-motion"}
+{"step": "snapshot-complete", "name": "certificate-1920-reduced-motion"}
+{"step": "initial-responses-draining", "count": 7}
+{"step": "initial-responses-finished", "complete": 3, "warnings": 1}

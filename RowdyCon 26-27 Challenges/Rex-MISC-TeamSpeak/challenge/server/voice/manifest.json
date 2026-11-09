@@ -1,0 +1,899 @@
+{
+  "voice": "en_GB-alan-medium",
+  "codec": "speex-nb",
+  "generated": "2026-10-29T05:48:52+00:00",
+  "clips": {
+    "4b01183ad5b0": {
+      "dur": 2.43,
+      "text": "Yo, who's that? You need something?",
+      "kind": "line"
+    },
+    "6a2f4162450e": {
+      "dur": 3.35,
+      "text": "Hey. Marcel here, support. What do you want?",
+      "kind": "line"
+    },
+    "0fade26b80c1": {
+      "dur": 0.43,
+      "text": "Hey.",
+      "kind": "line"
+    },
+    "5beca0b438c8": {
+      "dur": 0.47,
+      "text": "Yo.",
+      "kind": "line"
+    },
+    "3df02b7f5cbc": {
+      "dur": 1.23,
+      "text": "Hi, what's up?",
+      "kind": "line"
+    },
+    "a46175e87e8a": {
+      "dur": 1.31,
+      "text": "So, what do you want?",
+      "kind": "line"
+    },
+    "1ca5eaf7d18f": {
+      "dur": 2.17,
+      "text": "Okay, and? What do you need?",
+      "kind": "line"
+    },
+    "bd765643f180": {
+      "dur": 3.07,
+      "text": "I'm Marcel, I own this server. Who are you?",
+      "kind": "line"
+    },
+    "7869e4e1b4dd": {
+      "dur": 3.25,
+      "text": "Yes, it's me, Marcel. Answer the question.",
+      "kind": "line"
+    },
+    "3cdeeae9526a": {
+      "dur": 5.47,
+      "text": "If you have a problem with the server, tell me. If you want admin rights, forget it.",
+      "kind": "line"
+    },
+    "3e8c0428b6c1": {
+      "dur": 1.21,
+      "text": "What kind of problem?",
+      "kind": "line"
+    },
+    "4636baa97fd9": {
+      "dur": 5.47,
+      "text": "The key? Ha, nice try. Only clan members get that. Who recruited you?",
+      "kind": "line"
+    },
+    "c03eba56a88c": {
+      "dur": 4.53,
+      "text": "Admin rights? You're not even in the clan. Tell me, who recruited you?",
+      "kind": "line"
+    },
+    "f1e294066f28": {
+      "dur": 1.89,
+      "text": "Answer my question first.",
+      "kind": "line"
+    },
+    "9d6f75517b65": {
+      "dur": 2.39,
+      "text": "First the question, then we talk.",
+      "kind": "line"
+    },
+    "6c548feb929e": {
+      "dur": 1.51,
+      "text": "So, who recruited you?",
+      "kind": "line"
+    },
+    "a00d5c7ef296": {
+      "dur": 1.87,
+      "text": "Who got you into Wasted Gaming?",
+      "kind": "line"
+    },
+    "16f595e373a3": {
+      "dur": 2.99,
+      "text": "I asked who recruited you. Give me a name.",
+      "kind": "line"
+    },
+    "c194a7c8fe90": {
+      "dur": 2.79,
+      "text": "A name, man. Who brought you into the clan?",
+      "kind": "line"
+    },
+    "c02e4ed5ea48": {
+      "dur": 3.01,
+      "text": "Never heard of that. You're not one of us.",
+      "kind": "line"
+    },
+    "cf7dc34758b8": {
+      "dur": 3.93,
+      "text": "Nope. Wrong answer. That's not how people get in here.",
+      "kind": "line"
+    },
+    "6977205405ec": {
+      "dur": 10.77,
+      "text": "Tobi, hm? That guy recruits everyone. Okay, let's see if you really hang out here. What's our battle cry? It's written on the server, if you know where to look.",
+      "kind": "line"
+    },
+    "baaafd8e5465": {
+      "dur": 4.11,
+      "text": "What's the staff code? Four digits. Only staff knows it.",
+      "kind": "line"
+    },
+    "3b593135eab8": {
+      "dur": 7.45,
+      "text": "It's four digits. I keep it somewhere safe, in my identity. Ask your recruiter if you're too dumb to find it.",
+      "kind": "line"
+    },
+    "073e106f02ad": {
+      "dur": 5.97,
+      "text": "Four digits. It's in my identity, nobody ever looks there. Your recruiter knows.",
+      "kind": "line"
+    },
+    "1ae3288ad9eb": {
+      "dur": 0.97,
+      "text": "Wrong code.",
+      "kind": "line"
+    },
+    "5bc95abb68e8": {
+      "dur": 2.05,
+      "text": "No. That's not it.",
+      "kind": "line"
+    },
+    "71fa91398323": {
+      "dur": 1.55,
+      "text": "Nope. Think harder.",
+      "kind": "line"
+    },
+    "b5f45bffba91": {
+      "dur": 8.27,
+      "text": "Correct. Okay, you're legit. First I make you a member. Check your pokes, I'm sending you a key. Use it, then we talk.",
+      "kind": "line"
+    },
+    "74e753f55eab": {
+      "dur": 6.27,
+      "text": "Come to the admin room first. The password is our map plus the year we started, no spaces.",
+      "kind": "line"
+    },
+    "a832c263a489": {
+      "dur": 5.89,
+      "text": "The year? We founded the clan when we opened this server. Check the server info, noob.",
+      "kind": "line"
+    },
+    "4b481eea862a": {
+      "dur": 4.39,
+      "text": "Okay. Now we're alone. Listen carefully, I say it once.",
+      "kind": "line"
+    },
+    "ac29979435e0": {
+      "dur": 2.29,
+      "text": "Got it? Don't share it with anyone.",
+      "kind": "line"
+    },
+    "85a4a77daa02": {
+      "dur": 3.45,
+      "text": "Okay okay, once more. Pay attention this time.",
+      "kind": "line"
+    },
+    "321f6722c18b": {
+      "dur": 2.45,
+      "text": "No more. Write it down next time.",
+      "kind": "line"
+    },
+    "0b2acfa050f2": {
+      "dur": 2.83,
+      "text": "I said it enough times. Write it down.",
+      "kind": "line"
+    },
+    "9b36485aa8d4": {
+      "dur": 3.27,
+      "text": "No problem. And don't share it, or I ban you.",
+      "kind": "line"
+    },
+    "bcf2794a9c5b": {
+      "dur": 1.63,
+      "text": "Stop wasting my time.",
+      "kind": "line"
+    },
+    "9cfaf5edf862": {
+      "dur": 2.33,
+      "text": "Are you trolling me? Last warning.",
+      "kind": "line"
+    },
+    "caa4274a4e44": {
+      "dur": 2.21,
+      "text": "Okay, that's enough. Bye.",
+      "kind": "line"
+    },
+    "54b778532c39": {
+      "dur": 1.11,
+      "text": "Watch your mouth.",
+      "kind": "line"
+    },
+    "887acd9da223": {
+      "dur": 1.81,
+      "text": "Say that again and you're out.",
+      "kind": "line"
+    },
+    "c8d3d3e0f04a": {
+      "dur": 0.53,
+      "text": "Cya.",
+      "kind": "line"
+    },
+    "ce6166d8dbc0": {
+      "dur": 0.65,
+      "text": "Later.",
+      "kind": "line"
+    },
+    "8da2aaa5f71d": {
+      "dur": 0.85,
+      "text": "No problem.",
+      "kind": "line"
+    },
+    "e222bff6dbc3": {
+      "dur": 0.81,
+      "text": "Yeah yeah.",
+      "kind": "line"
+    },
+    "9989166e0e3b": {
+      "dur": 0.47,
+      "text": "What?",
+      "kind": "line"
+    },
+    "b32bf8f6bbac": {
+      "dur": 2.53,
+      "text": "Say that again, my headset is crap.",
+      "kind": "line"
+    },
+    "aa431c611c1e": {
+      "dur": 1.41,
+      "text": "I didn't get that.",
+      "kind": "line"
+    },
+    "a604471e3306": {
+      "dur": 0.73,
+      "text": "Hm.",
+      "kind": "line"
+    },
+    "77ff3e34390d": {
+      "dur": 0.67,
+      "text": "Okay.",
+      "kind": "line"
+    },
+    "5a2e088f097c": {
+      "dur": 2.53,
+      "text": "Use your mic, I don't read chat.",
+      "kind": "line"
+    },
+    "68dccda3706d": {
+      "dur": 3.09,
+      "text": "I'm not talking to you anymore. Come back later.",
+      "kind": "line"
+    },
+    "05aae79a131c": {
+      "dur": 2.77,
+      "text": "Test, test, one two. Can you hear me?",
+      "kind": "line"
+    },
+    "0f441c65890f": {
+      "dur": 4.09,
+      "text": "What's our battle cry? It's on the server, if you know where to look.",
+      "kind": "line"
+    },
+    "37d921b3d05d": {
+      "dur": 1.89,
+      "text": "Rush where? Say the whole thing.",
+      "kind": "line"
+    },
+    "92907e9898b8": {
+      "dur": 3.77,
+      "text": "Look at the server tree. Not everything there is decoration.",
+      "kind": "line"
+    },
+    "a348a66df26a": {
+      "dur": 4.29,
+      "text": "It's on the server tree, man. Some lines are not just lines.",
+      "kind": "line"
+    },
+    "f3dbdb70ddb0": {
+      "dur": 2.81,
+      "text": "Nope. Every member knows the battle cry.",
+      "kind": "line"
+    },
+    "b02003d11539": {
+      "dur": 3.83,
+      "text": "No. You've never been on our Counter Strike server, have you?",
+      "kind": "line"
+    },
+    "df0c782d70b5": {
+      "dur": 6.65,
+      "text": "Rush B! Haha, correct. Next: what's our motto? Every member knows it, it's in the rules.",
+      "kind": "line"
+    },
+    "e601e807d0a8": {
+      "dur": 2.49,
+      "text": "What's our motto? It's in the rules.",
+      "kind": "line"
+    },
+    "b9f03f770820": {
+      "dur": 4.83,
+      "text": "It's in the Lobby rules. Read everything. Even the parts you can't see.",
+      "kind": "line"
+    },
+    "0c18ffaf499c": {
+      "dur": 3.91,
+      "text": "Lobby. Rules. All of it, not just the big letters.",
+      "kind": "line"
+    },
+    "9be83957f31f": {
+      "dur": 2.13,
+      "text": "That's a rule, not the motto.",
+      "kind": "line"
+    },
+    "bef22a5131d0": {
+      "dur": 2.95,
+      "text": "No. The motto. Members only.",
+      "kind": "line"
+    },
+    "e0567a2ca1ad": {
+      "dur": 6.57,
+      "text": "No lag, no mercy. Okay, you did your homework. Now a real test. Listen carefully.",
+      "kind": "line"
+    },
+    "7da26d5442d4": {
+      "dur": 3.39,
+      "text": "I spell a word in our alphabet. Say it back to me:",
+      "kind": "line"
+    },
+    "2539d50bbe9e": {
+      "dur": 2.85,
+      "text": "Listen. I spell a word, you say it back:",
+      "kind": "line"
+    },
+    "003ac2252a13": {
+      "dur": 2.11,
+      "text": "Okay, once more. Listen:",
+      "kind": "line"
+    },
+    "d217e734f94c": {
+      "dur": 1.83,
+      "text": "Again. Concentrate:",
+      "kind": "line"
+    },
+    "723021d675a3": {
+      "dur": 1.87,
+      "text": "No. Listen again:",
+      "kind": "line"
+    },
+    "6e7277ad8710": {
+      "dur": 1.65,
+      "text": "Wrong. One more time:",
+      "kind": "line"
+    },
+    "bc3134794388": {
+      "dur": 6.35,
+      "text": "Correct! You can listen, good. Last one, and this one only staff knows: what's the staff code?",
+      "kind": "line"
+    },
+    "40a784f6eddb": {
+      "dur": 5.77,
+      "text": "Use the key first. Permissions menu, Use Privilege Key. Then come back to me.",
+      "kind": "line"
+    },
+    "4384ee6c1a54": {
+      "dur": 4.59,
+      "text": "I poked you the member key. Permissions, Use Privilege Key. Do it.",
+      "kind": "line"
+    },
+    "e2552c5363c0": {
+      "dur": 8.97,
+      "text": "Now you're a member. Welcome. But I don't say the key in public. Come to the admin room. The password is our map plus the year we started.",
+      "kind": "line"
+    },
+    "0e25fe6b0a84": {
+      "dur": 0.55,
+      "text": "alpha",
+      "kind": "nato"
+    },
+    "dda728a1be04": {
+      "dur": 0.65,
+      "text": "bravo",
+      "kind": "nato"
+    },
+    "b146c498d6ff": {
+      "dur": 0.63,
+      "text": "charlie",
+      "kind": "nato"
+    },
+    "028e5f4a0b6e": {
+      "dur": 0.61,
+      "text": "delta",
+      "kind": "nato"
+    },
+    "3a0efc0ee500": {
+      "dur": 0.55,
+      "text": "echo",
+      "kind": "nato"
+    },
+    "20a1989c56a2": {
+      "dur": 0.67,
+      "text": "foxtrot",
+      "kind": "nato"
+    },
+    "90538b04414f": {
+      "dur": 0.59,
+      "text": "golf",
+      "kind": "nato"
+    },
+    "b3364067e0c8": {
+      "dur": 0.67,
+      "text": "hotel",
+      "kind": "nato"
+    },
+    "2f90ae4f0ca0": {
+      "dur": 0.67,
+      "text": "india",
+      "kind": "nato"
+    },
+    "95bff31b9291": {
+      "dur": 0.75,
+      "text": "juliett",
+      "kind": "nato"
+    },
+    "81d9583c0b49": {
+      "dur": 0.57,
+      "text": "kilo",
+      "kind": "nato"
+    },
+    "7abb3aa2c04f": {
+      "dur": 0.61,
+      "text": "lima",
+      "kind": "nato"
+    },
+    "91c52968c5c2": {
+      "dur": 0.57,
+      "text": "mike",
+      "kind": "nato"
+    },
+    "e396fa4d8868": {
+      "dur": 0.85,
+      "text": "november",
+      "kind": "nato"
+    },
+    "ff70f96a4cbe": {
+      "dur": 0.57,
+      "text": "oscar",
+      "kind": "nato"
+    },
+    "13827676d074": {
+      "dur": 0.61,
+      "text": "papa",
+      "kind": "nato"
+    },
+    "e04bdcf5d186": {
+      "dur": 0.55,
+      "text": "quebec",
+      "kind": "nato"
+    },
+    "280daabf3948": {
+      "dur": 0.79,
+      "text": "romeo",
+      "kind": "nato"
+    },
+    "ba2bde025a85": {
+      "dur": 0.71,
+      "text": "sierra",
+      "kind": "nato"
+    },
+    "f098b90ba774": {
+      "dur": 0.63,
+      "text": "tango",
+      "kind": "nato"
+    },
+    "80312fc3afbe": {
+      "dur": 0.95,
+      "text": "uniform",
+      "kind": "nato"
+    },
+    "f9a82f149032": {
+      "dur": 0.67,
+      "text": "victor",
+      "kind": "nato"
+    },
+    "769e58a5ebcb": {
+      "dur": 0.63,
+      "text": "whiskey",
+      "kind": "nato"
+    },
+    "144ad0a1bb82": {
+      "dur": 0.71,
+      "text": "x-ray",
+      "kind": "nato"
+    },
+    "84e7c050911a": {
+      "dur": 0.75,
+      "text": "yankee",
+      "kind": "nato"
+    },
+    "c94018e7bd19": {
+      "dur": 0.55,
+      "text": "zulu",
+      "kind": "nato"
+    },
+    "b39a7edfcb55": {
+      "dur": 0.59,
+      "text": "zero",
+      "kind": "digit"
+    },
+    "22f9867227a5": {
+      "dur": 0.41,
+      "text": "one",
+      "kind": "digit"
+    },
+    "dcb75e816a8e": {
+      "dur": 0.43,
+      "text": "two",
+      "kind": "digit"
+    },
+    "08c3c24fd6aa": {
+      "dur": 0.39,
+      "text": "three",
+      "kind": "digit"
+    },
+    "e52825fb49fc": {
+      "dur": 0.45,
+      "text": "four",
+      "kind": "digit"
+    },
+    "965a4c801522": {
+      "dur": 0.55,
+      "text": "five",
+      "kind": "digit"
+    },
+    "22bdeeeb8b2a": {
+      "dur": 0.51,
+      "text": "six",
+      "kind": "digit"
+    },
+    "590fd466dd51": {
+      "dur": 0.51,
+      "text": "seven",
+      "kind": "digit"
+    },
+    "57203393bc7e": {
+      "dur": 0.51,
+      "text": "eight",
+      "kind": "digit"
+    },
+    "e2cb668da91b": {
+      "dur": 0.57,
+      "text": "nine",
+      "kind": "digit"
+    },
+    "9b073f20cb28": {
+      "dur": 1.57,
+      "text": "open curly bracket",
+      "kind": "sym"
+    },
+    "585b1b64858a": {
+      "dur": 1.33,
+      "text": "close curly bracket",
+      "kind": "sym"
+    },
+    "b8a10770bad3": {
+      "dur": 0.87,
+      "text": "underscore",
+      "kind": "sym"
+    },
+    "726b44dff719": {
+      "dur": 0.51,
+      "text": "dash",
+      "kind": "sym"
+    },
+    "3e34547015fd": {
+      "dur": 0.45,
+      "text": "dot",
+      "kind": "sym"
+    },
+    "4ba5b201f6aa": {
+      "dur": 1.41,
+      "text": "exclamation mark",
+      "kind": "sym"
+    },
+    "f8e00fe7c842": {
+      "dur": 0.83,
+      "text": "at sign",
+      "kind": "sym"
+    },
+    "1e6f27681b76": {
+      "dur": 0.49,
+      "text": "hash",
+      "kind": "sym"
+    },
+    "de14d196e29e": {
+      "dur": 0.49,
+      "text": "dollar",
+      "kind": "sym"
+    },
+    "9e12774e820f": {
+      "dur": 0.57,
+      "text": "percent",
+      "kind": "sym"
+    },
+    "30229a8d6c05": {
+      "dur": 0.89,
+      "text": "ampersand",
+      "kind": "sym"
+    },
+    "7cf1cf9c86f6": {
+      "dur": 0.55,
+      "text": "star",
+      "kind": "sym"
+    },
+    "fb68a8dee168": {
+      "dur": 0.53,
+      "text": "plus",
+      "kind": "sym"
+    },
+    "9eb67c12cb0f": {
+      "dur": 0.79,
+      "text": "equals",
+      "kind": "sym"
+    },
+    "9351bae92517": {
+      "dur": 0.51,
+      "text": "slash",
+      "kind": "sym"
+    },
+    "9e16fa1d2c10": {
+      "dur": 0.45,
+      "text": "colon",
+      "kind": "sym"
+    },
+    "f3b8e689726a": {
+      "dur": 1.11,
+      "text": "question mark",
+      "kind": "sym"
+    },
+    "b4db32a3c662": {
+      "dur": 0.59,
+      "text": "space",
+      "kind": "sym"
+    },
+    "d533d3cd490d": {
+      "dur": 0.63,
+      "text": "capital",
+      "kind": "cap"
+    }
+  },
+  "lines": {
+    "greet_join": [
+      "4b01183ad5b0",
+      "6a2f4162450e"
+    ],
+    "greet_back": [
+      "0fade26b80c1",
+      "5beca0b438c8",
+      "3df02b7f5cbc"
+    ],
+    "what_do_you_want": [
+      "a46175e87e8a",
+      "1ca5eaf7d18f"
+    ],
+    "who_am_i": [
+      "bd765643f180"
+    ],
+    "who_am_i_short": [
+      "7869e4e1b4dd"
+    ],
+    "help_generic": [
+      "3cdeeae9526a",
+      "3e8c0428b6c1"
+    ],
+    "nice_try": [
+      "4636baa97fd9",
+      "c03eba56a88c"
+    ],
+    "answer_first": [
+      "f1e294066f28",
+      "9d6f75517b65"
+    ],
+    "ask_recruiter": [
+      "6c548feb929e",
+      "a00d5c7ef296"
+    ],
+    "who_again": [
+      "16f595e373a3",
+      "c194a7c8fe90"
+    ],
+    "not_a_member": [
+      "c02e4ed5ea48",
+      "cf7dc34758b8"
+    ],
+    "ok_tobi": [
+      "6977205405ec"
+    ],
+    "ask_code": [
+      "baaafd8e5465"
+    ],
+    "hint_code": [
+      "3b593135eab8",
+      "073e106f02ad"
+    ],
+    "wrong_code": [
+      "1ae3288ad9eb",
+      "5bc95abb68e8",
+      "71fa91398323"
+    ],
+    "ok_code": [
+      "b5f45bffba91"
+    ],
+    "ask_admin": [
+      "74e753f55eab"
+    ],
+    "hint_year": [
+      "a832c263a489"
+    ],
+    "flag_intro": [
+      "4b481eea862a"
+    ],
+    "flag_outro": [
+      "ac29979435e0"
+    ],
+    "flag_repeat": [
+      "85a4a77daa02"
+    ],
+    "flag_no_more": [
+      "321f6722c18b",
+      "0b2acfa050f2"
+    ],
+    "thanks_flag": [
+      "9b36485aa8d4"
+    ],
+    "annoyed_warn": [
+      "bcf2794a9c5b",
+      "9cfaf5edf862"
+    ],
+    "kicked_line": [
+      "caa4274a4e44"
+    ],
+    "insult_reply": [
+      "54b778532c39",
+      "887acd9da223"
+    ],
+    "bye": [
+      "c8d3d3e0f04a",
+      "ce6166d8dbc0"
+    ],
+    "thanks": [
+      "8da2aaa5f71d",
+      "e222bff6dbc3"
+    ],
+    "what": [
+      "9989166e0e3b",
+      "b32bf8f6bbac",
+      "aa431c611c1e"
+    ],
+    "hm": [
+      "a604471e3306",
+      "77ff3e34390d"
+    ],
+    "use_mic": [
+      "5a2e088f097c"
+    ],
+    "ignored": [
+      "68dccda3706d"
+    ],
+    "test_sound": [
+      "05aae79a131c"
+    ],
+    "ask_cry": [
+      "0f441c65890f"
+    ],
+    "rush_what": [
+      "37d921b3d05d"
+    ],
+    "hint_cry": [
+      "92907e9898b8",
+      "a348a66df26a"
+    ],
+    "wrong_cry": [
+      "f3dbdb70ddb0",
+      "b02003d11539"
+    ],
+    "ok_cry": [
+      "df0c782d70b5"
+    ],
+    "ask_motto": [
+      "e601e807d0a8"
+    ],
+    "hint_motto": [
+      "b9f03f770820",
+      "0c18ffaf499c"
+    ],
+    "wrong_motto": [
+      "9be83957f31f",
+      "bef22a5131d0"
+    ],
+    "ok_motto": [
+      "e0567a2ca1ad"
+    ],
+    "spell_intro": [
+      "7da26d5442d4",
+      "2539d50bbe9e"
+    ],
+    "spell_repeat": [
+      "003ac2252a13",
+      "d217e734f94c"
+    ],
+    "wrong_spell": [
+      "723021d675a3",
+      "6e7277ad8710"
+    ],
+    "ok_spell": [
+      "bc3134794388"
+    ],
+    "ask_member": [
+      "40a784f6eddb",
+      "4384ee6c1a54"
+    ],
+    "ok_member": [
+      "e2552c5363c0"
+    ]
+  },
+  "chars": {
+    "a": "0e25fe6b0a84",
+    "b": "dda728a1be04",
+    "c": "b146c498d6ff",
+    "d": "028e5f4a0b6e",
+    "e": "3a0efc0ee500",
+    "f": "20a1989c56a2",
+    "g": "90538b04414f",
+    "h": "b3364067e0c8",
+    "i": "2f90ae4f0ca0",
+    "j": "95bff31b9291",
+    "k": "81d9583c0b49",
+    "l": "7abb3aa2c04f",
+    "m": "91c52968c5c2",
+    "n": "e396fa4d8868",
+    "o": "ff70f96a4cbe",
+    "p": "13827676d074",
+    "q": "e04bdcf5d186",
+    "r": "280daabf3948",
+    "s": "ba2bde025a85",
+    "t": "f098b90ba774",
+    "u": "80312fc3afbe",
+    "v": "f9a82f149032",
+    "w": "769e58a5ebcb",
+    "x": "144ad0a1bb82",
+    "y": "84e7c050911a",
+    "z": "c94018e7bd19",
+    "0": "b39a7edfcb55",
+    "1": "22f9867227a5",
+    "2": "dcb75e816a8e",
+    "3": "08c3c24fd6aa",
+    "4": "e52825fb49fc",
+    "5": "965a4c801522",
+    "6": "22bdeeeb8b2a",
+    "7": "590fd466dd51",
+    "8": "57203393bc7e",
+    "9": "e2cb668da91b",
+    "{": "9b073f20cb28",
+    "}": "585b1b64858a",
+    "_": "b8a10770bad3",
+    "-": "726b44dff719",
+    ".": "3e34547015fd",
+    "!": "4ba5b201f6aa",
+    "@": "f8e00fe7c842",
+    "#": "1e6f27681b76",
+    "$": "de14d196e29e",
+    "%": "9e12774e820f",
+    "&": "30229a8d6c05",
+    "*": "7cf1cf9c86f6",
+    "+": "fb68a8dee168",
+    "=": "9eb67c12cb0f",
+    "/": "9351bae92517",
+    ":": "9e16fa1d2c10",
+    "?": "f3b8e689726a",
+    " ": "b4db32a3c662",
+    "CAP": "d533d3cd490d"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "network": "none",
+  "ready": true,
+  "real_reply": "Hi there! I enjoy dancing and telling silly stories. What about you, Waddles?",
+  "turn_seconds": 5.72,
+  "peak_memory_bytes": 1686278144,
+  "prompt_source_sha256": "62abbf5160e867e3e6341764858184133966dde25789f16feaebd72d47da7614",
+  "image_id": "sha256:8a6f47e344952fb182faaad0e1ecbfbcbd0454e50189e26e89e30e868be4cfd6",
+  "docker_vm_memory_bytes": 2053636096,
+  "target_4gb_hardware_qualified": false
+}

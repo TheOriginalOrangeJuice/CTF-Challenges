@@ -1,0 +1,14 @@
+# Standalone deploy of ONLY this challenge. From inside the easy/ directory:
+#   docker compose up --build            # -> http://localhost:5001
+# Override at launch if your infra needs to:
+#   FLAG='RCC{custom}' PORT=8001 docker compose up --build
+#
+# The player is published; the internal flag service (0.0.0.0:9000 inside the
+# container) is deliberately NOT published — it's reachable only via SSRF.
+services:
+  easy:
+    build: .
+    ports: ["${PORT:-5001}:5000"]
+    environment:
+      FLAG: "${FLAG:-RCC{ssrf_is_easy_when_nobody_filters}}"
+    restart: unless-stopped

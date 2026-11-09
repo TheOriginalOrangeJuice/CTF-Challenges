@@ -1,0 +1,24 @@
+MONTAGE RECOVERY PROJECT, revision sample-text-1
+
+This is a recovery interchange file, not a native Vegas .veg project.
+All positions are whole pixels, with the origin at the top left. Time is seconds.
+
+sources: original image filenames, dimensions, file sizes and SHA-256 digests.
+alpha: source interpretation, shared by every event using that source.
+  straight = apply original per-pixel alpha
+  none = use original RGB, with opacity 255
+events: occurrences of a source on the timeline.
+  start/end: half-open active time interval
+  crop: x, y, width w and height h in SOURCE coordinates
+  flipX/flipY: horizontal/vertical mirror after cropping
+  placement: x, y, w, h in OUTPUT coordinates, after cropping/mirroring
+  track: smaller track numbers appear above larger numbers
+  visible: event enabled/disabled
+
+Render order: source alpha interpretation, source crop, mirror, placement/scale,
+then ordinary source-over compositing. Image pixels use square aspect ratio.
+PNG source images are 8-bit RGBA, noninterlaced. The originals have not been
+flattened against a background. The media inspector reads unassociated samples.
+
+The browser can save a modified recovery project and a PNG of the current frame.
+Audio, selection outlines and editing handles are not included in a PNG export.

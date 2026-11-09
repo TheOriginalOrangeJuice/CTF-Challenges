@@ -1,0 +1,51 @@
+﻿{
+    "schemaVersion":  1,
+    "assignment":  "Pure fixed-fixture engine and logic tests",
+    "status":  "passed-parent-condev-run",
+    "runtimeExecutedByThisAgent":  false,
+    "authoredTestCount":  22,
+    "testEvidence":  {
+                         "executionReportedBy":  "Parent orchestrator",
+                         "runtime":  "Condev, according to parent execution report",
+                         "retainedOutput":  "organizer/logic-test-output.txt",
+                         "retainedOutputInspected":  true,
+                         "passed":  22,
+                         "failed":  0,
+                         "skipped":  0,
+                         "handoffHashes":  {
+                                               "challenge/server/engine.ts":  "f3c9740a3d112f8730f84617b7f7ae1857779b220d5773f29590935938b36a0a",
+                                               "challenge/tests/engine.test.ts":  "111a363a98f478a84a3979051d9467e7f1082e1adc4b45192d6fbe09fa8dbd50",
+                                               "organizer/logic-test-output.txt":  "8282d27dcbad1f74c965fb96934e06d93ce24f123ab9b13cb2676a7645e0f2ec"
+                                           },
+                         "provenanceLimit":  "This agent inspected the retained test report and hashed the current handoff files; execution and staging were owned by the parent. No additional runtime execution was performed for this documentation change."
+                     },
+    "engine":  "challenge/server/engine.ts",
+    "tests":  "challenge/tests/engine.test.ts",
+    "validationScope":  {
+                            "draftValidation":  "Strict per-question object fields, types, enums, bounds, list cardinality, unique selections, and non-finite-number rejection.",
+                            "factors":  "All five pairs of different factor categories; both ordering variants; rejects two knowledge factors and wrong selection counts.",
+                            "network":  "Enumerates all 64 subsets of the six edges; exactly the A-V/B-V cut should preserve the required components.",
+                            "authority":  "Checks pinned root, permissions, DELEGATE propagation, full-chain validity, exclusive expiry at 12:03, and all 16 Q10 subject selections.",
+                            "clocks":  "Checks calibration offsets and enumerates all 24 Q12 panel orders.",
+                            "audio":  "Checks actual full padded residual, negative-time pre-roll, both tails, isolated spikes, quantization tolerance, alternate authored delay, and malformed fixtures.",
+                            "truth":  "Enumerates all 16 assignments; TTFF should be unique.",
+                            "bomb":  "Enumerates all 256 length-four programs including repeated actions; ISOLATE/REMOVE/DRAIN/CUT should be unique. Verifies recharge and retained charge.",
+                            "tiles":  "Enumerates all paths shorter than three and all three-operation paths; checks longer equivalent restoring paths.",
+                            "transcript":  "Enumerates all 64 three-label transcripts; R/S/F should be unique.",
+                            "finale":  "Enumerates 7828 ticket-partition/order/exposed-slot combinations; one valid audit is expected. Actual faces and exact permission sets are checked.",
+                            "publicEvidence":  "Checks defensive copies and absence of completion flags or explicit answer-key fields. Human review remains necessary for context-dependent information leakage."
+                        },
+    "contractNotes":  [
+                          "Q9 uses three direct capture positions: ABCD, BCDA, ACBD. Direction changes carousel movement only.",
+                          "Q11 allows safe reversible movements; only the goose may cross into the secure room. End state requires the follower outside and both doors closed.",
+                          "Q13 AudioFixture is trusted authored server data, never client-submitted fixture data. Sample comparison uses the full union of shifted sample ranges, tolerance 2/32768.",
+                          "Q16 committing any incomplete or unsuccessful plan is fatal. Free simulation remains non-mutating and previews each atomic action consequence.",
+                          "Q20 engine evaluates audit correctness only. The integration layer must separately enforce all twenty solved, eligible run, and atomic consumption of all three earned skips before issuing a reward.",
+                          "The pure engine does not store the flag or sessions and must remain outside public client bundles."
+                      ],
+    "notEstablished":  [
+                           "Independent reproduction of the parent run or a separate TypeScript compilation by this agent.",
+                           "Browser controls, session state, retries, persistence, server routing, or final reward authorization.",
+                           "Visual fidelity, audible playback, independent human playtesting, enjoyment, or anti-agent effectiveness."
+                       ]
+}

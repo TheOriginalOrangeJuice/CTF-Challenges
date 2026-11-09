@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F*** it, Everything To Shell</title>
+  <link rel="stylesheet" href="/style.css">
+  <!-- deploy: ssh prod 'cd /usr/share/nginx/html && git pull origin main' -->
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">$_</span>
+      <div>
+        <h1>F*** it, Everything To Shell</h1>
+        <p class="tag">Can't pick a runtime? Don't. Get a shell in all of them.</p>
+      </div>
+    </div>
+    <div class="status"><span class="dot"></span> 3 sandboxes online</div>
+  </header>
+
+  <main>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-lang="python" role="tab">🐍 Python</button>
+      <button class="tab" data-lang="node" role="tab">⬢ Node</button>
+      <button class="tab" data-lang="php" role="tab">🐘 PHP</button>
+    </nav>
+
+    <section class="window">
+      <div class="titlebar">
+        <span class="b r"></span><span class="b y"></span><span class="b g"></span>
+        <span class="wtitle" id="wtitle">ctf@py-sandbox-7f3c: /app</span>
+      </div>
+      <div class="term" id="term" tabindex="0"></div>
+    </section>
+
+    <p class="hint">Sessions are ephemeral and reset when you switch tabs. Outbound network is disabled. Be nice.</p>
+  </main>
+
+  <footer>
+    <span>everything-to-shell v2.3.1</span>
+    <span>·</span>
+    <span>shipped straight from <code>main</code> 🚀</span>
+  </footer>
+
+  <script src="/shell.js"></script>
+</body>
+</html>

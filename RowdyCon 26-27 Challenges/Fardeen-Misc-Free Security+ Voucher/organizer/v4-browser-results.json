@@ -1,0 +1,89 @@
+{
+  "questionVersion": 4,
+  "kind": "authored-answer browser regression",
+  "questions": [
+    {
+      "question": 1,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 2,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 3,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 4,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 5,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 6,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 7,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 8,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 9,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 10,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 11,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 12,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 13,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 14,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 15,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 16,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 17,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 18,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 19,
+      "result": "passed with three lives"
+    },
+    {
+      "question": 20,
+      "result": "certificate and reward passed"
+    }
+  ],
+  "errors": [],
+  "rewardReload": "passed",
+  "passed": true
+}

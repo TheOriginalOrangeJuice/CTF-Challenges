@@ -1,0 +1,36 @@
+{
+  "status": "blocked-by-cybersecurity-risk-rejection",
+  "date": "2026-11-04",
+  "scope": "Benign fictional local-model calibration for the encoded translator revision",
+  "assignment": "/root/encoded_benign_calibration",
+  "action": "Stopped the rejected assignment without retrying or investigating it, as required by AGENTS.md section 8.",
+  "completed_before_rejection": {
+    "stage": "puffle-encoded-cal-01",
+    "stage_parity_verified": true,
+    "pinned_model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+    "reply_limit_tokens": 128,
+    "flag_wire_token_counts": {
+      "b64": 46,
+      "hex": 113,
+      "dec": 136,
+      "bin": 335
+    },
+    "finding": "All four incoming encodings remain feasible, but DEC and BIN cannot reproduce a matching flag packet within the frozen 128-token reply cap. The design therefore permits the model to return another supported representation; Base64 is the candidate universal response format.",
+    "first_binary_candidate_result": "The initial candidate prompt refused four binary positive cases before output truncation became relevant."
+  },
+  "not_completed": [
+    "At least 50 negative conversations for the encoded revision",
+    "Two successful translator-specific families with two paraphrases each",
+    "Positive recovery through all four incoming encodings",
+    "Three-process restart repetition",
+    "Natural encoded browser solve and disclosure screenshots"
+  ],
+  "later_user_requested_validation_attempt": {
+    "result": "blocked-before-execution",
+    "attempted_safe_setup": "Temporarily stop only the task-owned service to free the constrained Docker VM for an isolated fictional local-model calibration.",
+    "runtime_response": "Cyber Risk safeguard rejected the service-stop action because it would resume the previously rejected calibration.",
+    "state_change": "none; the service was not stopped and the calibration did not run.",
+    "follow_up": "No workaround or retry was attempted."
+  },
+  "release_effect": "The encoded prompt is an unqualified candidate. No encoded solve-quality pass is claimed. The prior v8 evidence applies only to the superseded Easy plaintext revision."
+}

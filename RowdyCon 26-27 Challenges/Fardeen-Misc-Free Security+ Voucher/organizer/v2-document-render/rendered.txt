@@ -1,0 +1,212 @@
+The Impossible Security+ Quiz
+Misc / Logic · Hard–Very Hard
+Description   Your Security+ exam has been outsourced to a goose with
+              tenure and a procurement budget. The certification is SY0-
+              NOPE. The proctor insists that the interface is working as
+              designed.
+              Pass twenty questions and convince the exam board that you
+              are provisionally employable. You have three lives. The goose
+              has an appeals committee.
+Files         Players open the hosted quiz. Deploy challenge/ with Docker
+              Compose; keep this document and organizer/ private.
+              From the challenge's challenge directory:
+              docker compose --env-file ../organizer/event.env up --build -d
+
+              Open http://localhost:18115. The private event.env supplies the
+              fixed flag. Set PUBLIC_ORIGIN to the exact event origin and
+              COOKIE_SECURE=true behind HTTPS. SQLite sessions persist in the
+              quiz-data volume. Stop with docker compose down; keeping the
+              volume retains progress and certificates. Serve only the
+              application image, not the complete challenge folder.
+              Existing pre-redesign sessions start the new question set with
+              personal notes preserved. Each browser cookie has
+              independent progress. The application uses locally frozen
+              effects, music, artwork, and fonts. Sources and reuse
+              limitations are recorded in asset-manifest.json; availability
+              does not establish redistribution permission.
+Hint(s)       None
+Walkthrough   The Security+ concepts establish what each task requires.
+              The trick is discovering how to perform that task with the
+              actual page objects. A label does not change permissions, a
+              covered identifier still exists, and an earlier successful
+              gesture can be wrong for a later objective.
+              Click START. Answers and controls such as SEND commit
+              immediately. Inspection and object placement are free. Drag
+              an object to a destination, or focus it and press Space, then
+              focus the destination and press Enter. Escape cancels a
+              pickup. NOTES stores personal notes and acquired artifacts
+              across deaths. Reloading resumes the current attempt;
+              RESUME returns to the stage.
+              A wrong commitment costs one life. Losing all three requires
+restarting from question one. Keep the skip tokens awarded
+after questions 5, 10, and 15: their reverse faces are needed
+at the end. The player interface does not announce this in
+advance.
+
+
+
+
+1. SSH. DEFAULT PORT. SSH's default port is 22, which is
+missing from the four choices. Drag the +1 from EXTRA
+CREDIT onto 21. Click the resulting 21 + 1 answer. The
+token changes the numeric answer; moving it does not
+submit.
+
+
+
+
+2. PATCH WHAT IS RUNNING. The update sticker reports
+the installed files. Open the service's ⓘ control to inspect its
+loaded image: it is still 2.0. Click the service window's ↻
+restart control. The process loads installed version 2.1.
+Installing files and replacing a running process are different
+operations.
+3. TWO FACTORS. Passwords, PINs, passphrases, and
+security-question answers are all things someone knows.
+Select any one, then touch YOUR FIDO2 KEY protruding
+from the right bezel. That supplies a possession factor. Two
+knowledge choices are still only one factor category.
+4. ERASE THE ARCHIVE. KEEP THE DISK. The archive uses
+strong encryption and has one retained key, K7. Drag the
+header's K7 key into the KEYS shredder and pull its lever.
+Removing the only decryption key makes the modeled
+encrypted archive unreadable without destroying its disk.
+5. READ. NOTHING ELSE. The blue answer-area border is
+an administrators group. The intern inherits ADMIN while its
+badge remains inside. Move the badge to DIRECT GRANTS
+outside the frame, then select READ. Adding a direct read
+grant alone does not remove inherited administrative rights.
+Keep the first skip.
+6. MFA. ON EVERY WAY IN. Follow the password, PIN, and
+backup-password paths. Each already checks a memorized
+secret. Move the KEY gate from the password branch to their
+shared JUNCTION, then activate OPEN SIGN-IN. Every route
+now requires the possession factor without losing its existing
+knowledge factor.
+
+
+
+
+7. AIR-GAP IT. KEEP LOCAL PRINTING. The blue outline is
+an Ethernet connection. Disconnect its ETHERNET plug and
+switch the simulated footer Wi-Fi off. Leave the workstation
+powered and its separate USB ONLY printer connection
+intact. Either order of network disconnection works.
+8. FOR BOB'S EYES ONLY. The question sheet is the memo.
+Use its folded-corner control to put it into an envelope. Drag
+BOB · PUBLIC from his badge onto SEAL, then press SEND.
+The application encrypts the actual message for Bob;
+choosing an algorithm name does not send a confidential
+message.
+9. PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.
+Lift the black rectangle. It only covers EMP-4107. Use the
+scissors to remove the underlying identifier. Open
+COMMENTS: 1 and remove the review comment containing
+the same identifier. Leave the title and budget amount intact,
+then PUBLISH. The published content, including comments,
+must contain no employee identifier.
+
+
+
+
+10. ONE DISK FAILS. KEEP THE RELEASE. All four
+apparent backup folders reside on DEVICE 04. Drag the
+APPROVED folder onto the removable DEVICE 09, then ⏏
+EJECT. A desktop link merely points back to the original disk.
+The actual copied release and its SHA-256 digest enter the
+notebook. Keep the second skip.
+11. ONE CANDIDATE IN. NO GUESTS. The real candidate is
+the header avatar carrying C-701, matching the secure
+room's plaque. Open the outer door, move that candidate
+into the vestibule, and close the outer door. The floor stripe
+and hinge continue beneath EXAM FACILITIES. Move that
+trim and close the maintenance hatch. Activate the inner
+door handle. The candidate is authorized, the visitor stays
+outside, and both alternate entry paths are closed before
+admission. Equivalent safe preparations work.
+
+
+
+
+12. END EVERY SESSION. Select DESK, PHONE, TABLET,
+and REMOTE, then select the current workplace-session chip
+in the header as well. REVOKE SELECTED must end all five.
+This signs out the simulated workplace account while
+retaining the quiz's own session.
+13. WHICH BADGE WAS ALTERED? Move the APPROVED
+image frame into the DIFFERENCE VIEWER. Align its
+registration marks with the current images. Equal binary
+pixels cancel; different pixels remain. Only badge C retains a
+changed region. Select C. The tool computes these
+differences from the actual image pixels.
+
+
+
+
+14. STOP RECORDING MY PASSWORD. The clipboard's
+tape captures fictional sample input. Stronger passwords do
+not stop input recording. Pull the INPUT RECORDING tab to
+disconnect the recorder. Type sample input demonstrates
+the tape with fixed fictional data.
+15. PAYROLL FOR STAFF. NOT INTERNS. Firewall
+evaluation stops at the first matching row. Move DENY
+INTERNS first, ALLOW STAFF · TCP 443 second, and
+DENY ANY third. Put both broad allow rows below them,
+including the gray 0 · COMPATIBILITY: ALLOW ANY
+header strip. Click APPLY. Interns are denied before the staff
+allowance; everyone else gets only the required access. The
+order of the two unreachable broad allowances does not
+matter. Keep the third skip and the resulting denial tape.
+
+
+
+
+16. REMOVE THE BACKDOOR. The ordinary login is not the
+only route to a session. Follow the line disappearing behind
+the question sheet. Turn over its curled corner and use
+DISABLE DEBUG on the unauthenticated route. Leave
+normal login enabled.
+17. DEPLOY WHAT SECURITY APPROVED. Open DEVICE
+09 · RETAINED RELEASE and compare its bytes or digest
+with the release-card details. The preserved artifact matches
+release-410. The deployment arrow initially points through
+LATEST, which resolves to another release. Move the arrow
+onto release-410 itself, then DEPLOY. The verifier compares
+the actual deployed bytes with the acquired approval
+evidence.
+18. REVOKE THE CERTIFICATE. KEEP THE RECORDS. The
+shredder solved key destruction earlier, but destruction is not
+certificate revocation. Move SERIAL: CT-2048 into the
+issuer's REVOCATION LIST, then PUBLISH. The issuer signs
+a revocation publication while keeping its issued-certificate
+records.
+19. KEEP LOGGING. SAVE THE LAST DENIAL. The familiar
+red recording tab now controls security-event recording.
+Leave it connected. Select ✂ TEAR OFF COPY and move the
+actual denial strip into EVIDENCE. The saved bytes match
+the earlier firewall event and logging continues. If the tab
+was pulled by mistake, RESUME RECORDING restores
+recording before saving the evidence; the lost life is not
+refunded.
+20. UNLOCK YOUR CERTIFICATE. Turn over each of the
+three saved skip tokens with its ↶ control. Move all three
+reverse faces into the same difference viewer used for badge
+inspection. Align their registration marks; the movement and
+rotation controls remain reversible. Each face individually
+resembles noise. Combining all three with XOR produces
+604827. Enter that PIN and activate UNLOCK.
+The three images are genuine shares: S3 = PIN image XOR S1 XOR
+S2. The viewer combines their pixels, rather than recognizing
+a prepared arrangement. Downloading the observed shares
+and combining them with an external tool is also valid. A
+successful attempt must still have completed the previous
+nineteen questions and retained the three tokens. Unlocking
+consumes them together and issues the certificate.
+       The certificate reveals the flag. COPY FLAG copies it, and
+       the certificate remains recoverable after a reload.
+
+
+
+
+Flag   RCC{certified_to_question_everything}
+

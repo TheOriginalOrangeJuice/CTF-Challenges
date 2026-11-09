@@ -1,0 +1,12 @@
+# Local run. On CTFd the image is built from the Dockerfile and only port 8080 needs to be exposed.
+services:
+  ts3web:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      FLAG: "${FLAG:-RCC{m0m_1m_1n_4_cl4n_n0w}}"
+      ADMIN_ROOM_PASSWORD: "dust22010"   # part of the puzzle: map + founding year
+      QUERY_PORT: "0"                    # ServerQuery (telnet) is not needed for the challenge
+      VOICE_DEBUG: "${VOICE_DEBUG:-0}"
+    restart: unless-stopped

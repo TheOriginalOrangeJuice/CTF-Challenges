@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h2>&#9733; Irasshai~! Welcome to Lucky Channel! &#9733;</h2>
+<p class="blink-slow">* NEW * guestbook is back online after the GeoCities incident!</p>
+
+<p>
+  Konata: &quot;Yahho~! This is the <b>#1</b> Lucky&#9733;Star fansite on the
+  whole entire internet, probably! Grab a melon bread, kick off your shoes,
+  and stay a while. Don't mind the construction, this site has been 95% done
+  since 2004.&quot;
+</p>
+
+<div class="marquee-box">
+  <marquee behavior="alternate" scrollamount="3">
+    &#9733;&#9733;&#9733; MOTTEKE! MOTTEKE! SAILOR FUKU!! &#9733;&#9733;&#9733;
+  </marquee>
+</div>
+
+<h3>&#9733; Now Playing: Lucky Channel OP &#9733;</h3>
+<div class="mediaplayer">
+  <div class="mp-title">&#9654; luckychannel_op.rm &nbsp;--&nbsp; RealPlayer&trade;</div>
+  <div class="mp-screen">
+    <img src="https://c.tenor.com/7Z4zrjzNP1oAAAAd/tenor.gif" alt="Lucky Channel OP clip">
+  </div>
+  <div class="mp-controls">&#9654;&#9654; &nbsp; &#9208; &nbsp; &#9209; &nbsp;
+    <span class="mp-bar"><span class="mp-fill"></span></span> &nbsp; 00:17 / 01:30</div>
+</div>
+
+<h3>&#9733; Featured Video &#9733;</h3>
+<div class="ytplayer">
+  <div class="mp-title">&#9654; now streaming on the information superhighway</div>
+  <iframe width="300" height="169"
+    src="https://www.youtube-nocookie.com/embed/Sj6UEZubnB0"
+    title="Featured video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
+<h3>&#9733; Today's Lucky Items &#9733;</h3>
+<table class="retro" width="100%">
+  <tr><th>Rank</th><th>Item</th><th>Lucky?</th></tr>
+  <tr><td>1</td><td>Chocolate cornet (eat from the tail!)</td><td>&#9733;&#9733;&#9733;</td></tr>
+  <tr><td>2</td><td>A fresh save file</td><td>&#9733;&#9733;</td></tr>
+  <tr><td>3</td><td>The last melon bread in the store</td><td>&#9733;</td></tr>
+</table>
+
+<h3>&#9733; Fan Media Wall &#9733;</h3>
+{% if fan_media %}
+  <div class="mediawall">
+    {% for kind, fn in fan_media %}
+      {% if kind == 'img' %}
+        <img class="fanmedia" src="{{ url_for('static', filename='media/' ~ fn) }}" alt="{{ fn }}">
+      {% else %}
+        <video class="fanmedia" controls loop muted>
+          <source src="{{ url_for('static', filename='media/' ~ fn) }}">
+        </video>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="smol">(No fan submissions yet! Webmaster: drop images/gifs/videos
+  into <code>static/media/</code> and they'll appear here~)</p>
+{% endif %}
+
+<h3>&#9733; Staff Corner &#9733;</h3>
+<p>
+  Site staff: head to the <a href="{{ url_for('backstage') }}">Backstage</a> to
+  post an official Lucky Channel broadcast. (Members log in first. Broadcasts
+  support template tags like <code>{% raw %}{{ site_name }}{% endraw %}</code>
+  for convenience.)
+</p>
+
+<p class="smol">
+  Powered by hand-rolled PHP... err, we rewrote it in Python this year.
+  Sessions are signed tokens now (very secure, RS256!). Keys live
+  <a href="{{ url_for('pubkey') }}">here</a> if you're a nerd about it.
+</p>
+{% endblock %}

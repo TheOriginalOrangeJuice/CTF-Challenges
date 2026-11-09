@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Guestbook{% endblock %}
+{% block content %}
+<h2>&#9733; Sign My Guestbook! &#9733;</h2>
+<p>Leave a message for Konata and the gang~ (no flaming, kagamin is watching)</p>
+
+<form method="post" class="gbform">
+  <div>Name: <input type="text" name="name" maxlength="32"></div>
+  <div>Message:<br><textarea name="msg" rows="3" cols="40" maxlength="200"></textarea></div>
+  <div><input type="submit" value="&#9733; Sign it! &#9733;"></div>
+</form>
+
+<hr>
+
+{% for e in entries %}
+  <div class="gbentry">
+    <div class="gbname">&#9654; {{ e.name }}</div>
+    <div class="gbmsg">{{ e.msg }}</div>
+  </div>
+{% endfor %}
+{% endblock %}

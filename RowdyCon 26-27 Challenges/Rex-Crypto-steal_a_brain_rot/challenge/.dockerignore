@@ -1,0 +1,8 @@
+.git
+solve/
+*.md
+API_CONTRACT.md
+server/static/*
+!server/static/.gitkeep
+__pycache__/
+*.pyc

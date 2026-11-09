@@ -1,0 +1,37 @@
+﻿{
+  "questionVersion": 5,
+  "status": "Implemented; build,51 regression tests,full20 public UI solve,independent focused review and handoff checks passed.",
+  "technical": {
+    "build": "TypeScript,Vite and server build passed in verified iq-v5-stage03. Live preview uses that tree on18115.",
+    "tests": "51 tests passed on final stage03: actual HTML ancestry,all disk positions/capacities and byte preservation,all32 forwarding configurations,all48 printer page/copy/queue configurations,all16 recorder source/monitor/sample configurations,reset recovery,full20 progression,migration from2/3/4,deduplication,stale actions,session isolation,Q17 two-life penalty and atomic certification.",
+    "publicUI": "v5-browser-results.json: all20 public browser controls passed with3lives,manual Q10 hash retention and Q17 recall,Q20 actual pixel reconstruction and reward reload. This full run used stage01. Stage03 changed only the mixer pointer/key-release handling and completed a state test; independent stage03 review exercised the current mixer and all five revised questions.",
+    "independentReview": "v5-quality-review.json and v5-quality-evidence03: source-informed agent review at1366x768 and1920x1080 using keyboard/UI actions,actual evidence,wrong-answer recovery,free inspections and focus handling. Distinct from cold human playtesting.",
+    "audio": "v5-preservation.json verifies unchanged player implementation,music and mature START cue against the approved delivered v4 tree. No new human listening or measured-output claim; historical v3 measured audio remains historical.",
+    "handoff": "Canonical five-section Markdown/Word pair; Hint(s):None;14 actual screenshots;exact flag. All10 rendered Word pages visually inspected;split Q14 heading corrected and affected pages re-inspected.",
+    "publicIntegrity": "release-checks.json verifies tested/delivered application parity,asset hashes,links,rendered flag and absence of unintended flag/plaintext PIN/share seeds/source maps in the public build. Selected checks are not exhaustive security testing.",
+    "productionCompose": "Deployment files unchanged. Fresh Compose execution remains outside this revision's validated scope; historical v3-compose-results.json records runtime restrictions. No blocked environment was retried or modified."
+  },
+  "experience": {
+    "changes": [
+      "Q3: four equally bold HTML proofs; genuine whole-word strong ancestry differs from visual styling,partial markup and a class label.",
+      "Q4 A+: volume homonym and actual partition relocation/extension while preserving stored bytes.",
+      "Q8 Network+: editable forwarding graph where the visually short router path expires and Layer2 switching preserves TTL.",
+      "Q12 A+: misleading printed page numbers,document ordinal,and independent PC/printer queues determine actual output.",
+      "Q14: monitor pause,capture source,retained tape and queued samples require separate reasoning."
+    ],
+    "presentation": "Approved550x400stage,art,goose,music,matureSTARTcue,certificate,Q1 and every unrelated question scene preserved. See v5-preservation.json.",
+    "humanColdPlaytest": "Not performed for revision5; independent review was source-informed.",
+    "humanListening": "Not performed in this revision; audio unchanged.",
+    "reasoningDifficulty": "Hard–Very Hard remains the approved target,not a newly calibrated human rating.",
+    "wordingFrustration": "Precise objectives and inspectable rules checked. Independent review found no blocking ambiguity; human assessment remains open.",
+    "replayBurden": "No added timer,mandatory wait or compulsory drag. Printer/recorder demo reset restores authored samples without refunding lives. Human assessment remains open.",
+    "enjoyment": "Not established by automation or informed review."
+  },
+  "antiAgent": "Existing isolated passive comment retained; public source/no-interference checks and legitimate scripted completion pass. Effectiveness remains unproven.",
+  "historicalEvidence": "Earlier v2/v3/v4 reports remain historical. Current validation uses v5-* records; exact stage scope is stated above.",
+  "openItems": [
+    "Independent human difficulty,enjoyment,wording and replay calibration.",
+    "Fresh Compose validation when an approved runtime is available; deployment files unchanged.",
+    "Original third-party art/music redistribution authorization remains unestablished; asset-manifest.json records limits."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "No automatic greeting before activation; first greeting persists once; ambient repeats with varied 45–100 second waits and one timer despite repeated gestures",
+    "Mute, zero volume and hidden tab stop ambient audio/cancel waits; restoring each starts a fresh wait with no catch-up burst",
+    "Busy action or Yay skips an ambient attempt; ambient never overlaps or interrupts the cheer; a cheer requested during Hello plays after it",
+    "Page hide cancels the wait; BFCache restoration starts a fresh wait; final navigation destroys audio and lifecycle listeners",
+    "Media error stops ambient retries until a later permitted interaction"
+  ],
+  "limits": "Fake media validates scheduling only; browser waveform evidence is recorded separately."
+}

@@ -1,0 +1,128 @@
+﻿{
+    "schemaVersion":  1,
+    "reviewedOn":  "2026-10-29",
+    "scope":  "Primary-source provenance and subject vocabulary for the approved fictional quiz; not an independent original-game playthrough or a claim of current exam coverage.",
+    "sources":  [
+                    {
+                        "id":  "original-impossible-quiz-2007",
+                        "title":  "The Impossible Quiz",
+                        "creator":  "Splapp-me-do",
+                        "publisher":  "Newgrounds",
+                        "url":  "https://www.newgrounds.com/portal/view/365143",
+                        "published":  "2007-02-20T18:10:00-05:00",
+                        "sourceType":  "Original creator\u0027s game publication page",
+                        "reviewMethod":  "Opened the live page with the web tool; reviewed title, author comments, Credits \u0026 Info, upload date, and footer.",
+                        "supportedFacts":  [
+                                               "The page credits Splapp-me-do for design and records the February 20, 2007 upload.",
+                                               "The author describes questions leading to game over and records adding a mute control."
+                                           ],
+                        "designUse":  "Identity and period of the named reference. The approved stage, button, lives, skip, and failure presentation remains the reconstruction target; this text-page inspection did not independently verify its visual proportions or gameplay states.",
+                        "rights":  "The page does not establish a reusable license for the game or its third-party music. See audio-manifest.json for the recorded reuse limitation.",
+                        "runtimeDependency":  false
+                    },
+                    {
+                        "id":  "comptia-sy0-701-objectives-v5",
+                        "title":  "CompTIA Security+ Certification Exam Objectives, SY0-701",
+                        "publisher":  "CompTIA",
+                        "documentVersion":  "5.0",
+                        "copyrightYear":  2023,
+                        "url":  "https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf",
+                        "sourceType":  "Publisher-authored objectives PDF on its content delivery host",
+                        "reviewMethod":  "Opened the 21-page PDF with the web tool and inspected extracted text in objectives 1.2, 1.4, 2.5, 4.3, and 4.6. Page numbers below are one-based PDF pages.",
+                        "reviewedSections":  [
+                                                 {
+                                                     "objective":  "1.2",
+                                                     "pdfPage":  4,
+                                                     "topic":  "Authorization and physical access",
+                                                     "questions":  [
+                                                                       1,
+                                                                       7,
+                                                                       11
+                                                                   ]
+                                                 },
+                                                 {
+                                                     "objective":  "1.4",
+                                                     "pdfPage":  5,
+                                                     "topic":  "Certificates, trust roots, signatures, and hashing",
+                                                     "questions":  [
+                                                                       10,
+                                                                       14,
+                                                                       20
+                                                                   ]
+                                                 },
+                                                 {
+                                                     "objective":  "2.5",
+                                                     "pdfPage":  7,
+                                                     "topic":  "Segmentation and minimal access",
+                                                     "questions":  [
+                                                                       6,
+                                                                       7
+                                                                   ]
+                                                 },
+                                                 {
+                                                     "objective":  "4.3",
+                                                     "pdfPage":  11,
+                                                     "topic":  "Alert classification",
+                                                     "questions":  [
+                                                                       8
+                                                                   ]
+                                                 },
+                                                 {
+                                                     "objective":  "4.6",
+                                                     "pdfPage":  12,
+                                                     "topic":  "Permissions, authentication categories, and password concepts",
+                                                     "questions":  [
+                                                                       3,
+                                                                       4,
+                                                                       7,
+                                                                       20
+                                                                   ]
+                                                 }
+                                             ],
+                        "designUse":  "Vocabulary inspiration and conceptual context. Questions, evidence, solutions, and fictional exam SY0-NOPE are authored for this challenge. This is a fixed historical reference, not a claim that version 5.0 is the latest objectives document.",
+                        "rights":  "The PDF identifies CompTIA copyright. The challenge references the publication and concepts; this handoff does not grant a license or reproduce the document as a player artifact.",
+                        "runtimeDependency":  false,
+                        "localFullCopyCreatedByThisReview":  false
+                    }
+                ],
+    "accessNotes":  [
+                        {
+                            "url":  "https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(5-0).pdf",
+                            "result":  "Web tool reported a non-retryable opening error. No source content was inferred from that error. The successfully opened publisher-authored PDF above supplies the reference."
+                        },
+                        {
+                            "url":  "https://www.comptia.jp/pdf/CompTIA%20Security%2B%20SY0-701%20Exam%20Objectives.pdf",
+                            "result":  "Direct opening redirected to the Japanese CompTIA home page. Search-index snippets from that old PDF URL were not used as the final source."
+                        },
+                        {
+                            "url":  "https://www.comptia.org/en-us/certifications/security/",
+                            "result":  "Web tool reported an opening error; no claim about present certification availability or revision is based on this page."
+                        }
+                    ],
+    "authoredModelBoundaries":  {
+                                    "stampOffice":  "Toy authorization graph over authored signer records. It does not verify cryptographic signatures or implement X.509. DELEGATE inheritance and exclusive intervals are stated game rules, not a complete PKI validation model.",
+                                    "checksum":  "Q14\u0027s A=1 through D=4 sum ignores order and faces by definition. Its collisions do not demonstrate a weakness in cryptographic hashes or all real checksums.",
+                                    "literalPuns":  "Q2, Q3, and Q5 use clothing, visual word width, and picture enclosure. They are not operational examples of software patching, password strength, or network firewall configuration.",
+                                    "stateMachines":  "Vestibule, circuit, and tile operations use explicitly authored finite-state rules. Their correctness is evaluated against those rules.",
+                                    "audio":  "Q13 transforms supplied samples and checks their entire residual. This numerical mechanism is real; independent playback and listening are separate checks.",
+                                    "certification":  "The reward is a fictional CTF certificate. No CompTIA endorsement or real qualification is asserted."
+                                },
+    "relatedLocalEvidence":  [
+                                 {
+                                     "path":  "audio-manifest.json",
+                                     "reviewed":  true,
+                                     "role":  "Original SWF identity, extracted cue provenance, per-file hashes, reuse limitation, and authored sample fixture treatment. The manifest says role mapping came from SWF structure, not independent human listening."
+                                 },
+                                 {
+                                     "path":  "logic-test-output.txt",
+                                     "reviewed":  true,
+                                     "role":  "Retained TAP report: 22 engine tests passed, zero failures."
+                                 },
+                                 {
+                                     "path":  "logic-validation.json",
+                                     "reviewed":  true,
+                                     "role":  "Pure-rule coverage, handoff hashes, and validation boundaries."
+                                 }
+                             ],
+    "revisionScope":  "Historical version1 research. Publication and asset provenance remain applicable; old question-number mappings and authored model boundaries are superseded by DESIGN.md and v2-research-sources.json."
+}

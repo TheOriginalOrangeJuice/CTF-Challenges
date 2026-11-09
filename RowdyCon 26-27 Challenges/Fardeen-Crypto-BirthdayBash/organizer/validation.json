@@ -1,0 +1,88 @@
+{
+    "revision":  "hello-hello-v2",
+    "runtime":  "condev-default",
+    "tested_tree":  "/tmp/rowdy-fnaf-audio2-20261028-162102-e88875/project",
+    "served_build_tree":  "/tmp/rowdy-fnaf-ambient-20261028-170851-74f229/project",
+    "source_manifest":  "/tmp/rowdy-fnaf-audio2-20261028-162102-e88875/source-sha256.json",
+    "stage_source_files":  65,
+    "stage_hash_differences":  0,
+    "public_file_hashes":  "generated-hashes.json",
+    "service":  {
+                    "owner":  "FNAF developer; root coordinates final lifecycle",
+                    "compose_project":  "rowdy-fnaf-hello",
+                    "container":  "rowdy-fnaf-hello-workstation-1",
+                    "host_url":  "http://localhost:18113",
+                    "browser_url_from_condev":  "http://host.docker.internal:18113",
+                    "stop":  "docker compose -p rowdy-fnaf-hello -f \u003cverified tree\u003e/challenge/compose.yaml down",
+                    "status":  "left running with ambient audio update; root coordinates final lifecycle"
+                },
+    "checks":  {
+                   "deterministic_generation":  "passed: fixed target length 256, flag index 128; regenerated evidence unchanged; original game MP3 assets frozen unchanged",
+                   "cipher":  "passed: independent/unlinked behavior, both cribs, each of 256 single-anchor directions, wrong-source and wrong-offset conflicts, invalid offset rejection, distinct sample starter",
+                   "public_answer_boundary":  "passed: source scan for target primer, plaintext, flag and private digest; organizer, server and digest paths return 404; completion endpoint returns only valid boolean for well-formed claims",
+                   "browser_interaction":  "passed; see browser-results.json",
+                   "browser_audio":  "passed; see audio-results.json: original Hello/Yay/camera waveform measured; first-gesture priority, exact-flag-only Yay, no repeat on reload, deferred greeting, saved mute and zero volume",
+                   "keyboard_focus":  "passed: keyboard activating a ribbon letter preserves the same row/absolute-letter focus; outside controls retain their own focus",
+                   "visual_developer_review":  "actual 1366x768 and 1920x1080 captures inspected; Windows 7 shell reference compared; large-screen taskbar and reopen status corrected",
+                   "independent_human_playtest":  "not performed by developer; assigned reviewer separate",
+                   "independent_listening":  "not performed",
+                   "anti_agent":  "metadata placement and absence from evidence/accessibility reviewed; effectiveness not independently established",
+                   "word_rendering":  "root owns canonical DOCX generation and rendered inspection"
+               },
+    "limitations":  [
+                        "Intended upper-Medium requires independent difficulty calibration; English context can legitimately supply alternative cribs.",
+                        "Public promotional artwork remains copyright Scott Cawthon; no broad redistribution license was located.",
+                        "Window chrome and icons are working original reconstructions, not extracted Windows resources."
+                    ],
+    "resize_followup":  {
+                            "change":  "Removed only taskbar backdrop blur; translucent gradients retained",
+                            "source_manifest":  "/tmp/rowdy-fnaf-resize-20261028-162905-44c728/source-sha256.json",
+                            "stage_files":  86,
+                            "stage_hash_differences":  0,
+                            "checks":  "Actual fresh1920 and resized1366-to1920 captures inspected: taskbar painted in both; Start and volume reachable",
+                            "captures":  "screenshots/resize-check/",
+                            "style_sha256":  "5450f4f49d619b64862c18a81c8c85f2407f1dff40c21b776232e8e56c35bc69"
+                        },
+    "ambient_audio_followup":  {
+                                   "revision":  "ambient-hello-45-100s",
+                                   "tested_tree":  "/tmp/rowdy-fnaf-ambient-finalcheck-20261028-171403-94ead6/project",
+                                   "source_manifest":  "/tmp/rowdy-fnaf-ambient-finalcheck-20261028-171403-94ead6/source-sha256.json",
+                                   "stage_files":  97,
+                                   "stage_hash_differences":  0,
+                                   "served_build_tree":  "/tmp/rowdy-fnaf-ambient-20261028-170851-74f229/project",
+                                   "public_audio_sha256":  "566875ec4a60abd07899d28e976e8b799179db4589804c89255b9a99906d510d",
+                                   "public_changes_from_prior":  [
+                                                                     "audio.js"
+                                                                 ],
+                                   "preservation":  "All 18 other public file hashes match the previous manifest, including evidence, cipher, app/UI, and original MP3 assets. Private completion digest file unchanged.",
+                                   "randomization_exception":  "User requested random ambient Hello only; fixed puzzle and flag unchanged.",
+                                   "scheduler_result":  "review/ambient-audio/ambient-scheduler-results.json",
+                                   "browser_result":  "review/ambient-audio/ambient-browser-results.json",
+                                   "actual_waveforms":  [
+                                                            "review/ambient-audio/real-interval-waveform.json",
+                                                            "review/ambient-audio/controls-and-celebration-waveform.json"
+                                                        ],
+                                   "browser_checks":  19,
+                                   "browser_passed":  true,
+                                   "real_timer_ms":  45000.200000000186,
+                                   "measured_hello_peak":  0.17214739322662354,
+                                   "measured_yay_peak":  0.15324410796165466,
+                                   "checks":  [
+                                                  "Activation and initial greeting retained; ambient waits vary from 45 to 100 seconds, with one timer and no catch-up burst.",
+                                                  "Mute, zero volume and simulated hidden state cancel the timer and stop ambient playback; restoration starts a fresh wait.",
+                                                  "Wrong filled worksheet produces no Yay; public greeting/closing recovery produces one real non-silent Yay. Five accelerated ambient attempts during the full cheer did not interrupt it.",
+                                                  "Page hide, BFCache restore, final navigation and media error lifecycle checked with fake clock/media.",
+                                                  "All 19 deployed public files match the verified stage; browser reported no console errors."
+                                              ],
+                                   "scope":  "Focused audio regression checks; unchanged cipher suite was not rerun.",
+                                   "test_harness_corrections":  [
+                                                                    "Headless Chromium kept native visibility visible for window minimization/background tabs/frozen-active lifecycle, so handler checks explicitly simulate document.hidden and visibilitychange.",
+                                                                    "Removed unnecessary test-only Yay slowdown after its duration exceeded the test timeout; final run uses normal playback speed."
+                                                                ],
+                                   "limits":  [
+                                                  "Native hidden-tab transition not exercised in this headless runtime; browser visibility handler and scheduler were tested using explicit simulated events.",
+                                                  "No independent human listening, playtesting, or anti-agent effectiveness claim."
+                                              ],
+                                   "document":  "Root synchronized canonical DOCX and inspected all three rendered pages; no clipping reported."
+                               }
+}

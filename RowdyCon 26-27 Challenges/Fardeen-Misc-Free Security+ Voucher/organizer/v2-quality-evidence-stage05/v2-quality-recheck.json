@@ -1,0 +1,3115 @@
+{
+  "stage": "/tmp/iq-v2-stage05/The Impossible Security+ Quiz",
+  "method": "Focused UI review; ordinary public action requests used only to navigate between reviewed questions.",
+  "human_playtest": false,
+  "human_listening": false,
+  "checks": {
+    "preserved_assets": {
+      "original-menu.webp": true,
+      "original-gameover.png": true,
+      "PatrickHandSC-Regular.ttf": true,
+      "audio/click.wav": true,
+      "audio/correct.wav": true,
+      "audio/gameover.mp3": true,
+      "audio/quiz.mp3": true,
+      "audio/skip.wav": true,
+      "audio/title.mp3": true,
+      "audio/win.mp3": true,
+      "audio/won.wav": true,
+      "audio/wrong.wav": true
+    },
+    "load_audio_attempts": [
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "NotAllowedError"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "NotAllowedError"
+      }
+    ],
+    "credits_focus_order": [
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "A",
+        "text": "Play the original"
+      },
+      {
+        "tag": "A",
+        "text": "Font license"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "A",
+        "text": "Play the original"
+      }
+    ],
+    "credits_focus_return": "CREDITS",
+    "keyboard_audio_retry": [
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "NotAllowedError"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "NotAllowedError"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/title.mp3",
+        "status": "playing"
+      },
+      {
+        "src": "http://localhost:18115/assets/audio/quiz.mp3",
+        "status": "attempted"
+      }
+    ],
+    "live_music": {
+      "peak": 0.397260844707489,
+      "rms": 0.024971177294747387,
+      "samples": 327680,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "muted_live_output": {
+      "peak": 0,
+      "rms": 0,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "zero_music_live_output": {
+      "peak": 0,
+      "rms": 0,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "effect_output": {
+      "peak": 0.3195188641548157,
+      "rms": 0.01214575304318221,
+      "samples": 239616,
+      "contexts": [
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    "magnify_focus": "CLOSE",
+    "magnify_closed": true,
+    "reduced_motion_animations": []
+  },
+  "captures": [
+    {
+      "text": "SECURITY+\nSY0-NOPE \u00b7 20 questions \u00b7 3 lives\nSTART\nINSTRUCTIONS\nCREDITS\nSOUND\nCREDITS\n\u00d7\nAn unofficial Security+ exam parody\n\nOriginal Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\n\nMusic: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\n\nGoose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\n\nPlay the original \u00b7 Font license\n\nSecurity+ is a CompTIA trademark. This goose is not CompTIA.",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "START",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "INSTRUCTIONS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CREDITS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "SOUND",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u00d7",
+          "label": "Close dialog",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "credits-1366",
+      "aria": "- main:\n  - img \"The Impossible Quiz original title artwork\"\n  - text: SECURITY+ SY0-NOPE \u00b7 20 questions \u00b7 3 lives\n  - button \"START\"\n  - button \"INSTRUCTIONS\"\n  - button \"CREDITS\"\n  - button \"SOUND\"\n  - dialog \"CREDITS\":\n    - heading \"CREDITS\" [level=2]\n    - button \"Close dialog\": \u00d7\n    - heading \"An unofficial Security+ exam parody\" [level=3]\n    - paragraph: \"Original Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\"\n    - paragraph: \"Music: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\"\n    - paragraph: \"Goose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\"\n    - paragraph:\n      - link \"Play the original\":\n        - /url: https://www.newgrounds.com/portal/view/365143\n      - text: \u00b7\n      - link \"Font license\":\n        - /url: /assets/font-OFL.txt\n    - paragraph: Security+ is a CompTIA trademark. This goose is not CompTIA."
+    },
+    {
+      "text": "SECURITY+\nSY0-NOPE \u00b7 20 questions \u00b7 3 lives\nSTART\nINSTRUCTIONS\nCREDITS\nSOUND\nCREDITS\n\u00d7\nAn unofficial Security+ exam parody\n\nOriginal Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\n\nMusic: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\n\nGoose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\n\nPlay the original \u00b7 Font license\n\nSecurity+ is a CompTIA trademark. This goose is not CompTIA.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "START",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "INSTRUCTIONS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CREDITS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "SOUND",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u00d7",
+          "label": "Close dialog",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "credits-1920",
+      "aria": "- main:\n  - img \"The Impossible Quiz original title artwork\"\n  - text: SECURITY+ SY0-NOPE \u00b7 20 questions \u00b7 3 lives\n  - button \"START\"\n  - button \"INSTRUCTIONS\"\n  - button \"CREDITS\"\n  - button \"SOUND\"\n  - dialog \"CREDITS\":\n    - heading \"CREDITS\" [level=2]\n    - button \"Close dialog\": \u00d7\n    - heading \"An unofficial Security+ exam parody\" [level=3]\n    - paragraph: \"Original Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\"\n    - paragraph: \"Music: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\"\n    - paragraph: \"Goose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\"\n    - paragraph:\n      - link \"Play the original\":\n        - /url: https://www.newgrounds.com/portal/view/365143\n      - text: \u00b7\n      - link \"Font license\":\n        - /url: /assets/font-OFL.txt\n    - paragraph: Security+ is a CompTIA trademark. This goose is not CompTIA."
+    },
+    {
+      "text": "SECURITY+\nSY0-NOPE \u00b7 20 questions \u00b7 3 lives\nSTART\nINSTRUCTIONS\nCREDITS\nSOUND\nCREDITS\n\u00d7\nAn unofficial Security+ exam parody\n\nOriginal Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\n\nMusic: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\n\nGoose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\n\nPlay the original \u00b7 Font license\n\nSecurity+ is a CompTIA trademark. This goose is not CompTIA.",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "START",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "INSTRUCTIONS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CREDITS",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "SOUND",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u00d7",
+          "label": "Close dialog",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "credits-580",
+      "aria": "- main:\n  - img \"The Impossible Quiz original title artwork\"\n  - text: SECURITY+ SY0-NOPE \u00b7 20 questions \u00b7 3 lives\n  - button \"START\"\n  - button \"INSTRUCTIONS\"\n  - button \"CREDITS\"\n  - button \"SOUND\"\n  - dialog \"CREDITS\":\n    - heading \"CREDITS\" [level=2]\n    - button \"Close dialog\": \u00d7\n    - heading \"An unofficial Security+ exam parody\" [level=3]\n    - paragraph: \"Original Impossible Quiz: Splapp-me-do, 2007. Original title/game-over artwork and effects are credited to their creators.\"\n    - paragraph: \"Music: Boombots Bonus Song \u2014 Terry Scott Taylor; Rocky theme \u2014 Bill Conti; The Yeah Yeah Yeah Song \u2014 The Flaming Lips. Sourcing and reuse limitations are retained with organizers.\"\n    - paragraph: \"Goose, cyber props and puzzles: RowdyCon. Lettering: Patrick Hand SC, Patrick Wagesreiter, SIL Open Font License.\"\n    - paragraph:\n      - link \"Play the original\":\n        - /url: https://www.newgrounds.com/portal/view/365143\n      - text: \u00b7\n      - link \"Font license\":\n        - /url: /assets/font-OFL.txt\n    - paragraph: Security+ is a CompTIA trademark. This goose is not CompTIA."
+    },
+    {
+      "text": "3.\nTWO FACTORS.\n\n\u00b7\n\u00b7\nPASSWORD\nPIN\nPASSPHRASE\nSECURITY QUESTION\nYOUR FIDO2 KEY\n\u25cf\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PIN",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PASSPHRASE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "SECURITY QUESTION",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "YOUR FIDO2 KEY\n\u25cf",
+          "label": "Touch your FIDO2 key",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q03-key-1366",
+      "aria": "- main:\n  - text: \"3.\"\n  - heading \"TWO FACTORS.\" [level=1]\n  - paragraph\n  - region \"Question 3\":\n    - text: \u00b7 \u00b7\n    - button \"PASSWORD\"\n    - button \"PIN\"\n    - button \"PASSPHRASE\"\n    - button \"SECURITY QUESTION\"\n    - button \"Touch your FIDO2 key\":\n      - img \"usb\"\n      - text: YOUR FIDO2 KEY \u25cf\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\" [disabled]: \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "3.\nTWO FACTORS.\n\n\u00b7\n\u00b7\nPASSWORD\nPIN\nPASSPHRASE\nSECURITY QUESTION\nYOUR FIDO2 KEY\n\u25cf\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PIN",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PASSPHRASE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "SECURITY QUESTION",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "YOUR FIDO2 KEY\n\u25cf",
+          "label": "Touch your FIDO2 key",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q03-key-1920",
+      "aria": "- main:\n  - text: \"3.\"\n  - heading \"TWO FACTORS.\" [level=1]\n  - paragraph\n  - region \"Question 3\":\n    - text: \u00b7 \u00b7\n    - button \"PASSWORD\"\n    - button \"PIN\"\n    - button \"PASSPHRASE\"\n    - button \"SECURITY QUESTION\"\n    - button \"Touch your FIDO2 key\":\n      - img \"usb\"\n      - text: YOUR FIDO2 KEY \u25cf\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\" [disabled]: \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "3.\nTWO FACTORS.\n\n\u00b7\n\u00b7\nPASSWORD\nPIN\nPASSPHRASE\nSECURITY QUESTION\nYOUR FIDO2 KEY\n\u25cf\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PIN",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PASSPHRASE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "SECURITY QUESTION",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "YOUR FIDO2 KEY\n\u25cf",
+          "label": "Touch your FIDO2 key",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q03-key-580",
+      "aria": "- main:\n  - text: \"3.\"\n  - heading \"TWO FACTORS.\" [level=1]\n  - paragraph\n  - region \"Question 3\":\n    - text: \u00b7 \u00b7\n    - button \"PASSWORD\"\n    - button \"PIN\"\n    - button \"PASSPHRASE\"\n    - button \"SECURITY QUESTION\"\n    - button \"Touch your FIDO2 key\":\n      - img \"usb\"\n      - text: YOUR FIDO2 KEY \u25cf\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\" [disabled]: \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-comments-1366",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL.\"\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-comments-1920",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL.\"\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-comments-580",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL.\"\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nREVIEW COMMENT\n\nEmployee EMP-4107 requested this adjustment.\n\n\u2702 REMOVE TEXT\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2702 REMOVE TEXT",
+          "label": "Remove comment text",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-open-comment-1366",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL. REVIEW COMMENT\"\n    - paragraph: Employee EMP-4107 requested this adjustment.\n    - button \"Remove comment text\": \u2702 REMOVE TEXT\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nREVIEW COMMENT\n\nEmployee EMP-4107 requested this adjustment.\n\n\u2702 REMOVE TEXT\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2702 REMOVE TEXT",
+          "label": "Remove comment text",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-open-comment-1920",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL. REVIEW COMMENT\"\n    - paragraph: Employee EMP-4107 requested this adjustment.\n    - button \"Remove comment text\": \u2702 REMOVE TEXT\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "9.\nPUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\n\nQ4 Budget\nCOMMENTS: 1\n\nPUBLIC TOTAL: $48000\n\nEmployee ID: EMP-4107\nPublication classification: employee identifiers INTERNAL.\nREVIEW COMMENT\n\nEmployee EMP-4107 requested this adjustment.\n\n\u2702 REMOVE TEXT\nPUBLISH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "COMMENTS: 1",
+          "label": "Open document comments",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Lift black rectangle",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2702 REMOVE TEXT",
+          "label": "Remove comment text",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "PUBLISH",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q09-open-comment-580",
+      "aria": "- main:\n  - text: \"9.\"\n  - heading \"PUBLISH THE BUDGET. REMOVE THE EMPLOYEE ID.\" [level=1]\n  - paragraph\n  - region \"Question 9\":\n    - text: Q4 Budget\n    - button \"Open document comments\": \"COMMENTS: 1\"\n    - paragraph:\n      - text: \"PUBLIC TOTAL:\"\n      - strong: $48000\n    - text: \"Employee ID: EMP-4107\"\n    - button \"Lift black rectangle\"\n    - text: \"Publication classification: employee identifiers INTERNAL. REVIEW COMMENT\"\n    - paragraph: Employee EMP-4107 requested this adjustment.\n    - button \"Remove comment text\": \u2702 REMOVE TEXT\n    - button \"PUBLISH\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\" [disabled]: \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "11.\nONE CANDIDATE IN. NO GUESTS.\n\nPUBLIC\nVISITOR\nOUTER\nCLOSED\nONE OCCUPANT\nC-701\nINNER\nHANDLE\nSECURE\nACCESS: C-701\nWAITING RAIL\nMAINTENANCE OPEN\n\u2261 EXAM FACILITIES \u2261\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "VISITOR",
+          "label": "Visitor without credential",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "OUTER\nCLOSED",
+          "label": "Open outer door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "ONE OCCUPANT\nC-701",
+          "label": "Vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "C-701",
+          "label": "Candidate in vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "INNER\nHANDLE",
+          "label": "Open inner door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "WAITING RAIL",
+          "label": "Public waiting rail",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAINTENANCE OPEN",
+          "label": "Close maintenance hatch",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2261 EXAM FACILITIES \u2261",
+          "label": "Move floor trim",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q11-lifted-trim-1366",
+      "aria": "- main:\n  - text: \"11.\"\n  - heading \"ONE CANDIDATE IN. NO GUESTS.\" [level=1]\n  - paragraph\n  - region \"Question 11\":\n    - text: PUBLIC\n    - button \"Visitor without credential\":\n      - img \"Visitor\"\n      - text: VISITOR\n    - button \"Open outer door\": OUTER CLOSED\n    - group \"Vestibule\":\n      - text: ONE OCCUPANT\n      - button \"Candidate in vestibule\":\n        - img \"Candidate\"\n        - text: C-701\n    - button \"Open inner door\": INNER HANDLE\n    - text: \"SECURE ACCESS: C-701\"\n    - group \"Public waiting rail\": WAITING RAIL\n    - text: \u25a5\n    - button \"Close maintenance hatch\": MAINTENANCE OPEN\n    - button \"Move floor trim\": \u2261 EXAM FACILITIES \u2261\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "11.\nONE CANDIDATE IN. NO GUESTS.\n\nPUBLIC\nVISITOR\nOUTER\nCLOSED\nONE OCCUPANT\nC-701\nINNER\nHANDLE\nSECURE\nACCESS: C-701\nWAITING RAIL\nMAINTENANCE OPEN\n\u2261 EXAM FACILITIES \u2261\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "VISITOR",
+          "label": "Visitor without credential",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "OUTER\nCLOSED",
+          "label": "Open outer door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "ONE OCCUPANT\nC-701",
+          "label": "Vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "C-701",
+          "label": "Candidate in vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "INNER\nHANDLE",
+          "label": "Open inner door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "WAITING RAIL",
+          "label": "Public waiting rail",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAINTENANCE OPEN",
+          "label": "Close maintenance hatch",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2261 EXAM FACILITIES \u2261",
+          "label": "Move floor trim",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q11-lifted-trim-1920",
+      "aria": "- main:\n  - text: \"11.\"\n  - heading \"ONE CANDIDATE IN. NO GUESTS.\" [level=1]\n  - paragraph\n  - region \"Question 11\":\n    - text: PUBLIC\n    - button \"Visitor without credential\":\n      - img \"Visitor\"\n      - text: VISITOR\n    - button \"Open outer door\": OUTER CLOSED\n    - group \"Vestibule\":\n      - text: ONE OCCUPANT\n      - button \"Candidate in vestibule\":\n        - img \"Candidate\"\n        - text: C-701\n    - button \"Open inner door\": INNER HANDLE\n    - text: \"SECURE ACCESS: C-701\"\n    - group \"Public waiting rail\": WAITING RAIL\n    - text: \u25a5\n    - button \"Close maintenance hatch\": MAINTENANCE OPEN\n    - button \"Move floor trim\": \u2261 EXAM FACILITIES \u2261\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "11.\nONE CANDIDATE IN. NO GUESTS.\n\nPUBLIC\nVISITOR\nOUTER\nCLOSED\nONE OCCUPANT\nC-701\nINNER\nHANDLE\nSECURE\nACCESS: C-701\nWAITING RAIL\nMAINTENANCE OPEN\n\u2261 EXAM FACILITIES \u2261\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "VISITOR",
+          "label": "Visitor without credential",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "OUTER\nCLOSED",
+          "label": "Open outer door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "ONE OCCUPANT\nC-701",
+          "label": "Vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "C-701",
+          "label": "Candidate in vestibule",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "INNER\nHANDLE",
+          "label": "Open inner door",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "WAITING RAIL",
+          "label": "Public waiting rail",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAINTENANCE OPEN",
+          "label": "Close maintenance hatch",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2261 EXAM FACILITIES \u2261",
+          "label": "Move floor trim",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q11-lifted-trim-580",
+      "aria": "- main:\n  - text: \"11.\"\n  - heading \"ONE CANDIDATE IN. NO GUESTS.\" [level=1]\n  - paragraph\n  - region \"Question 11\":\n    - text: PUBLIC\n    - button \"Visitor without credential\":\n      - img \"Visitor\"\n      - text: VISITOR\n    - button \"Open outer door\": OUTER CLOSED\n    - group \"Vestibule\":\n      - text: ONE OCCUPANT\n      - button \"Candidate in vestibule\":\n        - img \"Candidate\"\n        - text: C-701\n    - button \"Open inner door\": INNER HANDLE\n    - text: \"SECURE ACCESS: C-701\"\n    - group \"Public waiting rail\": WAITING RAIL\n    - text: \u25a5\n    - button \"Close maintenance hatch\": MAINTENANCE OPEN\n    - button \"Move floor trim\": \u2261 EXAM FACILITIES \u2261\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "14.\nSTOP RECORDING MY PASSWORD.\n\nMORE SYMBOLS\nMORE CAPITALS\nMORE NUMBERS\nMORE PASSWORD\nGOOSE AUDIT SERVICES\n\u25cf INPUT RECORDING\ndemo-user: ********\n\nType sample input\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "MORE SYMBOLS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE CAPITALS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE NUMBERS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25cf INPUT RECORDING",
+          "label": "Pull input recording tab",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "Type sample input",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q14-recording-tab-1366",
+      "aria": "- main:\n  - text: \"14.\"\n  - heading \"STOP RECORDING MY PASSWORD.\" [level=1]\n  - paragraph\n  - region \"Question 14\":\n    - button \"MORE SYMBOLS\"\n    - button \"MORE CAPITALS\"\n    - button \"MORE NUMBERS\"\n    - button \"MORE PASSWORD\"\n    - text: GOOSE AUDIT SERVICES\n    - button \"Pull input recording tab\": \u25cf INPUT RECORDING\n    - text: \"demo-user: ********\"\n    - button \"Type sample input\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "14.\nSTOP RECORDING MY PASSWORD.\n\nMORE SYMBOLS\nMORE CAPITALS\nMORE NUMBERS\nMORE PASSWORD\nGOOSE AUDIT SERVICES\n\u25cf INPUT RECORDING\ndemo-user: ********\n\nType sample input\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "MORE SYMBOLS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE CAPITALS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE NUMBERS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25cf INPUT RECORDING",
+          "label": "Pull input recording tab",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "Type sample input",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q14-recording-tab-1920",
+      "aria": "- main:\n  - text: \"14.\"\n  - heading \"STOP RECORDING MY PASSWORD.\" [level=1]\n  - paragraph\n  - region \"Question 14\":\n    - button \"MORE SYMBOLS\"\n    - button \"MORE CAPITALS\"\n    - button \"MORE NUMBERS\"\n    - button \"MORE PASSWORD\"\n    - text: GOOSE AUDIT SERVICES\n    - button \"Pull input recording tab\": \u25cf INPUT RECORDING\n    - text: \"demo-user: ********\"\n    - button \"Type sample input\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "14.\nSTOP RECORDING MY PASSWORD.\n\nMORE SYMBOLS\nMORE CAPITALS\nMORE NUMBERS\nMORE PASSWORD\nGOOSE AUDIT SERVICES\n\u25cf INPUT RECORDING\ndemo-user: ********\n\nType sample input\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "MORE SYMBOLS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE CAPITALS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE NUMBERS",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MORE PASSWORD",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25cf INPUT RECORDING",
+          "label": "Pull input recording tab",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "Type sample input",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q14-recording-tab-580",
+      "aria": "- main:\n  - text: \"14.\"\n  - heading \"STOP RECORDING MY PASSWORD.\" [level=1]\n  - paragraph\n  - region \"Question 14\":\n    - button \"MORE SYMBOLS\"\n    - button \"MORE CAPITALS\"\n    - button \"MORE NUMBERS\"\n    - button \"MORE PASSWORD\"\n    - text: GOOSE AUDIT SERVICES\n    - button \"Pull input recording tab\": \u25cf INPUT RECORDING\n    - text: \"demo-user: ********\"\n    - button \"Type sample input\"\n    - img \"The proctor goose in blue trousers\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\" [disabled]: \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "16.\nREMOVE THE BACKDOOR.\n\n\u25e9\nDEVELOPMENT ACCESS\nDEBUG \u2501\u2501\u2501\u25b6 SESSION\nAuthentication: NONE\nDISABLE DEBUG\nNormal login: ON\nNobody reads the back.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "\u25e9",
+          "label": "Turn question sheet over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DISABLE DEBUG",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q16-debug-1366",
+      "aria": "- main:\n  - text: \"16.\"\n  - heading \"REMOVE THE BACKDOOR.\" [level=1]\n  - paragraph\n  - region \"Question 16\":\n    - button \"Turn question sheet over\": \u25e9\n    - text: \"DEVELOPMENT ACCESS DEBUG \u2501\u2501\u2501\u25b6 SESSION Authentication: NONE\"\n    - button \"DISABLE DEBUG\"\n    - text: \"Normal login: ON\"\n    - img \"The proctor goose in blue trousers\"\n    - text: Nobody reads the back.\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "16.\nREMOVE THE BACKDOOR.\n\n\u25e9\nDEVELOPMENT ACCESS\nDEBUG \u2501\u2501\u2501\u25b6 SESSION\nAuthentication: NONE\nDISABLE DEBUG\nNormal login: ON\nNobody reads the back.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "\u25e9",
+          "label": "Turn question sheet over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DISABLE DEBUG",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q16-debug-1920",
+      "aria": "- main:\n  - text: \"16.\"\n  - heading \"REMOVE THE BACKDOOR.\" [level=1]\n  - paragraph\n  - region \"Question 16\":\n    - button \"Turn question sheet over\": \u25e9\n    - text: \"DEVELOPMENT ACCESS DEBUG \u2501\u2501\u2501\u25b6 SESSION Authentication: NONE\"\n    - button \"DISABLE DEBUG\"\n    - text: \"Normal login: ON\"\n    - img \"The proctor goose in blue trousers\"\n    - text: Nobody reads the back.\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "16.\nREMOVE THE BACKDOOR.\n\n\u25e9\nDEVELOPMENT ACCESS\nDEBUG \u2501\u2501\u2501\u25b6 SESSION\nAuthentication: NONE\nDISABLE DEBUG\nNormal login: ON\nNobody reads the back.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "\u25e9",
+          "label": "Turn question sheet over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DISABLE DEBUG",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q16-debug-580",
+      "aria": "- main:\n  - text: \"16.\"\n  - heading \"REMOVE THE BACKDOOR.\" [level=1]\n  - paragraph\n  - region \"Question 16\":\n    - button \"Turn question sheet over\": \u25e9\n    - text: \"DEVELOPMENT ACCESS DEBUG \u2501\u2501\u2501\u25b6 SESSION Authentication: NONE\"\n    - button \"DISABLE DEBUG\"\n    - text: \"Normal login: ON\"\n    - img \"The proctor goose in blue trousers\"\n    - text: Nobody reads the back.\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-image-1366",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-image-1920",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-image-580",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nCLOSE\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CLOSE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-magnified-1366",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"Magnified combined pixels\"\n    - button \"CLOSE\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nCLOSE\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CLOSE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-magnified-1920",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"Magnified combined pixels\"\n    - button \"CLOSE\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nCLOSE\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "CLOSE",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": true
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-magnified-580",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"Magnified combined pixels\"\n    - button \"CLOSE\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-reduced-motion-1366",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-reduced-motion-1920",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\n\u21b6\n\u21b6\n\u21b6\nDIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nREMOVE LAYER\nMAGNIFY\nPIN\nUNLOCK\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        580,
+        430
+      ],
+      "controls": [
+        {
+          "text": "\u21b6",
+          "label": "Turn token 1 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 2 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21b6",
+          "label": "Turn token 3 over",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Exam token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "DIFFERENCE VIEWER\n\u2295\n\u25a3 1\n\u25a3 2\n\u25a3 3",
+          "label": "Difference viewer registration marks",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 1",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 2",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a3 3",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2190",
+          "label": "Move image left",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2192",
+          "label": "Move image right",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2191",
+          "label": "Move image up",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2193",
+          "label": "Move image down",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u21bb",
+          "label": "Rotate image",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "REMOVE LAYER",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "MAGNIFY",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "",
+          "label": "Certificate PIN",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "UNLOCK",
+          "label": null,
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 1",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 2",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u279c",
+          "label": "Skip token 3",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u25a4\nNOTES",
+          "label": "Open evidence notebook",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u266b",
+          "label": "Sound settings",
+          "outside": false,
+          "covered": false
+        },
+        {
+          "text": "\u2302",
+          "label": "Return to menu",
+          "outside": false,
+          "covered": false
+        }
+      ],
+      "name": "q20-reduced-motion-580",
+      "aria": "- main:\n  - text: \"20.\"\n  - heading \"UNLOCK YOUR CERTIFICATE.\" [level=1]\n  - paragraph\n  - region \"Question 20\":\n    - button \"Turn token 1 over\": \u21b6\n    - button \"Exam token 1\":\n      - img \"Token 1 reverse pixels\"\n    - button \"Turn token 2 over\": \u21b6\n    - button \"Exam token 2\":\n      - img \"Token 2 reverse pixels\"\n    - button \"Turn token 3 over\": \u21b6\n    - button \"Exam token 3\":\n      - img \"Token 3 reverse pixels\"\n    - group \"Difference viewer registration marks\":\n      - text: DIFFERENCE VIEWER \u2295\n      - img \"Combined token pixels\"\n      - button \"\u25a3 1\"\n      - button \"\u25a3 2\"\n      - button \"\u25a3 3\"\n    - button \"Move image left\": \u2190\n    - button \"Move image right\": \u2192\n    - button \"Move image up\": \u2191\n    - button \"Move image down\": \u2193\n    - button \"Rotate image\": \u21bb\n    - status: 0,0 \u00b7 0\u00b0\n    - button \"REMOVE LAYER\"\n    - button \"MAGNIFY\"\n    - img \"lock\"\n    - text: PIN\n    - textbox \"Certificate PIN\"\n    - button \"UNLOCK\"\n    - status\n  - text: \"LIVES:\"\n  - strong: \"3\"\n  - text: SKIPS\n  - button \"Skip token 1\": \u279c\n  - button \"Skip token 2\": \u279c\n  - button \"Skip token 3\": \u279c\n  - button \"Open evidence notebook\": \u25a4 NOTES\n  - button \"Sound settings\": \u266b\n  - button \"Return to menu\": \u2302"
+    }
+  ],
+  "errors": [],
+  "source_sha256": {
+    "challenge/client/src/style.css": "4da7344b2caa6e866b4cd18f5756aefe3b29becb48ecf7a85da67e9aa7e52b07",
+    "challenge/client/src/art.tsx": "2701d4242b65fc81194ddcf7907778ed67dfd78e9984b78c97d0a95e7134bf83",
+    "challenge/client/src/objects.tsx": "6155b3b572dfdf5d8b1f10f811cda1dec6becd3ce946e0d1e696ff5439e52cf9",
+    "challenge/client/src/main.tsx": "50db5ca4c0b675a1ddccf3e48934acc70b0d2ea341ec6b8d445636f6e7a10011",
+    "challenge/client/src/redesign.css": "5afb4a55c3c63f5873af5b1545319701ac7409ebf83869a77c90d104904c22f5",
+    "challenge/client/src/audio.ts": "9947aac1a444a445c1f0b5d4b26292ee5351edf968aa8c153ac94e9b7147a042",
+    "challenge/client/src/recovery.ts": "36bdf0893405fe7e61f98de0aa10d1fa814efa42f302c2ad973355cd14cb55a1",
+    "challenge/client/src/questions.tsx": "ff50071b0a194182a23faae1ae705f838abac225d0cbf6deaf1f93415f944c2f"
+  },
+  "status": "completed focused recheck"
+}

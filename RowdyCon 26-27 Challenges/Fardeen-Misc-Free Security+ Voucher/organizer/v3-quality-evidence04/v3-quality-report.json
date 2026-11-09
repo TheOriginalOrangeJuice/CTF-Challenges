@@ -1,0 +1,1548 @@
+{
+  "method": "Informed UI review with public API navigation",
+  "live_stage": "/tmp/iq-v3-stage03/The Impossible Security+ Quiz",
+  "human_playtesting": false,
+  "human_listening": false,
+  "checks": {
+    "backup": {
+      "shortcut": {
+        "id": "shortcut",
+        "name": "payroll-2.1.lnk",
+        "kind": "shortcut",
+        "size": 26,
+        "device": "09",
+        "bytes": "LINK device04/release-410\n",
+        "sha256": "248bd1a5a419f49ed590e00c20e9d9705f78265548d41c3fb0c1af4171f4e5c4"
+      },
+      "same_disk": {
+        "id": "approved",
+        "name": "payroll-2.1.release",
+        "kind": "bytes",
+        "size": 76,
+        "device": "04",
+        "bytes": "PAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n",
+        "sha256": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f"
+      },
+      "usb_file": {
+        "id": "approved",
+        "name": "payroll-2.1.release",
+        "kind": "bytes",
+        "size": 76,
+        "device": "09",
+        "bytes": "PAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n",
+        "sha256": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f"
+      },
+      "keyboard_commit_advanced": true
+    },
+    "log_chain": {
+      "all_hashes_match_bytes": true,
+      "chain": [
+        "Q15-CHECKPOINT",
+        "EV-7C2",
+        "EV-3A8",
+        "EV-9F1"
+      ],
+      "latest_deny": "EV-9F1",
+      "focus_restored": "Inspect log EV-9F1",
+      "focus_cycle": [
+        {
+          "name": "Previous fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Record fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "Previous fingerprint",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        }
+      ],
+      "archive_advanced": true
+    }
+  },
+  "screenshots": [
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nShortcut on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.lnk\nSHORTCUT \u00b7 26 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-shortcut-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nShortcut on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.lnk\nSHORTCUT \u00b7 26 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-shortcut-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nFile on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.release\nFILE \u00b7 76 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-real-usb-file-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nFile on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.release\nFILE \u00b7 76 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-real-usb-file-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1024.959228515625,
+            "y": 176.4375,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 343.4100036621094,
+            "w": 88.56001281738281,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 343.4100036621094,
+            "w": 88.55999755859375,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 516.8399658203125,
+            "w": 88.56001281738281,
+            "h": 31.36505126953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 516.8399658203125,
+            "w": 88.55999755859375,
+            "h": 31.36505126953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-chain-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1330.6875,
+            "y": 315,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-chain-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1024.959228515625,
+            "y": 176.4375,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 343.4100036621094,
+            "w": 88.56001281738281,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 343.4100036621094,
+            "w": 88.55999755859375,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 516.8399658203125,
+            "w": 88.56001281738281,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 516.8399658203125,
+            "w": 88.55999755859375,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 415.3650207519531,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-full-record-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1024.959228515625,
+            "y": 176.4375,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 343.4100036621094,
+            "w": 88.56001281738281,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 343.4100036621094,
+            "w": 88.55999755859375,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 343.4100036621094,
+            "w": 92.25,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 516.8399658203125,
+            "w": 88.56001281738281,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 566.7650146484375,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 516.8399658203125,
+            "w": 88.55999755859375,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1035.39501953125,
+            "y": 516.8399658203125,
+            "w": 92.25,
+            "h": 31.36505126953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 110.94000244140625,
+            "w": 889.2900390625,
+            "h": 71.95500183105469
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 225.3300018310547,
+            "w": 889.2900390625,
+            "h": 71.95500183105469
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-record-scrolled-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1330.6875,
+            "y": 315,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 242,
+            "w": 964,
+            "h": 78
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 366,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-full-record-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:12:03\nALLOW\nCLOCK STEPPED BACKWARD\nTHIS ad47a3b4\nPREV b5dc7310\nDETAILS\nARCHIVE\nnot recorded\nDENY\nQ15 RECEIPT \u00b7 ANCHOR\nTHIS 76d0821f\nPREV \u2014\nDETAILS\nARCHIVE\n09:13:20\nDENY\nEVENT EV-9F1\nTHIS 17a2e1ab\nPREV ad47a3b4\nDETAILS\nARCHIVE\n09:41:12\nDENY\nEVENT EV-7C2\nTHIS b5dc7310\nPREV 76d0821f\nDETAILS\nARCHIVE\n\nPREV identifies the preceding record. Wall clocks can step backward.\n\nLOG EV-9F1\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-9F1\ntimestamp=09:13:20\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=ad47a3b4d55a4a6eeb80a059accefd38a1c6925767478aa536f64633d461cf0a\nnote=request denied\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1330.6875,
+            "y": 315,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-3A8",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 496,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 496,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-9F1",
+          "disabled": false,
+          "rect": {
+            "x": 834,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 684,
+            "w": 96,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-7C2",
+          "disabled": false,
+          "rect": {
+            "x": 1342,
+            "y": 684,
+            "w": 100,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 242,
+            "w": 964,
+            "h": 78
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 366,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-record-scrolled-1920"
+    }
+  ],
+  "errors": [],
+  "status": "review completed; individual failures retained"
+}

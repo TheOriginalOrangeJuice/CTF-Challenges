@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Guestbook{% endblock %}
+{% block content %}
+<div class="post">
+  <h2>Sign my Guestbook!</h2>
+  <div class="entry"><b>xXSkaterGirl94Xx</b> <span class="small">(Jan 6, 2013)</span><p>cute blog!!! follow me back on tumblr &lt;3</p></div>
+  <form onsubmit="alert('Guestbook is closed due to spam bots :('); return false;">
+    <p>Name: <input type="text"> Message: <input type="text"> <input type="submit" value="Sign!" class="btn"></p>
+  </form>
+</div>
+{% endblock %}

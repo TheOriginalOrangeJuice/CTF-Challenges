@@ -1,0 +1,37 @@
+{
+  "reference_date": "2026-10-28",
+  "assets": [
+    {
+      "path": "challenge/public/assets/fnaf-header.jpg",
+      "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/319510/header.jpg?t=1666889251",
+      "source_page": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/",
+      "creator": "Scott Cawthon",
+      "terms": "Official promotional header; source identifies copyright 2014 Scott Cawthon. No general redistribution license was located. Copyright remains with the owner; this record is not a license grant.",
+      "use": "Local recognizable Freddy portrait in a fictional educational fan challenge. Original image frozen unchanged; CSS frames its right side.",
+      "attribution": "Application About dialog and organizer record."
+    },
+    {
+      "path": "organizer/references/windows7-desktop.png",
+      "source": "https://learn.microsoft.com/en-us/windows/win32/uxguide/images/winenv-desktop-image1.png",
+      "source_page": "https://learn.microsoft.com/en-us/windows/win32/uxguide/winenv-desktop",
+      "creator": "Microsoft",
+      "terms": "Copyright Microsoft; retained privately as a visual reference, not served as the desktop.",
+      "use": "Windows 7 glass, compact icons, taskbar, typography, desktop arrangement."
+    },
+    {
+      "paths": ["challenge/public/assets/folder.svg", "challenge/public/assets/notepad.svg", "challenge/public/assets/club.svg", "challenge/public/style.css"],
+      "creator": "Challenge authors",
+      "terms": "Original code artwork and CSS reconstruction. Microsoft visual conventions referenced; not extracted Windows binaries or stock icons.",
+      "limitations": "Original wallpaper and reconstructed icons; no claim of pixel-identical Microsoft assets. Typography falls back to installed Segoe UI, Tahoma, Arial."
+    },
+    {
+      "paths": ["challenge/public/audio/balloon-boy-hello.mp3", "challenge/public/audio/children-yay.mp3", "challenge/public/audio/camera-open.mp3", "challenge/public/audio/camera-close.mp3"],
+      "creator": "Original FNAF game recordings; Scott Cawthon and underlying stock-audio owners",
+      "terms": "Mirrored original recordings, not synthetic imitations. See audio-sources.json for exact URLs and rights limitations; no open license is asserted.",
+      "use": "First-entry and occasional ambient Hello, verified-flag Yay, and restrained camera cues for actions. Ambient Hello uses random 45–100 second waits while the activated page is visible and audible. Camera-open and camera-close mirror files are byte-identical. No essential evidence is audio-only."
+    }
+  ],
+  "hash_record": "generated-hashes.json",
+  "generated_images": false,
+  "reference_comparison": "Actual running captures must be compared with the retained Microsoft image; automation alone does not establish visual fidelity."
+}

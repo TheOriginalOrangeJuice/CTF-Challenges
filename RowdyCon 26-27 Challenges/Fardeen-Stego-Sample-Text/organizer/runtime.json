@@ -1,0 +1,24 @@
+﻿{
+    "owner":  "MLG development assignment",
+    "compose_project":  "rowdy-mlg-sampletext",
+    "container":  "rowdy-mlg-sampletext-sample-text-1",
+    "host_url":  "http://localhost:18114/",
+    "condev_browser_url":  "http://host.docker.internal:18114/",
+    "latest_application_stage":  "/tmp/rowdy-mlg-audio-check-20261028-171333-9b410f/project",
+    "initial_stage_files":  74,
+    "initial_stage_hash_differences":  0,
+    "transfer":  "Mandatory skill helper followed by verified binary archive transfer; unhealthy shared mount was never used.",
+    "start_from_challenge_folder":  "docker compose -p rowdy-mlg-sampletext -f challenge/compose.yaml up --build -d",
+    "stop_owned_service":  "docker compose -p rowdy-mlg-sampletext -f challenge/compose.yaml down",
+    "service_disposition":  "Running for organizer preview; root may stop this owned service after handoff.",
+    "execution":  "All generation, Docker build, tests and browser capture ran in Condev.",
+    "limits":  {
+                   "browser":  "Chromium exercised; Firefox compatibility not independently exercised.",
+                   "human_playtesting":  "Not performed; separate agent public-evidence solve performed.",
+                   "human_listening":  "Not performed; actual browser audio signal and controls measured.",
+                   "anti_agent_effectiveness":  "Not established; inert non-rendered metadata only."
+               },
+    "soundtrack_revision":  "MONSTA Holdin On Skrillex and Nero Remix short meme excerpt; focused checks in review/soundtrack-review.json",
+    "latest_stage_files":  94,
+    "latest_stage_hash_differences":  0
+}

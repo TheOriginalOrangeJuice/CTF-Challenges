@@ -1,0 +1,44 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Presentation benchmark</title>
+<style>html,body{margin:0;background:#000;color:#0f0;font:14px monospace;overflow:hidden}canvas{position:absolute;left:0;top:0;width:100vw;height:100vh}#info{position:absolute;left:10px;top:10px;white-space:pre;z-index:2;background:rgba(0,0,0,.6);padding:8px}#hud{pointer-events:none}</style></head>
+<body><canvas id="gl"></canvas><canvas id="hud"></canvas><div id="info">starting…</div>
+<script>
+// Measures how fast the browser can present frames with (almost) no work: this isolates the browser/compositor
+// from the game. Press 1-4 to switch modes. Each mode's fps is what the game could reach at best in this browser.
+const gl = document.getElementById('gl'), hud = document.getElementById('hud'), info = document.getElementById('info');
+const g = gl.getContext('webgl', { antialias: false, alpha: false });
+const c2 = hud.getContext('2d');
+let mode = 1, frames = 0, t0 = performance.now(), fps = 0, lastT = performance.now(), worst = 0;
+function size() { gl.width = innerWidth; gl.height = innerHeight; hud.width = innerWidth; hud.height = innerHeight; }
+addEventListener('resize', size); size();
+addEventListener('keydown', e => { if (e.key >= '1' && e.key <= '4') { mode = +e.key; worst = 0; size(); } });
+let rname = 'n/a'; try { const ext = g.getExtension('WEBGL_debug_renderer_info'); rname = g.getParameter(ext ? ext.UNMASKED_RENDERER_WEBGL : g.RENDERER); } catch (e) {}
+function frame(now) {
+  requestAnimationFrame(frame);
+  const dt = now - lastT; lastT = now; if (dt > worst) worst = dt;
+  frames++; if (now - t0 > 500) { fps = frames / ((now - t0) / 1000); frames = 0; t0 = now; }
+  if (mode === 1) { // rAF only, nothing drawn
+    hud.style.display = 'none'; gl.style.display = 'none';
+  } else if (mode === 2) { // WebGL clear only, full window
+    hud.style.display = 'none'; gl.style.display = 'block';
+    g.viewport(0, 0, gl.width, gl.height); g.clearColor(0.1, 0.1 + 0.05 * Math.sin(now / 300), 0.2, 1); g.clear(g.COLOR_BUFFER_BIT);
+  } else if (mode === 3) { // WebGL at 720p internal resolution
+    hud.style.display = 'none'; gl.style.display = 'block';
+    if (gl.width !== 1280) { gl.width = 1280; gl.height = 720; }
+    g.viewport(0, 0, 1280, 720); g.clearColor(0.2, 0.1 + 0.05 * Math.sin(now / 300), 0.1, 1); g.clear(g.COLOR_BUFFER_BIT);
+  } else { // WebGL 720p + full-window 2D canvas overlay redrawn every frame (the old HUD setup)
+    hud.style.display = 'block'; gl.style.display = 'block';
+    if (gl.width !== 1280) { gl.width = 1280; gl.height = 720; }
+    g.viewport(0, 0, 1280, 720); g.clearColor(0.1, 0.2, 0.1, 1); g.clear(g.COLOR_BUFFER_BIT);
+    c2.clearRect(0, 0, hud.width, hud.height); c2.fillStyle = '#fff'; c2.font = '40px sans-serif'; c2.fillText('HUD ' + now.toFixed(0), 100 + (now / 20) % 200, 200);
+  }
+  info.textContent = [
+    `mode ${mode}: ${['', 'rAF only (nothing drawn)', 'WebGL clear, full-window buffer', 'WebGL clear, 1280x720 buffer upscaled', 'WebGL 720p + full-window 2D canvas overlay'][mode]}   (press 1-4)`,
+    `fps ${fps.toFixed(1)}   worst frame gap ${worst.toFixed(0)} ms`,
+    `window ${innerWidth}x${innerHeight} css px, devicePixelRatio ${devicePixelRatio}, screen ${screen.width}x${screen.height}`,
+    `WebGL renderer: ${rname}`,
+    `userAgent: ${navigator.userAgent}`,
+  ].join('\n');
+}
+requestAnimationFrame(frame);
+</script></body></html>

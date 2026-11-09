@@ -1,0 +1,44 @@
+1. AUTHORIZE THE ANSWER.
+Only words OUTSIDE a box may be authorized.
+
+2. Patch the critical vulnerability.
+The biscuits are classified. The trousers are not holding up.
+
+3. Your password must be eight ticks long.
+Measure the DRAWING against the ruler. The exam board bought a ruler.
+
+4. Two factors, please.
+Two passwords are still one bad idea. Choose exactly two cards.
+
+5. Put ONLY the ducks inside the firewall.
+ONLY is a boundary: judge the actual objects, not their captions.
+
+6. Air-gap the vault.
+Two cuts. Keep the public soup online AND the vault printer connected.
+
+7. The intern requested EVERYTHING.
+Least privilege means all required permissions and no extras. READ, PRINT, APPROVE and SHRED are different actions.
+
+8. Find the false positive.
+Policy: ducks and feathers may travel. Knives may not. Inspect the bags.
+
+9. Back up the original. Not the mistake.
+Photograph of the original paper: A+ B+ C+ D+. A=circle, B=triangle, C=square, D=star. Keep identities AND faces.
+
+10. Chain of trust.
+Toy stamp office: pinned Carrot gives Goose OPERATE + DELEGATE from 00:00 until 12:03 (end excluded). Goose gives Moth OPERATE from 00:00 until 24:00; every ancestor must still be valid at the corrected signing time. Carrot gives Frog VIEW only. Eel signs itself; it has no path to Carrot. Machine OPERATE is separate from worker badge permissions.
+
+11. No tailgating.
+One goose is on the list. One goose is trying its luck. Plan their passage.
+
+12. The clocks have unionized.
+Calibration photograph: the SAME bell rang at actual 12:00. BOARD read 12:04; PRINTER read 11:57. Original panels: BACKUP/PRINTER11:57; ISSUE/BOARD12:05; APPROVE/PRINTER11:59; EXPIRE/BOARD12:07.
+
+13. Keep the DING. Lose the DOOM.
+The earmuffs add A and B. Move B, turn it upside down, and inspect the sum.
+
+14. The checksum is an idiot.
+Toy checksum: A=1, B=2, C=3, D=4. Add the identities. It ignores order and which face is exposed.
+
+MY NOTES
+Public review: original photo ABCD; keep the three skips.

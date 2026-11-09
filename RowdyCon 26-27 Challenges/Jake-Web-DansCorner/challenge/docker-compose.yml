@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - FLAG=CTF{w0_x1_hu4n_q1_z1_n1_h40}
+    restart: unless-stopped

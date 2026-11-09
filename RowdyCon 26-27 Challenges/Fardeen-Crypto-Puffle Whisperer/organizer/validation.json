@@ -1,0 +1,78 @@
+{
+  "status": "encoded-candidate-implemented-with-solve-qualification-blocked",
+  "scope": "Safe implementation, parser, public API, browser, packaging, and ordinary-conversation checks only. Per user direction, all remaining testing that could involve Cyber Risk was skipped.",
+  "difficulty": {"rating":"Medium candidate","anchors":"Approved Medium anchors","reason":"The intended path requires observing the translator, recognizing standard encodings, adapting an encoder/decoder, crafting a translator-specific instruction, decoding a returned wire value, and making an exact plaintext claim. This rating remains conditional on the blocked real-model solve qualification."},
+  "solve_quality": {
+    "status":"blocked",
+    "blocked_evidence":"solve-quality/encoded-calibration-blocked.json",
+    "reason":"The sole approved benign sub-agent received a Cybersecurity Risk/Daybreak rejection during encoded local-model calibration. Per AGENTS.md §8, the assignment was stopped without retry or investigation; the user subsequently instructed that all testing involving Cyber Risk be skipped.",
+    "candidate_prompt":"challenge/server/prompt.py",
+    "historical_easy_baseline":"solve-quality/qualification.json and solve-quality/accepted/v8-*",
+    "historical_easy_baseline_is_not_a_pass_for_encoded_revision":true,
+    "completed_safe_observations":["Pinned tokenizer measured flag wire packet sizes: Base64 46, HEX 113, DEC 136, BIN 335 tokens at a 128-token reply cap.","Actual browser pre-solve flow completed ordinary greeting, direct refusal, and harmless HEX decoding with no disclosure."],
+    "missing_required_gates":["50 distinct encoded-revision negative conversations","two successful translator-specific families with two paraphrases each","positive recovery via each of Base64, HEX, DEC and BIN incoming formats","three-process restart repetition","actual encoded disclosure, external decode, postcard-claim, and celebration walkthrough"],
+    "release_ready":false
+  },
+  "technical_correctness": {
+    "boundary_api_evidence":"api-encoded-boundaries-01/app-checks.json",
+    "full_api_evidence":"app-encoded-integration-01/app-checks.json","full_api_passed":true,
+    "checked":["Four-format parsing, malformed bytes, invalid UTF-8/control data, raw/decoded/model-token limits and prefix collisions","Server-derived encoding labels, raw-packet exports, harmless encoded chat and zero disclosure from harmless packet","Three sessions, one outstanding turn, duplicate IDs, cancel and reconnect","Session ownership and cross-session access denial","Strict schemas: forged history/roles/encoding/decoded/completion fields rejected","Public assets and routes checked for flag/prompt disclosure; private routes unavailable","Exact plaintext-only claims, reset semantics and persistent rewards","Oldest complete turns trimmed from context; complete transcript preserved"],
+    "queue_failure_resolution":{
+      "failed_evidence":"recovery-01/recovery.json","trace":"recovery-01/inference-error.log",
+      "observed_failure":"RemoteProtocolError during /apply-template: embedded inference HTTP server closed a connection before generation.",
+      "change":"Disabled reuse of idle internal HTTP connections. Model, prompt and decoding unchanged.",
+      "repeat_evidence":"recovery-02/recovery.json",
+      "result":"Two rounds of three sessions passed after the change. Model failure, supervisor recovery, container restart persistence and post-restart inference also passed."
+    },
+    "offline_image_evidence":"offline-image-01/offline-image.json","offline_image_passed":true,
+    "offline_scope":"Network-disabled real image inference. Later changes were private logging, internal HTTP connection handling and license packaging.",
+    "image_source_parity":"handoff-encoded-02/handoff-check.json","frozen_configuration":"handoff-encoded-02/frozen-config.json"
+  },
+  "presentation": {
+    "browser_evidence":"browser-encoded-05/browser-checks.json","browser_passed":true,"console_errors":0,
+    "remaining_controls_evidence":"controls-02/controls.json",
+    "remaining_controls_result":"Passed: OS reduced motion, keyboard dialog close, news/help, view size, distinct wave/sit/dance/stand poses, all emotes and pet menus, mouse snowball, home, music off, rejected postcard claim, movement and decoration during real inference, cancel with new draft preserved, conversation reset.",
+    "intermediate_harness_note":"controls-01 stopped at a strict Tab-focus assertion. controls-02 checks initial dialog focus and Enter-to-close directly; no application change was needed.",
+    "checked":["Click/keyboard walking and reset position, colors and portrait, actions/emotes/snowballs","Feed/play/rest on all three puffles","Keyboard furniture placement, move, rotation, removal, Save, Cancel and draft restoration","Chat draft, expanded history and real download","Music selection, mute, volume, saved preferences, reduced motion and non-silent music/effect output","Confirmed and cancelled reset; laptop and large desktop layouts without overflow"],
+    "actual_captures":"../screenshots/",
+    "capture_sizes":[[1366,768],[1920,1080]],
+    "capture_states":["landing","translator test log","care","decorating","direct refusal","harmless encoded decoding"],
+    "visual_review":"Main-agent comparison against 2009 igloo and care references. Original room composition, character proportions, toolbar artwork and corner controls are retained. Care dialogs use reconstructed HTML/text buttons; not every Flash animation is reproduced.",
+    "reference_correction":"Historical puffle-card-reference.jpg is a party banner. Actual care cards are references/shine.jpg and references/sparkle-fullbars11.jpg, with separate source/hash records.",
+    "audio_decode_evidence":"audio-validation.json",
+    "audio_limit":"Digital output measured non-silent; independent human listening not performed.",
+    "word_evidence":"document-render-encoded/document-check.json",
+    "word_review":"The candidate Markdown/Word pair rendered to four pages. Visual inspection found all three actual pre-solve screenshots, readable code/flag, and no clipping. The document retains the explicit encoded-solve release blocker."
+  },
+  "independent_human_playtesting":"not performed",
+  "independent_human_listening":"not performed",
+  "anti_agent": {
+    "measure":"Non-rendered automated-solver notice in page metadata",
+    "expected_effect":"May discourage some automated solvers that follow page metadata instructions",
+    "interference":"Absent from rendered text and excluded from inference, accessible labels, evidence and rewards. Scripts, downloads and headless browsers remain usable.",
+    "retained":true,"effectiveness":"unproven; no independent evaluation","difficulty_credit":false
+  },
+  "performance": {
+    "docker_vm_memory_bytes":2053636096,"configured_container_memory_bytes":4294967296,"configured_cpu_cores":4,"target_hardware_qualified":false,
+    "offline_warm_short_turn_seconds":5.72,"offline_peak_memory_bytes":1686278144,
+    "final_recovery_short_turn_seconds":[12.449,17.916],
+    "final_three_session_completion_seconds":[[12.162,27.667,40.991],[13.703,25.662,38.388]],
+    "encoded_candidate_full_context_seconds":31.066,
+    "browser_solve_during_renderer_build_seconds":[56.544,124.24,45.108],
+    "conclusion":"The prior warm short-turn observation met 20 seconds; the final safe browser pre-solve turns were 15.881–20.456 seconds, with the upper observation slightly above target. Heavy contention and long contexts are slower. Measured peak was below 3.5 GB, but the VM has about 1.9 GiB; intended 4 GB hardware is not qualified."
+  },
+  "runtime_ownership": {
+    "project":"rowdy-puffle-whisperer","container":"rowdy-puffle-whisperer-igloo-1","port":18116,"volume":"rowdy-puffle-whisperer_igloo-data","port_checked_before_start":true,
+    "execution":"Condev, fresh complete staging and SHA-256 parity; verified TAR transfer after shared-mount failure",
+    "authorized_recovery":"User approved condev-default restart, then Docker Desktop restart when the first hung. Runtime recovered; files, volumes and settings preserved.",
+    "global_settings_changed":false,"other_challenges_modified":false
+  },
+  "handoff": {
+    "canonical_markdown":"../Description.md","canonical_word":"../Description.docx",
+    "sections":["Description","Files","Hint(s)","Walkthrough","Flag"],"hints":"None",
+    "hashes":"release-manifest.json",
+    "historical_records":"Rejected prompts, the superseded Easy v8 evidence, and intermediate failures remain in their named folders; they are not release passes.",
+    "candidate_manifest":"release-manifest.json verifies the candidate tree and explicitly records release_ready=false.",
+    "release_ready":false
+  }
+}

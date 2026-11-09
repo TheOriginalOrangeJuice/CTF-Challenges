@@ -1,0 +1,35 @@
+{
+  "version": "hello-hello-v2",
+  "sample": {
+    "name": "Birthday postcard",
+    "plain": "DEAR BIRTHDAY CLUB,\nTHANK YOU FOR THE PARTY. FREDDY SANG MY FAVOURITE SONG AND BONNIE LET ME HOLD HIS GUITAR.\nPLEASE SAVE ME ANOTHER SLICE OF CAKE!\nYOUR FRIEND, SAM.",
+    "cipher": "EDQP IFIDCMPR OYZT,\nWLAEL GFN MRR RJP JBKAY. SBCRXD GRGN QN FROMZIMWH QGNT GZB GOIBCV TXX ES UULQ KJG THQXLV.\nIXIHGP VHDW SY IGOKWPV SDMUE JJ OEKR!\nMHBV WJTMPH, GFO."
+  },
+  "target": {
+    "name": "05 - last note.enc",
+    "cipher": "XBUXJ, GTVEF.\n\nVG WKZ XPRO EVPW, T LA VTR WH YPR RYMQUM.\nTTR YBLF ELJH YMMKV VSYL XUGRVFF HU XPZU XUDWZBK.\nZT OOA DLMH M SGJZRX JXVTRB XLPN LLG GLHOI.\nMTOV MOIF, ISIPZS: EGV{SDER_XCATE_ZJIDBZOHRBLTZTVTN}\n\nME MYQ FGSTG WMP MOAFS VB MAV BSEE. PX COA DIMA IYEJTTDQGN MQ HVIRIZNI.\nMPW LBUD GY FTIG. Q PGG OIDF WK JJSPXUQPG. TV.\n\nKOFL GJXLT."
+  },
+  "notes": [
+    {
+      "id": "01",
+      "name": "01 - welcome.txt",
+      "stamp": "11/10/2014 11:46 PM",
+      "text": "Hello, hello.\n\nWelcome to the night shift! I used to sit in that chair. A few things before I go:\n\nThe fan rattles. The left drawer sticks. The computer still has that birthday-club software on it. The kids used it to write secret postcards. There is one saved example if you fancy a quiet minute.\n\nLeave the place looking cheerful for the morning crew. They never see it like this.\n\nGood night.",
+      "tag": "First shift"
+    },
+    {
+      "id": "03",
+      "name": "03 - about the phone.txt",
+      "stamp": "11/12/2014 11:51 PM",
+      "text": "Hello, hello.\n\nI heard myself on the phone tonight. A recording, probably. Except it answered before I said anything.\n\nI put fresh batteries in the little club decoder. Sixteen letters to start the ribbon. The children never used words for those starters. The postcard has its own; I used a different one for my notes.\n\nPlease stop leaving the office door open. I know it gets warm in there.\n\nGood night.",
+      "tag": "Third shift"
+    },
+    {
+      "id": "04",
+      "name": "04 - do not call.txt",
+      "stamp": "11/13/2014 11:58 PM",
+      "text": "Hello, hello.\n\nDo not pick up the phone.\n\nIt has the laugh right now. It has the pauses. It is learning the rest.\n\nI am putting my last message in the club program. If anyone comes looking, leave the computer on. I always start and finish a note the same way. Habit, I suppose.\n\nGood night.",
+      "tag": "Fourth shift"
+    }
+  ]
+}

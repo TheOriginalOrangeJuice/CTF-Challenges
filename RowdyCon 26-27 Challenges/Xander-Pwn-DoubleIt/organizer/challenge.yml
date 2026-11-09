@@ -1,0 +1,53 @@
+# ctfcli / CTFd challenge spec for "Double It And Give It To The Next Person".
+#
+# Import with the CTFd command-line tool (https://github.com/CTFd/ctfcli):
+#   pip install ctfcli
+#   ctf challenge install challenge.yml    # from this directory
+#   ctf challenge sync    challenge.yml    # to push later edits
+#
+# `flag` below is the REAL flag and must match server/entrypoint.sh's $FLAG.
+# Edit it before importing. Do NOT commit the real value to a public repo.
+
+name: "Double It And Give It To The Next Person"
+author: "xandernewlun"
+category: pwn
+description: |
+  You start with $1. The rules are simple: double it and give it to the
+  next person. Nobody ever breaks the chain... right?
+
+  Connect:  nc {{HOST}} {{PORT}}
+
+  The download contains the binary and a FAKE test flag so you can build
+  your exploit locally. The real flag only lives on the server.
+
+value: 100
+type: standard
+
+# Static flag. Swap in your real flag before importing.
+flags:
+  - flag{REPLACE_ME_with_the_real_flag}
+
+# Players download the bundle built by `make dist`.
+files:
+  - dist/double_it.tar.gz
+
+tags:
+  - pwn
+  - buffer-overflow
+  - ret2win
+  - stack-alignment
+
+# Progressive hints (CTFd deducts the cost from the solve value).
+hints:
+  - content: "How many bytes are read, and how big is the buffer they go into?"
+    cost: 0
+  - content: "There's a function that handles the flag but is never called. `nm double_it`."
+    cost: 10
+  - content: "Crashes right as it shells out? That's a 16-byte stack alignment (movaps) issue -- return through one extra `ret` gadget first."
+    cost: 25
+
+state: visible
+version: "0.1"
+
+# If you deploy with the challenge-deployment plugin, point it at server/Dockerfile.
+# Otherwise host it yourself (see README-CTFd.md) and fill in HOST/PORT above.

@@ -1,0 +1,15 @@
+services:
+  uploader:
+    build: .
+    container_name: snapshot-uploader
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      # Difficulty knob. Both settings are playtested; see BRIEF.md.
+      #   0 (default) - one generic "render failed". Players must fingerprint
+      #                 the runtime and locate DENO_DIR themselves. Hard, 6.5-7.5/10.
+      #   1           - render errors echo the worker stack trace, handing over
+      #                 the npm cache path. Medium, ~6/10.
+      # Override per-run:  VERBOSE_ERRORS=1 docker compose up -d
+      VERBOSE_ERRORS: "${VERBOSE_ERRORS:-0}"

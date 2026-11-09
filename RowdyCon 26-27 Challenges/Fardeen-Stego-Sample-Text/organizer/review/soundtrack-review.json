@@ -1,0 +1,191 @@
+﻿{
+    "checks":  {
+                   "puzzle_evidence_and_logic_unchanged":  {
+                                                               "pass":  true,
+                                                               "details":  {
+                                                                               "files":  21,
+                                                                               "changed":  [
+
+                                                                                           ]
+                                                                           }
+                                                           },
+                   "asset_hashes_match":  {
+                                              "pass":  true,
+                                              "details":  null
+                                          },
+                   "frozen_audio_and_archive_repeatability":  {
+                                                                  "pass":  true,
+                                                                  "details":  {
+                                                                                  "holdin_on_mlg_excerpt.wav":  "864129eb28542fe5e1763627fb57b8ebefff7aaab77db3346f692d404eccc62a",
+                                                                                  "recovered-project.zip":  "2d3f2a1afb32fa74ee0c6c1a7af655cbdbfb9c63edc311efc770d169c8b0664b"
+                                                                              }
+                                                              },
+                   "audio_only_did_not_change_protected_evidence":  {
+                                                                        "pass":  true,
+                                                                        "details":  null
+                                                                    },
+                   "recovery_archive_uses_new_audio":  {
+                                                           "pass":  true,
+                                                           "details":  null
+                                                       },
+                   "archive_bytes_and_stable_metadata":  {
+                                                             "pass":  true,
+                                                             "details":  null
+                                                         },
+                   "served_files_match_staged_source":  {
+                                                            "pass":  true,
+                                                            "details":  24
+                                                        },
+                   "audio_format_and_duration":  {
+                                                     "pass":  true,
+                                                     "details":  {
+                                                                     "channels":  2,
+                                                                     "sample_width":  2,
+                                                                     "sample_rate":  22050,
+                                                                     "frames":  441000
+                                                                 }
+                                                 },
+                   "non_silent_excerpt_and_quiet_endcard":  {
+                                                                "pass":  true,
+                                                                "details":  {
+                                                                                "peak":  0.446685791015625,
+                                                                                "rms":  0.10266688248535988
+                                                                            }
+                                                            },
+                   "default_no_autoplay":  {
+                                               "pass":  true,
+                                               "details":  null
+                                           },
+                   "fresh_project_starts_at_excerpt_beginning":  {
+                                                                     "pass":  true,
+                                                                     "details":  null
+                                                                 },
+                   "correct_media_reference":  {
+                                                   "pass":  true,
+                                                   "details":  null
+                                               },
+                   "correct_visible_track_title":  {
+                                                       "pass":  true,
+                                                       "details":  null
+                                                   },
+                   "actual_sample_waveform_and_quiet_tail":  {
+                                                                 "pass":  true,
+                                                                 "details":  {
+                                                                                 "active":  914,
+                                                                                 "tail":  0
+                                                                             }
+                                                             },
+                   "actual_browser_output":  {
+                                                 "pass":  true,
+                                                 "details":  0.06953581500961689
+                                             },
+                   "meters_follow_playback":  {
+                                                  "pass":  true,
+                                                  "details":  [
+                                                                  64.7901,
+                                                                  64.7901
+                                                              ]
+                                              },
+                   "mute_silences_output":  {
+                                                "pass":  true,
+                                                "details":  0
+                                            },
+                   "mute_clears_meters":  {
+                                              "pass":  true,
+                                              "details":  null
+                                          },
+                   "zero_volume_silences_output":  {
+                                                       "pass":  true,
+                                                       "details":  0
+                                                   },
+                   "volume_restores_output":  {
+                                                  "pass":  true,
+                                                  "details":  0.028330498449328112
+                                              },
+                   "pause_silences_output_and_meters":  {
+                                                            "pass":  true,
+                                                            "details":  0
+                                                        },
+                   "pause_stops_audio_clock":  {
+                                                   "pass":  true,
+                                                   "details":  null
+                                               },
+                   "seek_sets_recording_position":  {
+                                                        "pass":  true,
+                                                        "details":  null
+                                                    },
+                   "seeked_excerpt_produces_output":  {
+                                                          "pass":  true,
+                                                          "details":  null
+                                                      },
+                   "preview_pauses_both_media":  {
+                                                     "pass":  true,
+                                                     "details":  null
+                                                 },
+                   "preview_close_keeps_audio_stopped":  {
+                                                             "pass":  true,
+                                                             "details":  null
+                                                         },
+                   "quiet_endcard_is_real_pcm_silence":  {
+                                                             "pass":  true,
+                                                             "details":  null
+                                                         },
+                   "audio_preferences_persist":  {
+                                                     "pass":  true,
+                                                     "details":  null
+                                                 },
+                   "no_browser_errors":  {
+                                             "pass":  true,
+                                             "details":  [
+
+                                                         ]
+                                         }
+               },
+    "tested_files":  {
+                         "FORMAT.txt":  "ca839bf954e810255ef26a237072ba9419eb63981565c2dd7af6a99d2bbf22a9",
+                         "GPL-3.0.txt":  "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                         "app.js":  "34e2cdf5ad4e348c443b04e8a5003ce2a3d6585ce6977549a510ab7223e87e71",
+                         "assets/app.svg":  "e706cc3f5652df8b97acec342454b409f66708475e864944fc06b93e8fdaf8d3",
+                         "assets/dew-thumb.png":  "68f03e9bb5ce422ecc2062bfab88f6b51842ea793bc3ec9da9655b7b239ffb04",
+                         "assets/doritos-thumb.png":  "6bd2972f238e123ea0a093c0d4d7fd891f1ee80c7ea768308940b1953cfcf5f5",
+                         "assets/glasses-thumb.png":  "9bbaa16efdb054d7869233e616f70ba6257dd47de2dcd56ea334bc4a8b41e649",
+                         "assets/hitmarker-thumb.png":  "def7eaaadf42ff3cc68ce1ef1c4a02540d39b1bc9a502ba559f83049c7334356",
+                         "assets/illuminati-thumb.png":  "d3793a3f5d17dd3fda5b5472260ab2d8cc979d686eae9a6a750c1f2f52781ffc",
+                         "assets/sample_text-thumb.png":  "e425afc30f92d883e1daa052df1386d8b38b626af209dc710ad02264f295d4f0",
+                         "credits.html":  "b51674adda2c21bb1732fe0dffba35ba32d5b89f968fc97a32b37b45b2958a6d",
+                         "index.html":  "c7abd9bc32bed91d7d67a742d6a6df12ec7d68b241ab97fa53581f45f29fd617",
+                         "media/Final_Final_REAL.recovery.json":  "b4d53af81ba183c8a59c36189ef0ce5539df8469dafa22ff33f80b6cf50196e3",
+                         "media/deal_with_it.png":  "037118eeb9d6cb812e5ad7a6f185cf5d25dad6c57ea682dfe91be538b5e35280",
+                         "media/dew_it.png":  "3a83f24ba2db3134f2e1d2b25ced5fb6dc1907c4f1605653875e9fdd1afc929c",
+                         "media/doritos_hd.png":  "02e0e8d440a49364e848b95ed8d4a19a383bee1895b3149316c3a67478b804d9",
+                         "media/hitmarker.png":  "4ce330f973c02ff6c0a9a7536cb303f3849839e16336d37be3538d8c20f3f033",
+                         "media/holdin_on_mlg_excerpt.wav":  "864129eb28542fe5e1763627fb57b8ebefff7aaab77db3346f692d404eccc62a",
+                         "media/illuminati_confirmed.png":  "3d7f58a57a9d70778f7b1951ae61ce383d59be301fd4b0a44bc5a9895b2372ac",
+                         "media/recovered-project.zip":  "2d3f2a1afb32fa74ee0c6c1a7af655cbdbfb9c63edc311efc770d169c8b0664b",
+                         "media/sample_text.png":  "59c6cd52ae4ed723259abf217a79a472d59ec7a6435b82297a92a61b1d4016fc",
+                         "media/solarium_fragcut.webm":  "4443bad969f1a72cb7b81ee916e50130103254f35bb9016dfef3e32179b4aa2f",
+                         "pixels.js":  "39752204acfcce7a0f20dbdb297d87fd22baeafca07cda98e62cb9e16b3132cf",
+                         "style.css":  "79e6ab877ec05896bc0fa470797846451a065bca7b0260a34150c79159c29df3"
+                     },
+    "limits":  [
+                   "Human listening and independent acoustic fingerprinting not performed",
+                   "Chromium tested; Firefox not rechecked",
+                   "Unchanged puzzle solve suite not rerun; original evidence, project, transforms, decoder and flag master checked byte-for-byte",
+                   "Canonical captures use already accepted organizer coordinates; not a new independent solve",
+                   "Rights provenance recorded; no redistribution license established"
+               ],
+    "final_host_public_hash_differences":  [
+
+                                           ],
+    "canonical_capture_hashes":  {
+                                     "01-editor-1366.png":  "34c641bcdd2e3782c627f906149a89695f78a0df1dcef604b433ab755f696b9a",
+                                     "02-alpha-only.png":  "af54f2562cfb23fed84e25c3526d78ef56bf874debde87917e677bc12f9a1183",
+                                     "03-rgb-inspector.png":  "97b4c1a946b661727a144f868eccde3466d69a7361f6d87b64b84383ad4d88ed",
+                                     "04-source-crop.png":  "23f902f674b56380fbd9dbf44f9bf77634e5e6bf4c84b6a5830bc264053e2bbc",
+                                     "05-partial-assembly.png":  "e4752be4d6f92309f9a2249017576b7b411ad26d48247eca150910e443144109",
+                                     "06-restored-1366.png":  "eccd0e30f41790ea66a60aa3024f39407338ea03217468a74424d889c9bab76c",
+                                     "07-restored-1920.png":  "3caf0cc16569e86dc35d4728b2d14d385b0384cb6b9cc18f79652a5a316db535",
+                                     "08-endcard-preview.png":  "afa60eff7381ef8d6c6436dc307cfcaaca06e2afa605aa00ca9a2c8d21c4b4ee"
+                                 },
+    "visual_review":  "Actual 1366x768 initial editor and inspector plus1920x1080 endcard captures inspected. Correct title, PCM waveform and quiet tail visible. No new clipping observed. Human listening unperformed."
+}

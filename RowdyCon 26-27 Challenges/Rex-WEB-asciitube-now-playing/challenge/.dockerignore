@@ -1,0 +1,7 @@
+README.md
+solution.md
+docker-compose.yml
+.dockerignore
+__pycache__/
+*.pyc
+media/*.mp4

@@ -1,0 +1,53 @@
+{
+  "revision": 5,
+  "method": "Independent source-informed design review and focused public-interface checks; public API navigation between scoped questions",
+  "scope": [3, 4, 8, 12, 14],
+  "ownership": "Reviewer edits organizer/v5-quality-browser.py and organizer/v5-quality*.json only. Root owns staging, services, integration, final documents, and parity.",
+  "execution_status": "Completed against verified /tmp/iq-v5-stage03/The Impossible Security+ Quiz. Five focused checks and an additional keyboard-scroll check passed; see v5-quality-review.json for exact scope and limitations.",
+  "viewports": [[1366, 768], [1920, 1080]],
+  "design_assessment": {
+    "q3": {
+      "discovery": "Visual font weight and a class named strong do not establish semantic strong ancestry for every password character.",
+      "evidence_required_before_commit": "HTML proof context; reversible house styling; complete selected-card AST-derived source, including ancestor scope.",
+      "risks": ["Partial strong text must be distinguishable from complete password scope.", "Rendered content and inspected source must derive from the same supplied tree.", "Changing appearance alone must not announce a correct card."]
+    },
+    "q4": {
+      "discovery": "GB identifies a disk volume; sufficient free capacity is insufficient until the free extent is adjacent to C.",
+      "evidence_required_before_commit": "Mixer uses percent; the drive panel shows all 12 blocks, C, TOOLS, free space and contiguous extension behavior.",
+      "risks": ["Shrinking C below occupied file blocks or overlapping a move must not destroy bytes.", "The simulated mixer must communicate its response without changing the user's audio preferences.", "Accept all file-preserving layouts with C at 8 GB, not one prescribed move location."]
+    },
+    "q8": {
+      "discovery": "More physical devices can mean fewer IP router hops; layer-2 switches retain TTL.",
+      "evidence_required_before_commit": "Inspect each device and forwarding port, with layer and TTL behavior available before Launch.",
+      "risks": ["Avoid requiring a failed launch to learn essential rules.", "Detect and explain loops without a mandatory wait.", "Represent the authored forwarding model without implying arbitrary physical routes are valid in every real IP topology."]
+    },
+    "q12": {
+      "discovery": "Printed page headings differ from document ordinal, and host cancellation cannot retract data already buffered by the printer.",
+      "evidence_required_before_commit": "Document position and real page content; separate PC queue and printer buffer; copy count and output tray.",
+      "risks": ["Both queues must be reachable before printing.", "The actual output must retain buffered and requested page bytes in order.", "Reset must restore the sample without refunding a lost life."]
+    },
+    "q14": {
+      "discovery": "Pausing a monitor does not stop capture; changing the input cannot erase retained or queued samples.",
+      "evidence_required_before_commit": "Final-tape absence rule, selected input, monitor state, retained bytes, queued bytes and drain-on-submit behavior.",
+      "risks": ["The prompt alone sounds future-only: the machine plate must explicitly include retained and queued material.", "FIFO evidence remains inspectable while monitor display is paused.", "Only fictional password samples may enter the recorder.", "Reset restores authored trial state without refunding a life."]
+    }
+  },
+  "checks": [
+    "Keyboard focus and activation of every reviewed interaction, with visible focus, dialog escape and focus return where relevant",
+    "Actual 1366x768 and 1920x1080 captures for initial, evidence, intermediate, failed and prepared states",
+    "DOM geometry and control occlusion observations, followed by visual interpretation rather than treating geometry alone as a visual pass",
+    "Q3 independent AST ancestry interpretation and source/render agreement",
+    "Q4 mixer scope, invalid geometry recovery, two valid TOOLS placements, actual preserved block bytes and 8 GB commit",
+    "Q8 router TTL expiration, loop termination and successful switch path through UI",
+    "Q12 ordinal/heading contrast, independent queues, wrong copy count, retained real output and reset recovery",
+    "Q14 pause versus live capture, FIFO draining, retained-choice rejection and AUX plus uncaptured-choice success",
+    "Console/page errors and reduced-motion state where meaningful"
+  ],
+  "limitations": [
+    "This is source-informed review, not a cold human playtest.",
+    "Approved Hard–Very Hard rating is preserved; independent human difficulty or enjoyment calibration is unperformed.",
+    "No independent human listening or anti-agent effectiveness evaluation.",
+    "No old v2 blind or blocked assignment is executed or retried.",
+    "No app service start/stop or shared dependency installation is performed by this reviewer."
+  ]
+}

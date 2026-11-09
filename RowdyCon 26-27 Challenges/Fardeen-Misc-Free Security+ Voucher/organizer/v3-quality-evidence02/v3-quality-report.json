@@ -1,0 +1,908 @@
+{
+  "method": "Informed UI review with public API navigation",
+  "live_stage": "/tmp/iq-v3-stage02/The Impossible Security+ Quiz",
+  "human_playtesting": false,
+  "human_listening": false,
+  "checks": {
+    "audio": {
+      "start_output": {
+        "peak": 0.09735172986984253,
+        "rms": 0.017069500615682267,
+        "nonzero": 168262,
+        "samples": 479232,
+        "outputs": [
+          {
+            "kind": "GainNode",
+            "state": "running"
+          }
+        ]
+      },
+      "music_output": {
+        "peak": 0.07456570863723755,
+        "rms": 0.011349509763985438,
+        "nonzero": 186880,
+        "samples": 190464,
+        "outputs": [
+          {
+            "kind": "GainNode",
+            "state": "running"
+          },
+          {
+            "kind": "MediaElementAudioSourceNode",
+            "state": "running"
+          }
+        ]
+      },
+      "muted_output": {
+        "peak": 0,
+        "rms": 0,
+        "nonzero": 0,
+        "samples": 307200,
+        "outputs": [
+          {
+            "kind": "GainNode",
+            "state": "running"
+          },
+          {
+            "kind": "MediaElementAudioSourceNode",
+            "state": "running"
+          }
+        ]
+      },
+      "saved_preferences": {
+        "muted": true,
+        "music": 0.45,
+        "effects": 0.35
+      },
+      "displayed_sliders": [
+        "0.45",
+        "0.35"
+      ],
+      "muted_start_output": {
+        "peak": 0,
+        "rms": 0,
+        "nonzero": 0,
+        "samples": 0,
+        "outputs": []
+      },
+      "test_effect_output": {
+        "peak": 0.18638600409030914,
+        "rms": 0.012491856218038642,
+        "nonzero": 315642,
+        "samples": 350208,
+        "outputs": [
+          {
+            "kind": "GainNode",
+            "state": "running"
+          }
+        ]
+      },
+      "decoded_buffers": [
+        {
+          "duration": 1.123265306122449,
+          "rate": 44100,
+          "channels": 1
+        }
+      ],
+      "human_listening": false
+    },
+    "backup": {
+      "failed": "{'id': 'approved', 'name': 'payroll-2.1.release', 'kind': 'bytes', 'size': 76, 'device': '09', 'bytes': 'PAYROLL RELEASE\\nversion=2.1\\nbuild=410\\nreview=APPROVED\\nrounding=nearest-even\\n', 'sha256': 'b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f'}",
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/iq-v3-quality02/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 37, in check\n    try:R['checks'][name]=fn()\n                          ^^^^\n  File \"/tmp/iq-v3-quality02/The Impossible Security+ Quiz/organizer/v3-quality-browser.py\", line 71, in backup_check\n    page.locator('.destination-picks button').nth(1).click();idle();key('PASTE');copy=state()['draft']['copied'];assert copy['kind']=='file' and copy['device']=='09',copy;sizes('q10-real-usb-file');key('\u23cf EJECT 09');assert state()['q']==11\n                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'id': 'approved', 'name': 'payroll-2.1.release', 'kind': 'bytes', 'size': 76, 'device': '09', 'bytes': 'PAYROLL RELEASE\\nversion=2.1\\nbuild=410\\nreview=APPROVED\\nrounding=nearest-even\\n', 'sha256': 'b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f'}\n"
+    },
+    "retained_evidence": {
+      "digest_length": 64,
+      "focus_restored": "USB BACKUP\nRETAINED FILE"
+    }
+  },
+  "screenshots": [
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-empty-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nShortcut on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.lnk\nSHORTCUT \u00b7 26 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-shortcut-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nShortcut on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.lnk\nSHORTCUT \u00b7 26 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-shortcut-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 26 bytes\nCOPY\nFile on clipboard\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 09\npayroll-2.1.release\nFILE \u00b7 76 bytes\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": false,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": false,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "failure-backup"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrelease-410\nDETAILS\nUSE HASH\n2.1\nrelease-411\nDETAILS\nUSE HASH\n2.1\nrelease-412\nDETAILS\nUSE HASH\nUSB BACKUP\nRETAINED FILE\nDEPLOY REFERENCE\nLATEST \u2192 release-411\nDEPLOY \u2192\nUSB BACKUP\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nUSE THIS HASH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect release-410",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 196.7324981689453,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-410",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 195.72352600097656,
+            "w": 101.47503662109375,
+            "h": 48.14295959472656
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-411",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 292.6725158691406,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-411",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 291.66351318359375,
+            "w": 101.47503662109375,
+            "h": 48.142974853515625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-412",
+          "disabled": false,
+          "rect": {
+            "x": 671.9299926757812,
+            "y": 388.6125183105469,
+            "w": 81.17999267578125,
+            "h": 46.125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-412",
+          "disabled": false,
+          "rect": {
+            "x": 767.8699951171875,
+            "y": 387.603515625,
+            "w": 101.47503662109375,
+            "h": 48.142974853515625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect USB backup",
+          "disabled": false,
+          "rect": {
+            "x": 910.864990234375,
+            "y": 169.4118194580078,
+            "w": 252.75,
+            "h": 264.97137451171875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 509.46002197265625,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 533.4450073242188,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "USE THIS HASH",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 546.3023681640625,
+            "w": 190.03501892089844,
+            "h": 59.96246337890625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-full-evidence-1366"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrelease-410\nDETAILS\nUSE HASH\n2.1\nrelease-411\nDETAILS\nUSE HASH\n2.1\nrelease-412\nDETAILS\nUSE HASH\nUSB BACKUP\nRETAINED FILE\nDEPLOY REFERENCE\nLATEST \u2192 release-411\nDEPLOY \u2192\nUSB BACKUP\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nUSE THIS HASH\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\u0338\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect release-410",
+          "disabled": false,
+          "rect": {
+            "x": 948,
+            "y": 337,
+            "w": 88,
+            "h": 50
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-410",
+          "disabled": false,
+          "rect": {
+            "x": 1052,
+            "y": 335.90625,
+            "w": 110,
+            "h": 52.1875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-411",
+          "disabled": false,
+          "rect": {
+            "x": 948,
+            "y": 441,
+            "w": 88,
+            "h": 50
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-411",
+          "disabled": false,
+          "rect": {
+            "x": 1052,
+            "y": 439.90625,
+            "w": 110,
+            "h": 52.1875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect release-412",
+          "disabled": false,
+          "rect": {
+            "x": 948,
+            "y": 545,
+            "w": 88,
+            "h": 50
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Use hash of release-412",
+          "disabled": false,
+          "rect": {
+            "x": 1052,
+            "y": 543.90625,
+            "w": 110,
+            "h": 52.1875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect USB backup",
+          "disabled": false,
+          "rect": {
+            "x": 1207.008056640625,
+            "y": 307.38409423828125,
+            "w": 273.9837646484375,
+            "h": 287.2318115234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 676,
+            "w": 778,
+            "h": 66
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 1252,
+            "y": 702,
+            "w": 216,
+            "h": 84
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 450,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "USE THIS HASH",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 715.9375,
+            "w": 206,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-full-evidence-1920"
+    }
+  ],
+  "errors": [],
+  "status": "review completed; individual failures retained"
+}

@@ -1,0 +1,15 @@
+name: rowdy-impossible-security
+services:
+  quiz:
+    build: .
+    ports: ["18115:8080"]
+    environment:
+      FLAG: ${FLAG:?Set FLAG using the private organizer event.env}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:18115}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+    volumes: ["quiz-data:/data"]
+    restart: unless-stopped
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+volumes:
+  quiz-data:

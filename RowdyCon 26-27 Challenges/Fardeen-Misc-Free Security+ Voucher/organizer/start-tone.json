@@ -1,0 +1,12 @@
+{
+  "asset": "challenge/public/assets/audio/start.wav",
+  "source": "First-party synthesis using generate_start_tone.py",
+  "purpose": "User-requested mature replacement for the original start click effect",
+  "treatment": "Two soft sine tones,440Hz then660Hz, short attack and exponential decay; no speech or comedic sample",
+  "reuse": "First-party authored waveform; no third-party recording sampled",
+  "sampleRate": 48000,
+  "durationSeconds": 0.48,
+  "peak": 0.1622375761116883,
+  "rms": 0.047078028190370214,
+  "sha256": "7abf0b5f5cfcce6d7decca05b0d2cde76e546400054dc20106e1e4c8b71a1f50"
+}

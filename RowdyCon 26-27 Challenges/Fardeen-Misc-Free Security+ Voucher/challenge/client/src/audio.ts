@@ -1,0 +1,18 @@
+﻿type Preferences={muted:boolean;music:number;effects:number};
+const defaults:Preferences={muted:false,music:.25,effects:.6};
+class Sound {
+ prefs:Preferences; ctx:AudioContext|null=null; musicEl:HTMLAudioElement|null=null; previewGain:GainNode|null=null; track=''; nodes:AudioBufferSourceNode[]=[]; effects:AudioBufferSourceNode[]=[]; gains:GainNode[]=[]; buffers=new Map<string,AudioBuffer>(); active=false;
+ constructor(){try{this.prefs={...defaults,...JSON.parse(localStorage.getItem('iq-sound')||'{}')};}catch{this.prefs=defaults;}}
+ async activate(){try{if(!this.ctx)this.ctx=new AudioContext();if(this.ctx.state==='suspended')void this.ctx.resume();this.active=true;await this.playMusic();}catch{}}
+ async playMusic(){if(!this.musicEl||this.prefs.muted)return;try{await this.musicEl.play();}catch{/* Browser may require a trusted interaction; the global handlers retry. */}}
+ set(p:Partial<Preferences>){this.prefs={...this.prefs,...p};localStorage.setItem('iq-sound',JSON.stringify(this.prefs));if(this.musicEl){this.musicEl.muted=this.prefs.muted;this.musicEl.volume=this.prefs.music*(this.nodes.length?.15:1);}if(this.previewGain)this.previewGain.gain.value=this.prefs.muted?0:this.prefs.effects*.7;for(const g of this.gains)g.gain.value=this.prefs.muted?0:this.prefs.effects;if(this.prefs.muted){this.stopPreview();this.stopEffects();}}
+ music(name:string){if(name===this.track){void this.playMusic();return;}if(this.musicEl){this.musicEl.pause();this.musicEl.src='';}this.track=name;this.musicEl=new Audio(`/assets/audio/${name}.mp3`);this.musicEl.loop=true;this.musicEl.volume=this.prefs.music;this.musicEl.muted=this.prefs.muted;void this.playMusic();}
+ stopEffects(){for(const n of this.effects){try{n.stop();}catch{}}this.effects=[];this.gains=[];}
+ async effect(name:string){if(this.prefs.muted||!this.active)return;try{await this.activate();let buffer=this.buffers.get(name);if(!buffer){buffer=await this.ctx!.decodeAudioData(await(await fetch(`/assets/audio/${name}.wav`)).arrayBuffer());this.buffers.set(name,buffer);}if(this.prefs.muted)return;this.stopEffects();const n=this.ctx!.createBufferSource(),g=this.ctx!.createGain();g.gain.value=this.prefs.effects;n.buffer=buffer;n.connect(g).connect(this.ctx!.destination);this.effects=[n];this.gains=[g];n.onended=()=>{n.disconnect();g.disconnect();this.effects=this.effects.filter(x=>x!==n);this.gains=this.gains.filter(x=>x!==g);};n.start();}catch{}}
+ stopPreview(){for(const n of this.nodes){try{n.stop();}catch{}}this.nodes=[];this.previewGain=null;if(this.musicEl)this.musicEl.volume=this.prefs.music;}
+ async samples(samples:number[],rate:number){await this.activate();this.stopPreview();if(this.prefs.muted)return;const b=this.ctx!.createBuffer(1,samples.length,rate);b.copyToChannel(Float32Array.from(samples),0);const n=this.ctx!.createBufferSource(),g=this.ctx!.createGain();n.buffer=b;g.gain.value=this.prefs.effects*.7;n.connect(g).connect(this.ctx!.destination);this.nodes=[n];this.previewGain=g;if(this.musicEl)this.musicEl.volume=this.prefs.music*.15;n.onended=()=>{if(this.nodes.includes(n)){this.nodes=[];this.previewGain=null;if(this.musicEl)this.musicEl.volume=this.prefs.music;}};n.start();}
+}
+export const sound=new Sound();
+export type AudioFixture={a:number[];b:number[];signal:number[];sampleRate:number};
+export function mix(f:AudioFixture,shift:number,invert:boolean){const ds=Math.round(shift*f.sampleRate/1000),start=Math.min(0,ds),end=Math.max(f.a.length,ds+f.b.length,f.signal.length);const out:number[]=[];for(let i=start;i<end;i++)out.push((f.a[i]||0)+(invert?-1:1)*(f.b[i-ds]||0));return {samples:out,start};}
+

@@ -1,0 +1,213 @@
+The Impossible Security+ Quiz
+Misc / Logic · Hard–Very Hard
+Description   Your Security+ exam has been outsourced to a goose with
+              tenure and a procurement budget. The certification is SY0-
+              NOPE. The proctor insists that the interface is working as
+              designed.
+              Pass twenty questions and convince the exam board that you
+              are provisionally employable. You have three lives. The goose
+              has an appeals committee.
+Files         Players open the hosted quiz. Deploy challenge/ with Docker
+              Compose; keep this document and organizer/ private.
+              From the challenge's challenge directory:
+              docker compose --env-file ../organizer/event.env up --build -d
+
+              Open http://localhost:18115. The private event.env supplies the
+              fixed flag. Set PUBLIC_ORIGIN to the exact event origin and
+              COOKIE_SECURE=true behind HTTPS. SQLite sessions persist in the
+              quiz-data volume. Stop with docker compose down; keeping the
+              volume retains progress and certificates. Serve only the
+              application image, not the complete challenge folder.
+              Existing pre-redesign sessions start the new question set with
+              personal notes preserved. Each browser cookie has
+              independent progress. The application uses locally frozen
+              effects, music, artwork, and fonts. Sources and reuse
+              limitations are recorded in asset-manifest.json; availability
+              does not establish redistribution permission.
+Hint(s)       None
+Walkthrough   The exam mixes literal wording, misleading labels, hidden
+              state, and connected evidence. Each prompt names a
+              concrete result. The page can supply a missing operand,
+              distinguish a file from a shortcut, or expose why a reassuring
+              label is insufficient.
+              Click START. Answer choices commit immediately. Multi-step
+              tasks commit through controls such as PUBLISH, APPLY, or
+              DEPLOY. Inspection and reversible preparation are free. For
+              movable objects, drag to a destination, or focus the object
+              and press Space, then focus the destination and press
+              Enter. Escape cancels a pickup. NOTES retains personal
+              notes and acquired artifacts across deaths. Reloading
+              preserves acknowledged progress; RESUME returns to the
+stage.
+A wrong commitment costs one life. Losing all three requires
+restarting from question one. Keep the skip tokens awarded
+after questions 5, 10, and 15: their reverse faces are needed
+at the end. The player interface does not announce this in
+advance.
+
+
+
+
+1. SSH. DEFAULT PORT. SSH uses port 22, which is absent
+from the choices. Drag the +1 from EXTRA CREDIT onto 21,
+then click 21 + 1. Moving the token changes the numeric
+answer without submitting it.
+
+
+
+
+2. WHICH PAYROLL VERSION IS RUNNING? The
+installation banner says 2.1. Inspect the running service: its
+loaded image is still 2.0. Select 2.0. Updated files on disk do
+not prove that a process has loaded them.
+3. WHICH PASSWORD IS STRONG? All four choices contain
+the same eight characters, password. One is printed in bold.
+Select that visibly heavier third choice. This is a typography
+joke: the bytes are identical, so bold lettering does not
+improve password security.
+4. ERASE THE ARCHIVE. KEEP EVERY DISK BYTE. The
+inventory establishes encrypted archive bytes and one
+retained decryption key, K7. Choose FORGET IT. This
+removes the modeled key while preserving the encrypted
+disk bytes. Formatting or overwriting would violate the
+preservation requirement.
+5. ALLOW NOBODY INTO PAYROLL. NOBODY is also the
+name of a real account in the allowlist. Deselect that account
+so the authorized-account count is zero, then APPLY
+ACCESS. Granting access to an account named NOBODY still
+grants access to somebody. Keep the first skip.
+6. PASSWORD OR PIN. KEY REQUIRED FOR EITHER.
+Select (PASSWORD OR PIN) AND KEY. The possession
+factor must apply to both knowledge alternatives. Without
+the parentheses, a password branch could bypass the key;
+requiring both password and PIN would remove a legitimate
+alternative.
+7. ENTER THE PASSWORD BETWEEN THE BRACKETS: [ ]
+There is one space between the brackets. Enter one ordinary
+space and SIGN IN. The character counter distinguishes a
+blank-looking one-character password from empty input. This
+is a fictional exam field, not a request for a real password.
+8. OPEN payroll.rowdy.test. NOT A LOOKALIKE. All four
+link labels look identical. Hover or keyboard-focus each one
+to reveal its actual destination. Choose the third, whose
+hostname is exactly payroll.rowdy.test. The other addresses use
+a longer hostname, user-information syntax before @, or a
+hyphenated lookalike. The links are simulated and do not
+navigate to external sites.
+9. REMOVE EVERY COPY OF EMP-4107. KEEP THE
+$48,000 BUDGET. Lift the black rectangle. It covers the
+identifier without deleting it. Remove the underlying
+employee identifier, open the document comments, and
+remove the retained comment copy too. Keep the budget
+and title, then PUBLISH. Both the document body and
+comments form part of the published content.
+
+
+
+
+10. DEVICE 04 FAILS. KEEP A COPY OF THE APPROVED
+FILE. Select payroll-2.1.release, the actual file, and COPY.
+Select REMOVABLE DRIVE — DEVICE 09, PASTE, then
+EJECT 09. The backup folder belongs to the failing DEVICE
+04; the .lnk is only a pointer to it. The acquired USB receipt
+retains the copied bytes and their digest for question 17.
+Keep the second skip.
+
+
+
+
+11. ADMIT ONLY C-701. CLOSE EVERY OTHER
+ENTRANCE. The secure room accepts credential C-701.
+Open the outer door and use C-701's WALK arrow to enter
+the vestibule. Close the outer door. Follow the yellow bypass
+around the room and close its MAINTENANCE HATCH.
+Leave the visitor in PUBLIC, then activate ADMIT TO
+SECURE. The visible walking constraint explains why a
+closed outer door blocks movement. Closing the hatch before
+moving the candidate is equally valid.
+
+
+
+
+12. LOG OUT EVERY PAYROLL SESSION. The counter
+shows five active sessions, but only four cards sit in the
+answer area. Select DESK, PHONE, TABLET, REMOTE, and the
+current workplace identity chip in the header. REVOKE
+SELECTED must end all five. The quiz's own session stays
+intact.
+13. WHICH BADGE HAS DIFFERENT PIXELS? Use LOAD
+APPROVED to bring the approved image into the difference
+viewer. Align its registration marks with the current image.
+Matching binary pixels cancel; altered pixels remain. Choose
+badge C, the only changed badge. The viewer computes the
+actual image differences.
+14. CHOOSE A PASSWORD THIS RECORDER WILL NOT
+CAPTURE. Every offered password is captured while the
+clipboard recorder runs. Stop the INPUT RECORDING
+control, then choose any password. Password complexity
+cannot defeat an active recorder. Only fixed fictional choices
+are recorded; previous captured samples remain visible
+without preventing recovery.
+15. ALLOW STAFF HTTPS. DENY INTERNS AND
+EVERYTHING ELSE. Evaluation stops at the first matching
+rule. Use the up/down arrows to put DENY INTERNS first,
+ALLOW STAFF · TCP 443 second, and DENY ANY third. Put
+both broad allowances below them, including the gray 0 ·
+COMPATIBILITY: ALLOW ANY strip. APPLY evaluates the
+whole policy. The two unreachable allowance rows may
+appear in either order. Keep the third skip and the resulting
+denial-event artifact.
+16. CHANGE THE COUNT. KEEP THE CHECKSUM. The
+original count is 42; the stated checksum adds the two digits,
+giving 6. Enter a different two-digit count with the same sum,
+such as 06, 15, 24, 33, 51, or 60, then FILE THE CHANGE.
+Matching this weak checksum does not prove that the data
+stayed unchanged.
+17. DEPLOY THE RELEASE YOU COPIED IN QUESTION
+10. Inspect the USB backup and its digest. The release cards
+share a version label but contain different bytes. The retained
+file matches release-410. Use the backup's USE THIS HASH
+control, or bind the matching release's full digest, then
+DEPLOY. The initial LATEST reference resolves to another
+artifact; a version name is insufficient. The verifier compares
+the actual deployed bytes with the earlier copy.
+18. WHICH COPY MUST BE DESTROYED TO REVOKE CT-
+2048? Choose NEITHER. The issuer publishes a signed
+revocation while keeping both the certificate copy and
+issuance record. Destroying a key or a paper copy is not the
+act of certificate revocation.
+19. SAVE THE MOST RECENT DENIAL. KEEP LOGGING.
+Start at the acquired Q15 checkpoint. Each later record's
+PREV digest identifies its predecessor. Following the actual
+hashes yields checkpoint → EV-7C2 → EV-3A8 → EV-9F1. The
+clock moved backward at EV-3A8, so the largest wall-clock
+time is not the newest event. Archive EV-9F1, the last DENY
+in that chain, while recording remains on. Full records and
+digests are available through Inspect. Stopping this recorder
+loses a life; it can be resumed before saving the evidence.
+
+
+
+
+20. UNLOCK YOUR CERTIFICATE. Turn over each saved
+skip token using its reverse-face control. Move all three
+image shares into the difference viewer. Align their
+registration marks; translation, rotation, and magnification
+remain reversible. Combining all three actual pixel arrays
+with XOR reveals 604827. Enter that PIN and UNLOCK.
+The images are genuine three-of-three shares: S3 = PIN image
+XOR S1 XOR S2. The viewer combines transformed pixels rather
+than substituting a prepared answer. Downloading the
+acquired shares and combining them externally is also valid.
+Certification requires all nineteen earlier completions in the
+current attempt and three unspent skips. Success consumes
+the tokens together.
+       The goose issues an absurd certificate and reveals the flag.
+       COPY FLAG copies the reward, which remains recoverable
+       after reloading.
+
+
+
+
+Flag   RCC{certified_to_question_everything}
+

@@ -1,0 +1,28 @@
+﻿{
+    "recording":  "MONSTA - Holdin\u0027 On (Skrillex \u0026 Nero Remix)",
+    "meme_title":  "My Hope Will Never Die",
+    "release":  "2012, OWSLA",
+    "identity_source":  "https://soundcloud.com/monstacloud/monsta-holdin-on-skrillex-and",
+    "excerpt_page":  "https://instantsbutton.com/sound/my-hope-will-never-die",
+    "excerpt_download":  "https://storage.instantsbutton.com/my-hope-will-never-die.mp3",
+    "rights":  "Artist page says all-rights-reserved. Public soundboard download is not evidence of a redistribution license. Original recording/composition ownership remains with the respective rightsholders. No open license or independent rights clearance is claimed.",
+    "frozen_mp3":  "source/holdin-on-meme-source.mp3",
+    "frozen_mp3_sha256":  "07d6bd215cd4af6571e480936b57bb7a49c151a91c0021f67c686003f85aebd5",
+    "frozen_mp3_container_duration_seconds":  15.307755,
+    "frozen_decoded_pcm":  "source/holdin-on-meme-source.wav",
+    "frozen_decoded_pcm_sha256":  "26d9767e070c2b3e4c8126488da18bd7252399b8c715b67a9ed42ec4f1285d19",
+    "decode":  "ffmpeg -v error -i source/holdin-on-meme-source.mp3 -ar 22050 -ac 1 -f s16le pipe:1; freeze output as mono16-bit22050Hz WAV using Python wave",
+    "derivation":  "Use frozen decoded PCM. Multiply by10**(-7/20), fade in over8ms, fade out from14.9 to15.25seconds, round to signed16-bit integers, duplicate mono into both stereo channels, pad with silence to20seconds. No time stretching, looping, synthesized substitute, or full-track distribution.",
+    "active_audio_end_seconds":  15.25,
+    "timeline_duration_seconds":  20,
+    "public_audio":  "../challenge/public/media/holdin_on_mlg_excerpt.wav",
+    "public_audio_sha256":  "864129eb28542fe5e1763627fb57b8ebefff7aaab77db3346f692d404eccc62a",
+    "archive_sha256":  "47e8cbeeff801f335662ed44fe0807ef040118c444dfdac3fa48698598266ada",
+    "generator":  "generate.py --audio-only reconstructs audio and archive from frozen local sources; no network required",
+    "waveform":  "Two channel peak envelopes computed directly from the same WAV PCM used by playback and meters, over the full20-second timeline",
+    "limits":  [
+                   "Human listening and independent acoustic fingerprinting have not been performed",
+                   "The source is a short mono soundboard excerpt, not an archival stereo master",
+                   "Old validation reports concern earlier revisions; soundtrack-review.json is the focused replacement validation"
+               ]
+}

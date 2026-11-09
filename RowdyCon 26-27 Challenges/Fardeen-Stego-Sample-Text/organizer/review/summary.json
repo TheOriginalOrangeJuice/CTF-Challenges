@@ -1,0 +1,68 @@
+{
+  "review_type": "Independent agent public-evidence solve, followed by source and experience review",
+  "public_solve_before_private_material": true,
+  "recovered_flag": "RCC{r4w_rgb_m0nt4g3_7c2e}",
+  "difficulty": "Medium is defensible at the accessible end; upper-Medium is not supported",
+  "solve_findings": {
+    "raw_contact_sheet": "Contains partial mirrored glyphs, not an obvious complete readable flag",
+    "reconstruction": "Six 384x324 rectangles recovered from original pixels; adjacent-edge continuity identifies layout up to whole-image reflection",
+    "best_edge_cost": 109.8225630144033,
+    "next_incorrect_configuration_cost": 205.96887860082302,
+    "evidence": "independent-solve.json and ../../screenshots/review/independent-recovery.png"
+  },
+  "technical_checks": {
+    "all_six_decoder_buffers_match_pillow": true,
+    "inspector_export_matches_original_rgb": true,
+    "ui_export_matches_independent_recovery": true,
+    "source_alpha_and_event_geometry_separation": true,
+    "undo_redo_reload_save_import_reset": true,
+    "invalid_import_and_crop_preserve_work": true,
+    "actual_audio_signal_rms": 0.019053313066363445,
+    "muted_and_zero_volume_signal_rms": 0,
+    "keyboard_focus_and_valid_invalid_numeric_draft_fixes_rechecked": true,
+    "new_stereo_meters_respond_and_clear": true,
+    "public_files_match_verified_source": true,
+    "asset_manifest_and_archive_references": true,
+    "plaintext_flag_or_private_asset_references_found_in_public_text": false,
+    "deployment_source_review": "Docker copies public/ only; organizer files are outside the served root"
+  },
+  "final_revision": {
+    "condev_stage": "/tmp/rowdy-mlg-quality-20261028-161733-20d837/project",
+    "stage_files": 74,
+    "stage_hash_differences": 0,
+    "public_digests": "final-review.json",
+    "app_sha256": "2302ad13b8bbf3b76f60a66deb4647c0af96f6cbd30d11dac2fc9774771f8e69",
+    "pixels_sha256": "39752204acfcce7a0f20dbdb297d87fd22baeafca07cda98e62cb9e16b3132cf",
+    "style_sha256": "d472263bd513301fcf27bf82d003e39cb017698147bc5f046d99429a675c3ed9"
+  },
+  "presentation": {
+    "reviewed_sizes": [[1366,768],[1920,1080]],
+    "reference": "https://www.proaudio.de/images/stories/tests/sony_vegaspro12/overview.jpg",
+    "finding": "Revised neutral-gray chrome, source Trimmer dock, taller timeline and stereo Master meter substantially improve period resemblance. The focused editor and reward are coherent and readable. Custom inspector, simplified event controls and recovery format remain disclosed adaptations, not native Vegas compatibility.",
+    "residual_cosmetic_issue": "Document scrollHeight exceeds the viewport by one pixel at both sizes; no essential control or evidence clipping observed",
+    "captures": ["../../screenshots/review/final-initial-1366.png", "../../screenshots/review/final-reward-1920.png"]
+  },
+  "handoff": {
+    "markdown_five_sections_and_local_links": "passed",
+    "walkthrough_coordinates_and_flag_match_independent_recovery": true,
+    "word_generation_and_render_review": "pending root at checkpoint",
+    "asset_provenance": "Source pages reviewed; recorded Commons listing, attribution and modification notices match the shipped credits. This is provenance verification, not independent rights clearance.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Xonotic_0-8-2_gameplay.webm",
+      "https://commons.wikimedia.org/wiki/File:Logo_Doritos.png",
+      "https://commons.wikimedia.org/wiki/File:Mountain_Dew_logo.svg",
+      "https://commons.wikimedia.org/wiki/File:Illuminati_triangle_eye.png"
+    ]
+  },
+  "limits": [
+    "Reviewer knew the design; this is not a blind human playtest",
+    "No independent human listening or playtesting performed",
+    "Audio signal was measured through the playing media element connected to an AudioContext destination",
+    "Chromium exercised; Firefox not independently exercised",
+    "Generator repeatability was reported by developer and not independently rerun",
+    "Hidden stop text had no visible or evidence interference in this run; deterrent effectiveness remains unestablished",
+    "Fresh deployment startup was developer-owned; this reviewer examined the existing served build and Docker configuration",
+    "No services started or stopped by this reviewer"
+  ],
+  "checkpoint": "No remaining functional blocker found in reviewed scope; Word handoff remains pending"
+}

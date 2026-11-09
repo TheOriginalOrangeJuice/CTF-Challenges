@@ -1,0 +1,83 @@
+{
+  "challenge": "The Impossible Security+ Quiz",
+  "revision": "approved twenty-question redesign",
+  "status": "planned; no redesigned runtime has been tested",
+  "reviewer": "redesign_quality_v2 independent informed quality agent",
+  "scope": {
+    "owned_files": ["organizer/v2-quality*", "organizer/v2-browser*"],
+    "runtime": "Condev only; root owns fresh full-tree staging, parity verification, dependencies, and preview services",
+    "method": "Use the player interface and supplied evidence for the browser solve. Source inspection is a separate contract review, not a blind solve.",
+    "limits": ["Reviewer has read the approved question design.", "Automation and visual inspection do not establish independent human playtesting or listening.", "No claim of exhaustive security or anti-agent effectiveness."]
+  },
+  "authority": {
+    "current": "Root assignment relaying the user's approved redesign and locks",
+    "historical": "DESIGN.md and Description.md still describe the prior question set at initial review; their question mechanics and early skip warning are superseded.",
+    "decisions_index": "No challenge-specific entry found in EXISTING_CHALLENGE_DECISIONS.md at initial review."
+  },
+  "baseline_visual_review": {
+    "viewed": ["screenshots/01-menu.png", "screenshots/04-firewall.png", "screenshots/14-certificate.png", "organizer/references/menu-capture.webp"],
+    "preserve": ["550 by 400 white stage scaled to the desktop viewport", "Original title image, purple/green lettering and gray offset shadows", "Pink answer surfaces with vivid blue rectangular frames", "Handwritten type, red question numbers and bottom lives/skips", "Original black/red/green game-over presentation", "Cream certificate, goose illustration, distinct readable and recoverable flag reward"],
+    "remove_only_as_approved": ["Early save-all-skips warning", "Universal ANSWER footer", "Free correctness verifiers and prefilled answer notebook"]
+  },
+  "release_checks": [
+    {"id": "parity", "check": "Record stage identifier and root parity evidence; hash tested source and compare with shipped source after fixes."},
+    {"id": "sequence", "check": "Exactly twenty fixed questions, three lives, fourteen short questions, and six layered questions at 6, 9, 11, 15, 17, 20."},
+    {"id": "presentation", "check": "Compare actual menu, ordinary questions, game over, and certificate at 1366x768 and 1920x1080; inspect native 550x400 stage for clipping and density."},
+    {"id": "fairness", "check": "Record the visible clue for each page-object action; no solution in accessibility names, hidden labels, comments, or free correctness responses."},
+    {"id": "actions", "check": "Every enabled object/control does its advertised job; meaningful actions commit naturally; no universal ANSWER or green/red free verifier."},
+    {"id": "interaction", "check": "Mouse drag and keyboard alternatives agree; drag release suppresses accidental clicks; rapid double click cannot apply to the next question."},
+    {"id": "recovery", "check": "Reload retains acknowledged and pending drafts and manual notes; menu return/resume works; dialogs preserve focus and notes."},
+    {"id": "notebook", "check": "Only player notes and acquired artifacts appear; no automatic answer summaries. Actual backup and denial-strip bytes remain downloadable and recoverable."},
+    {"id": "audio", "check": "Attempt title music on load, catch autoplay denial, retry on first pointer or keyboard interaction. Retain original files, saved mute/levels, sensible track changes and non-silent playback evidence."},
+    {"id": "accessibility", "check": "Reach controls and evidence using keyboard; visible focus, dialog Escape/trap/restore, readable labels, reduced motion, and no exclusive reliance on audio or animation."},
+    {"id": "failure", "check": "Three wrong committed actions show original game-over; retry resets fixed Q1 state, three lives, no question progress/skips; notes and legitimately acquired retained artifacts follow approved rules."},
+    {"id": "skip", "check": "No early save warning. Earn exactly three skips at 5, 10, 15. Spending one advances normally but cannot certify; final feedback explains unmet requirements without leaking PIN."},
+    {"id": "completion", "check": "Public solve reaches certificate, all nineteen prior completions and three unspent earned skips are required, and final consume happens once. Recover certificate after reload and menu return."},
+    {"id": "console", "check": "Record browser errors, failed asset requests, and abnormal action responses during the actual solve."},
+    {"id": "handoff", "check": "Root-owned walkthrough and captures reflect this revision, use actual control names, and accurately explain essential reasoning; Word rendering and links are separately checked."},
+    {"id": "deterrent", "check": "Any passive anti-agent metadata stays outside required evidence, execution, labels, and notebook; normal scripts and accessibility remain usable; effectiveness remains unproven."}
+  ],
+  "questions": [
+    {"q": 1, "shape": "short", "check": "SSH knowledge plus the draggable +1 changes 21 to 22; wrong protocol/unchanged port loses a life at the natural commit. Visible typography affords dragging."},
+    {"q": 2, "shape": "short", "check": "A fictional service shows disk 2.1 and running 2.0; restarting that service changes the actual running-version state."},
+    {"q": 3, "shape": "short", "check": "Knowledge-factor choice combined with the bezel FIDO key satisfies two different factors; clicking two knowledge choices does not."},
+    {"q": 4, "shape": "short", "check": "Shred only key K7 to cryptographically erase the encrypted archive while retaining its cipher disk; distinguish key and ciphertext objects."},
+    {"q": 5, "shape": "short", "check": "Remove intern from ADMIN while retaining READ; the frame is a real manipulable part of the page. Earn first skip."},
+    {"q": 6, "shape": "layered", "check": "Place FIDO gate at the shared junction so every knowledge-only authentication route crosses it. Visible routes support the inference."},
+    {"q": 7, "shape": "short", "check": "Unplug the Ethernet border and isolate footer Wi-Fi while leaving USB printer and power connected; state changes correspond to the pictured connections."},
+    {"q": 8, "shape": "short", "check": "Use Bob's public key to encrypt the actual memo and SEND the resulting bytes. Alice/private/wrong-recipient operations are meaningfully distinct."},
+    {"q": 9, "shape": "layered", "check": "Remove employee ID from body and comment while preserving budget. A cosmetic overlay alone does not remove source data; actual publish output follows edits."},
+    {"q": 10, "shape": "short", "check": "Back up approved release bytes from device 04 onto 09, eject safely, retain the real artifact, and earn second skip."},
+    {"q": 11, "shape": "layered", "check": "Move header candidate C701 through the vestibule with outer door closed and hidden footer bypass hatch closed; interlocks and candidate position reflect actual actions."},
+    {"q": 12, "shape": "short", "check": "Revoke four visible simulated employee sessions plus fifth session in HUD; preserve the player's quiz session and clearly distinguish it from workplace simulation."},
+    {"q": 13, "shape": "short", "check": "Register and XOR actual images to find changed badge C. The difference comes from supplied pixels, not a prepared answer keyed to alignment settings."},
+    {"q": 14, "shape": "short", "check": "Stop fictional input-recording tape using its red tab; the tape visibly stops and no real keystroke collection is implied."},
+    {"q": 15, "shape": "layered", "check": "Reorder all five first-match rules, including header rule 0 ALLOW ANY. Deny intern, allow staff 443, deny remaining traffic before both broad allows; equivalent functional policies pass. Save actual denied-traffic evidence for later. Earn third skip."},
+    {"q": 16, "shape": "short", "check": "Flip the page, disable DEBUG bypass, and retain ordinary front login. The page-back affordance is discoverable without solution-bearing labels."},
+    {"q": 17, "shape": "layered", "check": "Deploy the actual approved bytes backed up in Q10 and bind the arrow to immutable release identity, not mutable LATEST."},
+    {"q": 18, "shape": "short", "check": "Publish issuer revocation for the contractor serial while retaining records; tempting shredding of the old key does not substitute for revocation."},
+    {"q": 19, "shape": "short", "check": "Save the actual Q15 denial strip while logging stays on; using the familiar red stop tab is now wrong. The saved artifact contains real denied events."},
+    {"q": 20, "shape": "layered", "check": "Flip all three earned skip backs and XOR actual 3-of-3 share images in the difference viewer. Recovered PIN is 604827; missing shares do not reveal it. All nineteen prior completions plus three saved skips are enforced before atomic certification and RCC{certified_to_question_everything}."}
+  ],
+  "baseline_asset_sha256": {
+    "original-menu.webp": "eb8d640c6c5ad78c61e84cf022b972ed5354a3c1aa4ec387afec9ea3c81a7868",
+    "original-gameover.png": "ed95ed9506e739244545b017f11bd77fa94f006d212c1bdfc086942959770449",
+    "PatrickHandSC-Regular.ttf": "83eff88cfa3c4e501e25f334c0a1a88eb4d4af1ea9d4c32900edf2fb178244dc",
+    "audio/click.wav": "e8b69ebe3b31c0e8ef55a4bf7a66d48a2effbe308ac3a9b831893e1f8bc7193d",
+    "audio/correct.wav": "f32377afe7639fb9cab571a1aa16ce65060aeabb8bac350d9c7fec110bcb6003",
+    "audio/gameover.mp3": "2aea6778cc904048cc0e0d125a1fa5a4d3134b56fec4ed092f851724eb3dd824",
+    "audio/quiz.mp3": "61a284310c806f1fd405616006f9306fb3ce93e1a511f5db523f8651fb30c535",
+    "audio/skip.wav": "a191518a8b595515624f92ba82478f677b6823915a74c9b4cde635db7ab6420b",
+    "audio/title.mp3": "f6940735efe2666853c858d6bdb8479843e456ddcbbd721923d7051bd230aef3",
+    "audio/win.mp3": "ff120512c71d37f8e653ec646520160da9f5005c9ceb91dc50e87d75762b3a9e",
+    "audio/won.wav": "b971611af248846a99322c73cadb8b500338548bbf1e9efebaa74d2b430b52aa",
+    "audio/wrong.wav": "8713e54ed7f0beac5bdf14a788fbea8b88319a7af6f6289d494ef670bab25384"
+  },
+  "evidence_categories": {
+    "technical_correctness": "pending redesigned runtime",
+    "visual_review": "baseline inspected; redesigned captures pending",
+    "independent_human_playtesting": "not performed",
+    "independent_human_listening": "not performed",
+    "anti_agent_effectiveness": "not independently evaluated"
+  }
+}

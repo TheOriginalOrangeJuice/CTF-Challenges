@@ -1,0 +1,399 @@
+{
+  "server": {
+    "name": "[GER] Wasted Gaming | Public TeamSpeak³ Server #1",
+    "address": "ts3.wasted-gaming.de:9987",
+    "welcome": "Welcome to the [b]Wasted Gaming[/b] TeamSpeak³ Server! Read the rules in the Lobby and join your game channel. Need an admin? They hang out in the [b]Support[/b] channel - talk on voice, they don't read chat. Visit [url]http://www.wasted-gaming.de[/url]",
+    "password": "",
+    "maxClients": 32,
+    "platform": "Linux",
+    "version": "3.0.6.1 [Build: 1340956745]",
+    "created": "2010-03-14T18:22:00Z",
+    "hostbanner": {
+      "image": "",
+      "url": "http://www.wasted-gaming.de",
+      "text": "WASTED GAMING",
+      "subtext": "www.wasted-gaming.de  |  CS:S  |  CoD  |  LoL"
+    },
+    "hostbutton": {
+      "tooltip": "Wasted Gaming Forum",
+      "url": "http://www.wasted-gaming.de/forum"
+    }
+  },
+  "query": {
+    "port": 10011,
+    "login": "serveradmin",
+    "password": "CHANGE_ME_serverquery_pw"
+  },
+  "serverGroups": [
+    {
+      "sgid": 6,
+      "name": "Server Admin",
+      "icon": "sa",
+      "admin": true
+    },
+    {
+      "sgid": 9,
+      "name": "Moderator",
+      "icon": "mod",
+      "admin": true
+    },
+    {
+      "sgid": 10,
+      "name": "Member",
+      "icon": "member"
+    },
+    {
+      "sgid": 7,
+      "name": "Normal",
+      "icon": "normal"
+    },
+    {
+      "sgid": 11,
+      "name": "Musicbot",
+      "icon": "music"
+    },
+    {
+      "sgid": 8,
+      "name": "Guest",
+      "icon": null
+    }
+  ],
+  "channelGroups": [
+    {
+      "cgid": 5,
+      "name": "Channel Admin",
+      "icon": "ca"
+    },
+    {
+      "cgid": 6,
+      "name": "Operator",
+      "icon": "op"
+    },
+    {
+      "cgid": 7,
+      "name": "Voice",
+      "icon": "voice"
+    },
+    {
+      "cgid": 8,
+      "name": "Guest",
+      "icon": null
+    }
+  ],
+  "defaultServerGroup": 8,
+  "defaultChannelGroup": 8,
+  "privilegeKeys": [
+    {
+      "token": "8hJkQp2rL5mN9vXc3bZw7yTa1eDf4gHs6iKl0oPq",
+      "sgid": 6,
+      "description": "Server Admin key - DO NOT SHARE",
+      "used": false
+    },
+    {
+      "token": "WGmember-7Qx2LpV9sKd4RbN1",
+      "sgid": 10,
+      "description": "Member key - handed out by Marcel",
+      "used": false
+    }
+  ],
+  "channels": [
+    {
+      "cid": 1,
+      "pid": 0,
+      "name": "Lobby",
+      "default": true,
+      "topic": "Welcome! Please move to a game channel.",
+      "description": "[b]Rules[/b]\n1. No spamming, no insults\n2. Respect the admins\n3. Use push-to-talk\n4. Have fun!\n\n[color=#ffffff]Clan motto (members only): no lag, no mercy[/color]",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 2,
+      "pid": 0,
+      "name": "[cspacer0]▬▬▬▬▬▬▬ Gaming ▬▬▬▬▬▬▬"
+    },
+    {
+      "cid": 3,
+      "pid": 0,
+      "name": "Counter-Strike: Source",
+      "topic": "de_dust2 24/7",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 4,
+      "pid": 3,
+      "name": "CS:S #1",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 5,
+      "pid": 3,
+      "name": "CS:S #2",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 6,
+      "pid": 3,
+      "name": "CS:S War Room",
+      "password": "dust2",
+      "topic": "Clanwar only",
+      "codec": "Speex Ultra-Wideband (32 kHz)",
+      "codecQuality": 8,
+      "maxClients": 5
+    },
+    {
+      "cid": 7,
+      "pid": 0,
+      "name": "Call of Duty: Black Ops",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 8,
+      "pid": 0,
+      "name": "League of Legends",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 9,
+      "pid": 8,
+      "name": "Ranked 5v5",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 10,
+      "pid": 8,
+      "name": "Normal Games",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 11,
+      "pid": 0,
+      "name": "Minecraft",
+      "topic": "Server IP: mc.wasted-gaming.de",
+      "codec": "Speex Narrowband (8 kHz)",
+      "codecQuality": 5
+    },
+    {
+      "cid": 12,
+      "pid": 0,
+      "name": "World of Warcraft",
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7
+    },
+    {
+      "cid": 13,
+      "pid": 0,
+      "name": "[cspacer1]▬▬▬▬▬▬▬▬ Misc ▬▬▬▬▬▬▬▬"
+    },
+    {
+      "cid": 14,
+      "pid": 0,
+      "name": "Music Bot",
+      "topic": "!request <song>",
+      "codec": "CELT Mono (48 kHz)",
+      "codecQuality": 10,
+      "music": true
+    },
+    {
+      "cid": 15,
+      "pid": 0,
+      "name": "AFK / Away",
+      "topic": "Idle users get moved here",
+      "codec": "Speex Narrowband (8 kHz)",
+      "codecQuality": 1
+    },
+    {
+      "cid": 16,
+      "pid": 0,
+      "name": "Support",
+      "topic": "Wait here for an admin - use voice",
+      "moderated": true,
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7,
+      "description": "Wait here for an admin.\nAdmins are ingame and don't read chat - use your microphone (Push-To-Talk hotkey: Options > Capture)."
+    },
+    {
+      "cid": 17,
+      "pid": 0,
+      "name": "[cspacer2]▬▬▬▬▬▬▬▬ Staff ▬▬▬▬▬▬▬▬"
+    },
+    {
+      "cid": 18,
+      "pid": 0,
+      "name": "Admin Room",
+      "password": "dust22010",
+      "topic": "Staff only",
+      "description": "Staff only.\nNew staff: the staff code is in my identity, where nobody ever looks. - Marcel",
+      "moderated": true,
+      "codec": "Speex Wideband (16 kHz)",
+      "codecQuality": 7,
+      "maxClients": 8
+    },
+    {
+      "cid": 19,
+      "pid": 0,
+      "name": "[spacer3]___"
+    },
+    {
+      "cid": 21,
+      "pid": 0,
+      "name": "[cspacer5]▪▬▪   ▪▪▬   ▪▪▪   ▪▪▪▪      ▬▪▪▪"
+    },
+    {
+      "cid": 20,
+      "pid": 0,
+      "name": "[cspacer4]www.wasted-gaming.de"
+    }
+  ],
+  "bots": [
+    {
+      "nickname": "Lisa",
+      "cid": 1,
+      "sgids": [
+        10
+      ],
+      "cgid": 8,
+      "country": "DE",
+      "talkiness": 0.4,
+      "chatter": [
+        "hey",
+        "anyone wanna play something?",
+        "brb",
+        "lol",
+        "whats up"
+      ]
+    },
+    {
+      "nickname": "Kevin",
+      "cid": 4,
+      "sgids": [
+        7
+      ],
+      "cgid": 8,
+      "country": "DE",
+      "talkiness": 0.8,
+      "chatter": [
+        "rush b",
+        "omg lag",
+        "gg",
+        "someone join css #1 we need one more",
+        "my mic is broken ;(",
+        "tobi recruited another guy yesterday, the clan grows",
+        "who made that weird dot dash spacer at the bottom of the tree lol"
+      ]
+    },
+    {
+      "nickname": "xXx_Sn1p3r_xXx",
+      "cid": 4,
+      "sgids": [
+        7
+      ],
+      "cgid": 8,
+      "country": "AT",
+      "talkiness": 1.0,
+      "chatter": [
+        "headshot!!!",
+        "noob",
+        "1v1 me",
+        "haha owned"
+      ]
+    },
+    {
+      "nickname": "Dennis|AFK",
+      "cid": 15,
+      "sgids": [
+        10
+      ],
+      "cgid": 8,
+      "country": "DE",
+      "talkiness": 0,
+      "away": true,
+      "awayMessage": "eating"
+    },
+    {
+      "nickname": "MusicBot",
+      "cid": 14,
+      "sgids": [
+        11
+      ],
+      "cgid": 8,
+      "country": "DE",
+      "talkiness": 2.5,
+      "inputMuted": false,
+      "outputMuted": true,
+      "platform": "Linux",
+      "description": "Now playing: Skrillex - Scary Monsters And Nice Sprites"
+    },
+    {
+      "nickname": "[Admin] Marcel",
+      "cid": 18,
+      "sgids": [
+        6,
+        10
+      ],
+      "cgid": 5,
+      "country": "DE",
+      "talkiness": 0,
+      "description": "Server owner. Need something? Come to Support and talk, I'm always on voice.",
+      "persona": "marcel",
+      "pokeReply": false,
+      "uid": "c3RhZmYgY29kZSA9IDQ0NzEgOik="
+    },
+    {
+      "nickname": "Gh0st",
+      "cid": 9,
+      "sgids": [
+        8
+      ],
+      "cgid": 8,
+      "country": "NL",
+      "talkiness": 0.5,
+      "inputMuted": true
+    },
+    {
+      "nickname": "Tobi^",
+      "cid": 9,
+      "sgids": [
+        10
+      ],
+      "cgid": 6,
+      "country": "DE",
+      "talkiness": 0.6,
+      "chatter": [
+        "ranked?",
+        "we need an adc",
+        "report the jungler pls"
+      ],
+      "description": "WG recruiter - poke me if you want to join Wasted Gaming",
+      "pokeMessage": "hey! you want to join Wasted Gaming? nice. go to the Support channel and tell Marcel on voice that I sent you. he will test you a bit. when he asks for the staff code: he's paranoid and 'hides' it in his own unique ID, lol. copy it and look at it closely ;)",
+      "replies": [
+        "want to join WG? go to Support, tell Marcel on voice that Tobi sent you.",
+        "the staff code? marcel keeps it in his unique id, no joke. right click him, copy unique id, look closely.",
+        "battle cry? it's on the server tree somewhere, kevin says it looks like morse",
+        "the motto? it's in the lobby rules. read ALL of it, even what you cant see ;)"
+      ]
+    },
+    {
+      "nickname": "Steve",
+      "cid": 11,
+      "sgids": [
+        7
+      ],
+      "cgid": 8,
+      "country": "GB",
+      "talkiness": 0.3,
+      "chatter": [
+        "found diamonds!!",
+        "creeper blew up my house -.-"
+      ]
+    }
+  ],
+  "bbcode": true
+}

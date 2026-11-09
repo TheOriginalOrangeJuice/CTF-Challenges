@@ -1,0 +1,23 @@
+﻿{
+    "method":  "ffmpeg volumedetect, full decode in Condev from verified stage puffle-main-20",
+    "results":  [
+                    {
+                        "file":  "music-1.mp3",
+                        "sha256":  "b509c7aa0881ca033f320ef32ed0009ffb78acb3dfde97fc1b78cf51cbad0b40",
+                        "decoded_samples":  4497408,
+                        "mean_volume_db":  -20.8,
+                        "peak_volume_db":  -3.4,
+                        "duration_seconds":  51.02
+                    },
+                    {
+                        "file":  "music-2.mp3",
+                        "sha256":  "ee3f1846fd1c8d9ce646e24b4ad5e2247887844116e2452a0e2e95dcc03aa3dd",
+                        "decoded_samples":  1824768,
+                        "mean_volume_db":  -20.7,
+                        "peak_volume_db":  -3.9,
+                        "duration_seconds":  20.72
+                    }
+                ],
+    "independent_human_listening":  "not performed",
+    "browser_output":  "recorded separately by check_browser.py"
+}

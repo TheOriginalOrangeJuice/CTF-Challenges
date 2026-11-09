@@ -1,0 +1,10 @@
+services:
+  double-it:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "40000:1337"
+    environment:
+      FLAG: ${FLAG:?Set the real challenge flag before starting}

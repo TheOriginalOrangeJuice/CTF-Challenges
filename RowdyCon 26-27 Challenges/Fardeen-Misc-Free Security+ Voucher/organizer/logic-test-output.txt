@@ -1,0 +1,146 @@
+
+> impossible-security-quiz@1.0.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: all twenty initial drafts are valid, independent, and incomplete
+ok 1 - all twenty initial drafts are valid, independent, and incomplete
+  ---
+  duration_ms: 5.683664
+  type: 'test'
+  ...
+# Subtest: drafts reject extra fields, foreign shapes, coercions, and non-finite input
+ok 2 - drafts reject extra fields, foreign shapes, coercions, and non-finite input
+  ---
+  duration_ms: 2.611731
+  type: 'test'
+  ...
+# Subtest: sanitizing copies mutable player data without changing it
+ok 3 - sanitizing copies mutable player data without changing it
+  ---
+  duration_ms: 0.091992
+  type: 'test'
+  ...
+# Subtest: literal opening questions use the actual selected target, patch, and ruler width
+ok 4 - literal opening questions use the actual selected target, patch, and ruler width
+  ---
+  duration_ms: 0.09591
+  type: 'test'
+  ...
+# Subtest: all five two-category factor pairs pass in either order; knowledge plus knowledge does not
+ok 5 - all five two-category factor pairs pass in either order; knowledge plus knowledge does not
+  ---
+  duration_ms: 0.146352
+  type: 'test'
+  ...
+# Subtest: firewall encloses complete duck pictures and excludes every part of the other pictures
+ok 6 - firewall encloses complete duck pictures and excludes every part of the other pictures
+  ---
+  duration_ms: 0.108544
+  type: 'test'
+  ...
+# Subtest: all 64 network cuts have exactly one admissible two-edge separation
+ok 7 - all 64 network cuts have exactly one admissible two-edge separation
+  ---
+  duration_ms: 0.538888
+  type: 'test'
+  ...
+# Subtest: badge permissions, false positives, and the actual conveyor photograph stay distinct
+ok 8 - badge permissions, false positives, and the actual conveyor photograph stay distinct
+  ---
+  duration_ms: 0.237133
+  type: 'test'
+  ...
+# Subtest: authority requires a rooted chain, delegated rights, and exclusive expiration on every ancestor
+ok 9 - authority requires a rooted chain, delegated rights, and exclusive expiration on every ancestor
+  ---
+  duration_ms: 0.363993
+  type: 'test'
+  ...
+# Subtest: vestibule accepts equivalent safe routes and rejects tailgating, simultaneous doors, and unfinished exits
+ok 10 - vestibule accepts equivalent safe routes and rejects tailgating, simultaneous doors, and unfinished exits
+  ---
+  duration_ms: 0.31798
+  type: 'test'
+  ...
+# Subtest: clock offsets are inferred from simultaneous calibration and give one panel order
+ok 11 - clock offsets are inferred from simultaneous calibration and give one panel order
+  ---
+  duration_ms: 0.943448
+  type: 'test'
+  ...
+# Subtest: audio accepts an actual residual match, including another real delay rather than a hardcoded setting
+ok 12 - audio accepts an actual residual match, including another real delay rather than a hardcoded setting
+  ---
+  duration_ms: 1.104685
+  type: 'test'
+  ...
+# Subtest: audio compares negative-time pre-roll, all tails, and isolated errors instead of a short or averaged window
+ok 13 - audio compares negative-time pre-roll, all tails, and isolated errors instead of a short or averaged window
+  ---
+  duration_ms: 2.453917
+  type: 'test'
+  ...
+# Subtest: the order-insensitive checksum cannot stand in for the photograph
+ok 14 - the order-insensitive checksum cannot stand in for the photograph
+  ---
+  duration_ms: 0.103419
+  type: 'test'
+  ...
+# Subtest: all 16 truth assignments yield exactly TTFF
+ok 15 - all 16 truth assignments yield exactly TTFF
+  ---
+  duration_ms: 0.487757
+  type: 'test'
+  ...
+# Subtest: all 256 four-tick bomb programs have exactly one safe solution, including repeated actions
+ok 16 - all 256 four-tick bomb programs have exactly one safe solution, including repeated actions
+  ---
+  duration_ms: 1.190379
+  type: 'test'
+  ...
+# Subtest: NOT scope is checked against every input combination
+ok 17 - NOT scope is checked against every input combination
+  ---
+  duration_ms: 0.148434
+  type: 'test'
+  ...
+# Subtest: tile restoration has a three-operation minimum and accepts longer equivalent restoring sequences
+ok 18 - tile restoration has a three-operation minimum and accepts longer equivalent restoring sequences
+  ---
+  duration_ms: 0.678991
+  type: 'test'
+  ...
+# Subtest: transcript labels are verified against each captured state
+ok 19 - transcript labels are verified against each captured state
+  ---
+  duration_ms: 0.207928
+  type: 'test'
+  ...
+# Subtest: final audit derives authority at corrected time and issues the actual currently exposed exact badge
+ok 20 - final audit derives authority at corrected time and issues the actual currently exposed exact badge
+  ---
+  duration_ms: 0.603428
+  type: 'test'
+  ...
+# Subtest: every ticket partition, remaining-ticket permutation, and exposed slot yields one valid final audit
+ok 21 - every ticket partition, remaining-ticket permutation, and exposed slot yields one valid final audit
+  ---
+  duration_ms: 105.540552
+  type: 'test'
+  ...
+# Subtest: public evidence is fresh data and contains neither completion flags nor answer-key fields
+ok 22 - public evidence is fresh data and contains neither completion flags nor answer-key fields
+  ---
+  duration_ms: 0.61286
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 269.780375

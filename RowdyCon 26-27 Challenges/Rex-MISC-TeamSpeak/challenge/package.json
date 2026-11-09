@@ -1,0 +1,18 @@
+{
+  "name": "ts3-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based TeamSpeak 3 look-alike (early 2010s) for a CTF challenge",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/",
+    "solve": "node tools/solve.js",
+    "build:voice": ".venv/bin/python tools/build_voice.py",
+    "build:sounds": ".venv/bin/python tools/build_sounds.py"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}

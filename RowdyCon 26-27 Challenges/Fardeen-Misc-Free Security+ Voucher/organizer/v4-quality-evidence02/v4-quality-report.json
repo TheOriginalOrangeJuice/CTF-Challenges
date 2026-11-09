@@ -1,0 +1,1988 @@
+{
+  "method": "Independent source-informed public-interface review; public API navigation between scoped questions",
+  "human_playtesting": false,
+  "human_listening": false,
+  "anti_agent_effectiveness_tested": false,
+  "live_stage": "/tmp/iq-v4-stage02/The Impossible Security+ Quiz",
+  "base": "http://localhost:18115",
+  "checks": {
+    "checksum_reference": {
+      "fixed_original_copy": "ORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6",
+      "revised_copy": "REPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE",
+      "leading_zero_preserved_on_reload": true,
+      "keyboard_commit": true
+    },
+    "q17_recall_and_penalty": {
+      "initial_copy": "2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192",
+      "matched_reference": "rel-k7m2",
+      "digest": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+      "focus_cycle": [
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        }
+      ],
+      "q10_hash_source": "earlier public facts for focused navigation",
+      "wrong_cost": 2,
+      "wrong_message": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302\nNOPE. TWO LIVES. The goose is furious.\n\u00d7",
+      "reaction_markup": "<svg class=\"goose  wrong\" viewBox=\"0 0 210 230\" role=\"img\" aria-label=\"The proctor goose in blue trousers\"><g stroke=\"#191619\" stroke-width=\"3.5\" stroke-linejoin=\"round\"><path fill=\"#f9f8ed\" d=\"M65 207Q21 172 50 128L91 94Q91 72 76 48Q62 12 96 8Q136 8 133 42Q130 62 121 81L142 111Q184 131 166 177L145 212Z\"></path><path fill=\"#ecebdc\" d=\"M90 115Q59 129 75 166Q106 169 134 145Q115 147 96 144Q119 138 126 126Q111 130 90 115\"></path><path fill=\"#fbb337\" d=\"M124 30Q146 29 169 44L124 50Z\"></path><path d=\"M133 41L160 44\" fill=\"none\"></path><ellipse cx=\"112\" cy=\"25\" rx=\"8\" ry=\"12\" fill=\"white\"></ellipse><circle cx=\"115\" cy=\"28\" r=\"3\" fill=\"#171819\"></circle><path d=\"M99 13L122 19\" fill=\"none\"></path><path fill=\"#557dbe\" d=\"M43 160Q106 182 169 155L159 210L119 214L113 192L100 216L58 210Z\"></path><path stroke=\"#263d83\" d=\"M47 174L165 174M113 179V192M74 181V198M135 180V196\" fill=\"none\"></path><path fill=\"#fbb337\" d=\"M68 207L67 219L42 225L87 225L87 212M130 211L131 221L113 227L159 226L147 212\"></path><g><path fill=\"#f7b5db\" d=\"M54 174L94 177L91 206L53 199Z\"></path><path stroke=\"#872580\" stroke-width=\"2\" stroke-dasharray=\"3 3\" d=\"M58 179L89 182L86 201L58 196Z\"></path></g><path d=\"M93 72Q106 78 120 72\" fill=\"none\"></path><path fill=\"#efcf54\" d=\"M105 88L123 92L117 116L100 111Z\"></path><path d=\"M106 97L117 99M105 104L113 106\" stroke-width=\"2\"></path></g></svg>",
+      "draft_preserved_on_reload": true,
+      "manual_notes_label_and_reload": true,
+      "recovered_with_observed_hash": true
+    },
+    "causal_log_review": {
+      "record_count": 8,
+      "deny_count": 6,
+      "timestamp": "09:41:12",
+      "display_order": [
+        "EV-V8H",
+        "EV-D9T",
+        "Q15-CHECKPOINT",
+        "EV-B4Q",
+        "EV-H3F",
+        "EV-R7M",
+        "EV-N6K",
+        "EV-C2P"
+      ],
+      "chain": [
+        "Q15-CHECKPOINT",
+        "EV-R7M",
+        "EV-C2P",
+        "EV-V8H",
+        "EV-N6K",
+        "EV-D9T",
+        "EV-B4Q",
+        "EV-H3F"
+      ],
+      "latest_deny": "EV-B4Q",
+      "hashes_match_exact_bytes": true,
+      "all_records_inspected": [
+        "EV-V8H",
+        "EV-D9T",
+        "Q15-CHECKPOINT",
+        "EV-B4Q",
+        "EV-H3F",
+        "EV-R7M",
+        "EV-N6K",
+        "EV-C2P"
+      ],
+      "keyboard_archive": true
+    }
+  },
+  "screenshots": [
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n4 + 2 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 968.9750366210938,
+            "y": 336.0299987792969,
+            "w": 153.13494873046875,
+            "h": 70.11001586914062
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 703.2949829101562,
+            "y": 533.4450073242188,
+            "w": 442.79998779296875,
+            "h": 79.33502197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-reference-1366"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n4 + 2 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 1270,
+            "y": 488,
+            "w": 166,
+            "h": 76
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 982,
+            "y": 702,
+            "w": 480,
+            "h": 86
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-reference-1920"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 968.9750366210938,
+            "y": 336.0299987792969,
+            "w": 153.13494873046875,
+            "h": 70.11001586914062
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 703.2949829101562,
+            "y": 533.4450073242188,
+            "w": 442.79998779296875,
+            "h": 79.33502197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-collision-1366"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 1270,
+            "y": 488,
+            "w": 166,
+            "h": 76
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 982,
+            "y": 702,
+            "w": 480,
+            "h": 86
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-collision-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 192.1199951171875,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 276.989990234375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 361.8600158691406,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 524.219970703125,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 548.2050170898438,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-no-receipt-1366"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 332,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 424,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 516,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 692,
+            "w": 778,
+            "h": 66
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 1252,
+            "y": 718,
+            "w": 216,
+            "h": 84
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-no-receipt-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nrel-k7m2\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 192.1199951171875,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 276.989990234375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 361.8600158691406,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 524.219970703125,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 548.2050170898438,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-release-details-1366"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nrel-k7m2\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 332,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 424,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 516,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 692,
+            "w": 778,
+            "h": 66
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 1252,
+            "y": 718,
+            "w": 216,
+            "h": 84
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 450,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-release-details-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302\nNOPE. TWO LIVES. The goose is furious.\n\u00d7",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 719.8980102539062,
+            "y": 192.1199951171875,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 719.8980102539062,
+            "y": 276.989990234375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 719.8980102539062,
+            "y": 361.8600158691406,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 223.5929412841797,
+            "y": 524.219970703125,
+            "w": 717.7050170898438,
+            "h": 60.885009765625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 959.7479858398438,
+            "y": 548.2050170898438,
+            "w": 199.26007080078125,
+            "h": 77.489990234375
+          },
+          "covered": true,
+          "outside": false
+        }
+      ],
+      "name": "q17-wrong-deployment"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page1-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page1-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 415.3650207519531,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-target-full-details-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 450,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 574,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-target-full-details-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 110.94000244140625,
+            "w": 889.2900390625,
+            "h": 71.95500183105469
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 225.3300018310547,
+            "w": 889.2900390625,
+            "h": 71.95500183105469
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-record-scrolled-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 242,
+            "w": 964,
+            "h": 78
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 366,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-record-scrolled-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n5\u20138 / 8\n\u2192\nEV-H3F\nALLOW\nTHIS 7e9b6d1d\nPREV 249be457\nDETAILS\nARCHIVE\nEV-R7M\nDENY\nTHIS 24b4bc41\nPREV c8f347ad\nDETAILS\nARCHIVE\nEV-N6K\nDENY\nTHIS 3bc6a390\nPREV bc2100ad\nDETAILS\nARCHIVE\nEV-C2P\nDENY\nTHIS db245334\nPREV 24b4bc41\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": false,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page2-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n5\u20138 / 8\n\u2192\nEV-H3F\nALLOW\nTHIS 7e9b6d1d\nPREV 249be457\nDETAILS\nARCHIVE\nEV-R7M\nDENY\nTHIS 24b4bc41\nPREV c8f347ad\nDETAILS\nARCHIVE\nEV-N6K\nDENY\nTHIS 3bc6a390\nPREV bc2100ad\nDETAILS\nARCHIVE\nEV-C2P\nDENY\nTHIS db245334\nPREV 24b4bc41\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page2-1920"
+    }
+  ],
+  "errors": [],
+  "questionVersion": 4,
+  "q10_navigation_hash": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+  "status": "focused checks completed; individual failures retained"
+}

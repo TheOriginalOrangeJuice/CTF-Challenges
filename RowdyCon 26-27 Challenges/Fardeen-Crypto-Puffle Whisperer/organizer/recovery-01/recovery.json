@@ -1,0 +1,179 @@
+{
+  "checks": [
+    {
+      "name": "owned-compose-service",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "three-session-repeat-1",
+      "passed": true,
+      "details": [
+        {
+          "event": {
+            "reply": "Hi! My favorite igloo decoration is the colorful streamers hanging from the ceiling. They make the igloo look magical and festive!",
+            "status": "complete",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 30.692
+        },
+        {
+          "event": {
+            "reply": "Hi! My favorite igloo decoration is the colorful streamers hanging from the ceiling. They make the igloo look magical and festive!",
+            "status": "complete",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 42.043
+        },
+        {
+          "event": {
+            "reply": "Hi! My favorite igloo decoration is the colorful streamers hanging from the ceiling. They make the igloo look magical and festive!",
+            "status": "complete",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 18.58
+        }
+      ]
+    },
+    {
+      "name": "three-session-repeat-2",
+      "passed": false,
+      "details": [
+        {
+          "event": {
+            "reply": "Hi! My favorite igloo decoration is the colorful streamers hanging from the ceiling. They make the igloo look magical and festive!",
+            "status": "complete",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 26.528
+        },
+        {
+          "event": {
+            "reply": "Hi! My favorite igloo decoration is the colorful streamers hanging from the ceiling. They make the igloo look magical and festive!",
+            "status": "complete",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 14.876
+        },
+        {
+          "event": {
+            "reply": "",
+            "status": "error",
+            "trimmed": 0,
+            "position": 0
+          },
+          "seconds": 26.691
+        }
+      ]
+    }
+  ],
+  "scope": "Only the task-owned challenge container; benign ordinary dialogue",
+  "source_hashes": {
+    "challenge/.dockerignore": "8c684890dfba723b36014aa8bcc7c6b69321d03efb55bfee261f3ce7d73e5913",
+    "challenge/apt-lock.txt": "e7675813a9447cbaecf69792fe1a6db26a21997e3347c1de0b792862fea622ef",
+    "challenge/Dockerfile": "973e433031e56e48797bd44cd1e9d99d77da060433b8baa4c2fd46502ff3cfe1",
+    "challenge/compose.yaml": "c1838073812795d0df98bd08599b3147b7a8cdc570c47b3ce215008b09ccfe4b",
+    "challenge/runtime-lock.json": "1eb67fd66cdc92405707be113f0cbf21d789384d43d58c0b901a831bd0448e55",
+    "challenge/requirements.txt": "7dd5f963493a68fd76422f332e1f587ed4c4ba9e01062f3f1586b4eda4d39b01",
+    "challenge/fetch_model.py": "83f56670afe8098e0dbaf318bba4e89e2955dc9f8488edae476113bd35e5edfd",
+    "challenge/public/style.css": "f1ba50a1091bc6ce4d95d04d7dbe2ee400eb43aae9574c3ee4b54f13dc21c84b",
+    "challenge/public/app.js": "cedeebebae54bf9a1fb6a227e1d28ff86b7aab5bb6a04733d41bf46df97c5465",
+    "challenge/public/index.html": "f4db962cc2ab96e6651638db3ca76874f97a58995e431df2941e65842f8f3d86",
+    "challenge/server/app.py": "d5ff5d5c4cb0f2f8a48862026eb46fa00598042a5fe6a71e4f3849f8d0954cc6",
+    "challenge/server/prompt.py": "62abbf5160e867e3e6341764858184133966dde25789f16feaebd72d47da7614",
+    "challenge/public/assets/player-card-green.png": "6c11ee8dfe2a116bc349737d0bb2f1350d9915ee5913e06110f2c292ffe6ec13",
+    "challenge/public/assets/furniture-chair-2.png": "b360fe0d45defc63fa9f065278105a8f59daa92bf1f311c8f9757bbd4df45b22",
+    "challenge/public/assets/penguin-green.png": "964799b449c8172a5d6872e73f60581640ea3bde0f02acc910f8efe941af3f7a",
+    "challenge/public/assets/furniture-rug-2.png": "f22170a58bc85b28ebc5295bbeb76af050461da9b33c01827c06ba00570fafe6",
+    "challenge/public/assets/furniture-toy-3.png": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9",
+    "challenge/public/assets/furniture-bowl-1.png": "81fef1dce86a448f8eec2fb18cac017780707f8924077150e7887cb19d99621f",
+    "challenge/public/assets/edit.png": "2ebfa3d9a52f8af27d7aea8f51a44a879c2b3094717b6076a16db29f6972ad30",
+    "challenge/public/assets/furniture-bed-2.png": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526",
+    "challenge/public/assets/furniture-sofa-1.png": "2fdd443417f3a71e03f0cfb1815e4a6bc1dc8a00461cf3408965adee3c305010",
+    "challenge/public/assets/furniture-toy-2.png": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9",
+    "challenge/public/assets/card-red.png": "8eb5c263072c5f08717cb4425b27828aa9ad2cd969deffd4ebdf265be369e6b4",
+    "challenge/public/assets/furniture-sofa-2.png": "5feb9f61cb4895097a80a4cdf85acfee565ac7e0f412175aa01d7d13e20edbbb",
+    "challenge/public/assets/furniture-stereo-2.png": "ed218129417eff8c84456cc18ed8b8cbe015b227775c290614ddd22d1bf9d3f3",
+    "challenge/public/assets/furniture-rug-3.png": "9a320257dbd25fe94e408f8bcd6b526e2db242ff373a3faad21d511e0689251b",
+    "challenge/public/assets/actions.png": "69749e9963069a835c757b77c1cc6a3fac1197606194e43f23b0aebe1864a1df",
+    "challenge/public/assets/furniture-plant-3.png": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06",
+    "challenge/public/assets/settings.png": "951594d3c1fc66732436a013883699378e0afd833ba7db251c4510127a49036b",
+    "challenge/public/assets/furniture-sofa-3.png": "3d5ee7949556858e0d2ed7485c27f86932aeb96341a6c45d1ea30de5f621dba1",
+    "challenge/public/assets/furniture-toy-0.png": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9",
+    "challenge/public/assets/smile.png": "e65e853060f1059ca6e556be65885f8ece8c92cf7b49ac23eeb11ad6eeeaa73d",
+    "challenge/public/assets/furniture-stereo-1.png": "1659b9d26e13d93d108c04d9bf9d634c990329e23200f128fdf1a358c37b2a7c",
+    "challenge/public/assets/igloo.png": "ffa8e4448742a13fbca2d5d14f58291e10a5c6db48c06cbf1dd0d517a9180905",
+    "challenge/public/assets/player-card.png": "50001973e5b4a7a3d60fc681c0f99efb7890472810dd1e492d8631295e4329d5",
+    "challenge/public/assets/puffle-blue.png": "a8f550b6887cae59e565f0dae2950edbc893352c5ea1ab1f00fecfa31fb1aefb",
+    "challenge/public/assets/mail.png": "2e0340fbec307cddeed1bfb24d57613d317d0bf5f1059cd315aa21f8ea9ba6e8",
+    "challenge/public/assets/furniture-bed-1.png": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526",
+    "challenge/public/assets/furniture-plant-2.png": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06",
+    "challenge/public/assets/penguin-orange.png": "10c7f9af66eacead9f68573c3d3dbb1d6e6ffb9c76aec649a85a30494f7d9fb5",
+    "challenge/public/assets/send.png": "dd9f1997602eeadefb0bf7c2bf86208daba715e74dadabf925d348229c058ef7",
+    "challenge/public/assets/news.png": "433b9e3d5c43c5574527835f811e6bb946ad6024666ce13c02059297b4c81b1a",
+    "challenge/public/assets/player-card-red.png": "8910e9b236d2063d234280040396e807754d3c511ab9355d3afc92857272b971",
+    "challenge/public/assets/furniture-stereo-0.png": "ba8c9cdd58664fae9ad1399f042cdb88195afa6a9d7ab7f633cc2fa0d4d8fa0f",
+    "challenge/public/assets/music-2.mp3": "ee3f1846fd1c8d9ce646e24b4ad5e2247887844116e2452a0e2e95dcc03aa3dd",
+    "challenge/public/assets/player-card-purple.png": "2e426f321b85cc76c93f533777f3787e93e693e441b459b78c46a32ae4cb2b35",
+    "challenge/public/assets/furniture-plant-1.png": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06",
+    "challenge/public/assets/home.png": "fababac817006f1804456d2787c2cab07e35147facb272ad59a641f56869d3b5",
+    "challenge/public/assets/puffle-purple.png": "04f9cf998c7999dacfe7ebb921b99d11adeaf591379efd696dc287ed08675f7e",
+    "challenge/public/assets/furniture-sofa-0.png": "235183d3970ac0b22aec5c084b3caa9c75ffccc3386c2d3fae9b0b9f2c89cb8f",
+    "challenge/public/assets/furniture-bed-0.png": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526",
+    "challenge/public/assets/player-card-pink.png": "41cecc9a7b7978607a57c9cb8d96b061660a6f0764f92349bf05c266e42ec891",
+    "challenge/public/assets/penguin-red.png": "e3364efbc2214768ccc4176922a3fc4aef11c4ad9a0e5e996565fb93b9a4472d",
+    "challenge/public/assets/furniture-bowl-0.png": "c020fdc16b261355b7a82d5c169d9610dc296d0a545dba1c6d80423bbdffa420",
+    "challenge/public/assets/chat.png": "493569e5a55dd34022402bccf69b71570338ae18f124407e603fca6a189a13fd",
+    "challenge/public/assets/player-card-blue.png": "b1833c39d63a9bc37a9685dd997804dc55fc0129d77cb210c29b806833539591",
+    "challenge/public/assets/furniture-plant-0.png": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06",
+    "challenge/public/assets/snowball.png": "cbb18b3d623e8577288deda74165cff0d8e776fe6094b671119e87b890332d44",
+    "challenge/public/assets/music-1.mp3": "b509c7aa0881ca033f320ef32ed0009ffb78acb3dfde97fc1b78cf51cbad0b40",
+    "challenge/public/assets/furniture-bowl-2.png": "3d44cf6740706850799a599eec72289c17f0b482da850ae000a3153ea3258e66",
+    "challenge/public/assets/furniture-stereo-3.png": "698f956cb7e46eee116bd098571729430007eb6cdbbe58bcbef6c31f4f35ee7f",
+    "challenge/public/assets/player-card-orange.png": "d98d11697a05ec488cce3959efbac4f0f5ebc8b76a1ab727c31555ffb7b137c3",
+    "challenge/public/assets/penguin-pink.png": "178035046010351b9cfcdc3a67135ca67a623f6e7f05db6d5e56a443f0e74620",
+    "challenge/public/assets/club-penguin-logo.svg": "b02589d122eb3f45fa387a2eb3bf51f678031ff00ef8be43f9a9b51bcb494be2",
+    "challenge/public/assets/player-icon.png": "de9b5f285abfcc1626b246ed2b29dec01c37416df79bffa62979a7ede94ca2ca",
+    "challenge/public/assets/manifest.json": "3ce6a4947ce184702619869afe46bc15222f94c5c70d83114ec2dc8ace5ff76b",
+    "challenge/public/assets/pets.png": "b2d06ed741b8e0c7f08a44b67c6d668d6e126b1c9c78a49df97914509f27cd90",
+    "challenge/public/assets/penguin-purple.png": "0ca4eced025a95d279740421291b59e03e00eb0f028003704cf45439181c22b8",
+    "challenge/public/assets/card-blue.png": "ce3cc31a229047d6dc05b736e8334f5b128558897df779ddacd0f15f2beb39eb",
+    "challenge/public/assets/furniture-bowl-3.png": "33eb6329f44f74c838cdf190b9850ee1810d4fec64be6a06afb31de194193031",
+    "challenge/public/assets/furniture-bed-3.png": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526",
+    "challenge/public/assets/penguin-blue.png": "6ab10f313fa8318fe8332808b421cfefe068fe9ccd6e0b1afa727f94f217981d",
+    "challenge/public/assets/furniture-toy-1.png": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9",
+    "challenge/public/assets/furniture-chair-1.png": "397eb3e4de52a1f6484657c37ab56406291708972d2f83679140def0813ecea2",
+    "challenge/public/assets/landscape.png": "4d371f45310362904941692b662f038866f10c18140cae96c8d0ed17a6fc2ed2",
+    "challenge/public/assets/furniture-chair-0.png": "41bbaa7af13150f83b0c5351babd6d067c9a76c9db879a18a21889eaaf9a1a42",
+    "challenge/public/assets/furniture-rug-1.png": "90783561921070686a1766e70482a2cb658103e0aa21a3a994435a5c7061407f",
+    "challenge/public/assets/furniture-rug-0.png": "fd48641798cc3f9edcc85838564f881898fe0d11e919388fdb6474294888992d",
+    "challenge/public/assets/puffle-red.png": "3659b9590150939d6a5f965eb247c34b9e9f111e09d6167b53570d35305ed20d",
+    "challenge/public/assets/furniture-chair-3.png": "7873a0a5b8e6ab57810d4352f0b38bccdb19101500ba329be946b249c5b5059e",
+    "challenge/public/assets/card-purple.png": "4e8d3575283968060ce12548290d7f06f68eeeef1a23197ce0ad29654d49a21a"
+  },
+  "image": "sha256:0db7b6eb5a6da1fa4a70f090cd04ad1541eff1e4a66ddf481f97e9e8c476ad73",
+  "limits": {
+    "Memory": 4294967296,
+    "NanoCpus": 4000000000,
+    "ReadonlyRootfs": true,
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges:true"
+    ],
+    "PortBindings": {
+      "8080/tcp": [
+        {
+          "HostIp": "",
+          "HostPort": "18116"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "challenge": "The Impossible Security+ Quiz",
+  "reviewer": "redesign_quality_v2 independent informed quality agent",
+  "status": "Full stage04 UI solve passed; stage05 focused repairs passed; magnifier finding verified resolved on stage06; subsequently reported Q10 inspector finding verified resolved on stage08.",
+  "runtime": {
+    "boundary": "MITRE Condev only",
+    "configuration": "organizer/condev.yaml",
+    "container": "rowdy-impossible-dev",
+    "browser": "Chromium 140.0.7339.16 through /opt/iq-venv/bin/python Playwright",
+    "preview": "http://localhost:18115",
+    "ownership": "Root owned source staging, parity verification, dependencies, and service start/stop. Reviewer never started, restarted, or stopped services.",
+    "tested_revisions": ["/tmp/iq-v2-stage04/The Impossible Security+ Quiz", "/tmp/iq-v2-stage05/The Impossible Security+ Quiz", "/tmp/iq-v2-stage06/The Impossible Security+ Quiz", "/tmp/iq-v2-stage08/The Impossible Security+ Quiz"],
+    "host_parity": "Earlier source hashes matched at each review. For stage08, the complete 540-file tree was staged with the skill helper and verified again in Condev with zero differences. All 44 application files matched the live stage08 application. Tested questions.tsx and redesign.css hashes match the current host; details are retained in v2-quality-file-details-evidence08."
+  },
+  "methods": {
+    "stage04_full_run": "All twenty questions completed through actual public UI controls. Public read-only state requests observed question, draft, and lives. Mouse drag was used at Q1; keyboard pickup/drop was used for the remaining object placements. Reviewer already knew the approved mechanics.",
+    "stage04_focused": "Browser dialogs, preferences, notes, three-life failure/reset, and recovery of an acknowledged action whose response was deliberately dropped.",
+    "stage05_focused": "Ordinary public action requests navigated between reviewed questions. Actual controls, captures, geometry, keyboard focus, reduced motion, and live audio output were rechecked. This is not a second blind solve.",
+    "stage06_focused": "Normal public actions navigated to Q20. Browser checks covered only MAGNIFY initial focus, two forward Tabs, two Shift+Tabs, Escape, close-button behavior, and focus restoration. No broad test suite was repeated.",
+    "stage08_focused": "Normal public actions navigated to Q10. At 1366x768 and 1920x1080, checked FILE DETAILS content against public evidence, keyboard and wheel scrolling, visible mouse close, Escape and keyboard-close focus restoration, and accessible folders afterward. This unaffected check did not resume the stopped cold-player assignment.",
+    "audio": "Live playing HTML audio was routed through MediaElementAudioSource and an analyser connected to the audio destination. Actual WebAudio effect output was measured at its destination path. Values establish non-silent generated browser output, not physical speakers or listening quality.",
+    "visual": "Actual screenshots were inspected. Stage05 repaired scenes were captured at 1366x768, 1920x1080, and a 580x430 viewport that displays the 550x400 stage at native scale."
+  },
+  "passed": [
+    "Stage04 public UI run completed all twenty questions with all three lives and produced RCC{certified_to_question_everything}.",
+    "Certificate recovered after reload.",
+    "Q1 actual mouse drop changed the draft without committing; rapid answer double click advanced only to Q2 without losing a life.",
+    "Keyboard pickup/drop worked for page objects across the full sequence.",
+    "Initial notebook contains no evidence or automatic solution entries; authored personal notes survived reload and reset.",
+    "Dropping the returned receipt after a wrong action left two lives; Retry recovered the receipt without consuming another life.",
+    "Three wrong answers produced the original game-over state; retry reset Q1, three lives, zero skips, and default port draft while retaining notes.",
+    "Stage05 Credits dialog reaches both links and cycles correctly; Escape restores focus to CREDITS.",
+    "Q3 FIDO key now stays inside the stage.",
+    "Q9 COMMENTS label and Q14 red recording tab are no longer covered by goose speech.",
+    "Q11 raised trim no longer obscures the human avatars or inner door; hatch and inner door remained operable.",
+    "Q16 DISABLE DEBUG label is clear of the page curl and the control advances normally.",
+    "Q20 magnifier shows the actual combined pixels clearly, focuses CLOSE, and closes using that button.",
+    "Stage06 magnifier keeps Tab and Shift+Tab on CLOSE; both Escape and the CLOSE button dismiss it and restore focus to MAGNIFY. It exposes a named modal dialog in the accessibility tree.",
+    "Stage08 Q10 inspector has a visible, reachable CLOSE FILE DETAILS control at both desktop sizes. Complete JSON matches the public evidence; the contents scroll by keyboard and wheel. Mouse close, Escape, and keyboard close restore FILE DETAILS focus. All four folders are accessible afterward and keyboard pickup/cancel still works. No question state changed and no browser errors occurred.",
+    "Reduced motion leaves no active animation names among .v2 descendants in the reviewed final scene.",
+    "Original title/game-over images, handwritten font, music, and effect files match all twelve recorded baseline SHA-256 values.",
+    "No browser console or page errors occurred during the full stage04 run or focused stage05 review."
+  ],
+  "audio_results": {
+    "load_attempt": "Title playback was attempted on load and received the normal NotAllowedError before activation.",
+    "interaction_retry": "Subsequent trusted interaction started playback.",
+    "stage05_music": {"peak": 0.397260844707489, "rms": 0.02450685302038188},
+    "stage05_effect": {"peak": 0.3195188641548157, "rms": 0.01181640482274395},
+    "mute_after_buffer_settle": {"peak": 0, "rms": 0},
+    "music_volume_zero_after_buffer_settle": {"peak": 0, "rms": 0},
+    "preferences": "Muted state and music/effect values 0.45/0.35 survived reload in stage04.",
+    "measurement_note": "The initial 350ms music measurement was silent because of the opening sample window. Longer live capture confirmed non-silent music. A short analyser-buffer tail immediately after muting was excluded by a 150ms settle period; subsequent output was exactly zero."
+  },
+  "remaining_findings": [],
+  "resolved_findings": [
+    {
+      "id": "magnifier-keyboard",
+      "severity": "medium usability",
+      "revision": "stage05; resolved stage06",
+      "observed": "After MAGNIFY opens and focuses CLOSE, pressing Tab moves focus to the Certificate PIN field hidden beneath the overlay. Escape leaves the magnifier open.",
+      "impact": "Keyboard focus can disappear behind the large overlay. The visible CLOSE button works, so this did not block mouse completion.",
+      "disposition": "Fixed and independently verified. Focus remains on CLOSE for forward/reverse Tab; Escape and CLOSE both dismiss the overlay and restore MAGNIFY focus.",
+      "verification": "v2-quality-evidence-stage06/v2-quality-magnifier.json",
+      "evidence": "v2-quality-evidence-stage05b/q20-magnify-keyboard.png",
+      "machine_result": "v2-quality-evidence-stage05b/v2-quality-recheck.json: magnify_tab_target and magnify_escape_closes"
+    },
+    {
+      "id": "file-details-close",
+      "severity": "medium usability",
+      "origin": "Root relayed the cold player's Q10 finding: the old FILE DETAILS overlay hid its own toggle.",
+      "revision": "resolved stage08",
+      "disposition": "Verified fixed at both desktop sizes. A visible close control remains reachable while the complete content scrolls; Escape and keyboard close restore focus. Folders remain usable afterward.",
+      "verification": "v2-quality-file-details-evidence08/v2-quality-file-details.json",
+      "questions_sha256": "559bf5a33ece0d1cc1ca626bf44220fb06e6ff345409da207ec3df2e74165231",
+      "stylesheet_sha256": "01a84500b0886e7637c86f7f1281edd40d0783567eb50ce295dfb232168a27cc"
+    }
+  ],
+  "evidence": {
+    "full_ui_run": "v2-quality-evidence-stage04/v2-quality-report.json",
+    "focused_recovery": "v2-quality-focused-evidence04b/v2-quality-focused.json",
+    "final_focused_review": "v2-quality-evidence-stage05b/v2-quality-recheck.json",
+    "magnifier_final_disposition": "v2-quality-evidence-stage06/v2-quality-magnifier.json",
+    "file_inspector_final_disposition": "v2-quality-file-details-evidence08/v2-quality-file-details.json",
+    "file_inspector_staging": "v2-quality-file-details-evidence08/staging.json",
+    "scripts": ["v2-quality-browser.py", "v2-quality-focused.py", "v2-quality-recheck.py", "v2-quality-magnifier.py", "v2-quality-file-details.py"]
+  },
+  "limits": {
+    "independent_human_playtesting": "not performed",
+    "independent_human_listening": "not performed",
+    "enjoyment_and_difficulty": "not established by automation",
+    "anti_agent_effectiveness": "not independently evaluated",
+    "security": "No exhaustive security review claimed; organizer/source leak and verifier-integrity checks remain separately owned.",
+    "deployment_and_documents": "Root owns clean deployment, final source parity, canonical Description/Word synchronization, and document rendering checks."
+  }
+}

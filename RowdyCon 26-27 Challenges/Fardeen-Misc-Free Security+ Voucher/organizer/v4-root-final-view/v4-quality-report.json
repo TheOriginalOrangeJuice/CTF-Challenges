@@ -1,0 +1,482 @@
+{
+    "method":  "Primary-agent focused public-interface recheck using the independent reviewer authored harness; not an independent execution.",
+    "human_playtesting":  false,
+    "human_listening":  false,
+    "anti_agent_effectiveness_tested":  false,
+    "live_stage":  "/tmp/iq-v4-stage03",
+    "base":  "http://localhost:18115",
+    "checks":  {
+                   "q17_recall_and_penalty":  {
+                                                  "initial_copy":  "2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →",
+                                                  "matched_reference":  "rel-k7m2",
+                                                  "digest":  "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+                                                  "focus_cycle":  [
+                                                                      {
+                                                                          "name":  "Artifact digest",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "PRE",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "Close evidence",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "Artifact digest",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "PRE",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "Close evidence",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "Artifact digest",
+                                                                          "inDialog":  true
+                                                                      },
+                                                                      {
+                                                                          "name":  "PRE",
+                                                                          "inDialog":  true
+                                                                      }
+                                                                  ],
+                                                  "q10_hash_source":  "earlier public facts for focused navigation",
+                                                  "wrong_cost":  2,
+                                                  "wrong_message":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nLIVES: 1\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂\nNOPE. TWO LIVES. The goose is furious.\n×",
+                                                  "reaction_markup":  "\u003csvg class=\"goose  wrong\" viewBox=\"0 0 210 230\" role=\"img\" aria-label=\"The proctor goose in blue trousers\"\u003e\u003cg stroke=\"#191619\" stroke-width=\"3.5\" stroke-linejoin=\"round\"\u003e\u003cpath fill=\"#f9f8ed\" d=\"M65 207Q21 172 50 128L91 94Q91 72 76 48Q62 12 96 8Q136 8 133 42Q130 62 121 81L142 111Q184 131 166 177L145 212Z\"\u003e\u003c/path\u003e\u003cpath fill=\"#ecebdc\" d=\"M90 115Q59 129 75 166Q106 169 134 145Q115 147 96 144Q119 138 126 126Q111 130 90 115\"\u003e\u003c/path\u003e\u003cpath fill=\"#fbb337\" d=\"M124 30Q146 29 169 44L124 50Z\"\u003e\u003c/path\u003e\u003cpath d=\"M133 41L160 44\" fill=\"none\"\u003e\u003c/path\u003e\u003cellipse cx=\"112\" cy=\"25\" rx=\"8\" ry=\"12\" fill=\"white\"\u003e\u003c/ellipse\u003e\u003ccircle cx=\"115\" cy=\"28\" r=\"3\" fill=\"#171819\"\u003e\u003c/circle\u003e\u003cpath d=\"M99 13L122 19\" fill=\"none\"\u003e\u003c/path\u003e\u003cpath fill=\"#557dbe\" d=\"M43 160Q106 182 169 155L159 210L119 214L113 192L100 216L58 210Z\"\u003e\u003c/path\u003e\u003cpath stroke=\"#263d83\" d=\"M47 174L165 174M113 179V192M74 181V198M135 180V196\" fill=\"none\"\u003e\u003c/path\u003e\u003cpath fill=\"#fbb337\" d=\"M68 207L67 219L42 225L87 225L87 212M130 211L131 221L113 227L159 226L147 212\"\u003e\u003c/path\u003e\u003cg\u003e\u003cpath fill=\"#f7b5db\" d=\"M54 174L94 177L91 206L53 199Z\"\u003e\u003c/path\u003e\u003cpath stroke=\"#872580\" stroke-width=\"2\" stroke-dasharray=\"3 3\" d=\"M58 179L89 182L86 201L58 196Z\"\u003e\u003c/path\u003e\u003c/g\u003e\u003cpath d=\"M93 72Q106 78 120 72\" fill=\"none\"\u003e\u003c/path\u003e\u003cpath fill=\"#efcf54\" d=\"M105 88L123 92L117 116L100 111Z\"\u003e\u003c/path\u003e\u003cpath d=\"M106 97L117 99M105 104L113 106\" stroke-width=\"2\"\u003e\u003c/path\u003e\u003c/g\u003e\u003c/svg\u003e",
+                                                  "draft_preserved_on_reload":  true,
+                                                  "manual_notes_label_and_reload":  true,
+                                                  "recovered_with_observed_hash":  true
+                                              }
+               },
+    "screenshots":  [
+                        {
+                            "text":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nLIVES: 3\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂",
+                            "viewport":  [
+                                             1366,
+                                             768
+                                         ],
+                            "scroll":  [
+                                           1366,
+                                           768
+                                       ],
+                            "controls":  [
+                                             {
+                                                 "name":  "Inspect rel-v3p9",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  192.1199951171875,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-k7m2",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  276.989990234375,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-c8r4",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  361.8600158691406,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Deployment reference",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  216.21499633789062,
+                                                              "y":  524.219970703125,
+                                                              "w":  717.7049560546875,
+                                                              "h":  60.885009765625
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "DEPLOY →",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  952.3699951171875,
+                                                              "y":  548.2050170898438,
+                                                              "w":  199.260009765625,
+                                                              "h":  77.489990234375
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             }
+                                         ],
+                            "name":  "q17-no-receipt-1366"
+                        },
+                        {
+                            "text":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nLIVES: 3\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂",
+                            "viewport":  [
+                                             1920,
+                                             1080
+                                         ],
+                            "scroll":  [
+                                           1920,
+                                           1080
+                                       ],
+                            "controls":  [
+                                             {
+                                                 "name":  "Inspect rel-v3p9",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  332,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-k7m2",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  424,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-c8r4",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  516,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Deployment reference",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  454,
+                                                              "y":  692,
+                                                              "w":  778,
+                                                              "h":  66
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "DEPLOY →",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  1252,
+                                                              "y":  718,
+                                                              "w":  216,
+                                                              "h":  84
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             }
+                                         ],
+                            "name":  "q17-no-receipt-1920"
+                        },
+                        {
+                            "text":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nrel-k7m2\nCLOSE ×\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂",
+                            "viewport":  [
+                                             1366,
+                                             768
+                                         ],
+                            "scroll":  [
+                                           1366,
+                                           768
+                                       ],
+                            "controls":  [
+                                             {
+                                                 "name":  "Inspect rel-v3p9",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  192.1199951171875,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-k7m2",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  276.989990234375,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-c8r4",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  712.52001953125,
+                                                              "y":  361.8600158691406,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Deployment reference",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  216.21499633789062,
+                                                              "y":  524.219970703125,
+                                                              "w":  717.7049560546875,
+                                                              "h":  60.885009765625
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "DEPLOY →",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  952.3699951171875,
+                                                              "y":  548.2050170898438,
+                                                              "w":  199.260009765625,
+                                                              "h":  77.489990234375
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Close evidence",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  1016.9450073242188,
+                                                              "y":  197.65499877929688,
+                                                              "w":  116.23492431640625,
+                                                              "h":  53.5050048828125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Artifact digest",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  238.35499572753906,
+                                                              "y":  300.9750061035156,
+                                                              "w":  889.2900390625,
+                                                              "h":  71.95498657226562
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             }
+                                         ],
+                            "name":  "q17-release-details-1366"
+                        },
+                        {
+                            "text":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nrel-k7m2\nCLOSE ×\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂",
+                            "viewport":  [
+                                             1920,
+                                             1080
+                                         ],
+                            "scroll":  [
+                                           1920,
+                                           1080
+                                       ],
+                            "controls":  [
+                                             {
+                                                 "name":  "Inspect rel-v3p9",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  332,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-k7m2",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  424,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-c8r4",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  992,
+                                                              "y":  516,
+                                                              "w":  92,
+                                                              "h":  52
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Deployment reference",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  454,
+                                                              "y":  692,
+                                                              "w":  778,
+                                                              "h":  66
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "DEPLOY →",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  1252,
+                                                              "y":  718,
+                                                              "w":  216,
+                                                              "h":  84
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Close evidence",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  1322,
+                                                              "y":  338,
+                                                              "w":  126,
+                                                              "h":  58
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Artifact digest",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  478,
+                                                              "y":  450,
+                                                              "w":  964,
+                                                              "h":  78
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             }
+                                         ],
+                            "name":  "q17-release-details-1920"
+                        },
+                        {
+                            "text":  "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: −2 LIVES\nDEPLOY REFERENCE\nLATEST → rel-v3p9\nDEPLOY →\nLIVES: 1\nSKIPS\n➜\n➜\n➜\n▤\nNOTES\n♫\n⌂\nNOPE. TWO LIVES. The goose is furious.\n×",
+                            "viewport":  [
+                                             1366,
+                                             768
+                                         ],
+                            "scroll":  [
+                                           1366,
+                                           768
+                                       ],
+                            "controls":  [
+                                             {
+                                                 "name":  "Inspect rel-v3p9",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  717.7299194335938,
+                                                              "y":  192.1199951171875,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-k7m2",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  717.7299194335938,
+                                                              "y":  276.989990234375,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Inspect rel-c8r4",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  717.7299194335938,
+                                                              "y":  361.8600158691406,
+                                                              "w":  84.8699951171875,
+                                                              "h":  47.970001220703125
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "Deployment reference",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  221.42489624023438,
+                                                              "y":  524.219970703125,
+                                                              "w":  717.7049560546875,
+                                                              "h":  60.885009765625
+                                                          },
+                                                 "covered":  false,
+                                                 "outside":  false
+                                             },
+                                             {
+                                                 "name":  "DEPLOY →",
+                                                 "disabled":  false,
+                                                 "rect":  {
+                                                              "x":  957.5798950195312,
+                                                              "y":  548.2050170898438,
+                                                              "w":  199.25994873046875,
+                                                              "h":  77.489990234375
+                                                          },
+                                                 "covered":  true,
+                                                 "outside":  false
+                                             }
+                                         ],
+                            "name":  "q17-wrong-deployment"
+                        }
+                    ],
+    "errors":  [
+
+               ],
+    "questionVersion":  4,
+    "q10_navigation_hash":  "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+    "status":  "focused checks completed; individual failures retained"
+}

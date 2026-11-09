@@ -1,0 +1,110 @@
+﻿{
+    "policy":  "All runtime assets are frozen locally. Availability does not establish redistribution permission.",
+    "originalGame":  {
+                         "creator":  "Splapp-me-do",
+                         "reference":  "https://www.newgrounds.com/portal/view/365143",
+                         "era":  "Original 2007 Impossible Quiz, 550 by 400 stage",
+                         "sourceSwf":  "https://uploads.ungrounded.net/365000/365143_Impossible_Quiz_Deluxe_NG..swf",
+                         "reuse":  "Original artwork and effects remain credited to their creators. Third-party music permissions are not established by public availability or the archive item\u0027s license. Obtain appropriate event redistribution authorization."
+                     },
+    "groups":  [
+                   {
+                       "paths":  [
+                                     "challenge/public/assets/original-menu.webp",
+                                     "challenge/public/assets/original-gameover.png"
+                                 ],
+                       "sources":  [
+                                       "https://cdn.mobygames.com/92010d5c-ac08-11ed-83c1-02420a000131.webp",
+                                       "https://cdn.mobygames.com/screenshots/12288524-the-impossible-quiz-browser-i-guessed-too-many-questions-wrong-g.png"
+                                   ],
+                       "modifications":  "Unmodified source bytes, CSS-cropped title and GAME OVER artwork. All buttons and puzzle interactions remain live DOM/SVG.",
+                       "reuse":  "Reference screenshots of Splapp-me-do\u0027s original artwork; no open redistribution license verified."
+                   },
+                   {
+                       "paths":  [
+                                     "challenge/public/assets/PatrickHandSC-Regular.ttf",
+                                     "challenge/public/assets/font-OFL.txt"
+                                 ],
+                       "source":  "https://github.com/google/fonts/tree/main/ofl/patrickhandsc",
+                       "creator":  "Patrick Wagesreiter",
+                       "reuse":  "SIL Open Font License 1.1; bundled license retained",
+                       "modifications":  "Unmodified. Approximation for new lettering, not claimed to be the original game\u0027s font."
+                   },
+                   {
+                       "paths":  [
+                                     "challenge/client/src/art.tsx",
+                                     "challenge/client/src/style.css",
+                                     "challenge/client/src/objects.tsx",
+                                     "challenge/client/src/questions.tsx",
+                                     "challenge/client/src/redesign.css",
+                                     "challenge/client/src/variety.css",
+                                     "challenge/client/src/access-scene.tsx",
+                                     "challenge/client/src/access-scene.css",
+                                     "challenge/client/src/refinements.css",
+                                     "challenge/client/src/token-viewer.tsx",
+                                     "challenge/client/src/token-viewer.css",
+                                     "challenge/server/fixtures.ts",
+                                     "challenge/client/src/discovery-scenes.tsx",
+                                     "challenge/client/src/discovery-scenes.css",
+                                     "challenge/client/src/packet-printer.tsx",
+                                     "challenge/client/src/packet-printer.css",
+                                     "challenge/server/v5-models.ts"
+                                 ],
+                       "source":  "Authored in this challenge",
+                       "creator":  "RowdyCon challenge implementation",
+                       "modifications":  "Approved goose, stage, audio and first-party mature start cue preserved. Revision5 adds HTML proof cards, simulated storage-volume mixer/disk, network devices and selected forwarding wires, document/printer queues and recorder source/spool/tape. New artwork is authored DOM/SVG/CSS; no generated raster prompts or new third-party assets. Fixed badge/token pixels remain unchanged.",
+                       "reuse":  "First-party authored implementation; original game reference assets listed separately."
+                   },
+                   {
+                       "paths":  [
+                                     "challenge/public/assets/audio/"
+                                 ],
+                       "source":  "Original SWF sound tags and streaming sprites",
+                       "details":  "audio-manifest.json",
+                       "modifications":  "Original extracted music and effects preserved except START now uses the separately authored first-party tone. puzzle.json remains an unused legacy asset."
+                   },
+                   {
+                       "paths":  [
+                                     "challenge/public/assets/audio/start.wav"
+                                 ],
+                       "source":  "organizer/generate_start_tone.py",
+                       "creator":  "RowdyCon challenge implementation",
+                       "modifications":  "Authored 440/660 Hz sine notification; 0.48 seconds, 48 kHz mono PCM. No sampled recording.",
+                       "reuse":  "First-party synthesized asset; no third-party audio used."
+                   }
+               ],
+    "hashes":  {
+                   "challenge/public/assets/PatrickHandSC-Regular.ttf":  "83eff88cfa3c4e501e25f334c0a1a88eb4d4af1ea9d4c32900edf2fb178244dc",
+                   "challenge/public/assets/audio/click.wav":  "e8b69ebe3b31c0e8ef55a4bf7a66d48a2effbe308ac3a9b831893e1f8bc7193d",
+                   "challenge/public/assets/audio/correct.wav":  "f32377afe7639fb9cab571a1aa16ce65060aeabb8bac350d9c7fec110bcb6003",
+                   "challenge/public/assets/audio/gameover.mp3":  "2aea6778cc904048cc0e0d125a1fa5a4d3134b56fec4ed092f851724eb3dd824",
+                   "challenge/public/assets/audio/puzzle.json":  "4349b6e6e3616b9e0d78fdc1e6ffce8b56aba63d3df89bc9f9e05ac3ee2b80a8",
+                   "challenge/public/assets/audio/quiz.mp3":  "61a284310c806f1fd405616006f9306fb3ce93e1a511f5db523f8651fb30c535",
+                   "challenge/public/assets/audio/skip.wav":  "a191518a8b595515624f92ba82478f677b6823915a74c9b4cde635db7ab6420b",
+                   "challenge/public/assets/audio/title.mp3":  "f6940735efe2666853c858d6bdb8479843e456ddcbbd721923d7051bd230aef3",
+                   "challenge/public/assets/audio/win.mp3":  "ff120512c71d37f8e653ec646520160da9f5005c9ceb91dc50e87d75762b3a9e",
+                   "challenge/public/assets/audio/won.wav":  "b971611af248846a99322c73cadb8b500338548bbf1e9efebaa74d2b430b52aa",
+                   "challenge/public/assets/audio/wrong.wav":  "8713e54ed7f0beac5bdf14a788fbea8b88319a7af6f6289d494ef670bab25384",
+                   "challenge/public/assets/font-OFL.txt":  "b554a7f57d54db7857d4d9b8dc56ebd347dc4f857fb4f1ce1a25c332dfbf484c",
+                   "challenge/public/assets/original-gameover.png":  "ed95ed9506e739244545b017f11bd77fa94f006d212c1bdfc086942959770449",
+                   "challenge/public/assets/original-menu.webp":  "eb8d640c6c5ad78c61e84cf022b972ed5354a3c1aa4ec387afec9ea3c81a7868",
+                   "challenge/client/src/art.tsx":  "2701d4242b65fc81194ddcf7907778ed67dfd78e9984b78c97d0a95e7134bf83",
+                   "challenge/client/src/style.css":  "4da7344b2caa6e866b4cd18f5756aefe3b29becb48ecf7a85da67e9aa7e52b07",
+                   "challenge/client/src/objects.tsx":  "6155b3b572dfdf5d8b1f10f811cda1dec6becd3ce946e0d1e696ff5439e52cf9",
+                   "challenge/client/src/questions.tsx":  "2e7a1d5fe2d64450b5ffc1a5ba729e59a1c3b983eda203f45e2e2e3511750785",
+                   "challenge/client/src/redesign.css":  "01a84500b0886e7637c86f7f1281edd40d0783567eb50ce295dfb232168a27cc",
+                   "challenge/public/assets/audio/start.wav":  "7abf0b5f5cfcce6d7decca05b0d2cde76e546400054dc20106e1e4c8b71a1f50",
+                   "challenge/client/src/variety.css":  "f3567776f5982160d2a3c797c901194b9a35913fdefe403e4c67e5413eaa032f",
+                   "challenge/client/src/access-scene.tsx":  "fedab1d2d2365cccab63a4ad894c5a576fb5aadfcae6961cf25259b7e44b4d65",
+                   "challenge/client/src/access-scene.css":  "5420ec10e38255677bf166f9ceb4d44d8e1eb3129d901bdff5f66ddfe00fe841",
+                   "challenge/client/src/refinements.css":  "7d27640518e15e760fd0d58a573bff1bc5828937867d0bf1c2e08293a9c64e9d",
+                   "challenge/client/src/token-viewer.tsx":  "63ac6b992b0baeb3dc1b2d5d72f4b1c847582e11958aa8bbda4cdf6042899f86",
+                   "challenge/client/src/token-viewer.css":  "3c25133dd42613b4dc454f1c2dd3c787bd9af58a3f0be90cc04e02b570b70616",
+                   "challenge/server/fixtures.ts":  "9a09605f6f038353f8369eaa8b64f70c8c047d28a782caa880fb75f9004df3ac",
+                   "challenge/client/src/discovery-scenes.tsx":  "80de80b1f9b44b88a78ccd375b35ae5c0d7554f189c1a59153e05dbe4c0fd475",
+                   "challenge/client/src/discovery-scenes.css":  "2d4fce660be7749960bbdf0833f768d51e021a632fc6922a679e9cb6ca597a95",
+                   "challenge/client/src/packet-printer.tsx":  "a99d80084f45b576b0ae4eeec039f3ea315e9897ddde00c872eaee37fa483d9e",
+                   "challenge/client/src/packet-printer.css":  "f6a8fc880459fa85b5339c033144319bb0def9df60c30f8fbefe612e746b3dcc",
+                   "challenge/server/v5-models.ts":  "2821586d905586bf03d608d0552804faee49c1f9eb3737eb8d2541d8e1e8a35e"
+               }
+}

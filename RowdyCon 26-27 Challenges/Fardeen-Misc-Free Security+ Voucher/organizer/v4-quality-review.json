@@ -1,0 +1,86 @@
+﻿{
+    "revision":  4,
+    "method":  "Independent source-informed public-interface review, with public API navigation between scoped questions",
+    "status":  "Focused interaction, data and visual review passed; no remaining material blocker in reviewed scope",
+    "runtime":  {
+                    "container":  "rowdy-impossible-dev",
+                    "url":  "http://localhost:18115",
+                    "service_owner":  "root agent; reviewer did not start or stop services",
+                    "live_source":  "/tmp/iq-v4-stage02/The Impossible Security+ Quiz",
+                    "review_stage":  "/tmp/iq-v4-quality02/The Impossible Security+ Quiz",
+                    "stages":  [
+                                   {
+                                       "review_stage":  "iq-v4-quality01",
+                                       "live_stage":  "iq-v4-stage01",
+                                       "complete_first_party_files":  680,
+                                       "hash_differences":  0,
+                                       "scope":  "All seven focused questions; full live-source parity"
+                                   },
+                                   {
+                                       "review_stage":  "iq-v4-quality02",
+                                       "live_stage":  "iq-v4-stage02",
+                                       "complete_first_party_files":  754,
+                                       "hash_differences":  0,
+                                       "live_challenge_files":  52,
+                                       "scope":  "Q16/Q17 spacing, explicit notes label, manual notes reload and Q19 keyboard scrolling; live application parity"
+                                   }
+                               ],
+                    "host_stage_hash_differences":  0,
+                    "container_stage_hash_differences":  0,
+                    "live_source_hash_differences":  0,
+                    "git_metadata":  "Unavailable; this checkout is not a Git repository"
+                },
+    "viewports":  [
+                      "1366x768",
+                      "1920x1080"
+                  ],
+    "checks":  {
+                   "q4":  "DESTROY K7 explicitly identifies the sole decryption key; encrypted archive and disk-byte retention are visible.",
+                   "q10":  "Ordinary PROPERTIES exposes the full selectable SHA-256 without a retention hint. Keyboard inspection/copy/paste/eject passed. No approved-release notebook artifact or automatic note was created.",
+                   "q13":  "All approved/current badges are 24x24 with 284 black pixels. Only C differs by 20 pixels. Raw captures show comparable texture/density; actual difference output and misalignment behavior passed.",
+                   "q16":  "Original count 42 and stored checksum 6 stay fixed beside the editable replacement. Calculation is explicit and readonly. Leading-zero 06 persists on reload and keyboard submission passes.",
+                   "q17":  "No USB receipt or automatic recall. Opaque release identifiers share the version label. Full digest comparison to Q10 passed. Wrong deployment changed lives from 3 to 1 and rendered the angry goose/message; saved reference and recovery passed. Explicit Your notes label and manually authored note survived reload in stage02.",
+                   "q19":  "Eight exact hash-linked records, six DENY including the checkpoint, one fixed timestamp, and a final ALLOW require causal ordering. All eight details expose complete hashes/bytes; pager, focus restoration and correct archive passed. Stage02 explicitly verified Control+End exposes the complete record at both viewports.",
+                   "q20":  "Explicit face/add/remove/select/move/rotate controls fit both layouts. Keyboard drop/cancel, selected layer, drafts, magnifier focus and reduced motion passed. Independent recomputation matched actual SVG pixels for one/two/three inputs, translation, 180-degree rotation, removal and re-addition. Certification consumed three tokens."
+               },
+    "findings":  [
+                     {
+                         "id":  "q17-label-overlap",
+                         "status":  "resolved",
+                         "severity":  "presentation",
+                         "description":  "Stage01 BAD DEPLOY stamp overlapped DEPLOY REFERENCE. Stage02 compact cards and moved stamp resolve text overlap at both viewports. The remaining border-to-label gap is tight but readable.",
+                         "evidence":  [
+                                          "v4-quality-evidence02/q17-no-receipt-1366.png",
+                                          "v4-quality-evidence02/q17-no-receipt-1920.png"
+                                      ]
+                     }
+                 ],
+    "console_errors":  [
+
+                       ],
+    "evidence_reports":  [
+                             "v4-quality-evidence01/v4-quality-report.json",
+                             "v4-quality-evidence02/v4-quality-report.json"
+                         ],
+    "visual_review":  "Actual captures inspected at both desktop sizes: natural file properties, balanced raw badges and comparison output, clear checksum columns, Q17 error/recovery, paginated logs/full records, and final viewer empty/aligned/misaligned/magnified states. Controls remain inside the stage; covered-control observations occur under open dialogs or transient messages.",
+    "validation_limits":  [
+                              "Not a cold review: source, authored answers and previous designs were known.",
+                              "No independent human playtesting, human listening, difficulty calibration or anti-agent effectiveness test.",
+                              "Root separately owns whole-quiz UI regression, automated model/API tests, deployment and document handoff.",
+                              "Approved Hard-Very Hard label is preserved; memory and lives are not claimed as independent difficulty evidence."
+                          ],
+    "reviewed_application_manifest":  {
+                                          "manifest":  "C:/Users/Public/Docker/iq-v4-quality02/source-manifest.json",
+                                          "files":  52,
+                                          "live_stage02_hash_differences":  0,
+                                          "root_owns_later_cosmetic_review":  true
+                                      },
+    "stage01_to_stage02_application_delta":  [
+                                                 "challenge/client/src/refinements.css",
+                                                 "challenge/client/src/main.tsx"
+                                             ],
+    "later_host_changes_outside_this_review":  [
+                                                   "challenge/client/src/refinements.css"
+                                               ],
+    "evidence_hash_manifest":  "v4-quality-evidence-sha256.json"
+}

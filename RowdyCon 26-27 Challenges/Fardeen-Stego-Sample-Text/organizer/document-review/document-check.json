@@ -1,0 +1,22 @@
+{
+  "title": "SAMPLE TEXT: Final_Final_REAL",
+  "sections": [
+    "Description",
+    "Files",
+    "Hint(s)",
+    "Walkthrough",
+    "Flag"
+  ],
+  "images": [
+    "screenshots/01-editor-1366.png",
+    "screenshots/03-rgb-inspector.png",
+    "screenshots/04-source-crop.png",
+    "screenshots/08-endcard-preview.png"
+  ],
+  "local_links": [
+    "challenge/public/media/recovered-project.zip"
+  ],
+  "flag": "RCC{r4w_rgb_m0nt4g3_7c2e}",
+  "docx": "/tmp/rowdy-mlg-orb-20261028-173930-7e28c7/project/Description.docx",
+  "pages": 4
+}

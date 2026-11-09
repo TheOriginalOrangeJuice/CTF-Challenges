@@ -1,0 +1,509 @@
+{
+  "source_revision": "b3a86b70689a38fdf8773c250aa576551acb65b8",
+  "sources": [
+    {
+      "file": "igloo.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Figloo%2Figloos%2F1.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "131a8cedd041a548368e51416942ad0a0bcff76d1ab2808b25f15a10996a5ed8",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "landscape.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Figloo%2Fassets%2Figloo_background.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "31fb9ea36862221b8d5529f3ac180b6aab4cd4d7cca00b60b33742144f50e16a",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "penguin.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpenguin%2Fpenguin.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "97d42804b502c6cf52750d2db2b36776ceff560b0022c4a643c44eb033a79b74",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "interface.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fclient%2Finterface.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "9cc4a654ce01c15cec54c874770fe8b4c0b9b851db8f39584dfc6ea6def7baae",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "crumbs.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fcrumbs%2Fglobal_crumbs.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "47f001e80227c345b049d090fec5ed0401a5649d95540f01dbd3d73d6db5ce78",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "puffle-blue.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Fsprites%2Fblue.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "4bcf171c779e38f8b6a2eb9e42115a583bc46401d245136c761032a7d64312ce",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "card-blue.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Ficons%2Fblue.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "af9ee9db774893380d28241ca8c71009bcb9df74fd06393c0104822c8a0556ba",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "puffle-red.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Fsprites%2Fred.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "47e5b6e3a1a1fae8741a3be1ddfcb066c05de92635a760581d3ab2b25acc77ad",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "card-red.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Ficons%2Fred.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "ea432810826325c75ecdfe13c4721d4955ade05495c247374ce9e56a41900108",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "puffle-purple.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Fsprites%2Fpurple.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "4ceaca98473749b79b691c32bd2e79b6cf8ca8b85f04c874858e32157a628808",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "card-purple.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fpuffle%2Ficons%2Fpurple.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "9f1ac40ec6a4cf9dbecb7243b9a4b401e6550bfbbd3441adee2b9724e6d48a60",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "local-crumbs.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Flocal%2Fen%2Fcrumbs%2Flocal_crumbs.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "ece90502d18edf293f48d503f137fe82386b777acb7c2dfeb283d5564dbbe0f3",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-6.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F6.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "bd49d32b4fdd3af28fb127d2bab1fefd94fb1cd84551ddefc44f43d437132604",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-10.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F10.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "95275911a3bc7e74219ef4e652fed4e4e337a83511cbdb86299a1e8610349c6c",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-151.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F151.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "a0b4296c3c79f7b3c66d67595f6051ff89909971ef3b97548f73f2b7caea7496",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-162.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F162.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "50f7ac87756d2d60bf213d4195483a9f194cd4cdfd89cc885325de2cec0d686a",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-164.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F164.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "d011b39c0f2fc6a92d1d6b9a3c0563bf9928db455b50ba3b072b9ccd24affcec",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-200.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F200.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "d35b7f6e0331252dd7e5eba90a755af5851f207141223a7eeaaae8357f39e602",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-225.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F225.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "0c7f4f18c7a9f252221e9b44ae865f81e3dcce802743499ff286012596153051",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "furniture-210.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Ffurniture%2Fsprites%2F210.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "9ac3032172fa4a8fbb27050eef1da272274e5bd8c002a8323acb7ae565f8c185",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "music-1.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fmusic%2F1.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "1ad6f459be09f4c1e8e57e3411bd5ddf2db8a5465c37da9a543703bec561d456",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    },
+    {
+      "file": "music-2.swf",
+      "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/files/media%2Fplay%2Fv2%2Fcontent%2Fglobal%2Fmusic%2F2.swf/raw?ref=b3a86b70689a38fdf8773c250aa576551acb65b8",
+      "sha256": "c193bcb363cb6c5f006ac2d9eb0dbb8b82db97791f765265d73395499bea936e",
+      "rights": "Original Club Penguin/Disney artwork and audio; archive provides access, not a new license. Educational CTF reference/reuse; no claim of public-domain or open-source artwork."
+    }
+  ],
+  "tools": {
+    "jre": {
+      "checksum": "9f41bf88c7900c7097444a1bdeb84146ae692bc08842490ab098063c74bf9a8a",
+      "checksum_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.21_9.tar.gz.sha256.txt",
+      "download_count": 97428,
+      "link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.21_9.tar.gz",
+      "metadata_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.21_9.tar.gz.json",
+      "name": "OpenJDK17U-jre_x64_linux_hotspot_17.0.21_9.tar.gz",
+      "signature_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.21_9.tar.gz.sig",
+      "size": 46726088
+    },
+    "ffdec": {
+      "version": "version26.4.0",
+      "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version26.4.0/ffdec_26.4.0.zip",
+      "sha256": "56ce960aeafc7caf034e2052ba49f878a883f7c7ca690da6eeffca9587b5e4b9"
+    }
+  },
+  "transforms": [
+    "Original SWF vector/sprite/animation exports via FFDec; ActionScript not executed.",
+    "Removed non-rendered authoring guides from igloo; expanded avatar render bounds.",
+    "Original penguin body recolored for six player-selected colors; original faces, shading and animation retained.",
+    "Original interface artwork composed on its original round button.",
+    "Original numbered music clips decoded and concatenated in numeric order, encoded to local 128kbps MP3."
+  ],
+  "limitations": [
+    "Decorating offers eight items and four source orientations, rather than the full original catalog.",
+    "Only the opening twelve subframes of each selected animation are retained; movement and additional reactions are authored in Canvas.",
+    "HTML dialogs and procedural interaction cues are reconstructed. The room, characters, furniture and interface icons use original archived artwork. The original period wordmark is recorded separately in logo-provenance.json.",
+    "Archive access is not an open license to Disney artwork. Retain the in-app attribution; no claim of public-domain artwork."
+  ],
+  "files": [
+    {
+      "path": "actions.png",
+      "bytes": 7404,
+      "sha256": "69749e9963069a835c757b77c1cc6a3fac1197606194e43f23b0aebe1864a1df"
+    },
+    {
+      "path": "card-blue.png",
+      "bytes": 13008,
+      "sha256": "ce3cc31a229047d6dc05b736e8334f5b128558897df779ddacd0f15f2beb39eb"
+    },
+    {
+      "path": "card-purple.png",
+      "bytes": 12887,
+      "sha256": "4e8d3575283968060ce12548290d7f06f68eeeef1a23197ce0ad29654d49a21a"
+    },
+    {
+      "path": "card-red.png",
+      "bytes": 13527,
+      "sha256": "8eb5c263072c5f08717cb4425b27828aa9ad2cd969deffd4ebdf265be369e6b4"
+    },
+    {
+      "path": "chat.png",
+      "bytes": 6682,
+      "sha256": "493569e5a55dd34022402bccf69b71570338ae18f124407e603fca6a189a13fd"
+    },
+    {
+      "path": "edit.png",
+      "bytes": 4429,
+      "sha256": "2ebfa3d9a52f8af27d7aea8f51a44a879c2b3094717b6076a16db29f6972ad30"
+    },
+    {
+      "path": "furniture-bed-0.png",
+      "bytes": 7607,
+      "sha256": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526"
+    },
+    {
+      "path": "furniture-bed-1.png",
+      "bytes": 7607,
+      "sha256": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526"
+    },
+    {
+      "path": "furniture-bed-2.png",
+      "bytes": 7607,
+      "sha256": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526"
+    },
+    {
+      "path": "furniture-bed-3.png",
+      "bytes": 7607,
+      "sha256": "43a44f94b0413fb369008d2a7557710902bade7f16d91c30b2553740fffbf526"
+    },
+    {
+      "path": "furniture-bowl-0.png",
+      "bytes": 4492,
+      "sha256": "c020fdc16b261355b7a82d5c169d9610dc296d0a545dba1c6d80423bbdffa420"
+    },
+    {
+      "path": "furniture-bowl-1.png",
+      "bytes": 10412,
+      "sha256": "81fef1dce86a448f8eec2fb18cac017780707f8924077150e7887cb19d99621f"
+    },
+    {
+      "path": "furniture-bowl-2.png",
+      "bytes": 5047,
+      "sha256": "3d44cf6740706850799a599eec72289c17f0b482da850ae000a3153ea3258e66"
+    },
+    {
+      "path": "furniture-bowl-3.png",
+      "bytes": 10461,
+      "sha256": "33eb6329f44f74c838cdf190b9850ee1810d4fec64be6a06afb31de194193031"
+    },
+    {
+      "path": "furniture-chair-0.png",
+      "bytes": 10591,
+      "sha256": "41bbaa7af13150f83b0c5351babd6d067c9a76c9db879a18a21889eaaf9a1a42"
+    },
+    {
+      "path": "furniture-chair-1.png",
+      "bytes": 6650,
+      "sha256": "397eb3e4de52a1f6484657c37ab56406291708972d2f83679140def0813ecea2"
+    },
+    {
+      "path": "furniture-chair-2.png",
+      "bytes": 9524,
+      "sha256": "b360fe0d45defc63fa9f065278105a8f59daa92bf1f311c8f9757bbd4df45b22"
+    },
+    {
+      "path": "furniture-chair-3.png",
+      "bytes": 6867,
+      "sha256": "7873a0a5b8e6ab57810d4352f0b38bccdb19101500ba329be946b249c5b5059e"
+    },
+    {
+      "path": "furniture-plant-0.png",
+      "bytes": 8440,
+      "sha256": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06"
+    },
+    {
+      "path": "furniture-plant-1.png",
+      "bytes": 8440,
+      "sha256": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06"
+    },
+    {
+      "path": "furniture-plant-2.png",
+      "bytes": 8440,
+      "sha256": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06"
+    },
+    {
+      "path": "furniture-plant-3.png",
+      "bytes": 8440,
+      "sha256": "561c42adba2961d84683537cf58e80e0bff1909cd6128fc3ddfd94f2ef006d06"
+    },
+    {
+      "path": "furniture-rug-0.png",
+      "bytes": 3995,
+      "sha256": "fd48641798cc3f9edcc85838564f881898fe0d11e919388fdb6474294888992d"
+    },
+    {
+      "path": "furniture-rug-1.png",
+      "bytes": 8175,
+      "sha256": "90783561921070686a1766e70482a2cb658103e0aa21a3a994435a5c7061407f"
+    },
+    {
+      "path": "furniture-rug-2.png",
+      "bytes": 3963,
+      "sha256": "f22170a58bc85b28ebc5295bbeb76af050461da9b33c01827c06ba00570fafe6"
+    },
+    {
+      "path": "furniture-rug-3.png",
+      "bytes": 8351,
+      "sha256": "9a320257dbd25fe94e408f8bcd6b526e2db242ff373a3faad21d511e0689251b"
+    },
+    {
+      "path": "furniture-sofa-0.png",
+      "bytes": 14782,
+      "sha256": "235183d3970ac0b22aec5c084b3caa9c75ffccc3386c2d3fae9b0b9f2c89cb8f"
+    },
+    {
+      "path": "furniture-sofa-1.png",
+      "bytes": 6916,
+      "sha256": "2fdd443417f3a71e03f0cfb1815e4a6bc1dc8a00461cf3408965adee3c305010"
+    },
+    {
+      "path": "furniture-sofa-2.png",
+      "bytes": 6318,
+      "sha256": "5feb9f61cb4895097a80a4cdf85acfee565ac7e0f412175aa01d7d13e20edbbb"
+    },
+    {
+      "path": "furniture-sofa-3.png",
+      "bytes": 7120,
+      "sha256": "3d5ee7949556858e0d2ed7485c27f86932aeb96341a6c45d1ea30de5f621dba1"
+    },
+    {
+      "path": "furniture-stereo-0.png",
+      "bytes": 10247,
+      "sha256": "ba8c9cdd58664fae9ad1399f042cdb88195afa6a9d7ab7f633cc2fa0d4d8fa0f"
+    },
+    {
+      "path": "furniture-stereo-1.png",
+      "bytes": 2383,
+      "sha256": "1659b9d26e13d93d108c04d9bf9d634c990329e23200f128fdf1a358c37b2a7c"
+    },
+    {
+      "path": "furniture-stereo-2.png",
+      "bytes": 3443,
+      "sha256": "ed218129417eff8c84456cc18ed8b8cbe015b227775c290614ddd22d1bf9d3f3"
+    },
+    {
+      "path": "furniture-stereo-3.png",
+      "bytes": 2342,
+      "sha256": "698f956cb7e46eee116bd098571729430007eb6cdbbe58bcbef6c31f4f35ee7f"
+    },
+    {
+      "path": "furniture-toy-0.png",
+      "bytes": 3731,
+      "sha256": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9"
+    },
+    {
+      "path": "furniture-toy-1.png",
+      "bytes": 3731,
+      "sha256": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9"
+    },
+    {
+      "path": "furniture-toy-2.png",
+      "bytes": 3731,
+      "sha256": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9"
+    },
+    {
+      "path": "furniture-toy-3.png",
+      "bytes": 3731,
+      "sha256": "de32ba779d24bbea608790c6ab43a4f246e4cddbd007fcec85978760ed645cf9"
+    },
+    {
+      "path": "home.png",
+      "bytes": 3625,
+      "sha256": "fababac817006f1804456d2787c2cab07e35147facb272ad59a641f56869d3b5"
+    },
+    {
+      "path": "igloo.png",
+      "bytes": 263112,
+      "sha256": "ffa8e4448742a13fbca2d5d14f58291e10a5c6db48c06cbf1dd0d517a9180905"
+    },
+    {
+      "path": "landscape.png",
+      "bytes": 349930,
+      "sha256": "4d371f45310362904941692b662f038866f10c18140cae96c8d0ed17a6fc2ed2"
+    },
+    {
+      "path": "mail.png",
+      "bytes": 3176,
+      "sha256": "2e0340fbec307cddeed1bfb24d57613d317d0bf5f1059cd315aa21f8ea9ba6e8"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 3901,
+      "sha256": "3ce6a4947ce184702619869afe46bc15222f94c5c70d83114ec2dc8ace5ff76b"
+    },
+    {
+      "path": "music-1.mp3",
+      "bytes": 816735,
+      "sha256": "b509c7aa0881ca033f320ef32ed0009ffb78acb3dfde97fc1b78cf51cbad0b40"
+    },
+    {
+      "path": "music-2.mp3",
+      "bytes": 331902,
+      "sha256": "ee3f1846fd1c8d9ce646e24b4ad5e2247887844116e2452a0e2e95dcc03aa3dd"
+    },
+    {
+      "path": "news.png",
+      "bytes": 3856,
+      "sha256": "433b9e3d5c43c5574527835f811e6bb946ad6024666ce13c02059297b4c81b1a"
+    },
+    {
+      "path": "penguin-blue.png",
+      "bytes": 383619,
+      "sha256": "6ab10f313fa8318fe8332808b421cfefe068fe9ccd6e0b1afa727f94f217981d"
+    },
+    {
+      "path": "penguin-green.png",
+      "bytes": 380522,
+      "sha256": "964799b449c8172a5d6872e73f60581640ea3bde0f02acc910f8efe941af3f7a"
+    },
+    {
+      "path": "penguin-orange.png",
+      "bytes": 379029,
+      "sha256": "10c7f9af66eacead9f68573c3d3dbb1d6e6ffb9c76aec649a85a30494f7d9fb5"
+    },
+    {
+      "path": "penguin-pink.png",
+      "bytes": 385926,
+      "sha256": "178035046010351b9cfcdc3a67135ca67a623f6e7f05db6d5e56a443f0e74620"
+    },
+    {
+      "path": "penguin-purple.png",
+      "bytes": 386870,
+      "sha256": "0ca4eced025a95d279740421291b59e03e00eb0f028003704cf45439181c22b8"
+    },
+    {
+      "path": "penguin-red.png",
+      "bytes": 379945,
+      "sha256": "e3364efbc2214768ccc4176922a3fc4aef11c4ad9a0e5e996565fb93b9a4472d"
+    },
+    {
+      "path": "pets.png",
+      "bytes": 7780,
+      "sha256": "b2d06ed741b8e0c7f08a44b67c6d668d6e126b1c9c78a49df97914509f27cd90"
+    },
+    {
+      "path": "player-card-blue.png",
+      "bytes": 28673,
+      "sha256": "b1833c39d63a9bc37a9685dd997804dc55fc0129d77cb210c29b806833539591"
+    },
+    {
+      "path": "player-card-green.png",
+      "bytes": 28462,
+      "sha256": "6c11ee8dfe2a116bc349737d0bb2f1350d9915ee5913e06110f2c292ffe6ec13"
+    },
+    {
+      "path": "player-card-orange.png",
+      "bytes": 28720,
+      "sha256": "d98d11697a05ec488cce3959efbac4f0f5ebc8b76a1ab727c31555ffb7b137c3"
+    },
+    {
+      "path": "player-card-pink.png",
+      "bytes": 29006,
+      "sha256": "41cecc9a7b7978607a57c9cb8d96b061660a6f0764f92349bf05c266e42ec891"
+    },
+    {
+      "path": "player-card-purple.png",
+      "bytes": 28921,
+      "sha256": "2e426f321b85cc76c93f533777f3787e93e693e441b459b78c46a32ae4cb2b35"
+    },
+    {
+      "path": "player-card-red.png",
+      "bytes": 28408,
+      "sha256": "8910e9b236d2063d234280040396e807754d3c511ab9355d3afc92857272b971"
+    },
+    {
+      "path": "player-card.png",
+      "bytes": 27537,
+      "sha256": "50001973e5b4a7a3d60fc681c0f99efb7890472810dd1e492d8631295e4329d5"
+    },
+    {
+      "path": "player-icon.png",
+      "bytes": 7274,
+      "sha256": "de9b5f285abfcc1626b246ed2b29dec01c37416df79bffa62979a7ede94ca2ca"
+    },
+    {
+      "path": "puffle-blue.png",
+      "bytes": 632967,
+      "sha256": "a8f550b6887cae59e565f0dae2950edbc893352c5ea1ab1f00fecfa31fb1aefb"
+    },
+    {
+      "path": "puffle-purple.png",
+      "bytes": 613244,
+      "sha256": "04f9cf998c7999dacfe7ebb921b99d11adeaf591379efd696dc287ed08675f7e"
+    },
+    {
+      "path": "puffle-red.png",
+      "bytes": 576101,
+      "sha256": "3659b9590150939d6a5f965eb247c34b9e9f111e09d6167b53570d35305ed20d"
+    },
+    {
+      "path": "send.png",
+      "bytes": 5375,
+      "sha256": "dd9f1997602eeadefb0bf7c2bf86208daba715e74dadabf925d348229c058ef7"
+    },
+    {
+      "path": "settings.png",
+      "bytes": 3676,
+      "sha256": "951594d3c1fc66732436a013883699378e0afd833ba7db251c4510127a49036b"
+    },
+    {
+      "path": "smile.png",
+      "bytes": 8049,
+      "sha256": "e65e853060f1059ca6e556be65885f8ece8c92cf7b49ac23eeb11ad6eeeaa73d"
+    },
+    {
+      "path": "snowball.png",
+      "bytes": 6076,
+      "sha256": "cbb18b3d623e8577288deda74165cff0d8e776fe6094b671119e87b890332d44"
+    }
+  ]
+}

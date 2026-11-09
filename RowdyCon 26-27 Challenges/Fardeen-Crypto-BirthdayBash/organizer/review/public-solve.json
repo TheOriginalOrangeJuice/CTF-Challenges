@@ -1,0 +1,21 @@
+{
+  "review_kind": "independent agent public-evidence solve, design known",
+  "private_sources_read_before_recovery": false,
+  "offset_inferred_from_pair": [
+    16
+  ],
+  "letters": 256,
+  "no_link_greeting_letters": 10,
+  "linked_greeting_letters": 160,
+  "greeting_only": "HELLO, HELLO.\n\n.. ... .IND THIS, I AM ... .. .HE OFFICE.\nTH. .... .EFT THEIR CL.. ....RAM ON THIS M.......\nIT CAN KEEP A ...... BETTER THAN ... ...NE.\nTAKE THIS, ......: RCC{STAY_QUI.._....KXMPYBNDFL...}\n\n.. .OT TRUST THE ..... .N THE HALL. IT ... ...N PRACTISIN. .. ...ETING.\nTHE DO.. .. ..EN. I CAN HEAR .. ....THING. GO.\n\nGOO. ......\n",
+  "ending_only": "....., ..LLO.\n\nIF YOU F... ...., I AM NOT IN T.. .....E.\nTHE KIDS L... ....R CLUB PROG... .. ..IS MACHINE.\n.. ... ..EP A SECRET ...... .HAN THE PHO...\n.... .HIS, PLEASE: ...{...._QUIET_VJQZ.......DFLRAS}\n\nDO N.. ..... THE VOICE I. ... ...L. IT HAS BEE. ......SING MY GRE......\n..E DOOR IS OP... . ... .EAR IT BREA...... ...\n\nGOOD NIGHT.\n",
+  "recovered": "HELLO, HELLO.\n\nIF YOU FIND THIS, I AM NOT IN THE OFFICE.\nTHE KIDS LEFT THEIR CLUB PROGRAM ON THIS MACHINE.\nIT CAN KEEP A SECRET BETTER THAN THE PHONE.\nTAKE THIS, PLEASE: RCC{STAY_QUIET_VJQZKXMPYBNDFLRAS}\n\nDO NOT TRUST THE VOICE IN THE HALL. IT HAS BEEN PRACTISING MY GREETING.\nTHE DOOR IS OPEN. I CAN HEAR IT BREATHING. GO.\n\nGOOD NIGHT.\n",
+  "flag": "RCC{STAY_QUIET_VJQZKXMPYBNDFLRAS}",
+  "ui_matches_independent_recovery": true,
+  "public_sha256": {
+    "/": "e702e8d65756e7fd4bbf19586fe8f7fbfd6909f9f7e721f5b70b5d380bc6ab0b",
+    "/app.js": "4763f9f577ccd8ce15c74b61787b42b9e96661ab94773603499fc3c8cddf0ec5",
+    "/evidence/05-last-note.enc.txt": "4c013c81d62f97119febb16ee2aeada9d32d537f18eb71b26365fcb8423175a4",
+    "/evidence/birthday-postcard.txt": "8b665cd1b972a2486fb362f99fbd2ba87d49027fe544f1c6cc07b4777d25f1b9"
+  }
+}

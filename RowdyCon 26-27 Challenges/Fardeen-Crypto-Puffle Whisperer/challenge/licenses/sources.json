@@ -1,0 +1,14 @@
+[
+  {
+    "file": "llama.cpp-MIT.txt",
+    "source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/bb4caa7540188872173c44d161602d9271386413/LICENSE",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+    "bytes": 1078
+  },
+  {
+    "file": "Qwen2.5-Apache-2.0.txt",
+    "source": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/LICENSE",
+    "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "bytes": 11343
+  }
+]

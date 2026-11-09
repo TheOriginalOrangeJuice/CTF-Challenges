@@ -1,0 +1,21 @@
+{
+    "app.js":  "aa878d07ee848877996e204deaada9c72ce99aa97b41837766d180b3c6211493",
+    "assets/club.svg":  "db62b69d21687368a295e0306e09890d9399f514e3ebce036ea5c64d08aad674",
+    "assets/fnaf-header.jpg":  "a9c884248410dca10ec5b5fbc96adcafa55c227083003594c2fdbf723c07e4e6",
+    "assets/folder.svg":  "75219f1b82a07661fa2cce11c735657ca3d166bc2ad8c3900aefe2c3ff9b76b1",
+    "assets/notepad.svg":  "4757d9dfb625ea1de74cf94357307cacb381e6af6108c589bf70162324a1c870",
+    "audio/balloon-boy-hello.mp3":  "f2b9dcd33a447aa379dd18b838fcb81264c0a22d06899c1f1d44a60090380281",
+    "audio/camera-close.mp3":  "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+    "audio/camera-open.mp3":  "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+    "audio/children-yay.mp3":  "15902d60b7ce84d3e7f673d57e2c69435c042472748a5047be6df8f5dfa8a972",
+    "audio.js":  "566875ec4a60abd07899d28e976e8b799179db4589804c89255b9a99906d510d",
+    "cipher.js":  "b9c79fa900ea4b48a47252e80543f934a906491400d0568431e03cc54ebffdc8",
+    "evidence/01---welcome.txt":  "a37c9045e4fe0211130557586b0b1c2dbecc9ea75b8744052cf4166731db48fc",
+    "evidence/03---about-the-phone.txt":  "1985544dc6d0916f26a1f148480b04a7a538f6ba4d21c48d6c4a3864862e5e4c",
+    "evidence/04---do-not-call.txt":  "3f4e7b7e712ae4b5eb480c732332909d456d08a12ba48ef35c03c0e9499f4b6e",
+    "evidence/05-last-note.enc.txt":  "4c013c81d62f97119febb16ee2aeada9d32d537f18eb71b26365fcb8423175a4",
+    "evidence/birthday-postcard.txt":  "8b665cd1b972a2486fb362f99fbd2ba87d49027fe544f1c6cc07b4777d25f1b9",
+    "evidence.json":  "1ee0db4e5bcf446bf8ddd2d4ad9fa986db2ecc6a344bce597847513000ca4fe8",
+    "index.html":  "e702e8d65756e7fd4bbf19586fe8f7fbfd6909f9f7e721f5b70b5d380bc6ab0b",
+    "style.css":  "5450f4f49d619b64862c18a81c8c85f2407f1dff40c21b776232e8e56c35bc69"
+}

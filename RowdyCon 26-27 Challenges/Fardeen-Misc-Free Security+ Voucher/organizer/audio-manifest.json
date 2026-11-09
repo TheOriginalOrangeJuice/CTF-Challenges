@@ -1,0 +1,103 @@
+{
+    "source":  "https://uploads.ungrounded.net/365000/365143_Impossible_Quiz_Deluxe_NG..swf",
+    "originalSha256":  "03d860b0f0bcdea0620bbb0fd4e771113fd2f72639fc8b9725ed9e4c14ef1121",
+    "mappingEvidence":  "Root frame2 sound33; root question frames repeatedly sound198; lives sprite174 sound157 and gameover171; quiz stream188; completion stream2897. Mapping from SWF structure, not independent human listening.",
+    "reuseStatus":  "Copyright retained by original creators. Public availability and third-party archive CC0 metadata do not establish a license for third-party music. Event organizer must retain appropriate reuse authorization.",
+    "assets":  [
+                   {
+                       "file":  "title.mp3",
+                       "source":  "sound-33.mp3",
+                       "role":  "title",
+                       "treatment":  "Unmodified extracted original MP3",
+                       "sha256":  "f6940735efe2666853c858d6bdb8479843e456ddcbbd721923d7051bd230aef3",
+                       "bytes":  518128
+                   },
+                   {
+                       "file":  "quiz.mp3",
+                       "source":  "sprite-188-stream-0.mp3",
+                       "role":  "quiz",
+                       "treatment":  "Unmodified extracted original MP3",
+                       "sha256":  "61a284310c806f1fd405616006f9306fb3ce93e1a511f5db523f8651fb30c535",
+                       "bytes":  1777568
+                   },
+                   {
+                       "file":  "win.mp3",
+                       "source":  "sprite-2897-stream-0.mp3",
+                       "role":  "win",
+                       "treatment":  "Unmodified extracted original MP3",
+                       "sha256":  "ff120512c71d37f8e653ec646520160da9f5005c9ceb91dc50e87d75762b3a9e",
+                       "bytes":  512720
+                   },
+                   {
+                       "file":  "gameover.mp3",
+                       "source":  "sound-171.mp3",
+                       "role":  "gameover",
+                       "treatment":  "Unmodified extracted original MP3",
+                       "sha256":  "2aea6778cc904048cc0e0d125a1fa5a4d3134b56fec4ed092f851724eb3dd824",
+                       "bytes":  227136
+                   },
+                   {
+                       "file":  "click.wav",
+                       "source":  "sound-32.mp3",
+                       "role":  "click",
+                       "treatment":  "Mono PCM22050Hz, common gain0.65, no trim",
+                       "sha256":  "e8b69ebe3b31c0e8ef55a4bf7a66d48a2effbe308ac3a9b831893e1f8bc7193d",
+                       "bytes":  20814
+                   },
+                   {
+                       "file":  "correct.wav",
+                       "source":  "sound-198.mp3",
+                       "role":  "correct",
+                       "treatment":  "Mono PCM22050Hz, common gain0.65, no trim",
+                       "sha256":  "f32377afe7639fb9cab571a1aa16ce65060aeabb8bac350d9c7fec110bcb6003",
+                       "bytes":  49614
+                   },
+                   {
+                       "file":  "wrong.wav",
+                       "source":  "sound-157.mp3",
+                       "role":  "wrong",
+                       "treatment":  "Mono PCM22050Hz, common gain0.65, no trim",
+                       "sha256":  "8713e54ed7f0beac5bdf14a788fbea8b88319a7af6f6289d494ef670bab25384",
+                       "bytes":  94542
+                   },
+                   {
+                       "file":  "skip.wav",
+                       "source":  "sound-85.mp3",
+                       "role":  "skip",
+                       "treatment":  "Mono PCM22050Hz, common gain0.65, no trim",
+                       "sha256":  "a191518a8b595515624f92ba82478f677b6823915a74c9b4cde635db7ab6420b",
+                       "bytes":  41550
+                   },
+                   {
+                       "file":  "won.wav",
+                       "source":  "sound-2898.mp3",
+                       "role":  "won",
+                       "treatment":  "Mono PCM22050Hz, common gain0.65, no trim",
+                       "sha256":  "b971611af248846a99322c73cadb8b500338548bbf1e9efebaa74d2b430b52aa",
+                       "bytes":  205134
+                   },
+                   {
+                       "file":  "puzzle.json",
+                       "source":  [
+                                      "sound-157.mp3",
+                                      "sound-198.mp3"
+                                  ],
+                       "role":  "Actual audio cancellation evidence",
+                       "treatment":  "Both cues mono8000Hz with common gain0.25; A=N+S; B=1600 zero samples + full N; no truncation, clipping or normalization",
+                       "peak":  0.5004340801388025,
+                       "correctResidualMax":  4.205095066643974E-18,
+                       "sha256":  "4349b6e6e3616b9e0d78fdc1e6ffce8b56aba63d3df89bc9f9e05ac3ee2b80a8",
+                       "bytes":  908254
+                   },
+                   {
+                       "file":  "start.wav",
+                       "source":  "organizer/generate_start_tone.py",
+                       "role":  "START confirmation",
+                       "treatment":  "First-party 440/660 Hz synthesized sine cue; replaces the START effect only.",
+                       "reuse":  "First-party synthesis; no external recording",
+                       "sha256":  "7abf0b5f5cfcce6d7decca05b0d2cde76e546400054dc20106e1e4c8b71a1f50",
+                       "bytes":  46124
+                   }
+               ],
+    "questionVersion2":  "Original music and effect files are unchanged. Any Q13 cancellation/sample fixture entries describe retired version1 evidence; version2 Q13 is an image comparison puzzle. Current playback checks are in v2-quality-review.json."
+}

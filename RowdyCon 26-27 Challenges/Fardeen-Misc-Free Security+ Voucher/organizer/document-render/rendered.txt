@@ -1,0 +1,187 @@
+The Impossible Security+ Quiz
+Misc / Logic · Hard–Very Hard
+Description   Your Security+ exam has been replaced by SY0-NOPE. The
+              proctor is a goose. The biscuits are classified. The
+              accreditation is questionable.
+              Pass twenty questions and convince the exam board that you
+              are provisionally employable. You have three lives. The goose
+              has tenure.
+Files         The player opens the hosted quiz; there is no player
+              download. Deploy challenge/ with Docker Compose. Keep this
+              document and organizer/ private.
+              From this challenge's challenge directory:
+              docker compose --env-file ../organizer/event.env up --build -d
+
+              Open http://localhost:18115. The private event.env supplies the
+              fixed flag. For an event hostname, set PUBLIC_ORIGIN to that
+              exact origin; set COOKIE_SECURE=true behind HTTPS. SQLite
+              persists sessions in the quiz-data volume. Stop this
+              deployment with docker compose down; retaining the volume
+              preserves player progress and certificates. Each browser
+              cookie identifies a separate session. Deploy only the
+              application image, never the whole challenge folder as a web
+              root.
+              Original effects, music, and reference artwork are frozen
+              locally. Their provenance and unresolved redistribution
+              permissions are recorded in asset-manifest.json. This
+              package does not establish permission to redistribute third-
+              party music.
+Hint(s)       None
+Walkthrough   The exam rewards checking the evidence behind a label.
+              Early questions introduce physical boundaries, exact
+              permissions, a photographed strip, trust rules, and clock
+              corrections. Later questions combine those observations into
+              one final audit. Every necessary technical rule appears in the
+              quiz.
+              Click START. Inspect and change drafts freely; ANSWER
+              submits them. A wrong answer normally costs one of three
+              lives. Question 16 warns that detonating its circuit ends the
+              entire attempt. Save the skips earned at questions 5, 10, and
+              15. Spending one scouts ahead but requires a fresh attempt
+              before certification. NOTES retains evidence and personal
+notes across deaths; DOWNLOAD NOTES saves a text copy.
+Reload and RESUME recover the current attempt.
+
+
+
+
+1. AUTHORIZE THE ANSWER. Only words outside a box
+may be authorized. The four pink boxes fail that rule. Select
+THE ANSWER within the question heading, then press
+ANSWER.
+2. Patch the critical vulnerability. Biscuits fall through the
+tear in the goose's trousers. Drag CLOTH PATCH onto the
+goose, or select the patch and activate Torn trouser seam
+with the keyboard. The patch stops the leak. Submit the
+patched state.
+3. Your password must be eight ticks long. Measure the
+drawing. Stretch its right handle until PASSWORD spans at
+least eight ruler intervals. The Stretch handle slider also
+works with arrow keys. Submit a width of eight or more.
+4. Two factors, please. The categories distinguish
+remembering something, carrying something, and a live
+physical characteristic. PIN and password are both KNOW.
+Choose any two cards from different categories, such as
+PASSWORD and SECURITY KEY, then submit. A security
+key and live wingprint also qualify.
+5. Put ONLY the ducks inside the firewall. Both left
+pictures are ducks despite their captions. Move and resize
+the pink boundary to contain both and exclude the brick and
+laptop on the right. Arrow keys move the focused boundary;
+Shift plus arrows resize it. Submit and keep the first skip.
+
+
+
+
+6. Air-gap the vault. V has two routes to the public
+network: A–V and B–V. Cut both using the cables or their
+buttons. Keep I–A, I–B, A–B, and V–L connected. This isolates
+V and its printer L while preserving the public soup network.
+7. The intern requested EVERYTHING. The job needs only
+READ. Toggle PRINT, APPROVE, and SHRED off, leaving READ
+enabled. A useful-sounding permission is still excessive when
+the job does not require it.
+8. Find the false positive. Hover or focus each bag to
+inspect its contents. A false positive is an alarm on something
+the policy permits. Bag 3 contains a rubber duck and raises
+an alarm. Select it, confirm its selected state, and submit.
+The knife without an alarm is a false negative.
+9. Back up the original. Not the mistake. The intake
+photograph shows A B C D, all faces up. Use MOVE PAPER
+and, if helpful, DIRECTION to bring that actual strip into the
+capture window. Press COPY. The photograph remains in the
+notebook. Conveyor direction changes movement, not the
+order of printed symbols.
+10. Chain of trust. Read STAMP OFFICE, then open
+APPLICANTS. At 12:01, Carrot's grant to Goose has not
+expired, and Goose may delegate OPERATE to Moth. Frog has
+only VIEW; Eel has no path to the pinned root. Select Goose
+and Moth. TEST SELECTED STAMPS · FREE demonstrates
+the policy without costing a life. Submit and retain the
+second skip.
+
+
+
+
+11. No tailgating. Use Add action to draft: Open outer →
+Goose enters vestibule → Close outer → Open inner → Goose
+enters room → Close inner. REHEARSE · FREE shows the
+simulated result. Only the authorized goose enters, the
+follower stays outside, and both doors end closed. Submit.
+Equivalent safe sequences are accepted.
+12. The clocks have unionized. The same noon bell reads
+BOARD 12:04 and PRINTER 11:57. Subtract four minutes from
+BOARD and add three to PRINTER. The panels occurred at
+BACKUP 12:00, ISSUE 12:01, APPROVE 12:02, and EXPIRE
+12:03. Select those panels in that order. Clicking a selected
+step removes it; Clear plan starts the draft again.
+13. Keep the DING. Lose the DOOM. A contains noise plus
+the desired signal. B contains the same noise delayed 200
+ms. Set B position to −200 ms, then choose B UPSIDE
+DOWN. Aligned negative noise cancels the noise in A; A+B
+matches the pink reference. MIX plays the actual computed
+samples. Submit. The waveform and 100 ms grid provide
+equivalent evidence while muted.
+14. The checksum is an idiot. Every choice totals ten
+under the stated addition rule. That says nothing about
+order. Open NOTES and compare question 9's original
+photograph. Select ABCD and submit.
+15. Audit the auditor. Stamp A and B TRUE, C and D FALSE.
+A agrees that B is true; B agrees that C is false. A and D
+differ, making C false. Exactly two of A, B, and C are true,
+making D false. All four stamps agree with their claims.
+Submit and retain the third skip.
+16. Four decisions until kaboom. Read the circuit
+interlocks before committing. Removing power while the
+relay is armed detonates; draining a connected capacitor
+recharges it; battery removal does not remove stored charge.
+Draft ISOLATE RELAY → REMOVE BATTERY → DRAIN →
+CUT WIRE. Then press EXECUTE. There is no timer; editing
+the four-step plan is free.
+17. Put NOT where it belongs. The cards require denying
+only the round-and-striped object. Choose NOT (ROUND
+AND STRIPED). The negation covers the whole conjunction,
+so anything missing either property is allowed. Confirm that
+all four computed examples match their wanted outcomes,
+then submit.
+18. Backwards is not the same as undone. From C− B+
+D+ A+, F · FLIP FIRST restores C's face; S · SWAP FIRST
+TWO makes B+ C+ D+ A+; R← · LAST TO FRONT restores
+A+ B+ C+ D+. Submit. Undo last experiment and Reset
+machine allow free exploration. Any sequence restoring
+every identity and face is valid.
+19. One change label was forged. The first photograph
+moves A to the end, matching R. The second swaps B and C,
+matching S. The third preserves the order and flips C's face,
+so its label must be F. Set Change label 3 to F · FLIP
+FIRST, keeping R and S for the first two. Submit.
+20. CERTIFY THIS. Work through three views of one board.
+Drafts remain when switching views. The notebook retains
+the stamp policy, clock calibration, and machine rules.
+In 1. AUDIT, correct every signing time and check the
+complete authority chain. Ticket 1 is Goose at 12:00; ticket 2
+is Moth at 12:01; ticket 3 is Goose at 12:02. These carry valid
+OPERATE authority. Put skips on 4, 5, and 6: Moth's
+ancestor has expired by ticket 4's corrected 12:04; Frog has
+only VIEW on ticket 5; Eel has no trusted root on ticket 6. Tap
+a ticket again to remove its skip.
+
+
+
+
+In 2. MACHINE, choose valid tickets 1 → 2 → 3 in corrected
+chronological order. Their F, R, S transformations produce:
+A+ B+ C+ D+
+A− B+ C+ D+   F: flip first
+B+ C+ D+ A−   R: move first to end
+C+ B+ D+ A−   S: swap first two
+
+In 3. ISSUE, compare only exposed faces. Slot 1, C+,
+includes APPROVE; slot 2, B+, includes APPROVE and lacks
+READ; slot 3, D+, lacks READ. Slot 4, A−, grants exactly
+READ and PRINT. Select it and press CERTIFY. Success
+consumes all three skips atomically and reveals the flag.
+COPY FLAG copies it; the menu's Your certificate recovers
+it later.
+Flag   RCC{certified_to_question_everything}
+

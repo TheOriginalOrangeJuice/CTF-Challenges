@@ -1,0 +1,19 @@
+{
+  "tree": "/tmp/iq-v2-compose08/The Impossible Security+ Quiz",
+  "port": 18115,
+  "project": "rowdy-impossible-v2-validation",
+  "publicSolve": {
+    "health": true,
+    "twentyQuestions": true,
+    "duplicateSafe": true,
+    "threeLives": true,
+    "atomicTokens": true,
+    "reward": true
+  },
+  "restart": {
+    "sqliteRestart": true,
+    "rewardRecovery": true
+  },
+  "image": "sha256:da4a1cc81c323f64fdc507cb36ccea860e2fd20f9d2ca5b449feab7d728dc00a",
+  "passed": true
+}

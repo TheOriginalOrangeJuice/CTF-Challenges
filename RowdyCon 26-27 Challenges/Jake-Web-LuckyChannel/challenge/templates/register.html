@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<h2>&#9733; Join Lucky Channel! &#9733;</h2>
+{% if err %}<p class="err">&#9888; {{ err }}</p>{% endif %}
+<form method="post" class="authform">
+  <div>Choose a handle: <input type="text" name="username" maxlength="32"></div>
+  <div>Choose a password: <input type="password" name="password"></div>
+  <div><input type="submit" value="&#9733; Become a member! &#9733;"></div>
+</form>
+<p class="smol">
+  New members get a session token and instant access to the Backstage.
+  (Regular members can't broadcast though -- that's staff-only.)
+</p>
+{% endblock %}

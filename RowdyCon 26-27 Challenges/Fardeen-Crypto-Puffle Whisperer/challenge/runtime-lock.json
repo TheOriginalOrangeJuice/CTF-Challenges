@@ -1,0 +1,11 @@
+{
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "model_file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "llama_version": "v0.2.0",
+  "llama_build": "b10566",
+  "llama_asset": "llama-b10566-bin-ubuntu-x64.tar.gz",
+  "llama_sha256": "0c34561d623299c113e46f9fdd97bff5b219b25554243a21a243aebc81253ea1",
+  "llama_url": "https://github.com/ggml-org/llama.cpp/releases/download/b10566/llama-b10566-bin-ubuntu-x64.tar.gz",
+  "llama_commit": "bb4caa7540188872173c44d161602d9271386413"
+}

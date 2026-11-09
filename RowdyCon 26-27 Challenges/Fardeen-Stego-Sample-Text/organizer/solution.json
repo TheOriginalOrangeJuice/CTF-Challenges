@@ -1,0 +1,119 @@
+{
+  "flag": "RCC{r4w_rgb_m0nt4g3_7c2e}",
+  "events": [
+    {
+      "source": "sample_text",
+      "event": "end-0",
+      "tile": 4,
+      "crop": {
+        "x": 576,
+        "y": 352,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 384,
+        "y": 324,
+        "w": 384,
+        "h": 324
+      }
+    },
+    {
+      "source": "doritos",
+      "event": "end-1",
+      "tile": 0,
+      "crop": {
+        "x": 352,
+        "y": 400,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": false,
+      "flipY": true,
+      "placement": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 324
+      }
+    },
+    {
+      "source": "dew",
+      "event": "end-2",
+      "tile": 5,
+      "crop": {
+        "x": 448,
+        "y": 320,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 768,
+        "y": 324,
+        "w": 384,
+        "h": 324
+      }
+    },
+    {
+      "source": "illuminati",
+      "event": "end-3",
+      "tile": 2,
+      "crop": {
+        "x": 608,
+        "y": 384,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": false,
+      "flipY": true,
+      "placement": {
+        "x": 768,
+        "y": 0,
+        "w": 384,
+        "h": 324
+      }
+    },
+    {
+      "source": "glasses",
+      "event": "end-4",
+      "tile": 1,
+      "crop": {
+        "x": 384,
+        "y": 368,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 384,
+        "y": 0,
+        "w": 384,
+        "h": 324
+      }
+    },
+    {
+      "source": "hitmarker",
+      "event": "end-5",
+      "tile": 3,
+      "crop": {
+        "x": 512,
+        "y": 416,
+        "w": 384,
+        "h": 324
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 0,
+        "y": 324,
+        "w": 384,
+        "h": 324
+      }
+    }
+  ]
+}

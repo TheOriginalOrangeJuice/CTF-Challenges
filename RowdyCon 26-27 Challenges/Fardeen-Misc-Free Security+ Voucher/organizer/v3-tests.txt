@@ -1,0 +1,284 @@
+
+> impossible-security-quiz@1.0.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: session cookie is private, reward is protected and sessions have isolated state
+ok 1 - session cookie is private, reward is protected and sessions have isolated state
+  ---
+  duration_ms: 228.713701
+  type: 'test'
+  ...
+# Subtest: request deduplication returns the original response and never spends another life
+ok 2 - request deduplication returns the original response and never spends another life
+  ---
+  duration_ms: 18.277474
+  type: 'test'
+  ...
+# Subtest: concurrent distinct actions from the same revision serialize and the later one is stale
+ok 3 - concurrent distinct actions from the same revision serialize and the later one is stale
+  ---
+  duration_ms: 6.700686
+  type: 'test'
+  ...
+# Subtest: immutable attempt/revision/question guards include notes, reset and question-specific actions
+ok 4 - immutable attempt/revision/question guards include notes, reset and question-specific actions
+  ---
+  duration_ms: 8.33349
+  type: 'test'
+  ...
+# Subtest: malformed requests and unknown operations do not grade, change revisions or accept client verdicts
+ok 5 - malformed requests and unknown operations do not grade, change revisions or accept client verdicts
+  ---
+  duration_ms: 7.479117
+  type: 'test'
+  ...
+# Subtest: public API complete run, atomic final consumption, reward recovery and retry
+ok 6 - public API complete run, atomic final consumption, reward recovery and retry
+  ---
+  duration_ms: 58.36404
+  type: 'test'
+  ...
+# Subtest: legacy sessions migrate once and delete old deduplication responses
+ok 7 - legacy sessions migrate once and delete old deduplication responses
+  ---
+  duration_ms: 74.522254
+  type: 'test'
+  ...
+# Subtest: current v3 notes, draft and dedupe persist across a service restart
+ok 8 - current v3 notes, draft and dedupe persist across a service restart
+  ---
+  duration_ms: 30.618265
+  type: 'test'
+  ...
+# Subtest: all questions start deterministically, and public evidence contains no verdict or finale PIN
+ok 9 - all questions start deterministically, and public evidence contains no verdict or finale PIN
+  ---
+  duration_ms: 2.779838
+  type: 'test'
+  ...
+# Subtest: malformed and foreign actions fail without mutating supplied state
+ok 10 - malformed and foreign actions fail without mutating supplied state
+  ---
+  duration_ms: 2.020074
+  type: 'test'
+  ...
+# Subtest: Q1 unchanged arithmetic uses the displayed number and reversible plus one
+ok 11 - Q1 unchanged arithmetic uses the displayed number and reversible plus one
+  ---
+  duration_ms: 0.345635
+  type: 'test'
+  ...
+# Subtest: Q2 evaluates the actual loaded image, not the installed banner or a required inspection history
+ok 12 - Q2 evaluates the actual loaded image, not the installed banner or a required inspection history
+  ---
+  duration_ms: 0.230085
+  type: 'test'
+  ...
+# Subtest: Q3 identical password bytes differ only in supplied font weight
+ok 13 - Q3 identical password bytes differ only in supplied font weight
+  ---
+  duration_ms: 0.164852
+  type: 'test'
+  ...
+# Subtest: Q4 wrong choices preserve recovery; forgetting actually removes the sole key and retains ciphertext
+ok 14 - Q4 wrong choices preserve recovery; forgetting actually removes the sole key and retains ciphertext
+  ---
+  duration_ms: 0.969198
+  type: 'test'
+  ...
+# Subtest: Q4 actual AES-GCM archive rejects tampering; a remaining backup defeats erasure and secrets stay private
+ok 15 - Q4 actual AES-GCM archive rejects tampering; a remaining backup defeats erasure and secrets stay private
+  ---
+  duration_ms: 0.994481
+  type: 'test'
+  ...
+# Subtest: Q5 the account named NOBODY is still an allowed account; only an empty set passes
+ok 16 - Q5 the account named NOBODY is still an allowed account; only an empty set passes
+  ---
+  duration_ms: 0.350848
+  type: 'test'
+  ...
+# Subtest: Q6 Boolean answers preserve both knowledge alternatives and require possession in every combination
+ok 17 - Q6 Boolean answers preserve both knowledge alternatives and require possession in every combination
+  ---
+  duration_ms: 0.454467
+  type: 'test'
+  ...
+# Subtest: Q7 accepts exactly one ASCII space, not empty input or visually similar Unicode whitespace
+ok 18 - Q7 accepts exactly one ASCII space, not empty input or visually similar Unicode whitespace
+  ---
+  duration_ms: 0.706125
+  type: 'test'
+  ...
+# Subtest: Q8 identical friendly text resolves to distinct simulated hostnames
+ok 19 - Q8 identical friendly text resolves to distinct simulated hostnames
+  ---
+  duration_ms: 1.831486
+  type: 'test'
+  ...
+# Subtest: Q9 the covered identifier and comment both remain in actual published bytes until removed
+ok 20 - Q9 the covered identifier and comment both remain in actual published bytes until removed
+  ---
+  duration_ms: 0.679853
+  type: 'test'
+  ...
+# Subtest: Q10 the clipboard retains bytes; same-disk backups and shortcuts do not survive Device 04 failure
+ok 21 - Q10 the clipboard retains bytes; same-disk backups and shortcuts do not survive Device 04 failure
+  ---
+  duration_ms: 0.675551
+  type: 'test'
+  ...
+# Subtest: Q11 failed admission keeps the inner door closed and every perimeter error is recoverable
+ok 22 - Q11 failed admission keeps the inner door closed and every perimeter error is recoverable
+  ---
+  duration_ms: 0.198443
+  type: 'test'
+  ...
+# Subtest: Q12 every modeled session includes the current header session
+ok 23 - Q12 every modeled session includes the current header session
+  ---
+  duration_ms: 0.180715
+  type: 'test'
+  ...
+# Subtest: Q13 the answer follows actual pixel differences
+ok 24 - Q13 the answer follows actual pixel differences
+  ---
+  duration_ms: 0.266273
+  type: 'test'
+  ...
+# Subtest: Q14 each fixed dummy password fails under capture and passes after stopping, including recovery with old tape retained
+ok 25 - Q14 each fixed dummy password fails under capture and passes after stopping, including recovery with old tape retained
+  ---
+  duration_ms: 0.272507
+  type: 'test'
+  ...
+# Subtest: Q15 all 120 permutations are evaluated with actual first-match semantics and actual denial bytes
+ok 26 - Q15 all 120 permutations are evaluated with actual first-match semantics and actual denial bytes
+  ---
+  duration_ms: 3.195496
+  type: 'test'
+  ...
+# Subtest: Q16 checksum is an actual digit sum; every two-digit collision except unchanged 42 is accepted
+ok 27 - Q16 checksum is an actual digit sum; every two-digit collision except unchanged 42 is accepted
+  ---
+  duration_ms: 0.973543
+  type: 'test'
+  ...
+# Subtest: Q17 immutable release IDs and full digest references are equivalent; labels and mutable aliases are not
+ok 28 - Q17 immutable release IDs and full digest references are equivalent; labels and mutable aliases are not
+  ---
+  duration_ms: 0.7722
+  type: 'test'
+  ...
+# Subtest: Q18 no certificate copy must disappear; wrong choices are recoverable and revocation is actually signed
+ok 29 - Q18 no certificate copy must disappear; wrong choices are recoverable and revocation is actually signed
+  ---
+  duration_ms: 1.323329
+  type: 'test'
+  ...
+# Subtest: Q19 causal order follows actual predecessor hashes after clock rollback, not timestamps or card order
+ok 30 - Q19 causal order follows actual predecessor hashes after clock rollback, not timestamps or card order
+  ---
+  duration_ms: 5.884147
+  type: 'test'
+  ...
+# Subtest: Q19 rejects altered links/bytes and missing anchors, and recorder stop can be recovered
+ok 31 - Q19 rejects altered links/bytes and missing anchors, and recorder stop can be recovered
+  ---
+  duration_ms: 0.370563
+  type: 'test'
+  ...
+# Subtest: Q20 unchanged token shares really XOR into the PIN image
+ok 32 - Q20 unchanged token shares really XOR into the PIN image
+  ---
+  duration_ms: 1.261388
+  type: 'test'
+  ...
+# Subtest: full authored run solves nineteen stations, earns exactly three skips and consumes them at certification
+ok 33 - full authored run solves nineteen stations, earns exactly three skips and consumes them at certification
+  ---
+  duration_ms: 8.967606
+  type: 'test'
+  ...
+# Subtest: a wrong commit costs one life, free manipulation never grades, and death does not reset silently
+ok 34 - a wrong commit costs one life, free manipulation never grades, and death does not reset silently
+  ---
+  duration_ms: 0.88877
+  type: 'test'
+  ...
+# Subtest: notes and acquired evidence persist across deaths and full restarts; completions and inventory do not
+ok 35 - notes and acquired evidence persist across deaths and full restarts; completions and inventory do not
+  ---
+  duration_ms: 1.162231
+  type: 'test'
+  ...
+# Subtest: the notebook records acquired objects only; completing early answers adds no automatic solutions
+ok 36 - the notebook records acquired objects only; completing early answers adds no automatic solutions
+  ---
+  duration_ms: 0.270187
+  type: 'test'
+  ...
+# Subtest: a spent skip cannot certify even when the PIN is known, and skip cannot fabricate the missing completion
+ok 37 - a spent skip cannot certify even when the PIN is known, and skip cannot fabricate the missing completion
+  ---
+  duration_ms: 2.173054
+  type: 'test'
+  ...
+# Subtest: finale independently enforces all nineteen unique solves and unspent token inventory
+ok 38 - finale independently enforces all nineteen unique solves and unspent token inventory
+  ---
+  duration_ms: 1.286743
+  type: 'test'
+  ...
+# Subtest: attempt, revision and question guards reject stale and cross-question actions before changing state
+ok 39 - attempt, revision and question guards reject stale and cross-question actions before changing state
+  ---
+  duration_ms: 0.364409
+  type: 'test'
+  ...
+# Subtest: pre-v3 migration retains personal notes only and discards old progress, solutions and rewards
+ok 40 - pre-v3 migration retains personal notes only and discards old progress, solutions and rewards
+  ---
+  duration_ms: 0.162992
+  type: 'test'
+  ...
+# Subtest: earned certificates survive a later fresh attempt without preserving its solved run
+ok 41 - earned certificates survive a later fresh attempt without preserving its solved run
+  ---
+  duration_ms: 2.168024
+  type: 'test'
+  ...
+# Subtest: version 2 progress, certificate and artifacts migrate once while personal notes remain
+ok 42 - version 2 progress, certificate and artifacts migrate once while personal notes remain
+  ---
+  duration_ms: 1.382087
+  type: 'test'
+  ...
+# Subtest: Q14 a recorded wrong answer costs one life and stopping capture permits recovery without erasing tape
+ok 43 - Q14 a recorded wrong answer costs one life and stopping capture permits recovery without erasing tape
+  ---
+  duration_ms: 0.652964
+  type: 'test'
+  ...
+# Subtest: Q19 wrong recorder stop costs one life but recording can resume without dooming the run
+ok 44 - Q19 wrong recorder stop costs one life but recording can resume without dooming the run
+  ---
+  duration_ms: 1.228005
+  type: 'test'
+  ...
+# Subtest: Q4 public state and error snapshots retain actual encrypted bytes but omit private key copies
+ok 45 - Q4 public state and error snapshots retain actual encrypted bytes but omit private key copies
+  ---
+  duration_ms: 0.193242
+  type: 'test'
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 948.451009

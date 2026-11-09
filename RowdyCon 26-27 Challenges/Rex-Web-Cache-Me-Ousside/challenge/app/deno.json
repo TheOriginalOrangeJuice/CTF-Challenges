@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "ms": "npm:ms@2.1.3"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-write main.ts"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "css": {
+    "matches_stage": true,
+    "sha256": "5450f4f49d619b64862c18a81c8c85f2407f1dff40c21b776232e8e56c35bc69"
+  },
+  "fresh1920": {
+    "taskbar": {
+      "x": 0,
+      "y": 1039,
+      "width": 1920,
+      "height": 41
+    },
+    "display": "flex",
+    "visibility": "visible",
+    "hit": "<input id=\"volume\" type=\"range\" min=\"0\" max=\"100\" value=\"35\">",
+    "scrollY": 0,
+    "innerHeight": 1080,
+    "bodyHeight": 1080,
+    "start_menu_works": true,
+    "verified_recovery": true
+  },
+  "resized1920": {
+    "taskbar": {
+      "x": 0,
+      "y": 1039,
+      "width": 1920,
+      "height": 41
+    },
+    "display": "flex",
+    "visibility": "visible",
+    "hit": "<input id=\"volume\" type=\"range\" min=\"0\" max=\"100\" value=\"35\">",
+    "scrollY": 0,
+    "innerHeight": 1080,
+    "bodyHeight": 1080,
+    "start_menu_works": true,
+    "verified_recovery": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "screenshots": 16,
+  "pageErrors": [],
+  "actualAudioSignal": {
+    "maxRms": 0.08024498512221925,
+    "frames": 69
+  },
+  "method": "Actual running UI; organizer-authored public API actions arranged capture states. Not independent blind or human playtesting."
+}

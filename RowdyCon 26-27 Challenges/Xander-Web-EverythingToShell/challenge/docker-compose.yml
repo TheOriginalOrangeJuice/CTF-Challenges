@@ -1,0 +1,19 @@
+# Local test / single-instance deployment. For per-player instances, run the same
+# image once per team with a unique FLAG env var (see README).
+services:
+  everything-to-shell:
+    build: .
+    image: everything-to-shell:latest
+    environment:
+      FLAG: "CTF{g1t_h1st0ry_n3v3r_f0rg3ts_wh4t_y0u_d3l3t3d}"
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 64m
+    cpus: 0.25
+    pids_limit: 64

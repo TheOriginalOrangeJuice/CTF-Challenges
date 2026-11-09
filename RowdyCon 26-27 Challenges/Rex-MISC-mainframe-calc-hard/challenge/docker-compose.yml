@@ -1,0 +1,14 @@
+services:
+  calc-hard:
+    build: ./server
+    ports:
+      - "8081:8081"
+    environment:
+      FLAG: "RCC{th3_pr1nt3r_h4s_s33n_b3tt3r_d4ys}"
+      FIRST_TIMEOUT: "30"   # seconds allowed for job 1 (the only clean one)
+      ROUND_TIMEOUT: "5"    # seconds allowed for every other job
+      TOO_FAST: "10"        # whole run faster than this -> "calc stands for calculator" video, no flag
+      MEME_URL: "https://youtu.be/qy2fr9d5J3M"
+      # SLOW_IMAGE: "/static/too_slow.jpg"   # shown on a missed deadline
+      # SECRET: "change-me"                  # only needed with more than one container behind a load balancer
+    restart: unless-stopped

@@ -1,0 +1,154 @@
+{
+  "checks": [
+    {
+      "name": "no-horizontal-overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new-igloo-no-secret",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chat-draft-survives-refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-placement-movement-rotation-save",
+      "passed": true,
+      "detail": {
+        "kind": "chair",
+        "x": 385,
+        "y": 345,
+        "rotation": 1
+      }
+    },
+    {
+      "name": "decorating-cancel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decorating-draft-survives-refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "furniture-put-away",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "penguin-colour-and-portrait",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all-puffle-care-controls",
+      "passed": true,
+      "detail": {
+        "pip": {
+          "food": 95,
+          "energy": 100,
+          "play": 85
+        },
+        "bubbles": {
+          "food": 95,
+          "energy": 100,
+          "play": 85
+        },
+        "pebble": {
+          "food": 95,
+          "energy": 100,
+          "play": 85
+        }
+      }
+    },
+    {
+      "name": "keyboard-snowball",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-chat-focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual-decoded-music-non-silent",
+      "passed": true,
+      "detail": {
+        "paused": false,
+        "muted": false,
+        "volume": 0.216,
+        "source": "http://127.0.0.1:18116/assets/music-2.mp3",
+        "rms": 0.016739417180497984
+      }
+    },
+    {
+      "name": "mute-pauses-music",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved-audio-and-motion-preferences",
+      "passed": true,
+      "detail": {
+        "muted": true,
+        "volume": 48,
+        "music": "2",
+        "reduced": true
+      }
+    },
+    {
+      "name": "actual-effect-output-non-silent",
+      "passed": true,
+      "detail": {
+        "peak_rms_during_playback": 0.014860533935766602,
+        "contexts": [
+          "running"
+        ]
+      }
+    },
+    {
+      "name": "expandable-history",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real-transcript-download",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset-cancel-keeps-progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed-room-reset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metadata-notice-non-rendered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "large-screen-no-overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-browser-errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "independent_human_listening": false,
+  "passed": true
+}

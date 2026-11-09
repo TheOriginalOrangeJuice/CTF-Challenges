@@ -1,0 +1,124 @@
+{
+  "images": {
+    "landscape": "landscape.png",
+    "igloo": "igloo.png",
+    "penguin-blue": "penguin-blue.png",
+    "penguin-red": "penguin-red.png",
+    "penguin-green": "penguin-green.png",
+    "penguin-purple": "penguin-purple.png",
+    "penguin-orange": "penguin-orange.png",
+    "penguin-pink": "penguin-pink.png",
+    "puffle-purple": "puffle-purple.png",
+    "puffle-blue": "puffle-blue.png",
+    "puffle-red": "puffle-red.png",
+    "card-purple": "card-purple.png",
+    "card-blue": "card-blue.png",
+    "card-red": "card-red.png",
+    "player-card": "player-card.png",
+    "player-card-blue": "player-card-blue.png",
+    "player-card-red": "player-card-red.png",
+    "player-card-green": "player-card-green.png",
+    "player-card-purple": "player-card-purple.png",
+    "player-card-orange": "player-card-orange.png",
+    "player-card-pink": "player-card-pink.png",
+    "furniture-sofa-0": "furniture-sofa-0.png",
+    "furniture-sofa-1": "furniture-sofa-1.png",
+    "furniture-sofa-2": "furniture-sofa-2.png",
+    "furniture-sofa-3": "furniture-sofa-3.png",
+    "furniture-chair-0": "furniture-chair-0.png",
+    "furniture-chair-1": "furniture-chair-1.png",
+    "furniture-chair-2": "furniture-chair-2.png",
+    "furniture-chair-3": "furniture-chair-3.png",
+    "furniture-rug-0": "furniture-rug-0.png",
+    "furniture-rug-1": "furniture-rug-1.png",
+    "furniture-rug-2": "furniture-rug-2.png",
+    "furniture-rug-3": "furniture-rug-3.png",
+    "furniture-plant-0": "furniture-plant-0.png",
+    "furniture-plant-1": "furniture-plant-1.png",
+    "furniture-plant-2": "furniture-plant-2.png",
+    "furniture-plant-3": "furniture-plant-3.png",
+    "furniture-stereo-0": "furniture-stereo-0.png",
+    "furniture-stereo-1": "furniture-stereo-1.png",
+    "furniture-stereo-2": "furniture-stereo-2.png",
+    "furniture-stereo-3": "furniture-stereo-3.png",
+    "furniture-bed-0": "furniture-bed-0.png",
+    "furniture-bed-1": "furniture-bed-1.png",
+    "furniture-bed-2": "furniture-bed-2.png",
+    "furniture-bed-3": "furniture-bed-3.png",
+    "furniture-bowl-0": "furniture-bowl-0.png",
+    "furniture-bowl-1": "furniture-bowl-1.png",
+    "furniture-bowl-2": "furniture-bowl-2.png",
+    "furniture-bowl-3": "furniture-bowl-3.png",
+    "furniture-toy-0": "furniture-toy-0.png",
+    "furniture-toy-1": "furniture-toy-1.png",
+    "furniture-toy-2": "furniture-toy-2.png",
+    "furniture-toy-3": "furniture-toy-3.png",
+    "chat": "chat.png",
+    "smile": "smile.png",
+    "actions": "actions.png",
+    "snowball": "snowball.png",
+    "send": "send.png",
+    "player-icon": "player-icon.png",
+    "pets": "pets.png",
+    "home": "home.png",
+    "settings": "settings.png",
+    "news": "news.png",
+    "mail": "mail.png",
+    "edit": "edit.png"
+  },
+  "furniture": {
+    "sofa": {
+      "width": 118,
+      "height": 57.94642857142857,
+      "original_item": 6,
+      "original_frames": 8
+    },
+    "chair": {
+      "width": 58,
+      "height": 53.042735042735046,
+      "original_item": 10,
+      "original_frames": 8
+    },
+    "rug": {
+      "width": 150,
+      "height": 29.094827586206897,
+      "original_item": 151,
+      "original_frames": 4
+    },
+    "plant": {
+      "width": 44,
+      "height": 48.141176470588235,
+      "original_item": 162,
+      "original_frames": 1
+    },
+    "stereo": {
+      "width": 65,
+      "height": 92.18181818181819,
+      "original_item": 164,
+      "original_frames": 8
+    },
+    "bed": {
+      "width": 52,
+      "height": 34.495049504950494,
+      "original_item": 200,
+      "original_frames": 1
+    },
+    "bowl": {
+      "width": 43,
+      "height": 10.972413793103449,
+      "original_item": 225,
+      "original_frames": 4
+    },
+    "toy": {
+      "width": 38,
+      "height": 89.90243902439025,
+      "original_item": 210,
+      "original_frames": 1
+    }
+  },
+  "atlas": {
+    "tile_width": 128,
+    "tile_height": 160,
+    "frames": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "acquired": "2026-10-28",
+  "method": "Original recordings mirrored on Bleepboard, downloaded unchanged inside Condev and frozen locally; no synthesis or imitation.",
+  "terms": "FNAF game audio and underlying stock recordings remain copyright their respective owners, including Scott Cawthon. The mirror supplies no general redistribution license. This provenance record is not a license grant.",
+  "attribution": "Visible About dialog identifies FNAF recordings and the documented soundboard sources.",
+  "assets": [
+    {"path":"challenge/public/audio/balloon-boy-hello.mp3","source":"https://bleepboard.com/audio/fnaf-balloon-boy-hello.mp3","page":"https://bleepboard.com/sound/fnaf-balloon-boy-hello/","identity":"Balloon Boy Hello, FNAF 2","event":"First audible visit after browser-permitted interaction; then occasional random 45–100 second ambient waits while visible, unmuted, nonzero and no other cue is playing"},
+    {"path":"challenge/public/audio/children-yay.mp3","source":"https://bleepboard.com/audio/fnaf-yay.mp3","page":"https://bleepboard.com/sound/fnaf-yay/","identity":"Children Yay, night-completion celebration","event":"Server-verified actual decoded flag only"},
+    {"path":"challenge/public/audio/camera-open.mp3","source":"https://bleepboard.com/audio/fnaf-opening-camera.mp3","page":"https://bleepboard.com/sound/fnaf-opening-camera/","identity":"FNAF camera flip","event":"Open documents/postcard; disagreement feedback"},
+    {"path":"challenge/public/audio/camera-close.mp3","source":"https://bleepboard.com/audio/fnaf-camera-flip.mp3","page":"https://bleepboard.com/sound/fnaf-camera-flip/","identity":"Same FNAF camera-flip recording as camera-open.mp3; byte-identical mirrors","event":"Pins, wheel actions, clearing and window controls at reduced gain"}
+  ],
+  "hashes": "generated-hashes.json",
+  "failed_sources": "Myinstants asset URLs returned503; SoundsResource archive returned403. Bleepboard direct downloads succeeded. No access-control bypass was attempted.",
+  "listening": "Source identity is based on the named original-game mirrors; waveform and browser playback checks do not constitute independent human listening."
+}

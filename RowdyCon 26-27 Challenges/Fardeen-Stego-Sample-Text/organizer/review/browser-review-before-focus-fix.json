@@ -1,0 +1,146 @@
+{
+  "checks": {
+    "inspector_raw_pixel": {
+      "pass": true,
+      "details": "R    3\nG   17\nB   28\nA    0"
+    },
+    "inspector_export_raw_rgb": {
+      "pass": true,
+      "details": null
+    },
+    "dialog_focus_restored": {
+      "pass": true,
+      "details": null
+    },
+    "raw_decoder_sample_text": {
+      "pass": true,
+      "details": "3f5a93367a017c9a26b871719635a6346b52bba69a21acc961086dea438bfe3a"
+    },
+    "raw_decoder_doritos": {
+      "pass": true,
+      "details": "e3c5c2d343cd7ee6495e72d7bbbf33056c3c1bdadc64677ab59b6421468208b0"
+    },
+    "raw_decoder_dew": {
+      "pass": true,
+      "details": "da4dadbb4c3162ac812068ca1c5562a26fd585f2cf76736d2d5b732e36081eac"
+    },
+    "raw_decoder_illuminati": {
+      "pass": true,
+      "details": "254fabb25aee9bbb134f2106fe54debba96afe955122a6a51da19996a9c8f140"
+    },
+    "raw_decoder_glasses": {
+      "pass": true,
+      "details": "e73b22bfd3951aa0a6a90eafaf147cc546fd9e04a352d52d1841d0f0dbf03ebe"
+    },
+    "raw_decoder_hitmarker": {
+      "pass": true,
+      "details": "907a561581028d9aad5f34c7b8f9a02dc3cb5539942a2808ed7e00786c21aa86"
+    },
+    "media_selection_retains_keyboard_focus": {
+      "pass": false,
+      "details": {
+        "tag": "BODY",
+        "source": null
+      }
+    },
+    "source_interpretation_shared": {
+      "pass": true,
+      "details": null
+    },
+    "earlier_event_geometry_preserved": {
+      "pass": true,
+      "details": null
+    },
+    "actual_export_equals_public_recovery": {
+      "pass": true,
+      "details": null
+    },
+    "undo_arbitrary_edit": {
+      "pass": true,
+      "details": null
+    },
+    "redo_arbitrary_edit": {
+      "pass": true,
+      "details": null
+    },
+    "reload_preserves_edits": {
+      "pass": true,
+      "details": null
+    },
+    "malformed_import_preserves_edits": {
+      "pass": true,
+      "details": "Could not open project\n\u00d7\n\nChoose a saved project from this recovered montage.\n\nYour current project is unchanged.\n\nClose"
+    },
+    "invalid_crop_visible_error": {
+      "pass": true,
+      "details": null
+    },
+    "crop_cancel_preserves_edits": {
+      "pass": true,
+      "details": null
+    },
+    "keyboard_nudge": {
+      "pass": true,
+      "details": null
+    },
+    "solo_enabled": {
+      "pass": true,
+      "details": null
+    },
+    "visibility_changes_state": {
+      "pass": true,
+      "details": null
+    },
+    "track_mute_applies_occurrences": {
+      "pass": true,
+      "details": null
+    },
+    "reset_matches_original": {
+      "pass": true,
+      "details": null
+    },
+    "reset_is_undoable": {
+      "pass": true,
+      "details": null
+    },
+    "saved_import_roundtrip": {
+      "pass": true,
+      "details": null
+    },
+    "actual_audio_signal": {
+      "pass": true,
+      "details": 0.019053313066363445
+    },
+    "mute_silences_signal": {
+      "pass": true,
+      "details": 0
+    },
+    "zero_volume_silences_signal": {
+      "pass": true,
+      "details": 0
+    },
+    "volume_restores_signal": {
+      "pass": true,
+      "details": 0.00972040458721726
+    },
+    "dialog_pauses_media": {
+      "pass": true,
+      "details": null
+    },
+    "volume_preference_persists": {
+      "pass": true,
+      "details": null
+    },
+    "no_browser_errors": {
+      "pass": true,
+      "details": []
+    }
+  },
+  "issues": [
+    "media_selection_retains_keyboard_focus"
+  ],
+  "limits": [
+    "No independent human playtest or listening test",
+    "No anti-agent effectiveness evaluation"
+  ]
+}

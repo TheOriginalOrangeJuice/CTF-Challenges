@@ -1,0 +1,30 @@
+{
+  "method": "Independent source-informed design and public-interface review; not a cold human playtest",
+  "scope": [4, 10, 13, 16, 17, 19, 20],
+  "ownership": "organizer/v4-quality* only; root owns live services and final staging",
+  "execution": "Condev rowdy-impossible-dev; fresh full first-party staging and SHA-256 parity required before browser execution",
+  "viewports": ["1366x768", "1920x1080"],
+  "design_assessment": {
+    "q4": "Explicit destruction of sole key K7 resolves ambiguous FORGET IT language while preserving archive-erasure reasoning.",
+    "q13": "Use equally sized and equally dense pseudorandom badges with an ink-preserving delta. Keep presentation identical across options.",
+    "q16": "Separate fixed original count 42/checksum 6 from editable revised count and computed readonly sum. Explain decimal digit addition without validity feedback.",
+    "q10_q17": "Natural file properties must expose a full selectable SHA-256 before Eject. No automatic USB receipt, notebook artifact, recall control or retention hint. Source build numbers and meaningful release IDs could undermine the specifically requested hash-memory step.",
+    "q19": "Eight hash-linked same-time records including five DENY events require causal ordering. Opaque IDs and display order must not encode chronology. Full PREV/hash/bytes must be reachable.",
+    "q20": "Identify selected layer and current x/y/rotation; visibly explain ordinary add, remove, move and rotate controls. Verify real pixel changes and persistence."
+  },
+  "live_checks_pending": [
+    "Q4 visible precise answer wording",
+    "Q10 complete selectable hash and natural access without retention hint",
+    "Q13 current badge visual density and real difference viewer",
+    "Q16 fixed versus computed checksum and leading-zero draft persistence",
+    "Q17 no automatic recalled artifact; wrong deployment costs two lives and shows angry goose; recovery works",
+    "Q19 unique causal chain, five DENY candidates, same clocks, paginated details and keyboard focus",
+    "Q20 add/select/remove controls, misalignment and rotation change actual pixels, cancel operation, drafts, keyboard focus and magnifier"
+  ],
+  "limitations": [
+    "Approved Hard–Very Hard rating is preserved; no independent human difficulty calibration is claimed.",
+    "No independent human playtesting, human listening, or anti-agent effectiveness assessment.",
+    "Current checkout has no Git repository metadata; source manifests identify revisions.",
+    "No service lifecycle changes or shared dependency installation by this reviewer."
+  ]
+}

@@ -1,0 +1,14 @@
+services:
+  calc:
+    build: ./server
+    ports:
+      - "8080:8080"
+    environment:
+      FLAG: "RCC{sc4n_d3c0d3_c4lcul4t3_r3p34t}"
+      FIRST_TIMEOUT: "30"   # seconds allowed for job 1 (lets people poke at it by hand)
+      ROUND_TIMEOUT: "5"    # seconds allowed for every other job (forces automation)
+      TOO_FAST: "10"        # whole run faster than this -> "calc stands for calculator" video, no flag
+      MEME_URL: "https://youtu.be/qy2fr9d5J3M"
+      # SLOW_IMAGE: "/static/too_slow.jpg"   # shown on a missed deadline; bundled copy of the gstatic meme
+      # SECRET: "change-me"                  # only needed with more than one container behind a load balancer
+    restart: unless-stopped

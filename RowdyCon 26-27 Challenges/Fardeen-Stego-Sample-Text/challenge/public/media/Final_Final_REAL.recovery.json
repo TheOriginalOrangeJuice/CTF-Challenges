@@ -1,0 +1,373 @@
+{
+  "format": "montage-recovery-v1",
+  "revision": "sample-text-1",
+  "title": "Final_Final_REAL",
+  "width": 1152,
+  "height": 648,
+  "fps": 30,
+  "duration": 20,
+  "sources": [
+    {
+      "id": "sample_text",
+      "name": "sample_text.png",
+      "trackName": "SAMPLE TEXT",
+      "file": "media/sample_text.png",
+      "thumb": "assets/sample_text-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 388901,
+      "sha256": "59c6cd52ae4ed723259abf217a79a472d59ec7a6435b82297a92a61b1d4016fc"
+    },
+    {
+      "id": "doritos",
+      "name": "doritos_hd.png",
+      "trackName": "Doritos / crunch",
+      "file": "media/doritos_hd.png",
+      "thumb": "assets/doritos-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 383926,
+      "sha256": "02e0e8d440a49364e848b95ed8d4a19a383bee1895b3149316c3a67478b804d9"
+    },
+    {
+      "id": "dew",
+      "name": "dew_it.png",
+      "trackName": "Dew it",
+      "file": "media/dew_it.png",
+      "thumb": "assets/dew-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 419797,
+      "sha256": "3a83f24ba2db3134f2e1d2b25ced5fb6dc1907c4f1605653875e9fdd1afc929c"
+    },
+    {
+      "id": "illuminati",
+      "name": "illuminati_confirmed.png",
+      "trackName": "Confirmed",
+      "file": "media/illuminati_confirmed.png",
+      "thumb": "assets/illuminati-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 409452,
+      "sha256": "3d7f58a57a9d70778f7b1951ae61ce383d59be301fd4b0a44bc5a9895b2372ac"
+    },
+    {
+      "id": "glasses",
+      "name": "deal_with_it.png",
+      "trackName": "Deal with it",
+      "file": "media/deal_with_it.png",
+      "thumb": "assets/glasses-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 370265,
+      "sha256": "037118eeb9d6cb812e5ad7a6f185cf5d25dad6c57ea682dfe91be538b5e35280"
+    },
+    {
+      "id": "hitmarker",
+      "name": "hitmarker.png",
+      "trackName": "Hitmarker",
+      "file": "media/hitmarker.png",
+      "thumb": "assets/hitmarker-thumb.png",
+      "width": 1024,
+      "height": 768,
+      "bytes": 387044,
+      "sha256": "4ce330f973c02ff6c0a9a7536cb303f3849839e16336d37be3538d8c20f3f033"
+    }
+  ],
+  "alpha": {
+    "sample_text": "straight",
+    "doritos": "straight",
+    "dew": "straight",
+    "illuminati": "straight",
+    "glasses": "straight",
+    "hitmarker": "straight"
+  },
+  "events": [
+    {
+      "source": "sample_text",
+      "track": 0,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 350,
+        "y": 222,
+        "w": 450,
+        "h": 280
+      },
+      "visible": true,
+      "id": "intro-0",
+      "label": "SAMPLE TEXT / reel",
+      "start": 0,
+      "end": 3.3
+    },
+    {
+      "source": "sample_text",
+      "track": 0,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 350,
+        "y": 222,
+        "w": 450,
+        "h": 280
+      },
+      "visible": true,
+      "id": "end-0",
+      "label": "SAMPLE TEXT / endcard",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "source": "doritos",
+      "track": 1,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 40,
+        "y": 50,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "intro-1",
+      "label": "Doritos / crunch / reel",
+      "start": 2,
+      "end": 5.7
+    },
+    {
+      "source": "doritos",
+      "track": 1,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 40,
+        "y": 50,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "end-1",
+      "label": "Doritos / crunch / endcard",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "source": "dew",
+      "track": 2,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 840,
+        "y": 430,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "intro-2",
+      "label": "Dew it / reel",
+      "start": 5.5,
+      "end": 8.7
+    },
+    {
+      "source": "dew",
+      "track": 2,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 840,
+        "y": 430,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "end-2",
+      "label": "Dew it / endcard",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "source": "illuminati",
+      "track": 3,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 870,
+        "y": 40,
+        "w": 220,
+        "h": 180
+      },
+      "visible": true,
+      "id": "intro-3",
+      "label": "Confirmed / reel",
+      "start": 8.3,
+      "end": 11.7
+    },
+    {
+      "source": "illuminati",
+      "track": 3,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 870,
+        "y": 40,
+        "w": 220,
+        "h": 180
+      },
+      "visible": true,
+      "id": "end-3",
+      "label": "Confirmed / endcard",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "source": "glasses",
+      "track": 4,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 70,
+        "y": 450,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "intro-4",
+      "label": "Deal with it / reel",
+      "start": 11.2,
+      "end": 14.2
+    },
+    {
+      "source": "glasses",
+      "track": 4,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": false,
+      "flipY": false,
+      "placement": {
+        "x": 70,
+        "y": 450,
+        "w": 240,
+        "h": 180
+      },
+      "visible": true,
+      "id": "end-4",
+      "label": "Deal with it / endcard",
+      "start": 16,
+      "end": 20
+    },
+    {
+      "source": "hitmarker",
+      "track": 5,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 475,
+        "y": 30,
+        "w": 200,
+        "h": 150
+      },
+      "visible": true,
+      "id": "intro-5",
+      "label": "Hitmarker / reel",
+      "start": 13.8,
+      "end": 16
+    },
+    {
+      "source": "hitmarker",
+      "track": 5,
+      "crop": {
+        "x": 64,
+        "y": 64,
+        "w": 240,
+        "h": 180
+      },
+      "flipX": true,
+      "flipY": false,
+      "placement": {
+        "x": 475,
+        "y": 30,
+        "w": 200,
+        "h": 150
+      },
+      "visible": true,
+      "id": "end-5",
+      "label": "Hitmarker / endcard",
+      "start": 16,
+      "end": 20
+    }
+  ],
+  "markers": [
+    {
+      "time": 0,
+      "label": "FRAG REEL"
+    },
+    {
+      "time": 16,
+      "label": "ENDCARD \u2014 final pass"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "url": "http://host.docker.internal:18113",
+  "checks": [
+    "saved sample and sixteen-letter ribbon inspection",
+    "wrong hypothesis conflict and undo recovery",
+    "browser crib solve, persistence and exact downloadable plaintext",
+    "working-copy export/import, malformed import preservation, zero-volume preference",
+    "reset cancellation, undo reset, window controls and Escape dialog close",
+    "authentic cue playback and server completion covered separately by audio_check.py",
+    "1366\u00d7768 and 1920\u00d71080 captures; reduced motion",
+    "public downloads and private-file boundary"
+  ],
+  "console_errors": [],
+  "human_listening": "not performed",
+  "independent_playtesting": "separate reviewer",
+  "pass": true
+}

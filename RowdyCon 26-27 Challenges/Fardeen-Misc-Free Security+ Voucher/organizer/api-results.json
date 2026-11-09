@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "duplicate request does not spend another life",
+    "three lives, full restart, retained notes",
+    "malformed draft has no life penalty",
+    "all20 public API route and exact reward",
+    "reward recoverable after state reload",
+    "isolated sessions",
+    "scouting skip prevents certification even with correct final construction",
+    "scouting evidence retained but progression reset",
+    "declared bomb failure ends entire run",
+    "organizer and server sources not served"
+  ],
+  "kind": "organizer-authored API contract checks, not blind playtesting"
+}

@@ -1,0 +1,351 @@
+﻿{
+    "challenge":  "The Impossible Security+ Quiz",
+    "reviewer":  "quality_implementation agent",
+    "status":  "Independent informed public solve remains passed on 07; focused review passed on 08. Parent reports final10 focused checks passed. Expanded harness stalled on an unbounded initial-response body read; bounded fix authored for parent revision 11 staging.",
+    "scope":  {
+                  "owned_files":  [
+                                      "organizer/quality-review.json",
+                                      "organizer/public-playtest.py",
+                                      "organizer/quality-evidence-07-08 (parent explicitly requested preservation of actual review evidence)"
+                                  ],
+                  "runtime":  "Condev only; parent owns staging, dependency setup, and service start/stop",
+                  "public_solve_method":  "Use player-visible evidence and normal controls; do not inspect private acceptance implementation or invoke private solver shortcuts",
+                  "known_prior_information":  "Reviewer read the approved DESIGN.md, so this is not a blind human playtest"
+              },
+    "sources":  [
+                    {
+                        "url":  "https://www.newgrounds.com/portal/view/365143",
+                        "role":  "Primary 2007 release and author context",
+                        "observed":  "Uploaded February 20, 2007; author comments explicitly mention addition of a mute control"
+                    },
+                    {
+                        "url":  "https://www.spriters-resource.com/browser_games/theimpossiblequiz/",
+                        "role":  "Original asset index",
+                        "observed":  "Separate sheets for Answers 215115, Bomb 215116, Lives and Game Over 215117, Skips 215119, Title Screen 215625, and Question 001 215125",
+                        "limitation":  "Indexed source reviewed; parent acquired original menu and game-over screenshots, now visually inspected"
+                    },
+                    {
+                        "url":  "https://sounds.spriters-resource.com/browser_games/theimpossiblequiz/asset/425232/",
+                        "role":  "Original sound-effects archive index",
+                        "observed":  "Archive index lists 60 MP3/WAV items including transition-labelled 375, 916, 1084, and 1650 files; source availability does not establish reuse permission"
+                    },
+                    {
+                        "url":  "https://www.mobygames.com/game/70326/the-impossible-quiz/credits/browser/",
+                        "role":  "Secondary transcription of browser release credits",
+                        "observed":  "Boombots Bonus Song for title; Rocky theme and The Yeah Yeah Yeah Song instrumental for quiz; Miserlou for Epic 10"
+                    },
+                    {
+                        "url":  "https://gamesdb.launchbox-app.com/games/images/165670-the-impossible-quiz",
+                        "role":  "Indexed original title reference",
+                        "observed":  "Actual menu capture: red The, large purple IMPOSSIBLE, green QUIZ, gray offset shadow; two-by-two pink controls with vivid blue frames",
+                        "limitation":  "Actual local parent-acquired menu-capture.webp viewed"
+                    },
+                    {
+                        "url":  "https://www.mobygames.com/game/70326/the-impossible-quiz/screenshots/browser/751711/",
+                        "role":  "Indexed original game-over reference",
+                        "observed":  "Full black screen, large red GAME OVER, smaller green TRY AGAIN?",
+                        "limitation":  "Actual local parent-acquired gameover-capture.png viewed"
+                    }
+                ],
+    "fidelity_criteria":  [
+                              {
+                                  "id":  "visual-stage",
+                                  "criterion":  "550 by 400 composition retains plain white space, large uneven handwritten question text and vivid pink answer controls edged in blue",
+                                  "status":  "Actual reference and selected application captures visually compared"
+                              },
+                              {
+                                  "id":  "visual-hud",
+                                  "criterion":  "Lives sit at lower left and skip arrows along the bottom without a modern dashboard or heavy card chrome",
+                                  "status":  "Actual reference and selected application captures visually compared"
+                              },
+                              {
+                                  "id":  "visual-title",
+                                  "criterion":  "Title and menu reproduce recognizable purple/green lettering, offset shadow and two-by-two pink/blue control proportions",
+                                  "status":  "Actual reference and selected application captures visually compared"
+                              },
+                              {
+                                  "id":  "visual-failure",
+                                  "criterion":  "Failure produces the distinct black, red and green game-over state and a direct replay action",
+                                  "status":  "Actual reference and selected application captures visually compared"
+                              },
+                              {
+                                  "id":  "visual-ordinary",
+                                  "criterion":  "Actual captures at 1366 by 768 and 1920 by 1080 show readable evidence, usable controls and no clipped essential material",
+                                  "status":  "Actual reference and selected application captures visually compared"
+                              },
+                              {
+                                  "id":  "audio-fidelity",
+                                  "criterion":  "Locally frozen original effects/music have documented source mappings and hashes, with reuse status recorded accurately",
+                                  "status":  "Playback confirmed; final source mapping, rights and shipped-asset hashes remain parent-owned validation"
+                              }
+                          ],
+    "functional_criteria":  [
+                                {
+                                    "id":  "public-twenty",
+                                    "criterion":  "Complete exactly twenty fixed questions through ordinary public controls with evidence recorded at every question",
+                                    "status":  "passed revision 07 via public controls; exact reward produced"
+                                },
+                                {
+                                    "id":  "failure-reset",
+                                    "criterion":  "Three incorrect committed answers end the run; replay begins Q1 with three lives while notes survive",
+                                    "status":  "passed revision 08: 3 wrong commits -\u003e game over -\u003e Q1 with 3 lives; previously saved note retained"
+                                },
+                                {
+                                    "id":  "skips",
+                                    "criterion":  "Q5/Q10/Q15 earn skips; spending shows warning and makes the run ineligible; three saved skips can be placed and removed before final atomic success",
+                                    "status":  "revision 07 earned Q5/Q10/Q15 and reversed final rejection placement; revision 08 pre-start warning verified; spending path not exercised by this reviewer"
+                                },
+                                {
+                                    "id":  "free-investigation",
+                                    "criterion":  "Draft edits and evidence inspection do not spend lives; action bomb spends action ticks rather than elapsed time",
+                                    "status":  "passed reviewed free experiments, keyboard changes, undo, and action-bomb draft editing; no elapsed-time bomb decrement observed"
+                                },
+                                {
+                                    "id":  "real-evidence",
+                                    "criterion":  "Photograph captures the selected strip, signal controls process actual samples, and state transformations produce the displayed result",
+                                    "status":  "public paper-window changes, actual waveform playback, transformed tile states and supplied-photo comparison observed; private implementation not inspected"
+                                },
+                                {
+                                    "id":  "keyboard",
+                                    "criterion":  "Advertised controls work by keyboard with visible focus, reachable evidence, sensible dialogs and no required pointer reflex",
+                                    "status":  "range, firewall, select controls, Escape close and focus return checked; Q4/Q8/Q10 selected state and Q17 shapes had reported accessibility gaps"
+                                },
+                                {
+                                    "id":  "sound",
+                                    "criterion":  "Actual nonzero browser output is observed; mute/volume/source and preview controls coordinate playback and preferences survive reload",
+                                    "status":  "nonzero actual Q13/effect/music samples measured; mute and volume survived reload; human listening not performed"
+                                },
+                                {
+                                    "id":  "recovery",
+                                    "criterion":  "Refresh retains drafts and evidence; completion is recoverable; restart preserves authored puzzle identity",
+                                    "status":  "saved progression and certificate recovered; saved notes survive reset; rapid unsaved draft/note loss reported for final fix"
+                                },
+                                {
+                                    "id":  "public-files",
+                                    "criterion":  "Normal served assets and initial public state contain no unintended answer or organizer secret; deployment includes only approved public files",
+                                    "status":  "pending repeatable harness initial-response check and parent final deployment review; no unauthorized probing performed"
+                                },
+                                {
+                                    "id":  "finale",
+                                    "criterion":  "Final connected audit uses visible ticket, clock, transformation and face evidence and yields a distinct persistent reward",
+                                    "status":  "passed revision 07: reversible reject 4/5/6, order 1/2/3, actual C+ B+ D+ A- result, exposed A- READ+PRINT, distinct persistent certificate"
+                                },
+                                {
+                                    "id":  "console",
+                                    "criterion":  "Normal full playthrough has no unexpected browser console errors or failed required requests",
+                                    "status":  "no pageerror observed in the successful inline public route; comprehensive network/console capture awaits final harness execution"
+                                }
+                            ],
+    "validation_categories":  {
+                                  "technical_correctness":  {
+                                                                "status":  "public route passed on 07; focused controls/recovery/audio passed on 08; final revision 10 pending",
+                                                                "limitations":  [
+                                                                                    "This is a public-interface review, not exhaustive acceptance, concurrency, ownership, deployment, or malformed-input testing.",
+                                                                                    "The reviewer read the approved design beforehand and did not inspect private engine or private answers during the public route."
+                                                                                ]
+                                                            },
+                                  "visual_review":  {
+                                                        "status":  "Actual title, ordinary question, firewall, bags, authority, waveforms, final issue, certificate, game-over and sound-dialog captures inspected",
+                                                        "viewports":  [
+                                                                          "1366x768 ordinary public route",
+                                                                          "1920x1080 recovered certificate with reduced motion"
+                                                                      ],
+                                                        "observations":  [
+                                                                             "Original title artwork and two-by-two pink/blue menu proportions are recognizable.",
+                                                                             "Plain white question composition, vivid framing and goose props form a coherent visual system.",
+                                                                             "The certificate and black game-over make success and failure visibly different.",
+                                                                             "The long flag wraps but remains complete and copyable."
+                                                                         ]
+                                                    },
+                                  "independent_human_playtesting":  {
+                                                                        "status":  "not performed",
+                                                                        "note":  "AI-assisted public-interface review does not establish human difficulty, enjoyment, or intuitiveness"
+                                                                    },
+                                  "independent_human_listening":  {
+                                                                      "status":  "not performed",
+                                                                      "note":  "Signal analysis can establish non-silent playback but cannot establish comfortable or faithful perceived audio"
+                                                                  },
+                                  "anti_agent_effectiveness":  {
+                                                                   "status":  "not evaluated",
+                                                                   "note":  "No claim of AI resistance follows from ordinary playtest automation"
+                                                               }
+                              },
+    "findings":  [
+                     {
+                         "id":  "prestart-skip-warning",
+                         "severity":  "medium",
+                         "revision":  "06/07",
+                         "observation":  "Start led directly into Q1 without stating that spending skips prevents certification.",
+                         "resolution":  "Visible title warning observed in revision 08."
+                     },
+                     {
+                         "id":  "title-overlap",
+                         "severity":  "low",
+                         "revision":  "06",
+                         "observation":  "Security+ stamp lower edge overlapped the SY0-NOPE subtitle.",
+                         "resolution":  "Parent reports corrected in 08; focused final title comparison pending."
+                     },
+                     {
+                         "id":  "bag-selection",
+                         "severity":  "medium",
+                         "revision":  "07",
+                         "observation":  "First click inspected a bag without selecting it. The revealed card did not explain the second click; submitting after inspecting correct bag 3 lost a life.",
+                         "resolution":  "Parent reports CLICK TO SELECT/SELECTED feedback in 08; full updated harness will recheck."
+                     },
+                     {
+                         "id":  "selected-accessibility",
+                         "severity":  "medium",
+                         "revision":  "07",
+                         "observation":  "Q4/Q8/Q10 selected cards changed visual classes but lacked pressed/selected state in the accessibility tree.",
+                         "resolution":  "Parent reports aria-pressed added in 08; final harness captures accessibility trees."
+                     },
+                     {
+                         "id":  "badge-copy",
+                         "severity":  "low",
+                         "revision":  "07",
+                         "observation":  "Punch out unwanted permissions conflicted with Only punched permissions work.",
+                         "resolution":  "Parent reports corrected copy in 08."
+                     },
+                     {
+                         "id":  "draft-save-window",
+                         "severity":  "medium",
+                         "revision":  "07/08",
+                         "observation":  "Closing shortly after Q20 edits dropped rejection/order drafts. A 1200ms wait preserved them. Filling a note, blurring, waiting 500ms then closing/answering lost it; waiting 1600ms plus a reload confirmed save, after which reset retained it.",
+                         "resolution":  "Parent reports immediate sessionStorage protection for drafts and notes in source prepared for final 10; focused recheck pending."
+                     },
+                     {
+                         "id":  "q17-shape-accessibility",
+                         "severity":  "medium",
+                         "revision":  "07",
+                         "observation":  "Round/striped CSS cards exposed only WANTED/YOUR RULE text, with no shape identity in the accessibility tree.",
+                         "resolution":  "Parent reports shape labels in source prepared for final 10; focused recheck pending."
+                     },
+                     {
+                         "id":  "gameover-accessibility",
+                         "severity":  "medium",
+                         "revision":  "08",
+                         "observation":  "GAME OVER existed only as background artwork; accessible tree contained retry/menu controls and the prior NOPE toast.",
+                         "resolution":  "Parent reports accessible game-over heading in source prepared for final 10; focused recheck pending."
+                     },
+                     {
+                         "id":  "gameover-toast",
+                         "severity":  "low",
+                         "revision":  "08",
+                         "observation":  "The ordinary NOPE toast remained over part of TRY AGAIN? in the game-over capture. Retry still worked.",
+                         "resolution":  "Recommend clearing the ordinary wrong-answer toast on terminal game over; not rechecked."
+                     },
+                     {
+                         "id":  "music-slider-step",
+                         "severity":  "low",
+                         "revision":  "08",
+                         "observation":  "Default text said Music 24% while native range value normalized to 0.25.",
+                         "resolution":  "Parent reports default changed to 25% for final 10."
+                     }
+                 ],
+    "tested_revision":  {
+                            "full_public_solve":  "07",
+                            "focused_checks":  "08",
+                            "final_fix_recheck":  "pending revision 10",
+                            "public_build_08":  "index-CZx1Q0kP.js",
+                            "source_parity":  "Parent reported full-tree SHA-256 parity for each staged revision; this agent used only the parent-owned dedicated Condev service"
+                        },
+    "runtime_evidence":  {
+                             "directory":  "organizer/quality-evidence-07-08",
+                             "manifest":  "organizer/quality-evidence-07-08/manifest.json",
+                             "files":  51,
+                             "session_cookies_included":  false,
+                             "service":  "http://localhost:18115",
+                             "condev_container":  "rowdy-impossible-dev",
+                             "service_ownership":  "Parent started/replaced services; reviewer never installed dependencies or started/stopped services",
+                             "probe_method":  "Inline Playwright diagnostics executed inside Condev against the parent-verified application; inline probes are distinct from the newly authored repeatable harness"
+                         },
+    "audio_measurements":  [
+                               {
+                                   "revision":  "07",
+                                   "medium":  "Q13 mixed waveform",
+                                   "method":  "Actual WebAudio output node sampled through an analyser branch connected to zero gain; source playback unchanged",
+                                   "peak_sampled_rms":  0.008134946607879013,
+                                   "evidence":  "revision-07/audio-output.json"
+                               },
+                               {
+                                   "revision":  "08",
+                                   "medium":  "TEST EFFECT",
+                                   "method":  "Actual WebAudio output samples captured through the same silent analyser branch",
+                                   "peak_sampled_rms":  0.06939565834715035,
+                                   "evidence":  "Tool execution output; no standalone measurement file was written before a later unrelated locator timeout"
+                               },
+                               {
+                                   "revision":  "08",
+                                   "medium":  "Original title.mp3 music",
+                                   "method":  "Actual playing HTMLAudioElement captureStream connected to a silent analyser; currentTime advanced and paused was false",
+                                   "peak_sampled_rms":  0.12061624355935044,
+                                   "evidence":  "revision-08/audio-music.json"
+                               }
+                           ],
+    "reasoning_and_experience":  {
+                                     "reviewer_type":  "Informed AI review, not an independent human or blind playtest",
+                                     "reasoning":  [
+                                                       "The ruler, factor legend, picture/caption disagreement, graph boundary and free bag inspection supply concrete early evidence.",
+                                                       "The clock correction, constrained authority chains, preserved photograph and actual tile operations become dependent evidence in the final audit.",
+                                                       "Q13 visibly shifts B\u0027s noise onset by two 100ms divisions; signed traces and the pink target provide a non-audio path.",
+                                                       "Q15 is a genuine consistency problem: A=B and B=not C constrain the remaining statements."
+                                                   ],
+                                     "replay":  [
+                                                    "No mandatory waiting or pointer reflex was needed in the completed route.",
+                                                    "Keyboard resizing and sliders, free rehearsal, action plans and undo permit investigation before committing.",
+                                                    "Full reset imposes replay cost; the persistent notebook and quick controls reduce re-entry effort. No human replay-time estimate was made."
+                                                ],
+                                     "enjoyment":  [
+                                                       "The goose, biscuit leak, misleading labels and toy stamp office maintain a consistent comic premise.",
+                                                       "The final result combines previous discoveries rather than introducing unrelated trivia.",
+                                                       "The certificate has a distinct celebratory composition and recoverable reward. These are editorial observations, not proof that human players will find the challenge enjoyable."
+                                                   ],
+                                     "remaining":  [
+                                                       "Independent human difficulty calibration, enjoyment testing and comfortable-volume listening remain unperformed.",
+                                                       "Spending-skip ineligibility, full unsafe-bomb confirmation, final deployment file exposure and the latest draft/accessibility fixes need the parent\u0027s focused final checks."
+                                                   ]
+                                 },
+    "repeatable_harness":  {
+                               "file":  "organizer/public-playtest.py",
+                               "status":  "Full twenty-question mode authored; final10 run stalled before question interaction while collecting /api/state body. Bounded fix authored; fresh revision 11 run pending.",
+                               "command":  "/opt/iq-venv/bin/python \u0027\u003cverified-stage\u003e/The Impossible Security+ Quiz/organizer/public-playtest.py\u0027 --base-url http://localhost:18115 --output /tmp/iq-public-final11 --revision final11 --mode solve",
+                               "notes":  [
+                                             "Parent must include the complete current tree in a fresh stage and verify SHA-256 parity before execution.",
+                                             "Output directory must be fresh.",
+                                             "Use localhost to match PUBLIC_ORIGIN; 127.0.0.1 intentionally differs.",
+                                             "The script uses domcontentloaded and visible controls because looping audio prevents networkidle.",
+                                             "The complete route is informed regression automation, not blind independent playtesting."
+                                         ]
+                           },
+    "harness_diagnosis":  {
+                              "revision_tested":  "final10 index-Bi-ahTfp.js",
+                              "observed_stalled_process":  12082,
+                              "application_process":  11924,
+                              "application_changed":  false,
+                              "service_started_or_stopped":  false,
+                              "method":  "Bounded 12-second read-only browser diagnostic imported the staged final10 review module and traced snapshot/response task completion.",
+                              "confirmed_cause":  "01-title-1366 screenshot, DOM evaluation and accessibility snapshot all completed. inspect then awaited the unbounded response-task gather. The initial /api/state response.body task did not finish; static HTML/CSS/JS response bodies did finish.",
+                              "evidence":  [
+                                               "Diagnostic printed SNAPSHOT_END 01-title-1366 then INSPECT_DONE False.",
+                                               "Pending Python stack was inspect line 90 plus the /api/state response-collection wrapper; cancellation completed cleanly."
+                                           ],
+                              "fix":  [
+                                          "Each optional response-body read now has a five-second deadline and records incomplete inspection on timeout.",
+                                          "Response collection drains for at most six seconds, then cancels pending tasks with a bounded cleanup.",
+                                          "Screenshot, DOM, font and accessibility operations have explicit deadlines.",
+                                          "Default locator timeout is eight seconds; navigation is fifteen seconds; inspect/solve overall deadlines are sixty/one hundred eighty seconds.",
+                                          "Progress is flushed to stdout and progress.jsonl before and after snapshot operations and question commits.",
+                                          "The final report marks incomplete initial-response scanning separately from the public solve outcome."
+                                      ],
+                              "validation":  "Edited harness not yet executed; parent must fresh-stage and verify complete tree before revision 11 execution.",
+                              "original_public_solve_impact":  "None: revision07 public completion was performed by separate inline browser probes and retains its evidence."
+                          },
+    "parentFinalVerification":  {
+                                    "focused":  "focused-browser-results.json",
+                                    "fullPublicRoute":  "passed",
+                                    "evidence":  "quality-evidence-final11/public-review.json",
+                                    "revision":  "final11",
+                                    "fixes":  "Latest accessibility, immediate draft/notes recovery, keyboard selection and lost-response retry fixes passed six focused checks.",
+                                    "remaining":  "Human cold playtest/listening, fresh Compose startup and original asset redistribution permission remain open."
+                                }
+}

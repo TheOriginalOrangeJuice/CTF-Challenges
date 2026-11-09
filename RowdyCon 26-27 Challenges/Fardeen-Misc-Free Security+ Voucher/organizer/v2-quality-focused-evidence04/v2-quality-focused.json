@@ -1,0 +1,92 @@
+{
+  "runtime": "Condev; localhost:18115; stage04",
+  "human_listening": false,
+  "checks": {
+    "credits_tab_order": [
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      }
+    ],
+    "live_music_2s": {
+      "peak": 0.397260844707489,
+      "rms": 0.024699988847175582,
+      "nonzero": 155574,
+      "samples": 327680,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "live_music_next_2s": {
+      "peak": 0.08407521992921829,
+      "rms": 0.008633460932618445,
+      "nonzero": 163840,
+      "samples": 327680,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "muted_output": {
+      "peak": 0.08463464677333832,
+      "rms": 0.0032220122744175423,
+      "nonzero": 3072,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "music_zero_output": {
+      "peak": 0,
+      "rms": 0,
+      "nonzero": 0,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "live_effect_output": {
+      "peak": 0.3195188641548157,
+      "rms": 0.01092177092546798,
+      "nonzero": 84280,
+      "samples": 290816,
+      "contexts": [
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    "saved_sound_preferences": {
+      "button": "SOUND OFF \u00b7 TURN ON",
+      "sliders": [
+        "0.45",
+        "0.35"
+      ]
+    },
+    "initial_notebook": "No evidence collected.",
+    "notes_after_reload": "Independent review note: preserve this exact text."
+  },
+  "errors": [],
+  "status": "interrupted",
+  "exception": "Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-drop=\\\"port-0\\\"] button\")\n    - locator resolved to <button disabled class=\"answer\">20</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n      - waiting 100ms\n    11 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not enabled\n     - retrying click action\n       - waiting 500ms\n",
+  "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 73, in <module>\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 15543, in click\n    self._sync(\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_locator.py\", line 160, in click\n    return await self._frame.click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 549, in click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/iq-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 558, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.click: Timeout 6000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-drop=\\\"port-0\\\"] button\")\n    - locator resolved to <button disabled class=\"answer\">20</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n      - waiting 100ms\n    11 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not enabled\n     - retrying click action\n       - waiting 500ms\n\n"
+}

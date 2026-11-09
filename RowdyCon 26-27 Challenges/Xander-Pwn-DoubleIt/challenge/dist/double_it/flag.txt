@@ -1,0 +1,1 @@
+flag{this_is_only_a_test_flag_run_it_on_the_server}

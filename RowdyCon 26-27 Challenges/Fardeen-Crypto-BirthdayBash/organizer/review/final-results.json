@@ -1,0 +1,688 @@
+{
+  "checks": {
+    "current_public_tree_parity": {
+      "passed": true,
+      "detail": [
+        {
+          "path": "app.js",
+          "sha256": "aa878d07ee848877996e204deaada9c72ce99aa97b41837766d180b3c6211493",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "assets/club.svg",
+          "sha256": "db62b69d21687368a295e0306e09890d9399f514e3ebce036ea5c64d08aad674",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "assets/fnaf-header.jpg",
+          "sha256": "a9c884248410dca10ec5b5fbc96adcafa55c227083003594c2fdbf723c07e4e6",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "assets/folder.svg",
+          "sha256": "75219f1b82a07661fa2cce11c735657ca3d166bc2ad8c3900aefe2c3ff9b76b1",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "assets/notepad.svg",
+          "sha256": "4757d9dfb625ea1de74cf94357307cacb381e6af6108c589bf70162324a1c870",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "audio/balloon-boy-hello.mp3",
+          "sha256": "f2b9dcd33a447aa379dd18b838fcb81264c0a22d06899c1f1d44a60090380281",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "audio/camera-close.mp3",
+          "sha256": "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "audio/camera-open.mp3",
+          "sha256": "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "audio/children-yay.mp3",
+          "sha256": "15902d60b7ce84d3e7f673d57e2c69435c042472748a5047be6df8f5dfa8a972",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "audio.js",
+          "sha256": "981557fd274857cc5efe2ff63138a802a8a0adced4bc73d9421da7f292e10d38",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "cipher.js",
+          "sha256": "b9c79fa900ea4b48a47252e80543f934a906491400d0568431e03cc54ebffdc8",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence/01---welcome.txt",
+          "sha256": "a37c9045e4fe0211130557586b0b1c2dbecc9ea75b8744052cf4166731db48fc",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence/03---about-the-phone.txt",
+          "sha256": "1985544dc6d0916f26a1f148480b04a7a538f6ba4d21c48d6c4a3864862e5e4c",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence/04---do-not-call.txt",
+          "sha256": "3f4e7b7e712ae4b5eb480c732332909d456d08a12ba48ef35c03c0e9499f4b6e",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence/05-last-note.enc.txt",
+          "sha256": "4c013c81d62f97119febb16ee2aeada9d32d537f18eb71b26365fcb8423175a4",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence/birthday-postcard.txt",
+          "sha256": "8b665cd1b972a2486fb362f99fbd2ba87d49027fe544f1c6cc07b4777d25f1b9",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "evidence.json",
+          "sha256": "1ee0db4e5bcf446bf8ddd2d4ad9fa986db2ecc6a344bce597847513000ca4fe8",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "index.html",
+          "sha256": "e702e8d65756e7fd4bbf19586fe8f7fbfd6909f9f7e721f5b70b5d380bc6ab0b",
+          "matches_stage": true,
+          "status": 200
+        },
+        {
+          "path": "style.css",
+          "sha256": "240c62eca75c637029b42f48d26282c9137f1b517423152228053654d55feddd",
+          "matches_stage": true,
+          "status": 200
+        }
+      ]
+    },
+    "public_has_neither_flag_nor_private_digest": {
+      "passed": true,
+      "detail": null
+    },
+    "private_and_directory_boundaries": {
+      "passed": true,
+      "detail": {
+        "/server.py": 404,
+        "/completion.sha256": 404,
+        "/organizer/generate.py": 404,
+        "/Description.md": 404,
+        "/Description.docx": 404,
+        "/.dockerignore": 404,
+        "/audio/": 404,
+        "/api/completion": 404
+      }
+    },
+    "completion_0": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_1": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_2": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_3": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_invalid_schema_0": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_invalid_schema_1": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_invalid_schema_2": {
+      "passed": true,
+      "detail": null
+    },
+    "completion_invalid_schema_3": {
+      "passed": true,
+      "detail": null
+    },
+    "first_entry_ready_without_autoplay_failure": {
+      "passed": true,
+      "detail": null
+    },
+    "first_gesture_preserves_whole_hello": {
+      "passed": true,
+      "detail": [
+        {
+          "event": "play",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "volume": 0.26249999999999996,
+          "at": 757.6999999999534
+        },
+        {
+          "event": "playing",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 0,
+          "duration": 1.38449,
+          "at": 774.3999999999069
+        },
+        {
+          "event": "pause",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2138.7999999998137
+        },
+        {
+          "event": "ended",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2139.0999999998603
+        }
+      ]
+    },
+    "hello_actual_non_silent": {
+      "passed": true,
+      "detail": null
+    },
+    "document_close_authentic_cue": {
+      "passed": true,
+      "detail": null
+    },
+    "document_open_authentic_cue": {
+      "passed": true,
+      "detail": null
+    },
+    "hello_once_across_reload": {
+      "passed": true,
+      "detail": null
+    },
+    "volume_scales_real_waveform": {
+      "passed": true,
+      "detail": 0.20000001370583603
+    },
+    "zero_volume_silent": {
+      "passed": true,
+      "detail": null
+    },
+    "mute_silent_without_play": {
+      "passed": true,
+      "detail": null
+    },
+    "ribbon_keyboard_focus_fixed": {
+      "passed": true,
+      "detail": null
+    },
+    "storage_failure_visible": {
+      "passed": true,
+      "detail": null
+    },
+    "storage_failure_still_usable": {
+      "passed": true,
+      "detail": null
+    },
+    "keyboard_first_entry_hello": {
+      "passed": true,
+      "detail": null
+    },
+    "saved-muted_no_play": {
+      "passed": true,
+      "detail": null
+    },
+    "saved-muted_explicit_enable_hello": {
+      "passed": true,
+      "detail": null
+    },
+    "saved-zero_no_play": {
+      "passed": true,
+      "detail": null
+    },
+    "saved-zero_explicit_enable_hello": {
+      "passed": true,
+      "detail": null
+    },
+    "full_gibberish_has_no_yay": {
+      "passed": true,
+      "detail": null
+    },
+    "wrong_flag_complete_sheet_no_yay": {
+      "passed": true,
+      "detail": null
+    },
+    "correct_flag_yay_non_silent": {
+      "passed": true,
+      "detail": null
+    },
+    "ordinary_solve_preserved": {
+      "passed": true,
+      "detail": null
+    },
+    "final_layout_1366": {
+      "passed": true,
+      "detail": null
+    },
+    "final_layout_1920": {
+      "passed": true,
+      "detail": null
+    },
+    "no_replayed_yay_after_reload": {
+      "passed": true,
+      "detail": null
+    },
+    "muted_correct_flag_visual_success": {
+      "passed": true,
+      "detail": null
+    },
+    "unmute_has_no_old_yay": {
+      "passed": true,
+      "detail": null
+    },
+    "zero_clears_queued_yay": {
+      "passed": true,
+      "detail": null
+    },
+    "checker_failure_preserves_decoded_flag": {
+      "passed": true,
+      "detail": null
+    },
+    "no_page_errors": {
+      "passed": true,
+      "detail": []
+    }
+  },
+  "issues": [],
+  "page_errors": [],
+  "audio": {
+    "first-hello": {
+      "peak": 0.17214739322662354,
+      "events": [
+        {
+          "event": "play",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "volume": 0.26249999999999996,
+          "at": 757.6999999999534
+        },
+        {
+          "event": "playing",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 0,
+          "duration": 1.38449,
+          "at": 774.3999999999069
+        },
+        {
+          "event": "pause",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2138.7999999998137
+        },
+        {
+          "event": "ended",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2139.0999999998603
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3"
+      ]
+    },
+    "document-close": {
+      "peak": 0.05707867443561554,
+      "events": [
+        {
+          "event": "play",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "volume": 0.0875,
+          "at": 2304.5
+        },
+        {
+          "event": "playing",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0,
+          "duration": 0.548571,
+          "at": 2321.0999999998603
+        },
+        {
+          "event": "pause",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 2838.5999999998603
+        },
+        {
+          "event": "ended",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 2838.6999999999534
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/camera-close.mp3"
+      ]
+    },
+    "document-open": {
+      "peak": 0.10274161398410797,
+      "events": [
+        {
+          "event": "play",
+          "cue": "page",
+          "src": "http://host.docker.internal:18113/audio/camera-open.mp3",
+          "volume": 0.1575,
+          "at": 2991.0999999998603
+        },
+        {
+          "event": "playing",
+          "cue": "page",
+          "src": "http://host.docker.internal:18113/audio/camera-open.mp3",
+          "time": 0,
+          "duration": 0.548571,
+          "at": 3006
+        },
+        {
+          "event": "pause",
+          "cue": "page",
+          "src": "http://host.docker.internal:18113/audio/camera-open.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 3518.6999999999534
+        },
+        {
+          "event": "ended",
+          "cue": "page",
+          "src": "http://host.docker.internal:18113/audio/camera-open.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 3518.7999999998137
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/camera-open.mp3"
+      ]
+    },
+    "window-volume100": {
+      "peak": 0.16308192908763885,
+      "events": [
+        {
+          "event": "play",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "volume": 0.25,
+          "at": 1270.5999999998603
+        },
+        {
+          "event": "playing",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0,
+          "duration": 0.548571,
+          "at": 1283.6999999999534
+        },
+        {
+          "event": "pause",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 1802.8000000000466
+        },
+        {
+          "event": "ended",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 1802.8999999999069
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/camera-close.mp3"
+      ]
+    },
+    "window-volume20": {
+      "peak": 0.03261638805270195,
+      "events": [
+        {
+          "event": "play",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "volume": 0.05,
+          "at": 2787.5999999998603
+        },
+        {
+          "event": "playing",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0,
+          "duration": 0.548571,
+          "at": 2800.3000000000466
+        },
+        {
+          "event": "pause",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 3312.6999999999534
+        },
+        {
+          "event": "ended",
+          "cue": "window",
+          "src": "http://host.docker.internal:18113/audio/camera-close.mp3",
+          "time": 0.548571,
+          "duration": 0.548571,
+          "at": 3312.899999999907
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/camera-close.mp3"
+      ]
+    },
+    "window-volume0": {
+      "peak": 0,
+      "events": [],
+      "sources": []
+    },
+    "muted": {
+      "peak": 0,
+      "events": [],
+      "sources": []
+    },
+    "keyboard-hello": {
+      "peak": 0.17214739322662354,
+      "events": [
+        {
+          "event": "play",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "volume": 0.26249999999999996,
+          "at": 633.8999999999069
+        },
+        {
+          "event": "playing",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 0,
+          "duration": 1.38449,
+          "at": 651.3000000000466
+        },
+        {
+          "event": "pause",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2015.5
+        },
+        {
+          "event": "ended",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2015.6999999999534
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3"
+      ]
+    },
+    "saved-muted": {
+      "peak": 0.17214739322662354,
+      "events": [
+        {
+          "event": "play",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "volume": 0.26249999999999996,
+          "at": 912.2000000001863
+        },
+        {
+          "event": "playing",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 0,
+          "duration": 1.38449,
+          "at": 922.5
+        },
+        {
+          "event": "pause",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2273.5
+        },
+        {
+          "event": "ended",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2273.600000000093
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3"
+      ]
+    },
+    "saved-zero": {
+      "peak": 0.17214739322662354,
+      "events": [
+        {
+          "event": "play",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "volume": 0.26249999999999996,
+          "at": 865.0999999998603
+        },
+        {
+          "event": "playing",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 0,
+          "duration": 1.38449,
+          "at": 874.6999999999534
+        },
+        {
+          "event": "pause",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2226.3000000000466
+        },
+        {
+          "event": "ended",
+          "cue": "hello",
+          "src": "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3",
+          "time": 1.38449,
+          "duration": 1.38449,
+          "at": 2226.5
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/balloon-boy-hello.mp3"
+      ]
+    },
+    "correct-yay": {
+      "peak": 0.15324410796165466,
+      "events": [
+        {
+          "event": "play",
+          "cue": "yay",
+          "src": "http://host.docker.internal:18113/audio/children-yay.mp3",
+          "volume": 0.22749999999999998,
+          "at": 2837.9000000001397
+        },
+        {
+          "event": "playing",
+          "cue": "yay",
+          "src": "http://host.docker.internal:18113/audio/children-yay.mp3",
+          "time": 0,
+          "duration": 3.448163,
+          "at": 2850.100000000093
+        },
+        {
+          "event": "pause",
+          "cue": "yay",
+          "src": "http://host.docker.internal:18113/audio/children-yay.mp3",
+          "time": 3.448163,
+          "duration": 3.448163,
+          "at": 6277.800000000047
+        },
+        {
+          "event": "ended",
+          "cue": "yay",
+          "src": "http://host.docker.internal:18113/audio/children-yay.mp3",
+          "time": 3.448163,
+          "duration": 3.448163,
+          "at": 6277.800000000047
+        }
+      ],
+      "sources": [
+        "http://host.docker.internal:18113/audio/camera-close.mp3",
+        "http://host.docker.internal:18113/audio/children-yay.mp3"
+      ]
+    }
+  },
+  "human_listening": "not performed",
+  "human_playtesting": "not performed"
+}

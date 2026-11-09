@@ -1,0 +1,74 @@
+{
+  "checks": [
+    "first allowed interaction plays Hello once; default comfortable level; wrong full worksheet has no Yay; keyboard focus survives ribbon rebuild",
+    "exact flag verified server-side; wrong/case-changed claims fail; correct decode produces one children Yay; private digest is not served",
+    "reload repeats neither greeting nor celebration; saved mute and zero volume stay silent",
+    "mute before the first gesture preserves pending Hello until explicit unmute"
+  ],
+  "human_listening": "not claimed",
+  "console_errors": [],
+  "first_session_cues": [
+    "hello",
+    "page",
+    "window",
+    "click",
+    "click",
+    "clear",
+    "click",
+    "click",
+    "error",
+    "yay"
+  ],
+  "measured_peaks": {
+    "hello": 0.17214739322662354,
+    "page": 0.10274161398410797,
+    "window": 0.05707867443561554,
+    "click": 0.05707867443561554,
+    "clear": 0.06849440932273865,
+    "error": 0.07991014420986176,
+    "yay": 0.15324410796165466
+  },
+  "cue_volumes": [
+    {
+      "cue": "hello",
+      "volume": 0.26249999999999996
+    },
+    {
+      "cue": "page",
+      "volume": 0.1575
+    },
+    {
+      "cue": "window",
+      "volume": 0.0875
+    },
+    {
+      "cue": "click",
+      "volume": 0.0875
+    },
+    {
+      "cue": "click",
+      "volume": 0.0875
+    },
+    {
+      "cue": "clear",
+      "volume": 0.105
+    },
+    {
+      "cue": "click",
+      "volume": 0.0875
+    },
+    {
+      "cue": "click",
+      "volume": 0.0875
+    },
+    {
+      "cue": "error",
+      "volume": 0.12249999999999998
+    },
+    {
+      "cue": "yay",
+      "volume": 0.22749999999999998
+    }
+  ],
+  "pass": true
+}

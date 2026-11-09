@@ -1,0 +1,62 @@
+{
+  "stage": "/tmp/iq-v2-stage06/The Impossible Security+ Quiz",
+  "scope": "Magnifier Tab, Shift+Tab, Escape, close-button, focus restoration only; normal public actions navigate to Q20.",
+  "source_file": "challenge/client/src/questions.tsx",
+  "source_sha256": "2613cba255b0b94db2ebf67ef410469c2e8d225c2e1c1d5d7cb568d13abb8849",
+  "human_playtest": false,
+  "checks": {
+    "initial_focus": {
+      "tag": "BUTTON",
+      "text": "CLOSE",
+      "label": null
+    },
+    "tab_cycles": [
+      {
+        "key": "Tab",
+        "focus": {
+          "tag": "BUTTON",
+          "text": "CLOSE",
+          "label": null
+        }
+      },
+      {
+        "key": "Tab",
+        "focus": {
+          "tag": "BUTTON",
+          "text": "CLOSE",
+          "label": null
+        }
+      },
+      {
+        "key": "Shift+Tab",
+        "focus": {
+          "tag": "BUTTON",
+          "text": "CLOSE",
+          "label": null
+        }
+      },
+      {
+        "key": "Shift+Tab",
+        "focus": {
+          "tag": "BUTTON",
+          "text": "CLOSE",
+          "label": null
+        }
+      }
+    ],
+    "dialog_aria": "- dialog \"Magnified difference viewer\":\n  - img \"Magnified combined pixels\"\n  - button \"CLOSE\"",
+    "escape_restores": {
+      "tag": "BUTTON",
+      "text": "MAGNIFY",
+      "label": null
+    },
+    "close_restores": {
+      "tag": "BUTTON",
+      "text": "MAGNIFY",
+      "label": null
+    },
+    "passed": true
+  },
+  "errors": [],
+  "status": "passed"
+}

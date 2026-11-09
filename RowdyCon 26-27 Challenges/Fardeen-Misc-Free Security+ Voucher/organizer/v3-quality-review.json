@@ -1,0 +1,309 @@
+﻿{
+    "method":  "Independent source-informed browser review; public API actions used for navigation, actual UI controls used for reviewed operations.",
+    "status":  "Focused checks passed. No remaining material blocker found in reviewed scope.",
+    "runtime":  "Root-owned Condev preview http://localhost:18115; no service changes by reviewer",
+    "viewports":  [
+                      "1366x768",
+                      "1920x1080"
+                  ],
+    "checks":  {
+                   "audio":  {
+                                 "start_output":  {
+                                                      "peak":  0.09735172986984253,
+                                                      "rms":  0.017069500615682267,
+                                                      "nonzero":  168262,
+                                                      "samples":  479232,
+                                                      "outputs":  [
+                                                                      {
+                                                                          "kind":  "GainNode",
+                                                                          "state":  "running"
+                                                                      }
+                                                                  ]
+                                                  },
+                                 "music_output":  {
+                                                      "peak":  0.07456570863723755,
+                                                      "rms":  0.011349509763985438,
+                                                      "nonzero":  186880,
+                                                      "samples":  190464,
+                                                      "outputs":  [
+                                                                      {
+                                                                          "kind":  "GainNode",
+                                                                          "state":  "running"
+                                                                      },
+                                                                      {
+                                                                          "kind":  "MediaElementAudioSourceNode",
+                                                                          "state":  "running"
+                                                                      }
+                                                                  ]
+                                                  },
+                                 "muted_output":  {
+                                                      "peak":  0,
+                                                      "rms":  0,
+                                                      "nonzero":  0,
+                                                      "samples":  307200,
+                                                      "outputs":  [
+                                                                      {
+                                                                          "kind":  "GainNode",
+                                                                          "state":  "running"
+                                                                      },
+                                                                      {
+                                                                          "kind":  "MediaElementAudioSourceNode",
+                                                                          "state":  "running"
+                                                                      }
+                                                                  ]
+                                                  },
+                                 "saved_preferences":  {
+                                                           "muted":  true,
+                                                           "music":  0.45,
+                                                           "effects":  0.35
+                                                       },
+                                 "displayed_sliders":  [
+                                                           "0.45",
+                                                           "0.35"
+                                                       ],
+                                 "muted_start_output":  {
+                                                            "peak":  0,
+                                                            "rms":  0,
+                                                            "nonzero":  0,
+                                                            "samples":  0,
+                                                            "outputs":  [
+
+                                                                        ]
+                                                        },
+                                 "test_effect_output":  {
+                                                            "peak":  0.18638600409030914,
+                                                            "rms":  0.012491856218038642,
+                                                            "nonzero":  315642,
+                                                            "samples":  350208,
+                                                            "outputs":  [
+                                                                            {
+                                                                                "kind":  "GainNode",
+                                                                                "state":  "running"
+                                                                            }
+                                                                        ]
+                                                        },
+                                 "decoded_buffers":  [
+                                                         {
+                                                             "duration":  1.123265306122449,
+                                                             "rate":  44100,
+                                                             "channels":  1
+                                                         }
+                                                     ],
+                                 "human_listening":  false
+                             },
+                   "whitespace":  {
+                                      "bracketed":  "[ ]",
+                                      "draft_survived_reload":  true,
+                                      "keyboard_submit_advanced":  true
+                                  },
+                   "links":  {
+                                 "focus_destinations":  [
+                                                            "DESTINATION\nhttps://payroll.rowdy.test.secure-login.test/",
+                                                            "DESTINATION\nhttps://payroll.rowdy.test@account-help.test/",
+                                                            "DESTINATION\nhttps://payroll.rowdy.test/",
+                                                            "DESTINATION\nhttps://payroll-rowdy.test/"
+                                                        ]
+                             },
+                   "backup":  {
+                                  "shortcut":  {
+                                                   "id":  "shortcut",
+                                                   "name":  "payroll-2.1.lnk",
+                                                   "kind":  "shortcut",
+                                                   "size":  26,
+                                                   "device":  "09",
+                                                   "bytes":  "LINK device04/release-410\n",
+                                                   "sha256":  "248bd1a5a419f49ed590e00c20e9d9705f78265548d41c3fb0c1af4171f4e5c4"
+                                               },
+                                  "same_disk":  {
+                                                    "id":  "approved",
+                                                    "name":  "payroll-2.1.release",
+                                                    "kind":  "bytes",
+                                                    "size":  76,
+                                                    "device":  "04",
+                                                    "bytes":  "PAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n",
+                                                    "sha256":  "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f"
+                                                },
+                                  "usb_file":  {
+                                                   "id":  "approved",
+                                                   "name":  "payroll-2.1.release",
+                                                   "kind":  "bytes",
+                                                   "size":  76,
+                                                   "device":  "09",
+                                                   "bytes":  "PAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n",
+                                                   "sha256":  "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f"
+                                               },
+                                  "keyboard_commit_advanced":  true
+                              },
+                   "vestibule":  {
+                                     "closed_door_blocks_walk":  true,
+                                     "visitor_movement_reversible":  true,
+                                     "keyboard_admission_advanced":  true
+                                 },
+                   "recorder_recovery":  {
+                                             "captured_after_wrong":  "demo-user: goose\nCrumbs1!\n",
+                                             "recovered_with_old_tape_retained":  true
+                                         },
+                   "retained_evidence":  {
+                                             "digest_length":  64,
+                                             "focus_restored":  "USB BACKUP\nRETAINED FILE"
+                                         },
+                   "log_chain":  {
+                                     "all_hashes_match_bytes":  true,
+                                     "chain":  [
+                                                   "Q15-CHECKPOINT",
+                                                   "EV-7C2",
+                                                   "EV-3A8",
+                                                   "EV-9F1"
+                                               ],
+                                     "latest_deny":  "EV-9F1",
+                                     "focus_restored":  "Inspect log EV-9F1",
+                                     "focus_cycle":  [
+                                                         {
+                                                             "name":  "Previous fingerprint",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "PRE",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "Close evidence",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "Record fingerprint",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "Previous fingerprint",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "PRE",
+                                                             "inDialog":  true
+                                                         },
+                                                         {
+                                                             "name":  "Close evidence",
+                                                             "inDialog":  true
+                                                         }
+                                                     ],
+                                     "archive_advanced":  true
+                                 }
+               },
+    "visual_review":  [
+                          "Q3 bold type visibly distinguishes otherwise identical strings.",
+                          "Q7 literal space, character count and focused input are readable.",
+                          "Q10 source file, shortcut, clipboard, destination and actual copied name are visible and coherent.",
+                          "Q11 movement controls and closed-door status explain operation; hatch path visibly connects public and secure areas.",
+                          "Q19 stage02 legend overlapped lower card border; stage03 repaired spacing is readable at both viewports.",
+                          "Q17 and Q19 full digests are selectable; Q19 full record bytes are reachable by keyboard scrolling."
+                      ],
+    "resolved_findings":  [
+                              "Preflight client questionVersion mismatch was corrected by root before browser review.",
+                              "Q19 legend/card overlap was corrected by root and visually rechecked on stage03."
+                          ],
+    "harness_limitations":  [
+                                "Initial audio probe awaited its sampling promise before START; corrected probe measured real nonzero browser output.",
+                                "Initial Q10/Q17 exact accessible-name selectors omitted concatenation/newlines; corrected selectors exercised the controls.",
+                                "Initial Q10 assertion expected kind=file; actual public model uses kind=bytes. Corrected assertion and full keyboard EJECT check passed.",
+                                "A staging attempt caught a concurrent Description.docx update and was discarded before execution. Fresh quality04 stage passed parity."
+                            ],
+    "validation_limits":  [
+                              "Not blind: source, organizer steps and prior answers were known.",
+                              "Not independent human playtesting or human listening.",
+                              "No anti-agent effectiveness claim.",
+                              "Root separately owns all-20 UI solve, tests, deployment, documentation and final handoff."
+                          ],
+    "staging":  [
+                    {
+                        "name":  "iq-v3-quality01",
+                        "files":  561,
+                        "hash_differences":  0
+                    },
+                    {
+                        "name":  "iq-v3-quality02",
+                        "files":  637,
+                        "hash_differences":  0
+                    },
+                    {
+                        "name":  "iq-v3-quality04",
+                        "files":  656,
+                        "hash_differences":  0
+                    }
+                ],
+    "reviewed_service_revisions":  [
+                                       "/tmp/iq-v3-stage02/The Impossible Security+ Quiz",
+                                       "/tmp/iq-v3-stage03/The Impossible Security+ Quiz"
+                                   ],
+    "stage02_to_stage03_changed_challenge_paths":  [
+                                                       "challenge/client/src/variety.css"
+                                                   ],
+    "current_challenge_parity":  {
+                                     "against":  "C:/Users/Public/Docker/iq-v3-stage03/source-manifest.json",
+                                     "differences":  [
+
+                                                     ],
+                                     "files":  49
+                                 },
+    "live_stage03_index_sha256":  "994324e5669569ee65f34c066f44ec17b00630b0a987b632902485b59710cf65",
+    "console_errors":  [
+
+                       ],
+    "evidence_sha256":  {
+                            "v3-quality-evidence01/q05-nobody-1366.png":  "3a029045478e6244343eec53b170244c4e927ec87707eb51cd75268e96aae5fc",
+                            "v3-quality-evidence04/q19-record-scrolled-1366.png":  "b4d27acf99a6a400ececf4547c12e1c21ee70dc2ea5a0b0d8dbadf558671af9f",
+                            "v3-quality-evidence04/q19-chain-1366.png":  "4cf67699c1e267ab1607fec7537ac5ab9f3a8450189ed720603cb1872dd8ed50",
+                            "v3-quality-evidence01/q06-expression-1366.png":  "7ec62559f329860f18baa5e7967b25277fb2377e57e5bbb98959da8f6f70fb23",
+                            "v3-quality-evidence02/q10-empty-1920.png":  "f03fb2427c8e2ca95ce8bdb79c19ae14376fd2b7ebf4306bde459128820129fc",
+                            "v3-quality-evidence01/q19-full-record-1366.png":  "9db478df4b23bb3e17f8df82cb99a39bb81f745d0a8a181aa1c20b443a17a7ea",
+                            "v3-quality-evidence01/q19-full-record-1920.png":  "3f3a7b792a99ae1051670cf75c102e3746feb949795fae5da1e44fb2f4ede705",
+                            "v3-quality-evidence01/q08-focused-destination-1920.png":  "7ab6040624c759fe60bd9a3d61a25e56a9a4cb78676a6f8fb7d9dcb7c76867ac",
+                            "v3-quality-evidence01/q11-ready-1366.png":  "16700dae00ead82406df25c6f718ad0fe788834f4be8381d933fd5d8d7ffe879",
+                            "v3-quality-evidence01/failure-audio.png":  "0aa3c12aa5a91929dd85b15ced8c0bf00cdbb5ab9f60fc83ddd5c0464812e465",
+                            "v3-quality-evidence01/failure-backup.png":  "9c020c0445c34f1537c566e3505a0826583a9fc5f8be593d916f3829cf1e1063",
+                            "v3-quality-evidence01/q16-checksum-1920.png":  "cf35290a781d4e9088efe6f677eca2887e81878c2d99d5fa71e6a92d1b327979",
+                            "v3-quality-evidence01/q03-typography-1920.png":  "eb064ca98c6dd17ebc8dedfa8edea19d60f778a54c8bbaa740f75b91a5491703",
+                            "v3-quality-evidence02/q17-full-evidence-1366.png":  "d062fbb8f97f3b9f4f6e27a29805de6b3a954d38c884a32686d7781411fcf157",
+                            "v3-quality-evidence01/q07-empty-1366.png":  "942d18329b3c113775ee76890a8bc7c924bf4fc8790b1e3f38f7b8e81c8e925d",
+                            "v3-quality-evidence01/q10-empty-1920.png":  "4159d08728cef4a8a27c7ab1eaa789366b702fc8d13963cb43637c5cd6fc6fe7",
+                            "v3-quality-evidence01/v3-quality-report.json":  "ec73ed64c127c00647a49a67da9e7ca4ca5d01b8b2fb6716ac0e2df51698269b",
+                            "v3-quality-evidence04/v3-quality-report.json":  "c8dc45fb9b949d5b016184dbc61739df4579ba045111ddb22f1d77c58c12b5d0",
+                            "v3-quality-evidence01/q14-recovery-1920.png":  "587a19f2951f81f1ae38a1c008d89b0eb2a4739a416f8baa2830f68d866034bb",
+                            "v3-quality-evidence04/q10-shortcut-1920.png":  "a52905c7efa8fe5b41aff97bafdf33b09482fdbf0fc32992d91657626f5f2fb9",
+                            "v3-quality-evidence01/q10-empty-1366.png":  "f3bb117b4a0fcede1f2f8c9a70e6a64f6783a6d010ac31e75e47803fa7bd832c",
+                            "v3-quality-evidence04/q10-empty-1920.png":  "07e5ded375891cdf2082a6729e49b43ac9da0d01bcc7ca2ce4c19b0783f7669a",
+                            "v3-quality-evidence02/v3-quality-report.json":  "ce3c8ae62a61a438a4755d8138b169061612546d3d899c143cc459caec8e90a3",
+                            "v3-quality-evidence01/q11-start-1366.png":  "9f05397c2e8d5532ea8394701f18204b8188cd47b127aa791980f783a31aaf3c",
+                            "v3-quality-evidence04/q10-shortcut-1366.png":  "b5e7da67a482327216c9b840de7a0314a471df2ef5340aafa9faccbc0116142c",
+                            "v3-quality-evidence04/q19-full-record-1366.png":  "b6966edbb723311cfaf0546415938149e4eb2e2405140e17e7d5d341d6570969",
+                            "v3-quality-evidence04/q10-empty-1366.png":  "d243d16fb7f281a1c438a160a1626f0bd794ed48e0057fe7e2d638bab3a5e96a",
+                            "v3-quality-evidence01/q18-neither-1920.png":  "2c5ef1239fad37feb56b12419d2a1aa58151e84d0f4befba6c5eec74989edc1f",
+                            "v3-quality-evidence01/q18-neither-1366.png":  "ea4203eee3214150fc8621ae95f5ef88871c12e17298f5ec6a2af84a6f9abf50",
+                            "v3-quality-evidence02/q10-shortcut-1366.png":  "ce48132659a5a2b8344e4fe56d0463de23539a77691473305a7967f545ffbf52",
+                            "v3-quality-evidence02/q10-empty-1366.png":  "a59b8f2bae8fda5ae80df654ddc046bae9ee904268203bdaff875e0af144f9a4",
+                            "v3-quality-evidence01/q19-chain-1366.png":  "db7716f2be5c3960e49ce5b32d0b6681fc956a070d35a32147858cd0b1727955",
+                            "v3-quality-evidence01/q03-typography-1366.png":  "a7ec3c43f9649b24aabdb7d690409ccaedfcbf41edeea5df094f98ccbfaf9918",
+                            "v3-quality-evidence01/q07-one-space-1920.png":  "a4f6c4f864c1946347ef61ea8295c69c3b29d99b76438968e097248e090cc010",
+                            "v3-quality-evidence02/failure-backup.png":  "526d484c721d12fec67ec02f3bcd63513e0ba893956e05dc41baa153e7897c8a",
+                            "v3-quality-evidence01/q19-chain-1920.png":  "5323ecee6eb71a988eb67c5bd088dea42a513065285a8fae01649672bece9269",
+                            "v3-quality-evidence04/q10-real-usb-file-1920.png":  "d0e7d0dd089a24adf9c7763447208c9e42163cdb36d0b318cbfa5e29b0f60d79",
+                            "v3-quality-evidence01/q16-checksum-1366.png":  "aad725ee11adc55d030a880e7feae12377786ca82b25398c11166d0ba614676b",
+                            "v3-quality-evidence01/q11-start-1920.png":  "4f483797202d5c58c86747db398dc1258d090559783bdc5a747405058c71fde1",
+                            "v3-quality-evidence04/q19-chain-1920.png":  "6ac8eaf8ec5826710024cfea3a4162f7f391dd5be348e28ffb5dedf14babe53a",
+                            "v3-quality-evidence01/q05-nobody-1920.png":  "514cb4beba7ffca0d2620e569798e29bcd9e72c1d40568d08f7e23aa3d12c2bc",
+                            "v3-quality-evidence04/q19-record-scrolled-1920.png":  "8c25a1f146fd5c70a9629a4f83b630f6dccf91433a071ab10bde35a1cc3023c8",
+                            "v3-quality-evidence01/q06-expression-1920.png":  "2c36da1586a362e73552b9a995a209098b69346f56b69b108c1d0a43a87998ef",
+                            "v3-quality-evidence01/q07-one-space-1366.png":  "42c60e7a87aafd61e8394c42e690c4ac11293e316b3a675e8ba49a305621a9c8",
+                            "v3-quality-evidence04/q19-full-record-1920.png":  "243374d0d4d4175dcc590e02bd929d04d420ae086e22258133329eaf4fa37f0a",
+                            "v3-quality-evidence01/failure-retained_evidence.png":  "7cf24b2a402a68dd612dfcefbb9a5d0edcfa80789bd1669e0a5519112c22c8dc",
+                            "v3-quality-evidence01/q14-start-1366.png":  "ee3546d32604f527e27c4f51b0be1350ef5248c7186e9f2fe2c2ab9a9edc1f07",
+                            "v3-quality-evidence02/q17-full-evidence-1920.png":  "666dc92d74b618909a4edb21fe9aaad2d3e431a0e0b791b31a4f285cdb55312c",
+                            "v3-quality-evidence01/q14-recovery-1366.png":  "8cde14eb1a648f8a13ca3bec1d154e301e8526eebbf415076407ff587e5471f0",
+                            "v3-quality-evidence02/q10-shortcut-1920.png":  "7f683c84e6db7e498e46ba792a21c7f57722ddb1de2f9a725542bba5ab36e05f",
+                            "v3-quality-evidence04/q10-real-usb-file-1366.png":  "d9e090bb97cc39103134b5942f3b11766a7d368805b2ed5fd05bd349bfdfbdb6",
+                            "v3-quality-evidence01/q11-ready-1920.png":  "33b7d192b88362732fded7fb6690ae8d71e15ff7d6031a12051b47b425670221",
+                            "v3-quality-evidence01/q08-focused-destination-1366.png":  "056df59fad2239e81f1417b7a07f5f971220120b02ef35bda957c0a25348284c",
+                            "v3-quality-evidence01/q07-empty-1920.png":  "2eae40e2d828dcbe17db0c68d6196dacb7aa98f239fcf26b6d1484f6a90796fe",
+                            "v3-quality-evidence01/q14-start-1920.png":  "5f24dc45664e565abfe5fb7a1f5919726def72b5c5aa9fc4f22b4f892c6f9f1e"
+                        }
+}

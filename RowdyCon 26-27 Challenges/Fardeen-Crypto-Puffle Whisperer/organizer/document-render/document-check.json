@@ -1,0 +1,24 @@
+{
+  "title": "Puffle Whisperer",
+  "sections": [
+    "Description",
+    "Files",
+    "Hint(s)",
+    "Walkthrough",
+    "Flag"
+  ],
+  "images": [
+    "screenshots/01-igloo-1366.png",
+    "screenshots/refusal-history.png",
+    "screenshots/solve-history.png",
+    "screenshots/05-party-1366.png",
+    "screenshots/earned-postcard.png"
+  ],
+  "local_links": [
+    "challenge/compose.yaml",
+    "organizer/event.env"
+  ],
+  "flag": "RCC{puffles_cannot_keep_secrets_7c92}",
+  "docx": "/tmp/puffle-document-01/Description.docx",
+  "pages": 4
+}

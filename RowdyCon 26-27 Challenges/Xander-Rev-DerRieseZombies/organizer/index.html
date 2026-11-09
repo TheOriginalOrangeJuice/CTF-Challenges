@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Der Riese — Zombies (dev)</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; width: 100%; height: 100%; }
+  canvas { position: absolute; left: 0; top: 0; width: 100vw; height: 100vh; display: block; }
+  #hud { display: none; } /* HUD is composited into the WebGL canvas as a texture (single layer) */
+  #gl { cursor: crosshair; }
+</style>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<canvas id="hud"></canvas>
+<script>"use strict"; var ZM = { DEV: true };</script>
+<script src="js/00_core.js"></script>
+<script src="js/05_vault.js"></script>
+<script src="js/10_audio.js"></script>
+<script src="js/20_textures.js"></script>
+<script src="js/30_renderer.js"></script>
+<script src="js/60_weapons.js"></script>
+<script src="js/45_props.js"></script>
+<script src="js/40_map.js"></script>
+<script src="js/50_nav.js"></script>
+<script src="js/70_entities.js"></script>
+<script src="js/80_player.js"></script>
+<script src="js/90_game.js"></script>
+<script src="js/95_hud.js"></script>
+<script src="js/97_settings.js"></script>
+<script src="flag_data.js"></script>
+<script src="js/99_main.js"></script>
+</body>
+</html>

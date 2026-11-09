@@ -1,0 +1,98 @@
+{
+  "checks": [
+    {
+      "name": "operating-system-reduced-motion",
+      "passed": true
+    },
+    {
+      "name": "dialog-receives-keyboard-focus",
+      "passed": true
+    },
+    {
+      "name": "dialog-keyboard-close",
+      "passed": true
+    },
+    {
+      "name": "news-meet-pip",
+      "passed": true
+    },
+    {
+      "name": "talk-control-focuses-chat",
+      "passed": true
+    },
+    {
+      "name": "quick-chat-draft",
+      "passed": true
+    },
+    {
+      "name": "large-view-control",
+      "passed": true
+    },
+    {
+      "name": "wave-sit-dance-stand-visible-poses",
+      "passed": true
+    },
+    {
+      "name": "all-emote-controls",
+      "passed": true
+    },
+    {
+      "name": "pet-menu-Pip",
+      "passed": true
+    },
+    {
+      "name": "pet-menu-Bubbles",
+      "passed": true
+    },
+    {
+      "name": "pet-menu-Pebble",
+      "passed": true
+    },
+    {
+      "name": "mouse-snowball",
+      "passed": true
+    },
+    {
+      "name": "home-returns-to-center",
+      "passed": true
+    },
+    {
+      "name": "footer-mute",
+      "passed": true
+    },
+    {
+      "name": "music-off",
+      "passed": true
+    },
+    {
+      "name": "wrong-postcard-code-visible-rejection",
+      "passed": true
+    },
+    {
+      "name": "movement-during-real-inference",
+      "passed": true
+    },
+    {
+      "name": "decorating-during-real-inference",
+      "passed": true
+    },
+    {
+      "name": "cancel-keeps-new-draft",
+      "passed": true
+    },
+    {
+      "name": "cancel-status-accessible",
+      "passed": true
+    },
+    {
+      "name": "conversation-reset-control",
+      "passed": true
+    },
+    {
+      "name": "no-browser-errors",
+      "passed": true
+    }
+  ],
+  "browser_errors": [],
+  "passed": true
+}

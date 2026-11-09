@@ -1,0 +1,16 @@
+﻿{
+    "questionVersion":  5,
+    "executionBoundary":  "MITRE Condev; no WSL or host project execution",
+    "workspace":  "rowdy-impossible-dev",
+    "configuration":  "organizer/condev.yaml",
+    "preview":  "http://localhost:18115",
+    "owner":  "This challenge root implementation agent",
+    "finalPreviewTree":  "/tmp/iq-v5-stage03/The Impossible Security+ Quiz",
+    "previewPidFile":  "/tmp/iq-v5-stage03/server.pid",
+    "previewStorage":  "/tmp/iq-review07/quiz.sqlite",
+    "previewStop":  "Verify PID command and working directory identify this challenge before TERM. condev -c organizer/condev.yaml unexpose 18115 removes only this challenge forward. v5-runtime.py backs up and preserves SQLite when replacing its process.",
+    "production":  "challenge/compose.yaml owns quiz and quiz-data. docker compose down retains progress. Files unchanged; no fresh v5 Compose check.",
+    "staging":  "Skill helper stages complete first-party tree to fresh paths with SHA-256 verification before archive transfer and inside Condev. No shared mount used.",
+    "documents":  "Verified shared build_description.py/template.docx; LibreOffice/Poppler in Condev.",
+    "deploymentValidation":  "Historical v3-compose-results.json records runtime restrictions. Revision5 did not retry that environment or change shared services,global Docker settings,credentials or volumes."
+}

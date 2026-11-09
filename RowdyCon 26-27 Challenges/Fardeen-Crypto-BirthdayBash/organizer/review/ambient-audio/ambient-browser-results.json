@@ -1,0 +1,259 @@
+{
+  "checks": {
+    "fresh_page_waits_for_browser_activation": {
+      "passed": true,
+      "detail": null
+    },
+    "first_greeting_is_single_before_timer": {
+      "passed": true,
+      "detail": null
+    },
+    "real_45_second_timer_fires_and_audio_is_non_silent": {
+      "passed": true,
+      "detail": {
+        "observed_interval_ms": 45000.200000000186,
+        "hello_peak": 0.17214739322662354
+      }
+    },
+    "ambient_hello_does_not_change_working_puzzle": {
+      "passed": true,
+      "detail": null
+    },
+    "mute_cancels_timer_and_stays_silent": {
+      "passed": true,
+      "detail": null
+    },
+    "unmute_starts_fresh_wait": {
+      "passed": true,
+      "detail": null
+    },
+    "zero_volume_stops_ambient_and_cancels_timer": {
+      "passed": true,
+      "detail": null
+    },
+    "saved_zero_has_no_timer_or_sound": {
+      "passed": true,
+      "detail": null
+    },
+    "restore_volume_waits_before_ambient": {
+      "passed": true,
+      "detail": null
+    },
+    "simulated_document_hidden": {
+      "passed": true,
+      "detail": null
+    },
+    "simulated_hidden_document_stops_ambient_and_cancels_timer": {
+      "passed": true,
+      "detail": null
+    },
+    "document_visible_after_simulated_return": {
+      "passed": true,
+      "detail": null
+    },
+    "visible_again_has_fresh_wait": {
+      "passed": true,
+      "detail": null
+    },
+    "saved_mute_has_no_timer_or_sound": {
+      "passed": true,
+      "detail": null
+    },
+    "wrong_filled_sheet_has_no_yay": {
+      "passed": true,
+      "detail": null
+    },
+    "correct_recovery_plays_non_silent_yay_once": {
+      "passed": true,
+      "detail": {
+        "hello": 0,
+        "yay": 0.15324410796165466
+      }
+    },
+    "ambient_never_interrupts_yay": {
+      "passed": true,
+      "detail": {
+        "yay_duration_ms": 3424.5,
+        "timer_attempts_during_cheer": 5
+      }
+    },
+    "deployed_public_files_match_stage": {
+      "passed": true,
+      "detail": [
+        {
+          "path": "app.js",
+          "sha256": "aa878d07ee848877996e204deaada9c72ce99aa97b41837766d180b3c6211493",
+          "matches_stage": true
+        },
+        {
+          "path": "assets/club.svg",
+          "sha256": "db62b69d21687368a295e0306e09890d9399f514e3ebce036ea5c64d08aad674",
+          "matches_stage": true
+        },
+        {
+          "path": "assets/fnaf-header.jpg",
+          "sha256": "a9c884248410dca10ec5b5fbc96adcafa55c227083003594c2fdbf723c07e4e6",
+          "matches_stage": true
+        },
+        {
+          "path": "assets/folder.svg",
+          "sha256": "75219f1b82a07661fa2cce11c735657ca3d166bc2ad8c3900aefe2c3ff9b76b1",
+          "matches_stage": true
+        },
+        {
+          "path": "assets/notepad.svg",
+          "sha256": "4757d9dfb625ea1de74cf94357307cacb381e6af6108c589bf70162324a1c870",
+          "matches_stage": true
+        },
+        {
+          "path": "audio/balloon-boy-hello.mp3",
+          "sha256": "f2b9dcd33a447aa379dd18b838fcb81264c0a22d06899c1f1d44a60090380281",
+          "matches_stage": true
+        },
+        {
+          "path": "audio/camera-close.mp3",
+          "sha256": "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+          "matches_stage": true
+        },
+        {
+          "path": "audio/camera-open.mp3",
+          "sha256": "52025f3cd7b0bc37dd1925fcc2aaf2a64fdff01fde41a8bbb29d4deee95ece73",
+          "matches_stage": true
+        },
+        {
+          "path": "audio/children-yay.mp3",
+          "sha256": "15902d60b7ce84d3e7f673d57e2c69435c042472748a5047be6df8f5dfa8a972",
+          "matches_stage": true
+        },
+        {
+          "path": "audio.js",
+          "sha256": "566875ec4a60abd07899d28e976e8b799179db4589804c89255b9a99906d510d",
+          "matches_stage": true
+        },
+        {
+          "path": "cipher.js",
+          "sha256": "b9c79fa900ea4b48a47252e80543f934a906491400d0568431e03cc54ebffdc8",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence/01---welcome.txt",
+          "sha256": "a37c9045e4fe0211130557586b0b1c2dbecc9ea75b8744052cf4166731db48fc",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence/03---about-the-phone.txt",
+          "sha256": "1985544dc6d0916f26a1f148480b04a7a538f6ba4d21c48d6c4a3864862e5e4c",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence/04---do-not-call.txt",
+          "sha256": "3f4e7b7e712ae4b5eb480c732332909d456d08a12ba48ef35c03c0e9499f4b6e",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence/05-last-note.enc.txt",
+          "sha256": "4c013c81d62f97119febb16ee2aeada9d32d537f18eb71b26365fcb8423175a4",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence/birthday-postcard.txt",
+          "sha256": "8b665cd1b972a2486fb362f99fbd2ba87d49027fe544f1c6cc07b4777d25f1b9",
+          "matches_stage": true
+        },
+        {
+          "path": "evidence.json",
+          "sha256": "1ee0db4e5bcf446bf8ddd2d4ad9fa986db2ecc6a344bce597847513000ca4fe8",
+          "matches_stage": true
+        },
+        {
+          "path": "index.html",
+          "sha256": "e702e8d65756e7fd4bbf19586fe8f7fbfd6909f9f7e721f5b70b5d380bc6ab0b",
+          "matches_stage": true
+        },
+        {
+          "path": "style.css",
+          "sha256": "5450f4f49d619b64862c18a81c8c85f2407f1dff40c21b776232e8e56c35bc69",
+          "matches_stage": true
+        }
+      ]
+    },
+    "no_browser_console_errors": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "audio": {
+    "real-interval": {
+      "peak": {
+        "hello": 0.17214739322662354,
+        "yay": 0
+      },
+      "events": 8,
+      "waits": [
+        {
+          "delay": 45000,
+          "scheduledAt": 998.5,
+          "firedAt": 45998.700000000186,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 45999.60000000056,
+          "firedAt": null,
+          "cancelledAt": null
+        }
+      ]
+    },
+    "controls-and-celebration": {
+      "peak": {
+        "hello": 0,
+        "yay": 0.15324410796165466
+      },
+      "events": 8,
+      "waits": [
+        {
+          "delay": 45000,
+          "scheduledAt": 1527.5999999996275,
+          "firedAt": 2236,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 2236.0999999996275,
+          "firedAt": 2936.2999999998137,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 2936.2999999998137,
+          "firedAt": 3636.4000000003725,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 3636.5,
+          "firedAt": 4336.5999999996275,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 4336.5999999996275,
+          "firedAt": 5036.700000000186,
+          "cancelledAt": null
+        },
+        {
+          "delay": 45000,
+          "scheduledAt": 5036.700000000186,
+          "firedAt": null,
+          "cancelledAt": null
+        }
+      ]
+    }
+  },
+  "console_errors": [],
+  "scope": "Ambient audio, saved preferences and existing correct-answer cheer; no cipher revalidation.",
+  "visibility_limit": "Headless Chromium kept its native visibilityState visible for background tabs, minimized windows and frozen/active lifecycle. Visibility checks below explicitly simulate document.hidden and visibilitychange; an actual human tab switch was not tested.",
+  "human_listening": "not performed",
+  "independent_human_playtesting": "not performed",
+  "passed": true
+}

@@ -1,0 +1,8 @@
+﻿{
+    "questionVersion":  2,
+    "testedTree":  "/tmp/iq-v2-stage08/The Impossible Security+ Quiz",
+    "workspaceApplicationFiles":  44,
+    "hashDifferences":  0,
+    "method":  "SHA-256 of delivered Windows application files compared against the verified tested Condev application manifest",
+    "finalTreeManifest":  "delivery-sha256.json"
+}

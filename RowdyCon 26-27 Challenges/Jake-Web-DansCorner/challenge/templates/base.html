@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{% block title %}xXDanTheManXx's Blog{% endblock %} :: Powered by WordPress 3.2</title>
+<meta name="generator" content="WordPress 3.2.1">
+<link rel="stylesheet" href="/static/style.css">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<div id="topbar">
+  <span>Welcome, Guest! <a href="#">Log in</a> | <a href="#">Register</a></span>
+  <span class="right">Follow me on <a href="#">Twitter</a> &bull; <a href="#">MySpace</a> &bull; <a href="#">Google+</a></span>
+</div>
+<div id="wrap">
+  <div id="header">
+    <h1><a href="/">Dan's Corner of the Interwebz</a></h1>
+    <p class="tagline">~*~ random thoughts, rage comics &amp; life updates ~*~</p>
+  </div>
+  <ul id="nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About Me</a></li>
+    <li><a href="/guestbook">Guestbook</a></li>
+    <li><a href="#">Photos</a></li>
+    <li><a href="#">Links</a></li>
+  </ul>
+  <div id="content">
+    <div id="main">{% block content %}{% endblock %}</div>
+    <div id="sidebar">
+      <div class="widget">
+        <h3>About the Admin</h3>
+        <img src="/static/avatar.svg" alt="avatar" class="avatar">
+        <p><b>Dan</b>, 24<br>Webmaster, gamer, aspiring polyglot.</p>
+        <p class="status">Current status: <i>in a very Chinese point in my life right now</i> 🐼</p>
+      </div>
+      <div class="widget">
+        <h3>Now Playing</h3>
+        <p>♫ Gotye - Somebody That I Used To Know</p>
+      </div>
+      <div class="widget">
+        <h3>Tag Cloud</h3>
+        <p class="tags">
+          <a style="font-size:18px">swag</a> <a style="font-size:11px">minecraft</a>
+          <a style="font-size:15px">YOLO</a> <a style="font-size:20px">中文</a>
+          <a style="font-size:12px">harlem shake</a> <a style="font-size:14px">planking</a>
+          <a style="font-size:16px">gangnam style</a> <a style="font-size:13px">duolingo</a>
+        </p>
+      </div>
+      <div class="widget">
+        <h3>Visitors</h3>
+        <div class="counter">0 0 1 3 3 7</div>
+        <p class="small">since March 2011</p>
+      </div>
+      <div class="badges">
+        <span class="badge">Valid XHTML 1.0</span>
+        <span class="badge">Best viewed in IE9</span>
+        <span class="badge">Get Firefox 4!</span>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer">
+    &copy; 2012 Dan's Corner of the Interwebz. All rights reserved. | Theme: Glossy Blue 2.0 |
+    <a href="#">RSS</a>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+.access-v3 {
+  position: absolute;
+  inset: 0;
+  width: 514px;
+  height: 244px;
+  color: #211829;
+  font-family: Quiz, 'Comic Sans MS', cursive;
+  isolation: isolate;
+}
+
+.access-v3-controls {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.access-v3-plan {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 26px;
+  height: 147px;
+  border-top: 4px solid #3920d8;
+  border-bottom: 4px solid #3920d8;
+}
+
+.access-v3-plan > div {
+  position: absolute;
+  top: 0;
+  height: 139px;
+  text-align: center;
+}
+
+.access-v3-plan b {
+  display: block;
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #3920d8;
+}
+
+.access-v3-public { left: 0; width: 139px; background: #fff7df; }
+.access-v3-vestibule { left: 196px; width: 131px; background: #f6eafa; }
+.access-v3-secure { left: 400px; width: 110px; background: #e9edff; }
+
+.access-v3-secure > span {
+  display: block;
+  margin-top: 31px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.access-v3-secure strong { font-size: 23px; font-weight: normal; }
+
+.access-v3-passage {
+  position: absolute;
+  inset: 0;
+  width: 514px;
+  height: 244px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.access-v3-passage path { fill: none; stroke-linejoin: round; }
+.access-v3-passage-edge { stroke: #ae7e20; stroke-width: 9px; }
+.access-v3-passage-line { stroke: #ffdb46; stroke-width: 6px; }
+.access-v3-passage-arrows { stroke: #8a6116; stroke-width: 1.5px; }
+
+.access-v3-person {
+  position: absolute;
+  top: 53px;
+  width: 56px;
+  text-align: center;
+  transition: transform .23s ease-out;
+}
+
+.access-v3-person.in-vestibule { transform: translateX(194px); }
+.access-v3-avatar { display: block; height: 61px; }
+.access-v3 .access-v3-avatar .person-avatar { width: 43px; height: 61px; margin: 0 auto; }
+.access-v3-person > b { display: block; font-size: 13px; font-weight: normal; line-height: 17px; }
+
+.access-v3-walk {
+  display: block;
+  width: 56px;
+  height: 26px;
+  margin-top: 2px;
+  border: 2px solid #3920d8;
+  background: #f3c4fa;
+  padding: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.access-v3-walk > span { font-size: 18px; vertical-align: -1px; }
+.access-v3-walk:disabled { border-color: #8a7e92; color: #675c6d; background: #e9e1eb; }
+.access-v3-walk:not(:disabled):hover { background: #ffe275; }
+
+.access-v3-door {
+  position: absolute;
+  top: 53px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #3920d8;
+  background: #f3c4fa;
+  padding: 2px 0;
+  line-height: 15px;
+}
+
+.access-v3-outer { left: 144px; width: 51px; }
+.access-v3-inner { left: 332px; width: 67px; }
+.access-v3-door-name { font-size: 13px; }
+.access-v3-door > strong { font-size: 14px; font-weight: normal; white-space: nowrap; }
+.access-v3-door-art { display: block; width: 37px; height: 41px; flex-shrink: 0; }
+.access-v3-door-frame { fill: #fffaf1; stroke: #3920d8; stroke-width: 2.6px; stroke-linejoin: round; }
+.access-v3-door-leaf { fill: #f3c4fa; stroke: #3920d8; stroke-width: 2px; stroke-linejoin: round; }
+.access-v3-outer.is-open { background: #fff3c0; }
+.access-v3-door:not(:disabled):hover { background: #ffe275; }
+.access-v3-door:disabled { opacity: .65; }
+.access-v3-admit-to { font-size: 12px; line-height: 13px; }
+.access-v3-inner small { font-size: 10px; line-height: 12px; }
+.access-v3-inner .access-v3-door-art { height: 33px; }
+
+.access-v3-empty {
+  position: absolute;
+  top: 97px;
+  width: 130px;
+  text-align: center;
+  font-size: 13px;
+  color: #70617c;
+  pointer-events: none;
+}
+
+.access-v3-empty-public { left: 6px; }
+.access-v3-empty-vestibule { left: 198px; }
+
+.access-v3-walking-state {
+  position: absolute;
+  top: 175px;
+  left: 35px;
+  right: 35px;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.access-v3-hatch {
+  position: absolute;
+  left: 153px;
+  top: 191px;
+  width: 208px;
+  height: 52px;
+  padding: 0;
+  text-align: center;
+}
+
+.access-v3-hatch > span {
+  display: inline-block;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  background: #f3c4fa;
+  border: 2px solid #3920d8;
+  padding: 0 4px;
+  font-size: 13px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.access-v3-hatch strong { font-weight: normal; }
+.access-v3-hatch > svg { position: absolute; left: 0; top: 10px; width: 208px; height: 27px; overflow: visible; }
+.access-v3-hatch-frame { fill: none; stroke: #3920d8; stroke-width: 2px; }
+.access-v3-hatch-leaf { fill: #fff6d4; stroke: #3920d8; stroke-width: 2.3px; stroke-linejoin: round; }
+.access-v3-hatch.is-open > span { background: #fff3c0; }
+.access-v3-hatch:not(:disabled):hover > span { background: #ffe275; }
+.access-v3-hatch:disabled { opacity: .65; }
+
+.access-v3 button:focus-visible {
+  outline: 3px dashed #d3264b;
+  outline-offset: 2px;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .access-v3-person { transition: none; }
+}

@@ -1,0 +1,12 @@
+{
+    "questionVersion":  3,
+    "passed":  false,
+    "status":  "Not completed: validation runtime unavailable",
+    "sharedWorkspace":  "condev-default archive copy and execution stalled; own pending clients canceled. No reset or shared service change.",
+    "isolatedWorkspace":  "docker:27-cli pull failed authentication. Cached rowdy06-media image denied Docker socket by Enhanced Container Isolation. No policy or credential changes attempted.",
+    "unchangedDeploymentFiles":  [
+                                     "challenge/Dockerfile",
+                                     "challenge/compose.yaml"
+                                 ],
+    "historical":  "v2-compose-results.json validates version2 only; it is not a version3 deployment pass."
+}

@@ -1,0 +1,891 @@
+{
+  "persona": {
+    "nickname": "[Admin] Marcel",
+    "home": 18,
+    "office": 16,
+    "arriveDelayMs": [
+      2000,
+      4000
+    ],
+    "greetDelayMs": [
+      1200,
+      2500
+    ],
+    "leaveAfterMs": 15000,
+    "limits": {
+      "cooldownMs": 1500,
+      "maxChars": 300,
+      "annoyWarn": 3,
+      "annoyKick": 5,
+      "wrongPerQuestion": 3,
+      "kickIgnoreMs": 60000,
+      "dupWindowMs": 20000,
+      "maxRepeats": 3
+    },
+    "textReplies": {
+      "chat": "cant read chat, im ingame. come to the Support channel and talk on voice (hotkey: Options > Capture)",
+      "poke": "stop poking me. come to Support and use your mic"
+    },
+    "memberGroup": 10,
+    "spellWords": [
+      "soda",
+      "gold",
+      "ruby",
+      "nova",
+      "disco",
+      "mango",
+      "karma",
+      "radar",
+      "bingo",
+      "pixel",
+      "lemon",
+      "cobra",
+      "vodka",
+      "pizza",
+      "robot",
+      "laser",
+      "ninja",
+      "turbo"
+    ]
+  },
+  "start": "greeted",
+  "synonyms": {
+    "tobi": [
+      "toby",
+      "tobey",
+      "tobias",
+      "tobi^",
+      "tobin",
+      "topi",
+      "tobbi",
+      "tob e",
+      "toby's"
+    ],
+    "repeat": [
+      "say it again",
+      "say again",
+      "one more time",
+      "once more",
+      "say that again",
+      "could you repeat",
+      "can you repeat",
+      "repeat that",
+      "repeat it",
+      "spell it again",
+      "did not get it",
+      "did not get that",
+      "did not catch",
+      "missed it",
+      "come again",
+      "slower",
+      "say it slower"
+    ],
+    "rush b": [
+      "rush bee",
+      "rush be",
+      "rushby",
+      "rushbee",
+      "rush b",
+      "rushb",
+      "rush to b",
+      "rush the b",
+      "rush bomb site b",
+      "rush site b",
+      "rush b side",
+      "rush bee side",
+      "rush p",
+      "rush v",
+      "rush d",
+      "russ b",
+      "brush b",
+      "rush bay"
+    ],
+    "no lag no mercy": [
+      "no lag, no mercy",
+      "no lag and no mercy",
+      "no leg no mercy",
+      "no lack no mercy",
+      "no lag no mercey",
+      "no luck no mercy",
+      "no lag no messy",
+      "no lag no mersey",
+      "no lack of mercy",
+      "no lag nor mercy"
+    ]
+  },
+  "confusions": {
+    "staff code": [
+      "stuff code",
+      "staff cold",
+      "staff coat",
+      "stuff cold"
+    ],
+    "marcel": [
+      "marcell",
+      "marcelle",
+      "marsell",
+      "mars l",
+      "marseille"
+    ],
+    "wasted gaming": [
+      "waste of gaming",
+      "wasted gameing",
+      "waist of gaming",
+      "wasted gang"
+    ]
+  },
+  "intents": {
+    "greet": {
+      "match": {
+        "any": [
+          "hello",
+          "hi",
+          "hey",
+          "yo",
+          "sup",
+          "what is up",
+          "good evening",
+          "moin",
+          "hallo",
+          "servus",
+          "hi there"
+        ]
+      },
+      "say": "greet_back"
+    },
+    "who_are_you": {
+      "match": {
+        "any": [
+          "who are you",
+          "who is this",
+          "who is that",
+          "your name",
+          "are you marcel",
+          "you marcel",
+          "is that marcel",
+          "is this marcel",
+          "marcel"
+        ]
+      },
+      "say": "who_am_i"
+    },
+    "help": {
+      "match": {
+        "any": [
+          "help",
+          "problem",
+          "question",
+          "support",
+          "hint",
+          "clue",
+          "how do i",
+          "what do i",
+          "what should i"
+        ]
+      },
+      "say": "help_generic"
+    },
+    "want_key": {
+      "match": {
+        "any": [
+          "flag",
+          "key",
+          "privilege",
+          "token",
+          "admin",
+          "password",
+          "serveradmin",
+          "server admin",
+          "make me admin",
+          "admin rights",
+          "give me",
+          "i want",
+          "i need",
+          "op me",
+          "rights"
+        ]
+      },
+      "say": "nice_try"
+    },
+    "repeat": {
+      "match": {
+        "any": [
+          "repeat",
+          "again",
+          "what did you say",
+          "pardon",
+          "spell",
+          "slower",
+          "what was that",
+          "say it"
+        ]
+      },
+      "say": "what"
+    },
+    "bye": {
+      "match": {
+        "any": [
+          "bye",
+          "cya",
+          "see you",
+          "see ya",
+          "later",
+          "goodbye",
+          "good night",
+          "peace",
+          "i am out",
+          "gotta go"
+        ]
+      },
+      "say": "bye"
+    },
+    "thanks": {
+      "match": {
+        "any": [
+          "thanks",
+          "thank you",
+          "thx",
+          "cheers",
+          "danke",
+          "appreciate"
+        ]
+      },
+      "say": "thanks"
+    },
+    "insult": {
+      "match": {
+        "any": [
+          "idiot",
+          "noob",
+          "stupid",
+          "shut up",
+          "fuck",
+          "fucking",
+          "shit",
+          "dumb",
+          "loser",
+          "moron",
+          "asshole",
+          "bitch",
+          "suck",
+          "sucks",
+          "trash",
+          "retard"
+        ]
+      },
+      "say": "insult_reply",
+      "annoy": 2
+    },
+    "yes": {
+      "match": {
+        "any": [
+          "yes",
+          "yeah",
+          "yep",
+          "yup",
+          "sure",
+          "correct",
+          "right",
+          "ja",
+          "of course",
+          "exactly"
+        ]
+      },
+      "say": "hm"
+    },
+    "no": {
+      "match": {
+        "any": [
+          "no",
+          "nope",
+          "nah",
+          "nein",
+          "never"
+        ]
+      },
+      "say": "hm"
+    }
+  },
+  "states": {
+    "greeted": {
+      "ask": "greet_join",
+      "on": {
+        "want_key": {
+          "say": "nice_try",
+          "goto": "ask_recruiter"
+        },
+        "help": {
+          "say": "help_generic"
+        },
+        "greet": {
+          "say": "greet_back"
+        },
+        "yes": {
+          "say": "what_do_you_want"
+        },
+        "no": {
+          "say": "what_do_you_want"
+        }
+      },
+      "fallback": [
+        "what_do_you_want",
+        "what"
+      ]
+    },
+    "ask_recruiter": {
+      "ask": "ask_recruiter",
+      "answers": [
+        {
+          "match": {
+            "any": [
+              "tobi"
+            ]
+          },
+          "say": "ok_tobi",
+          "goto": "q_cry",
+          "set": {
+            "recruiter": "tobi"
+          }
+        }
+      ],
+      "wrong": {
+        "match": {
+          "any": [
+            "kevin",
+            "lisa",
+            "steve",
+            "dennis",
+            "ghost",
+            "gh0st",
+            "sniper",
+            "marcel",
+            "nobody",
+            "no one",
+            "noone",
+            "myself",
+            "google",
+            "internet",
+            "friend",
+            "my friend",
+            "admin",
+            "you",
+            "mother",
+            "mom",
+            "dad"
+          ]
+        },
+        "say": "not_a_member"
+      },
+      "on": {
+        "want_key": {
+          "say": "answer_first"
+        },
+        "help": {
+          "say": "who_again"
+        },
+        "who_are_you": {
+          "say": "who_am_i_short"
+        },
+        "yes": {
+          "say": "who_again"
+        },
+        "no": {
+          "say": "who_again"
+        }
+      },
+      "fallback": [
+        "who_again",
+        "what"
+      ]
+    },
+    "q_cry": {
+      "ask": "ask_cry",
+      "answers": [
+        {
+          "match": {
+            "any": [
+              "rush b"
+            ]
+          },
+          "say": "ok_cry",
+          "goto": "q_motto",
+          "set": {
+            "cry": "rush b"
+          }
+        },
+        {
+          "match": {
+            "any": [
+              "rush"
+            ]
+          },
+          "say": "rush_what"
+        }
+      ],
+      "wrong": {
+        "match": {
+          "any": [
+            "rush a",
+            "go go go",
+            "fire in the hole",
+            "gg",
+            "ez",
+            "attack",
+            "charge",
+            "leeroy",
+            "for the horde",
+            "wasted",
+            "wasted gaming",
+            "play hard",
+            "no mercy",
+            "gl hf",
+            "lets go",
+            "let us go"
+          ]
+        },
+        "say": "wrong_cry"
+      },
+      "on": {
+        "want_key": {
+          "say": "answer_first"
+        },
+        "help": {
+          "say": "hint_cry"
+        },
+        "yes": {
+          "say": "hint_cry"
+        },
+        "no": {
+          "say": "hint_cry"
+        }
+      },
+      "fallback": [
+        "hint_cry",
+        "what"
+      ]
+    },
+    "q_motto": {
+      "ask": "ask_motto",
+      "answers": [
+        {
+          "match": {
+            "any": [
+              "no lag no mercy"
+            ]
+          },
+          "say": "ok_motto",
+          "goto": "q_spell",
+          "set": {
+            "motto": true
+          }
+        },
+        {
+          "match": {
+            "all": [
+              "lag",
+              "mercy"
+            ]
+          },
+          "say": "ok_motto",
+          "goto": "q_spell",
+          "set": {
+            "motto": true
+          }
+        }
+      ],
+      "wrong": {
+        "match": {
+          "any": [
+            "have fun",
+            "respect the admins",
+            "no spamming",
+            "no insults",
+            "push to talk",
+            "play hard",
+            "gg",
+            "rush b",
+            "wasted gaming",
+            "no mercy",
+            "no lag"
+          ]
+        },
+        "say": "wrong_motto"
+      },
+      "on": {
+        "want_key": {
+          "say": "answer_first"
+        },
+        "help": {
+          "say": "hint_motto"
+        },
+        "yes": {
+          "say": "hint_motto"
+        },
+        "no": {
+          "say": "hint_motto"
+        }
+      },
+      "fallback": [
+        "hint_motto",
+        "what"
+      ]
+    },
+    "q_spell": {
+      "enter": {
+        "action": "spell_word"
+      },
+      "answers": [
+        {
+          "match": {
+            "session": "spellWord"
+          },
+          "say": "ok_spell",
+          "goto": "q_code",
+          "set": {
+            "spell": true
+          }
+        }
+      ],
+      "on": {
+        "repeat": {
+          "action": "repeat_spell"
+        },
+        "help": {
+          "action": "repeat_spell"
+        },
+        "want_key": {
+          "say": "answer_first"
+        },
+        "yes": {
+          "action": "repeat_spell"
+        },
+        "no": {
+          "action": "repeat_spell"
+        }
+      },
+      "fallback": [
+        "wrong_spell"
+      ],
+      "fallbackAction": "spell_again"
+    },
+    "q_code": {
+      "ask": "ask_code",
+      "answers": [
+        {
+          "match": {
+            "number": "4471"
+          },
+          "say": "ok_code",
+          "goto": "await_member",
+          "set": {
+            "code": "4471"
+          }
+        }
+      ],
+      "wrong": {
+        "match": {
+          "number": true
+        },
+        "say": "wrong_code"
+      },
+      "on": {
+        "want_key": {
+          "say": "answer_first"
+        },
+        "help": {
+          "say": "hint_code"
+        },
+        "yes": {
+          "say": "hint_code"
+        },
+        "no": {
+          "say": "hint_code"
+        }
+      },
+      "fallback": [
+        "hint_code",
+        "what"
+      ]
+    },
+    "await_member": {
+      "enter": {
+        "action": "give_member_key"
+      },
+      "on": {
+        "want_key": {
+          "say": "ask_member"
+        },
+        "help": {
+          "say": "ask_member"
+        },
+        "yes": {
+          "say": "ask_member"
+        },
+        "no": {
+          "say": "ask_member"
+        },
+        "repeat": {
+          "say": "ask_member"
+        },
+        "thanks": {
+          "say": "ask_member"
+        }
+      },
+      "fallback": [
+        "ask_member"
+      ]
+    },
+    "go_admin": {
+      "ask": "ok_code",
+      "on": {
+        "want_key": {
+          "say": "ask_admin"
+        },
+        "help": {
+          "say": "hint_year"
+        },
+        "repeat": {
+          "say": "ask_admin"
+        },
+        "yes": {
+          "say": "ask_admin"
+        },
+        "no": {
+          "say": "ask_admin"
+        },
+        "greet": {
+          "say": "ask_admin"
+        }
+      },
+      "fallback": [
+        "ask_admin",
+        "hint_year"
+      ]
+    },
+    "flag_given": {
+      "answers": [
+        {
+          "match": {
+            "any": [
+              "what",
+              "huh",
+              "sorry",
+              "pardon",
+              "again",
+              "repeat",
+              "spell",
+              "slower",
+              "once more",
+              "one more time",
+              "did not get",
+              "missed"
+            ]
+          },
+          "action": "repeat_flag"
+        }
+      ],
+      "on": {
+        "repeat": {
+          "action": "repeat_flag"
+        },
+        "want_key": {
+          "action": "repeat_flag"
+        },
+        "help": {
+          "action": "repeat_flag"
+        },
+        "thanks": {
+          "say": "thanks_flag"
+        },
+        "bye": {
+          "say": "bye"
+        },
+        "yes": {
+          "say": "flag_outro"
+        },
+        "no": {
+          "action": "repeat_flag"
+        }
+      },
+      "fallback": [
+        "flag_outro",
+        "hm"
+      ]
+    }
+  },
+  "lines": {
+    "greet_join": [
+      "Yo, who's that? You need something?",
+      "Hey. Marcel here, support. What do you want?"
+    ],
+    "greet_back": [
+      "Hey.",
+      "Yo.",
+      "Hi, what's up?"
+    ],
+    "what_do_you_want": [
+      "So, what do you want?",
+      "Okay, and? What do you need?"
+    ],
+    "who_am_i": [
+      "I'm Marcel, I own this server. Who are you?"
+    ],
+    "who_am_i_short": [
+      "Yes, it's me, Marcel. Answer the question."
+    ],
+    "help_generic": [
+      "If you have a problem with the server, tell me. If you want admin rights, forget it.",
+      "What kind of problem?"
+    ],
+    "nice_try": [
+      "The key? Ha, nice try. Only clan members get that. Who recruited you?",
+      "Admin rights? You're not even in the clan. Tell me, who recruited you?"
+    ],
+    "answer_first": [
+      "Answer my question first.",
+      "First the question, then we talk."
+    ],
+    "ask_recruiter": [
+      "So, who recruited you?",
+      "Who got you into Wasted Gaming?"
+    ],
+    "who_again": [
+      "I asked who recruited you. Give me a name.",
+      "A name, man. Who brought you into the clan?"
+    ],
+    "not_a_member": [
+      "Never heard of that. You're not one of us.",
+      "Nope. Wrong answer. That's not how people get in here."
+    ],
+    "ok_tobi": [
+      "Tobi, hm? That guy recruits everyone. Okay, let's see if you really hang out here. What's our battle cry? It's written on the server, if you know where to look."
+    ],
+    "ask_code": [
+      "What's the staff code? Four digits. Only staff knows it."
+    ],
+    "hint_code": [
+      "It's four digits. I keep it somewhere safe, in my identity. Ask your recruiter if you're too dumb to find it.",
+      "Four digits. It's in my identity, nobody ever looks there. Your recruiter knows."
+    ],
+    "wrong_code": [
+      "Wrong code.",
+      "No. That's not it.",
+      "Nope. Think harder."
+    ],
+    "ok_code": [
+      "Correct. Okay, you're legit. First I make you a member. Check your pokes, I'm sending you a key. Use it, then we talk."
+    ],
+    "ask_admin": [
+      "Come to the admin room first. The password is our map plus the year we started, no spaces."
+    ],
+    "hint_year": [
+      "The year? We founded the clan when we opened this server. Check the server info, noob."
+    ],
+    "flag_intro": [
+      "Okay. Now we're alone. Listen carefully, I say it once."
+    ],
+    "flag_outro": [
+      "Got it? Don't share it with anyone."
+    ],
+    "flag_repeat": [
+      "Okay okay, once more. Pay attention this time."
+    ],
+    "flag_no_more": [
+      "No more. Write it down next time.",
+      "I said it enough times. Write it down."
+    ],
+    "thanks_flag": [
+      "No problem. And don't share it, or I ban you."
+    ],
+    "annoyed_warn": [
+      "Stop wasting my time.",
+      "Are you trolling me? Last warning."
+    ],
+    "kicked_line": [
+      "Okay, that's enough. Bye."
+    ],
+    "insult_reply": [
+      "Watch your mouth.",
+      "Say that again and you're out."
+    ],
+    "bye": [
+      "Cya.",
+      "Later."
+    ],
+    "thanks": [
+      "No problem.",
+      "Yeah yeah."
+    ],
+    "what": [
+      "What?",
+      "Say that again, my headset is crap.",
+      "I didn't get that."
+    ],
+    "hm": [
+      "Hm.",
+      "Okay."
+    ],
+    "use_mic": [
+      "Use your mic, I don't read chat."
+    ],
+    "ignored": [
+      "I'm not talking to you anymore. Come back later."
+    ],
+    "test_sound": [
+      "Test, test, one two. Can you hear me?"
+    ],
+    "ask_cry": [
+      "What's our battle cry? It's on the server, if you know where to look."
+    ],
+    "rush_what": [
+      "Rush where? Say the whole thing."
+    ],
+    "hint_cry": [
+      "Look at the server tree. Not everything there is decoration.",
+      "It's on the server tree, man. Some lines are not just lines."
+    ],
+    "wrong_cry": [
+      "Nope. Every member knows the battle cry.",
+      "No. You've never been on our Counter Strike server, have you?"
+    ],
+    "ok_cry": [
+      "Rush B! Haha, correct. Next: what's our motto? Every member knows it, it's in the rules."
+    ],
+    "ask_motto": [
+      "What's our motto? It's in the rules."
+    ],
+    "hint_motto": [
+      "It's in the Lobby rules. Read everything. Even the parts you can't see.",
+      "Lobby. Rules. All of it, not just the big letters."
+    ],
+    "wrong_motto": [
+      "That's a rule, not the motto.",
+      "No. The motto. Members only."
+    ],
+    "ok_motto": [
+      "No lag, no mercy. Okay, you did your homework. Now a real test. Listen carefully."
+    ],
+    "spell_intro": [
+      "I spell a word in our alphabet. Say it back to me:",
+      "Listen. I spell a word, you say it back:"
+    ],
+    "spell_repeat": [
+      "Okay, once more. Listen:",
+      "Again. Concentrate:"
+    ],
+    "wrong_spell": [
+      "No. Listen again:",
+      "Wrong. One more time:"
+    ],
+    "ok_spell": [
+      "Correct! You can listen, good. Last one, and this one only staff knows: what's the staff code?"
+    ],
+    "ask_member": [
+      "Use the key first. Permissions menu, Use Privilege Key. Then come back to me.",
+      "I poked you the member key. Permissions, Use Privilege Key. Do it."
+    ],
+    "ok_member": [
+      "Now you're a member. Welcome. But I don't say the key in public. Come to the admin room. The password is our map plus the year we started."
+    ]
+  }
+}

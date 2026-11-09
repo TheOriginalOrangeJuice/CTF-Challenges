@@ -1,0 +1,22 @@
+{
+  "title": "Puffle Whisperer",
+  "sections": [
+    "Description",
+    "Files",
+    "Hint(s)",
+    "Walkthrough",
+    "Flag"
+  ],
+  "images": [
+    "screenshots/02-translator-log-1366.png",
+    "screenshots/05-direct-refusal-1366.png",
+    "screenshots/06-harmless-decoding-1366.png"
+  ],
+  "local_links": [
+    "challenge/compose.yaml",
+    "organizer/event.env"
+  ],
+  "flag": "RCC{puffles_cannot_keep_secrets_7c92}",
+  "docx": "/tmp/puffle-encoded-10/Puffle Whisperer/Description.docx",
+  "pages": 4
+}

@@ -1,0 +1,171 @@
+{
+  "stage": "/tmp/iq-v2-stage08/The Impossible Security+ Quiz",
+  "scope": "Q10 FILE DETAILS visibility, complete content, scrolling, mouse and keyboard close, Escape/focus restoration, folders afterward.",
+  "navigation": "Ordinary public action requests reach Q10; this is not another full UI solve.",
+  "human_playtest": false,
+  "source_sha256": {
+    "challenge/client/src/questions.tsx": "559bf5a33ece0d1cc1ca626bf44220fb06e6ff345409da207ec3df2e74165231",
+    "challenge/client/src/redesign.css": "01a84500b0886e7637c86f7f1281edd40d0783567eb50ce295dfb232168a27cc"
+  },
+  "viewports": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "initial_focus": {
+        "tag": "BUTTON",
+        "text": "CLOSE FILE DETAILS \u00d7",
+        "label": null
+      },
+      "close_button_geometry": {
+        "insideStage": true,
+        "centerReachable": true,
+        "width": 590.4000244140625,
+        "height": 39.090911865234375
+      },
+      "complete_json_matches_public_evidence": true,
+      "before_scroll": {
+        "top": 0,
+        "height": 119,
+        "content": 396
+      },
+      "after_keyboard_scroll": {
+        "top": 6,
+        "height": 119,
+        "content": 396
+      },
+      "after_wheel_scroll": {
+        "top": 71,
+        "height": 119,
+        "content": 396
+      },
+      "mouse_close_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "folders_accessible": [
+        {
+          "label": "approved release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "draft release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "archive release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "shortcut release folder",
+          "enabled": true,
+          "centerReachable": true
+        }
+      ],
+      "escape_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "keyboard_open_focus": {
+        "tag": "BUTTON",
+        "text": "CLOSE FILE DETAILS \u00d7",
+        "label": null
+      },
+      "keyboard_close_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "folder_keyboard_pickup": "true",
+      "folder_keyboard_cancel": "false",
+      "passed": true
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "initial_focus": {
+        "tag": "BUTTON",
+        "text": "CLOSE FILE DETAILS \u00d7",
+        "label": null
+      },
+      "close_button_geometry": {
+        "insideStage": true,
+        "centerReachable": true,
+        "width": 640,
+        "height": 42.375
+      },
+      "complete_json_matches_public_evidence": true,
+      "before_scroll": {
+        "top": 0,
+        "height": 119,
+        "content": 396
+      },
+      "after_keyboard_scroll": {
+        "top": 3,
+        "height": 119,
+        "content": 396
+      },
+      "after_wheel_scroll": {
+        "top": 64,
+        "height": 119,
+        "content": 396
+      },
+      "mouse_close_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "folders_accessible": [
+        {
+          "label": "approved release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "draft release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "archive release folder",
+          "enabled": true,
+          "centerReachable": true
+        },
+        {
+          "label": "shortcut release folder",
+          "enabled": true,
+          "centerReachable": true
+        }
+      ],
+      "escape_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "keyboard_open_focus": {
+        "tag": "BUTTON",
+        "text": "CLOSE FILE DETAILS \u00d7",
+        "label": null
+      },
+      "keyboard_close_focus": {
+        "tag": "BUTTON",
+        "text": "FILE DETAILS",
+        "label": null
+      },
+      "folder_keyboard_pickup": "true",
+      "folder_keyboard_cancel": "false",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "question_state_unchanged": true,
+  "status": "passed"
+}

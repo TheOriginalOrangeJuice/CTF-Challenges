@@ -1,0 +1,19 @@
+{
+  "title": "Hello? Hello?",
+  "sections": [
+    "Description",
+    "Files",
+    "Hint(s)",
+    "Walkthrough",
+    "Flag"
+  ],
+  "images": [
+    "screenshots/02-guard-note.png",
+    "screenshots/03-postcard-ribbon.png",
+    "screenshots/05-recovered-memo.png"
+  ],
+  "local_links": [],
+  "flag": "RCC{STAY_QUIET_VJQZKXMPYBNDFLRAS}",
+  "docx": "/tmp/rowdy-fnaf-ambient-word-20261028-171031-dc585b/project/Description.docx",
+  "pages": 3
+}

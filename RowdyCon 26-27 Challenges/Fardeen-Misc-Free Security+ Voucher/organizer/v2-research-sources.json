@@ -1,0 +1,35 @@
+{
+  "questionVersion": 2,
+  "scope": "Research supporting the user-approved question redesign. Publication pages and firsthand written accounts were reviewed; no independent full playthrough of either original game is claimed.",
+  "sources": [
+    {
+      "title": "The Impossible Quiz, Splapp-me-do, 2007",
+      "url": "https://www.newgrounds.com/portal/view/365143",
+      "use": "Original creator publication, approved visual and audio reference. Existing frozen source captures and audio provenance remain in asset-manifest.json and audio-manifest.json."
+    },
+    {
+      "title": "The Impossible Quiz 2, Splapp-me-do, 2007",
+      "url": "https://www.newgrounds.com/portal/view/398163",
+      "use": "Creator describes a sequel with progressively harder questions and skips. The page also records removal of music; public availability therefore does not establish reuse permission. Read as a publication page, not a video playthrough."
+    },
+    {
+      "title": "Mikewillplays, The Impossible Quiz 2 submission 9114",
+      "url": "https://tasvideos.org/9114S",
+      "use": "Firsthand written gameplay account of skips, input routing, checkpoints and unusual page interactions. Informed interaction families only. Its timing tricks, randomization and ghost-item behavior are deliberately not reproduced. No playback claim."
+    },
+    {
+      "title": "CompTIA Security+ SY0-701 objectives, version5.0",
+      "url": "https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf",
+      "use": "Fixed vocabulary reference for access control, factors, encryption, data removal, resilience, physical access, monitoring, firewall policy, integrity and certificate revocation. No claim of current syllabus coverage, endorsement or exam equivalence. Earlier review details remain in research-sources.json; its old question mappings are obsolete."
+    },
+    {
+      "title": "Chrome autoplay policy",
+      "url": "https://developer.chrome.com/blog/autoplay/",
+      "use": "Official browser behavior: audible autoplay can be blocked until engagement or interaction. The quiz attempts its single selected track on load and retries the same player on eligible interaction while preserving mute and volume."
+    }
+  ],
+  "adaptation": "Fourteen short tricks and six layered puzzles, at questions6,9,11,15,17,20. Movable interface props, alternate input, deceptive labels and callbacks are adapted to original Security+ scenarios. Original-game question answers are not used as solve keys.",
+  "newAssets": "Interactive DOM, SVG and CSS in objects.tsx, questions.tsx and redesign.css. Existing approved art and audio remain unchanged. Hashes and reuse limits are in asset-manifest.json.",
+  "technicalModels": "The authored simulations and their boundaries are specified in DESIGN.md: real AES-GCM archive data, real X25519/HKDF/AES-GCM recipient encryption, actual release/event bytes, signed issuer publications and pixel XOR shares. None is a production security product.",
+  "difficulty": "Hard–Very Hard is a target pending independent human cold playtesting. Technical correctness, replay burden, wording frustration and enjoyment must be recorded separately."
+}

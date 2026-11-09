@@ -1,0 +1,12 @@
+﻿{
+  "questionVersion": 5,
+  "authoritativeMarkdown": "Description.md",
+  "word": "Description.docx",
+  "render": "v5-document-render/Description.pdf",
+  "pages": 10,
+  "actualScreenshots": 14,
+  "method": "Shared local template and build_description.py,followed by LibreOffice/Poppler rendering in verified Condev staging. Primary agent inspected every rendered page and re-inspected affected pages after pagination adjustment.",
+  "findings": "No clipped text,missing figures or unreadable code found. The Q14 heading initially split across pages; final pagination keeps it together. Standard continuing paragraphs remain within the walkthrough table.",
+  "checks": {"fiveSections":true,"hintsNone":true,"exactFlag":true,"localLinks":true,"currentQuestionControls":true},
+  "limits": "Document review is separate from human game playtesting."
+}

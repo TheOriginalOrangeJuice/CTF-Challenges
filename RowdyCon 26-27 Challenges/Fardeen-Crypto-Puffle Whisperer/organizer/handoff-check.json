@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_image_sha256_differences": 0,
+  "model_sha256_verified": true,
+  "runtime_commit_verified": true,
+  "dependencies_verified": true,
+  "organizer_files_absent_from_image": true,
+  "readiness": true,
+  "image_id": "sha256:2f8b11cce2523abd1572b2460d5bf5bbd1c9cb8bd7a3607ba0d93c0ea84ddf2d"
+}

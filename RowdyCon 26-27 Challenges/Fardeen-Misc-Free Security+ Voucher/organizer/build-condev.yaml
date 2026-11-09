@@ -1,0 +1,17 @@
+default_workspace: impossible-build
+workspaces:
+  impossible-build:
+    name: rowdy-impossible-build
+    image: artifacts.mitre.org/docker/rockylinux/rockylinux:10
+    mount_host_share: false
+    mount_docker_socket: true
+    cmd: [sleep, infinity]
+    user:
+      name: root
+      uid: 0
+      gid: 0
+      shell: /bin/bash
+aliases:
+  work:
+    type: dir
+    path: /tmp

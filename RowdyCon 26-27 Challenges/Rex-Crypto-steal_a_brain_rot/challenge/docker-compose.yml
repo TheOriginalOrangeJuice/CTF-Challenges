@@ -1,0 +1,21 @@
+services:
+  steal-a-brain-rot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: steal-a-brain-rot:latest
+    ports:
+      # Host port overridable (HOST_PORT=8085 docker compose up) so it can run
+      # alongside something already on 8080. Container always listens on 8080.
+      - "${HOST_PORT:-8080}:8080"
+    environment:
+      # Per-player instances: override FLAG at `up` time, no rebuild needed.
+      # Defaults to the baked flag.txt if unset.
+      FLAG: "${FLAG:-RCC{3cb_l34ks_wh3n_bl0cks_r3p34t_sahur}}"
+      # Difficulty toggle. 0 = intended medium. 1 = oracle shows per-block
+      # breakdown + an ECB hint banner (beginner-friendly).
+      ARENA_HINT_MODE: "${ARENA_HINT_MODE:-0}"
+      # Token-signing secret for the "crypto solved" token. Random per instance
+      # if left unset; set it explicitly only if you need reproducible tokens.
+      TOKEN_SECRET: "${TOKEN_SECRET:-}"
+    restart: unless-stopped

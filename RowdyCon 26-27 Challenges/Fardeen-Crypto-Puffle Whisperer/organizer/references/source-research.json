@@ -1,0 +1,36 @@
+[
+  {
+    "file": "igloo-reference.jpg",
+    "source": "https://fin1002sclubpenguinblog.files.wordpress.com/2009/12/how-to-play-cp1.jpg",
+    "sha256": "79a0db51980a26dbe7da4ef05f3d26126c5e8ad51be3a1cf72b5347ae4bb1f1a",
+    "bytes": 96980
+  },
+  {
+    "file": "puffle-card-reference.jpg",
+    "source": "https://dojopenguins.files.wordpress.com/2009/02/pufflepcs.jpg",
+    "sha256": "91055c4701a4320913baa9af0bde90be36caabfec2b41d62e1c7729039df2c70",
+    "bytes": 21692
+  },
+  {
+    "file": "puffle-play-reference.jpg",
+    "source": "https://dojopenguins.files.wordpress.com/2009/02/puffle-play.jpg",
+    "sha256": "ab8d41df8ba863f19aa2731f7850279349582b005eec30524d4e34b024d7b3ae",
+    "bytes": 12918
+  },
+  {
+    "file": "wand-modules.txt",
+    "source": "https://raw.githubusercontent.com/solero/wand/master/.gitmodules",
+    "sha256": "8d2e585ccaf1226a5dc1892397fd5cddc028fd9c11907f6aaaaccd427eeeaabc",
+    "bytes": 436
+  },
+  {
+    "source": "https://www.clubpenguinwiki.info/wiki/Basic_Igloo",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "legacy-tree.json",
+    "source": "https://git.solero.me/api/v4/projects/solero%2Flegacy-media/repository/tree?per_page=100",
+    "sha256": "732ed808a895370dd6926a758c7d641b2b1202baa2ea75d80a2d78a741567ed0",
+    "bytes": 337
+  }
+]

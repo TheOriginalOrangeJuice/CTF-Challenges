@@ -1,0 +1,13 @@
+{
+  "checks": [
+    {
+      "name": "operating-system-reduced-motion",
+      "passed": true
+    },
+    {
+      "name": "dialog-keyboard-focus-contained",
+      "passed": false
+    }
+  ],
+  "browser_errors": []
+}

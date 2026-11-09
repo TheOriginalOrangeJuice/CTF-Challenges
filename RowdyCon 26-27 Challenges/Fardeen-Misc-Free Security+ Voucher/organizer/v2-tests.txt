@@ -1,0 +1,272 @@
+
+> impossible-security-quiz@1.0.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: session cookie is private, reward is protected and sessions have isolated state
+ok 1 - session cookie is private, reward is protected and sessions have isolated state
+  ---
+  duration_ms: 127.413606
+  type: 'test'
+  ...
+# Subtest: request deduplication returns the original response and never spends another life
+ok 2 - request deduplication returns the original response and never spends another life
+  ---
+  duration_ms: 6.564098
+  type: 'test'
+  ...
+# Subtest: concurrent distinct actions from the same revision serialize and the later one is stale
+ok 3 - concurrent distinct actions from the same revision serialize and the later one is stale
+  ---
+  duration_ms: 3.652497
+  type: 'test'
+  ...
+# Subtest: immutable attempt/revision/question guards include notes, reset and question-specific actions
+ok 4 - immutable attempt/revision/question guards include notes, reset and question-specific actions
+  ---
+  duration_ms: 6.469115
+  type: 'test'
+  ...
+# Subtest: malformed requests and unknown operations do not grade, change revisions or accept client verdicts
+ok 5 - malformed requests and unknown operations do not grade, change revisions or accept client verdicts
+  ---
+  duration_ms: 8.309684
+  type: 'test'
+  ...
+# Subtest: public API complete run, atomic final consumption, reward recovery and retry
+ok 6 - public API complete run, atomic final consumption, reward recovery and retry
+  ---
+  duration_ms: 38.232746
+  type: 'test'
+  ...
+# Subtest: legacy sessions migrate once and delete old deduplication responses
+ok 7 - legacy sessions migrate once and delete old deduplication responses
+  ---
+  duration_ms: 32.178425
+  type: 'test'
+  ...
+# Subtest: current v2 notes, draft and dedupe persist across a service restart
+ok 8 - current v2 notes, draft and dedupe persist across a service restart
+  ---
+  duration_ms: 19.796822
+  type: 'test'
+  ...
+# Subtest: all stations start with independent state and publish no verdict, future solutions or PIN
+ok 9 - all stations start with independent state and publish no verdict, future solutions or PIN
+  ---
+  duration_ms: 1.631566
+  type: 'test'
+  ...
+# Subtest: malformed and foreign actions fail without mutating the input state
+ok 10 - malformed and foreign actions fail without mutating the input state
+  ---
+  duration_ms: 1.23343
+  type: 'test'
+  ...
+# Subtest: Q1 evaluates the displayed arithmetic and moving +1 is reversible
+ok 11 - Q1 evaluates the displayed arithmetic and moving +1 is reversible
+  ---
+  duration_ms: 0.239093
+  type: 'test'
+  ...
+# Subtest: Q2 inspection is free and a modeled restart loads the installed version
+ok 12 - Q2 inspection is free and a modeled restart loads the installed version
+  ---
+  duration_ms: 0.150739
+  type: 'test'
+  ...
+# Subtest: Q3 every knowledge factor with the physical key works; knowledge pairs do not
+ok 13 - Q3 every knowledge factor with the physical key works; knowledge pairs do not
+  ---
+  duration_ms: 0.356554
+  type: 'test'
+  ...
+# Subtest: Q4 shred lever removes the sole modeled key copy and leaves the cipher disk
+ok 14 - Q4 shred lever removes the sole modeled key copy and leaves the cipher disk
+  ---
+  duration_ms: 0.30438
+  type: 'test'
+  ...
+# Subtest: Q4 archive is authentic AES-GCM data; retained copies prevent erasure and private key material is never public
+ok 15 - Q4 archive is authentic AES-GCM data; retained copies prevent erasure and private key material is never public
+  ---
+  duration_ms: 0.341345
+  type: 'test'
+  ...
+# Subtest: Q5 direct READ cannot cancel inherited ADMIN permission
+ok 16 - Q5 direct READ cannot cancel inherited ADMIN permission
+  ---
+  duration_ms: 0.295763
+  type: 'test'
+  ...
+# Subtest: Q6 the FIDO gate must cover all knowledge-only routes
+ok 17 - Q6 the FIDO gate must cover all knowledge-only routes
+  ---
+  duration_ms: 1.062219
+  type: 'test'
+  ...
+# Subtest: Q7 either order of network isolation works, retaining USB and power
+ok 18 - Q7 either order of network isolation works, retaining USB and power
+  ---
+  duration_ms: 0.349737
+  type: 'test'
+  ...
+# Subtest: Q8 real recipient cryptography decrypts exact memo bytes and authenticates modifications
+ok 19 - Q8 real recipient cryptography decrypts exact memo bytes and authenticates modifications
+  ---
+  duration_ms: 2.380758
+  type: 'test'
+  ...
+# Subtest: Q9 a visual overlay does not remove the employee or the comment from published bytes
+ok 20 - Q9 a visual overlay does not remove the employee or the comment from published bytes
+  ---
+  duration_ms: 0.155928
+  type: 'test'
+  ...
+# Subtest: Q10 copies approved bytes to removable 09; shortcuts and internal copies fail
+ok 21 - Q10 copies approved bytes to removable 09; shortcuts and internal copies fail
+  ---
+  duration_ms: 0.325741
+  type: 'test'
+  ...
+# Subtest: Q11 checks candidate identity, visitor exclusion, both perimeter closures and valid movement
+ok 22 - Q11 checks candidate identity, visitor exclusion, both perimeter closures and valid movement
+  ---
+  duration_ms: 0.165361
+  type: 'test'
+  ...
+# Subtest: Q12 all five modeled sessions must be revoked, including the HUD session
+ok 23 - Q12 all five modeled sessions must be revoked, including the HUD session
+  ---
+  duration_ms: 0.129756
+  type: 'test'
+  ...
+# Subtest: Q13 uses actual immutable image differences
+ok 24 - Q13 uses actual immutable image differences
+  ---
+  duration_ms: 0.174181
+  type: 'test'
+  ...
+# Subtest: Q14 recorder handles only fixed dummy input and tab removal actually stops capture
+ok 25 - Q14 recorder handles only fixed dummy input and tab removal actually stops capture
+  ---
+  duration_ms: 0.094927
+  type: 'test'
+  ...
+# Subtest: Q15 evaluates every permutation with true first-match policy and emits its actual denial event
+ok 26 - Q15 evaluates every permutation with true first-match policy and emits its actual denial event
+  ---
+  duration_ms: 2.477221
+  type: 'test'
+  ...
+# Subtest: Q16 disabled debug is simulated state and ordinary login must remain working
+ok 27 - Q16 disabled debug is simulated state and ordinary login must remain working
+  ---
+  duration_ms: 0.092268
+  type: 'test'
+  ...
+# Subtest: Q17 approval checks actual immutable bytes, not a version label or fixed release ID
+ok 28 - Q17 approval checks actual immutable bytes, not a version label or fixed release ID
+  ---
+  duration_ms: 0.191173
+  type: 'test'
+  ...
+# Subtest: Q18 shredding a certificate does not revoke its issued serial
+ok 29 - Q18 shredding a certificate does not revoke its issued serial
+  ---
+  duration_ms: 0.69223
+  type: 'test'
+  ...
+# Subtest: Q18 actual issuer signature authenticates the retained-record revocation publication
+ok 30 - Q18 actual issuer signature authenticates the retained-record revocation publication
+  ---
+  duration_ms: 0.302549
+  type: 'test'
+  ...
+# Subtest: Q19 preserves exact denial bytes while original logging continues; recorder trick is wrong here
+ok 31 - Q19 preserves exact denial bytes while original logging continues; recorder trick is wrong here
+  ---
+  duration_ms: 0.173403
+  type: 'test'
+  ...
+# Subtest: Q20 shares are genuine XOR bitmaps, not recognizable individual PIN plates
+ok 32 - Q20 shares are genuine XOR bitmaps, not recognizable individual PIN plates
+  ---
+  duration_ms: 1.480701
+  type: 'test'
+  ...
+# Subtest: full authored run solves nineteen stations, earns exactly three skips and consumes them at certification
+ok 33 - full authored run solves nineteen stations, earns exactly three skips and consumes them at certification
+  ---
+  duration_ms: 6.707201
+  type: 'test'
+  ...
+# Subtest: a wrong commit costs one life, free manipulation never grades, and death does not reset silently
+ok 34 - a wrong commit costs one life, free manipulation never grades, and death does not reset silently
+  ---
+  duration_ms: 0.55066
+  type: 'test'
+  ...
+# Subtest: notes and acquired evidence persist across deaths and full restarts; completions and inventory do not
+ok 35 - notes and acquired evidence persist across deaths and full restarts; completions and inventory do not
+  ---
+  duration_ms: 1.176983
+  type: 'test'
+  ...
+# Subtest: the notebook records acquired objects only; completing early answers adds no automatic solutions
+ok 36 - the notebook records acquired objects only; completing early answers adds no automatic solutions
+  ---
+  duration_ms: 0.238713
+  type: 'test'
+  ...
+# Subtest: a spent skip cannot certify even when the PIN is known, and skip cannot fabricate the missing completion
+ok 37 - a spent skip cannot certify even when the PIN is known, and skip cannot fabricate the missing completion
+  ---
+  duration_ms: 2.282897
+  type: 'test'
+  ...
+# Subtest: finale independently enforces all nineteen unique solves and unspent token inventory
+ok 38 - finale independently enforces all nineteen unique solves and unspent token inventory
+  ---
+  duration_ms: 1.404731
+  type: 'test'
+  ...
+# Subtest: attempt, revision and question guards reject stale and cross-question actions before changing state
+ok 39 - attempt, revision and question guards reject stale and cross-question actions before changing state
+  ---
+  duration_ms: 0.307634
+  type: 'test'
+  ...
+# Subtest: pre-v2 migration retains personal notes only and discards old progress, solutions and rewards
+ok 40 - pre-v2 migration retains personal notes only and discards old progress, solutions and rewards
+  ---
+  duration_ms: 0.129651
+  type: 'test'
+  ...
+# Subtest: earned certificates survive a later fresh attempt without preserving its solved run
+ok 41 - earned certificates survive a later fresh attempt without preserving its solved run
+  ---
+  duration_ms: 1.641807
+  type: 'test'
+  ...
+# Subtest: Q19 wrong recorder stop costs one life but recording can resume without dooming the run
+ok 42 - Q19 wrong recorder stop costs one life but recording can resume without dooming the run
+  ---
+  duration_ms: 1.199579
+  type: 'test'
+  ...
+# Subtest: Q4 public state and error snapshots retain actual encrypted bytes but omit private key copies
+ok 43 - Q4 public state and error snapshots retain actual encrypted bytes but omit private key copies
+  ---
+  duration_ms: 0.18601
+  type: 'test'
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 568.171527

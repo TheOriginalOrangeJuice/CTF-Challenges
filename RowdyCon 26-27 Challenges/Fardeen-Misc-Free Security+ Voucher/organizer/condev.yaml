@@ -1,0 +1,17 @@
+default_workspace: impossible-quiz
+workspaces:
+  impossible-quiz:
+    name: rowdy-impossible-dev
+    image: rowdy06-media:20261026
+    mount_host_share: false
+    mount_docker_socket: false
+    cmd: [sleep, infinity]
+    user:
+      name: root
+      uid: 0
+      gid: 0
+      shell: /bin/bash
+aliases:
+  work:
+    type: dir
+    path: /tmp

@@ -1,0 +1,213 @@
+{
+  "app_revisions": [
+    "07",
+    "08"
+  ],
+  "session_cookies_excluded": true,
+  "files": [
+    {
+      "file": "revision-07/audio-output.json",
+      "sha256": "452f889d6dbf4916cafcfdec1072d3e57da85070e4bded025432ba9e69387277"
+    },
+    {
+      "file": "revision-07/events.jsonl",
+      "sha256": "2b8fe60e34e6f1844889c020d29928fc4bca75515c8e0213d0817917c467125a"
+    },
+    {
+      "file": "revision-07/latest.png",
+      "sha256": "9b9bd3ac6da237bc9b351fe100e70bc8cef3f31404fa053e904e465bf988dd31"
+    },
+    {
+      "file": "revision-07/notes-download.txt",
+      "sha256": "46e220ae520a0a4a9312477d6179026882aedab953e3438b91f1374c93769463"
+    },
+    {
+      "file": "revision-07/q03-eight-ticks.png",
+      "sha256": "fefc47ae4106e1b94f517c5707c32958453e7898658f89e1508de78b799e50d7"
+    },
+    {
+      "file": "revision-07/q04-distinct-factors.png",
+      "sha256": "b5a7ebc252333a24d924437f0ad9e8d0fe1a997f9697efda6713edd900423360"
+    },
+    {
+      "file": "revision-07/q05-only-ducks.png",
+      "sha256": "035cf3039256e5614222ef85bd98f28fb2b1eb833e07b55e1d655d9bd4b5ffb4"
+    },
+    {
+      "file": "revision-07/q06-cut-two-boundaries.png",
+      "sha256": "3abdb412106bb14f2ab7bd987a5fd50e7d917cc9690bab5f4d04c2abdac876e7"
+    },
+    {
+      "file": "revision-07/q07-read-only.png",
+      "sha256": "2a77188ff7105d413c291bcfbe974c55d3fff4647485442864fbf23e0ea4afd8"
+    },
+    {
+      "file": "revision-07/q08-duck-selection-second-click.png",
+      "sha256": "ddbfab5ac05b1399af2fe994b19a9c737b36259ba4ee0f3cb899a119ce0001ea"
+    },
+    {
+      "file": "revision-07/q08-inspected-bags.png",
+      "sha256": "911a0cc85dc9bae28f2d9a31b8a6bd62c8cdbcecdba34c3a08e1273208985ee0"
+    },
+    {
+      "file": "revision-07/q08-selected-duck.png",
+      "sha256": "e16d6dfbc149f0dde0c02bfdf018a59f4900064b040435b33e77b193c8f77bf5"
+    },
+    {
+      "file": "revision-07/q09-original-in-window.png",
+      "sha256": "239a12b26389750cce7910577c18375ef5f395c68407d22efe8e7e2f260cf81b"
+    },
+    {
+      "file": "revision-07/q10-test-authority.png",
+      "sha256": "551d936d9171655599f7c204bf1e03402044636bcf1f99b9d6029e42a3932819"
+    },
+    {
+      "file": "revision-07/q11-safe-passage.png",
+      "sha256": "5add1c6fa10e5623b55a8d598910cd3d881e9633ea118c9653ffff047fc2f50d"
+    },
+    {
+      "file": "revision-07/q12-corrected-order.png",
+      "sha256": "6c3c4619b329e57d82cadb3d2cefdeaf004a1bfaa9e6d9ec4559bdbd3c0db4be"
+    },
+    {
+      "file": "revision-07/q13-aligned-inverted.png",
+      "sha256": "71be7e3455a702f4b0bdf1902ea8f1132d6031cbf2f972379bb9fac5943e95c4"
+    },
+    {
+      "file": "revision-07/q14-notebook-open-photo.png",
+      "sha256": "4260760e8dc24ca7d59d1e9606ced3653289db8aea412467c81cdc91ead281d6"
+    },
+    {
+      "file": "revision-07/q14-notebook-photograph.png",
+      "sha256": "80007e882486c39cb2cc28419ece5e71d63bfddffe217d50d355a01595455dc8"
+    },
+    {
+      "file": "revision-07/q15-consistent-claims.png",
+      "sha256": "e08c904ca9d60690560849a6dce032763a3a8df498489bfb0da4c3fda86761b5"
+    },
+    {
+      "file": "revision-07/q16-interlocks.png",
+      "sha256": "b6ba105b9e04bf5723c7a1b73f5170dbf7d6a383303fec054f506731e62b57a1"
+    },
+    {
+      "file": "revision-07/q16-safe-preview.png",
+      "sha256": "772b9ee8ec49b85a352d07bd6460d2eded8ae6ea7208a8c8c41b3058e9b3b2f4"
+    },
+    {
+      "file": "revision-07/q16-unsafe-preview.png",
+      "sha256": "09c6c2c299e8494501c1a7e45775426d3f5556750ad2c6f739e66c9ad1bbcc48"
+    },
+    {
+      "file": "revision-07/q17-scope-table.png",
+      "sha256": "0df789334d8d4fdddc2bc52ad513d15943f16643109e62f1e908aed7f4b3bdea"
+    },
+    {
+      "file": "revision-07/q18-flipped.png",
+      "sha256": "3d57450d418a973524ad6f8f02b4b0f33c43c595bf39a2053c69657905ab20d8"
+    },
+    {
+      "file": "revision-07/q18-restored.png",
+      "sha256": "398fa83f588eaa51f9aa251a3e468e41d64a691a9e2186bac387fb3270bf02f7"
+    },
+    {
+      "file": "revision-07/q18-undo.png",
+      "sha256": "c5a29d33ee7ee4f38faea2578855e2499ea87eb6c57edc266425082e24b5cf27"
+    },
+    {
+      "file": "revision-07/q19-repaired-label.png",
+      "sha256": "6673422432720ce5aa985f7ea26416d5b1b8ef23f9afa9558e803bc241849727"
+    },
+    {
+      "file": "revision-07/q20-after-refresh-with-draft.png",
+      "sha256": "8ff90b2ea682d8ca6b7737ba0c3691565ba394b9b8a4b686f10196bfacbf6679"
+    },
+    {
+      "file": "revision-07/q20-after-reload.png",
+      "sha256": "03d8d442cf84f49e7521ec56494c5d646648da2accacbab646b63d4b72c61d1d"
+    },
+    {
+      "file": "revision-07/q20-before-refresh-with-draft.png",
+      "sha256": "6e37b79b11bf76791fcbbeebacb49f95bb62fa1fab20940a37416a89d4ea2741"
+    },
+    {
+      "file": "revision-07/q20-certified.png",
+      "sha256": "b78ba2f9066379756fb347164b74e3aaed760960dce159a238d4e3ec51a206d0"
+    },
+    {
+      "file": "revision-07/q20-exact-read-print.png",
+      "sha256": "9def96e710ed786f8e6804057611d800b41c84b36a605c25a3d915e889f2037c"
+    },
+    {
+      "file": "revision-07/q20-machine-result.png",
+      "sha256": "f287a1dfa91eaa54f83cf719a784109a2092c7826e8d98ae1537eb1b6c695702"
+    },
+    {
+      "file": "revision-07/q20-recovered-after-reload.png",
+      "sha256": "a1460c0a0a517c0da0ce6ad21fb1238ccf23861c5b75748a342449448eac1f43"
+    },
+    {
+      "file": "revision-07/q20-rejected-tickets.png",
+      "sha256": "6e37b79b11bf76791fcbbeebacb49f95bb62fa1fab20940a37416a89d4ea2741"
+    },
+    {
+      "file": "revision-08/audio-music.json",
+      "sha256": "a42427a218539382fca2ad813c4ff4686f0304c88aa594d32bc07eecb363d008"
+    },
+    {
+      "file": "revision-08/certificate-1920-reduced-motion.png",
+      "sha256": "f875f4faddf2c59b355b3473b2c1b90965d6d2143fc60f7680d209282bd4c055"
+    },
+    {
+      "file": "revision-08/events.jsonl",
+      "sha256": "538e9b41bbcdc2c429b23f34253cadc9ea058dfc761a6826235287f54f0d2dcb"
+    },
+    {
+      "file": "revision-08/fresh-start08.png",
+      "sha256": "e01fc709776b0c55c21d83a76dd4ade58f6a4f1747d70de64e8f0579f95716d6"
+    },
+    {
+      "file": "revision-08/latest.png",
+      "sha256": "23d26f054eb54f6260ce5fe8a5e7fe6b38d3b5cec157ad0c61c066e77d847829"
+    },
+    {
+      "file": "revision-08/note-persistence-after-reset.png",
+      "sha256": "5eb66747fca63464a86165080ba424ee29a3b4b0a548faf67efe127f4fddabe0"
+    },
+    {
+      "file": "revision-08/note-persistence-before-reset.png",
+      "sha256": "5eb66747fca63464a86165080ba424ee29a3b4b0a548faf67efe127f4fddabe0"
+    },
+    {
+      "file": "revision-08/notes-after-game-over.png",
+      "sha256": "55225e086ec73c8b96d9c23fac2321346479c1de60fdfb8681690e5d5242f6b3"
+    },
+    {
+      "file": "revision-08/reset-q1.png",
+      "sha256": "e01fc709776b0c55c21d83a76dd4ade58f6a4f1747d70de64e8f0579f95716d6"
+    },
+    {
+      "file": "revision-08/sound-muted-after-reload.png",
+      "sha256": "4b427bfa98ea173a69006c5a26339323e1640130ae20c555c690741fc7a3b750"
+    },
+    {
+      "file": "revision-08/sound-settings.png",
+      "sha256": "8175418ab3d793f35ddb1ae7dcd948227858bf742195741baf7f7ca50d6c5422"
+    },
+    {
+      "file": "revision-08/sound-volume-after-reload.png",
+      "sha256": "23d26f054eb54f6260ce5fe8a5e7fe6b38d3b5cec157ad0c61c066e77d847829"
+    },
+    {
+      "file": "revision-08/wrong-commit-1.png",
+      "sha256": "1926a78aa8fe7d416e8da16dfc389a5b078c7db28458a1e29741df204c965618"
+    },
+    {
+      "file": "revision-08/wrong-commit-2.png",
+      "sha256": "f0e8a3d453d54a175bf308935badd68b2338f4a5e311d2d2455f022078b80412"
+    },
+    {
+      "file": "revision-08/wrong-commit-3.png",
+      "sha256": "c3b51841e4078e901557c4e3b106a8487169a1731d984ed27103d6044076a04b"
+    }
+  ]
+}

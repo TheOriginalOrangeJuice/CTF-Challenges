@@ -1,0 +1,20 @@
+﻿{
+    "questionVersion":  2,
+    "markdownSha256":  "da76058b6b6745ee8a76ceff70253187568a0ca7de1db1980ada91d2195e00a2",
+    "docxSha256":  "47d06619bc486b638c0b14b62666831cb617564a369ab7944f942f819b70797e",
+    "render":  "v2-document-render",
+    "pages":  8,
+    "visuallyInspectedPages":  [
+                                   1,
+                                   2,
+                                   3,
+                                   4,
+                                   5,
+                                   6,
+                                   7,
+                                   8
+                               ],
+    "result":  "Readable text and screenshots; no clipping or missing images observed. Walkthrough continues across table pages normally.",
+    "source":  "Shared template.docx and build_description.py; rendering in Condev with LibreOffice and Poppler",
+    "limits":  "Visual document review, not a human game playtest."
+}

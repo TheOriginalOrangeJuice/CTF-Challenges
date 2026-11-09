@@ -1,0 +1,110 @@
+{
+  "runtime": "Condev; localhost:18115; stage04",
+  "human_listening": false,
+  "checks": {
+    "credits_tab_order": [
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\u00d7"
+      }
+    ],
+    "live_music_2s": {
+      "peak": 0.397260844707489,
+      "rms": 0.02417088204632868,
+      "nonzero": 155192,
+      "samples": 327680,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "live_music_next_2s": {
+      "peak": 0.08407521992921829,
+      "rms": 0.008590742194152168,
+      "nonzero": 163840,
+      "samples": 327680,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "muted_output_after_buffer_settle": {
+      "peak": 0,
+      "rms": 0,
+      "nonzero": 0,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "music_zero_output": {
+      "peak": 0.08075735718011856,
+      "rms": 0.002980888074601091,
+      "nonzero": 1148,
+      "samples": 81920,
+      "contexts": [
+        "running",
+        "running"
+      ]
+    },
+    "live_effect_output": {
+      "peak": 0.3195188641548157,
+      "rms": 0.010706947026279204,
+      "nonzero": 84280,
+      "samples": 290816,
+      "contexts": [
+        "running",
+        "running",
+        "running"
+      ]
+    },
+    "saved_sound_preferences": {
+      "button": "SOUND OFF \u00b7 TURN ON",
+      "sliders": [
+        "0.45",
+        "0.35"
+      ]
+    },
+    "initial_notebook": "No evidence collected.",
+    "notes_receipt_pending_after_immediate_reload": true,
+    "notes_after_reload": "Independent review note: preserve this exact text.",
+    "interrupted_acknowledged_state": {
+      "q": 1,
+      "lives": 2
+    },
+    "retry_state": {
+      "q": 1,
+      "lives": 2,
+      "pending": null
+    },
+    "reset": {
+      "q": 1,
+      "lives": 3,
+      "skips": 0,
+      "notes": "Independent review note: preserve this exact text.",
+      "draft": {
+        "plusAt": null
+      }
+    },
+    "notes_after_reset": "Independent review note: preserve this exact text."
+  },
+  "errors": [],
+  "status": "completed"
+}

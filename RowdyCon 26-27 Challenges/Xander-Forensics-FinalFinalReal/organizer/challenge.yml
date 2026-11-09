@@ -1,0 +1,51 @@
+# ctfcli / CTFd challenge spec for "Final_Final_REAL".
+#
+#   pip install ctfcli
+#   ctf challenge install challenge.yml
+#   ctf challenge sync    challenge.yml
+#
+# Regenerate dist/ with: python3 author/generate.py [flag]
+# The flag below must match what generate.py baked into the handout.
+
+name: "Final_Final_REAL"
+author: "xandernewlun"
+category: forensics
+description: |
+  July 12, 2013. xX_Qu1ckSc0p3r_Xx was *this close* to finishing the
+  sickest Solarium frag montage of all time. The ENDCARD had all six
+  overlays lined up perfectly for the final pass. Then Montage Studio 12
+  crashed mid-save.
+
+  All that came back is the recovery file and the media folder. He swears
+  the endcard "had the flag on it" and that he "lined it up pixel perfect,
+  then messed with it a bunch, then hit Ctrl+Z until it looked right again."
+
+  Rebuild the final pass.
+
+  ![Montage Studio 12](art/montage_studio_12.png)
+
+value: 300
+type: standard
+
+flags:
+  - rcc{N0SC0P3D_BY_TH3_UND0_ST4CK}
+
+files:
+  - dist/Final_Final_REAL.zip
+
+tags:
+  - forensics
+  - steganography
+  - lsb
+  - mlg
+
+hints:
+  - content: "Look at the PNGs one bit plane at a time. Then look at what blend mode the endcard events use."
+    cost: 0
+  - content: "The saved_state is stale. Every number you need for the endcard comes out of replaying the journal, and Ctrl+Z / Ctrl+Y mean what they mean in every editor."
+    cost: 25
+  - content: "Each PNG alone is pure noise. Crop -> flip -> place each endcard layer on the 1152x648 canvas and XOR all six together. If you see static, your replay is wrong."
+    cost: 50
+
+state: visible
+version: "0.1"

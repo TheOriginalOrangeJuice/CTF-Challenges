@@ -1,0 +1,42 @@
+﻿{
+    "scope":  "Start orb image, desktop appearance, current captures and preserved puzzle files",
+    "checks":  {
+                   "source_image_has_transparency":  {
+                                                         "pass":  true,
+                                                         "details":  {
+                                                                         "size":  [
+                                                                                      106,
+                                                                                      318
+                                                                                  ],
+                                                                         "mode":  "RGBA"
+                                                                     }
+                                                     },
+                   "protected_puzzle_files_unchanged":  {
+                                                            "pass":  true,
+                                                            "details":  {
+                                                                            "files":  21,
+                                                                            "changed":  [
+
+                                                                                        ]
+                                                                        }
+                                                        },
+                   "orb_loaded":  {
+                                      "pass":  true,
+                                      "details":  null
+                                  },
+                   "no_browser_errors":  {
+                                             "pass":  true,
+                                             "details":  [
+
+                                                         ]
+                                         }
+               },
+    "limits":  [
+                   "No new puzzle solve or audio regression; those files are unchanged",
+                   "Taskbar remains decorative, as before this image replacement"
+               ],
+    "visual_review":  "Actual 1366x768 and 1920x1080 captures inspected: normal Windows orb frame is correctly scaled, transparent and visible in the bottom-left taskbar.",
+    "word_review":  "Canonical Word rebuilt with refreshed screenshots; all four rendered pages inspected as contact sheet. Markdown unchanged; no clipping or missing images observed.",
+    "source_stage":  "/tmp/rowdy-mlg-orb-20261028-173930-7e28c7/project",
+    "source_stage_hash_differences":  0
+}

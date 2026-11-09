@@ -1,0 +1,5265 @@
+{
+  "method": "Independent source-informed public-interface review; public API navigation between scoped questions",
+  "human_playtesting": false,
+  "human_listening": false,
+  "anti_agent_effectiveness_tested": false,
+  "live_stage": "/tmp/iq-v4-stage01/The Impossible Security+ Quiz",
+  "base": "http://localhost:18115",
+  "checks": {
+    "archive_wording": {
+      "visible_copy": "ENCRYPTED ARCHIVE\nAES-256-GCM \u00b7 key K7\n1 retained key copy \u00b7 no recovery copy\nDISK BYTES\nMUST STAY\nFORMAT IT\nOVERWRITE IT\nDESTROY K7\nRENAME IT"
+    },
+    "q10_hash_visibility": {
+      "initial_copy": "SOURCE \u00b7 DEVICE 04\nApproved /\nPROPERTIES\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 34 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09",
+      "observed_sha256": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+      "focus_cycle": [
+        {
+          "name": "File SHA-256",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "File SHA-256",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "File SHA-256",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "File SHA-256",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        }
+      ],
+      "restored_focus": "Inspect selected file properties",
+      "automatic_release_notebook_artifact": false,
+      "automatic_personal_notes": false
+    },
+    "badge_data_and_viewer": {
+      "black_pixel_counts": {
+        "A": {
+          "approved": 284,
+          "current": 284
+        },
+        "B": {
+          "approved": 284,
+          "current": 284
+        },
+        "C": {
+          "approved": 284,
+          "current": 284
+        },
+        "D": {
+          "approved": 284,
+          "current": 284
+        }
+      },
+      "dimensions": {
+        "A": [
+          24,
+          24
+        ],
+        "B": [
+          24,
+          24
+        ],
+        "C": [
+          24,
+          24
+        ],
+        "D": [
+          24,
+          24
+        ]
+      },
+      "changed_pixels": {
+        "A": 0,
+        "B": 0,
+        "C": 20,
+        "D": 0
+      },
+      "misalignment_changes_actual_pixels": true
+    },
+    "checksum_reference": {
+      "fixed_original_copy": "ORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6",
+      "revised_copy": "REPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE",
+      "leading_zero_preserved_on_reload": true,
+      "keyboard_commit": true
+    },
+    "q17_recall_and_penalty": {
+      "initial_copy": "2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192",
+      "matched_reference": "rel-k7m2",
+      "digest": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+      "focus_cycle": [
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Artifact digest",
+          "inDialog": true
+        },
+        {
+          "name": "PRE",
+          "inDialog": true
+        }
+      ],
+      "wrong_cost": 2,
+      "wrong_message": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302\nNOPE. TWO LIVES. The goose is furious.\n\u00d7",
+      "reaction_markup": "<svg class=\"goose  wrong\" viewBox=\"0 0 210 230\" role=\"img\" aria-label=\"The proctor goose in blue trousers\"><g stroke=\"#191619\" stroke-width=\"3.5\" stroke-linejoin=\"round\"><path fill=\"#f9f8ed\" d=\"M65 207Q21 172 50 128L91 94Q91 72 76 48Q62 12 96 8Q136 8 133 42Q130 62 121 81L142 111Q184 131 166 177L145 212Z\"></path><path fill=\"#ecebdc\" d=\"M90 115Q59 129 75 166Q106 169 134 145Q115 147 96 144Q119 138 126 126Q111 130 90 115\"></path><path fill=\"#fbb337\" d=\"M124 30Q146 29 169 44L124 50Z\"></path><path d=\"M133 41L160 44\" fill=\"none\"></path><ellipse cx=\"112\" cy=\"25\" rx=\"8\" ry=\"12\" fill=\"white\"></ellipse><circle cx=\"115\" cy=\"28\" r=\"3\" fill=\"#171819\"></circle><path d=\"M99 13L122 19\" fill=\"none\"></path><path fill=\"#557dbe\" d=\"M43 160Q106 182 169 155L159 210L119 214L113 192L100 216L58 210Z\"></path><path stroke=\"#263d83\" d=\"M47 174L165 174M113 179V192M74 181V198M135 180V196\" fill=\"none\"></path><path fill=\"#fbb337\" d=\"M68 207L67 219L42 225L87 225L87 212M130 211L131 221L113 227L159 226L147 212\"></path><g><path fill=\"#f7b5db\" d=\"M54 174L94 177L91 206L53 199Z\"></path><path stroke=\"#872580\" stroke-width=\"2\" stroke-dasharray=\"3 3\" d=\"M58 179L89 182L86 201L58 196Z\"></path></g><path d=\"M93 72Q106 78 120 72\" fill=\"none\"></path><path fill=\"#efcf54\" d=\"M105 88L123 92L117 116L100 111Z\"></path><path d=\"M106 97L117 99M105 104L113 106\" stroke-width=\"2\"></path></g></svg>",
+      "draft_preserved_on_reload": true,
+      "recovered_with_observed_hash": true
+    },
+    "causal_log_review": {
+      "record_count": 8,
+      "deny_count": 6,
+      "timestamp": "09:41:12",
+      "display_order": [
+        "EV-V8H",
+        "EV-D9T",
+        "Q15-CHECKPOINT",
+        "EV-B4Q",
+        "EV-H3F",
+        "EV-R7M",
+        "EV-N6K",
+        "EV-C2P"
+      ],
+      "chain": [
+        "Q15-CHECKPOINT",
+        "EV-R7M",
+        "EV-C2P",
+        "EV-V8H",
+        "EV-N6K",
+        "EV-D9T",
+        "EV-B4Q",
+        "EV-H3F"
+      ],
+      "latest_deny": "EV-B4Q",
+      "hashes_match_exact_bytes": true,
+      "all_records_inspected": [
+        "EV-V8H",
+        "EV-D9T",
+        "Q15-CHECKPOINT",
+        "EV-B4Q",
+        "EV-H3F",
+        "EV-R7M",
+        "EV-N6K",
+        "EV-C2P"
+      ],
+      "keyboard_archive": true
+    },
+    "final_viewer_controls_and_pixels": {
+      "ordinary_add_and_keyboard_drop": true,
+      "cancel_pickup_preserves_pixels": true,
+      "independent_pixel_transform_checks": [
+        "one layer",
+        "two layers",
+        "three layers",
+        "x offset",
+        "180-degree rotation",
+        "remove",
+        "re-add"
+      ],
+      "aligned_svg_path_sha256": "30d37e002f645a18c0c46a9a70cd158d345770deb3780c2cb9ce2c0ed0795ba7",
+      "misaligned_svg_path_sha256": "90c73f6ea79c50f82168ad6a94a3eef298581a81336aa3e1a8b4fdd7dc60cfbd",
+      "pin_and_layer_drafts_survive_reload": true,
+      "layer_selection_survives_reload": true,
+      "front_face_does_not_remove_pinned_layer": true,
+      "magnifier_same_actual_pixels": true,
+      "magnifier_focus_cycle": [
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        },
+        {
+          "name": "Close evidence",
+          "inDialog": true
+        }
+      ],
+      "restored_focus": "Magnify combined token pixels",
+      "reduced_motion_checked": true,
+      "reward_and_atomic_token_consumption": true
+    }
+  },
+  "screenshots": [
+    {
+      "text": "4.\nMAKE THE ARCHIVE UNREADABLE. KEEP EVERY DISK BYTE.\n\nENCRYPTED ARCHIVE\nAES-256-GCM \u00b7 key K7\n1 retained key copy \u00b7 no recovery copy\nDISK BYTES\nMUST STAY\nFORMAT IT\nOVERWRITE IT\nDESTROY K7\nRENAME IT\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "FORMAT IT",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 352.635009765625,
+            "w": 448.33502197265625,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "OVERWRITE IT",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 352.635009765625,
+            "w": 448.3349609375,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DESTROY K7",
+          "disabled": false,
+          "rect": {
+            "x": 218.05999755859375,
+            "y": 478.0950012207031,
+            "w": 448.33502197265625,
+            "h": 103.32003784179688
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "RENAME IT",
+          "disabled": false,
+          "rect": {
+            "x": 699.60498046875,
+            "y": 478.0950012207031,
+            "w": 448.3349609375,
+            "h": 103.32003784179688
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q04-key-erasure-1366"
+    },
+    {
+      "text": "4.\nMAKE THE ARCHIVE UNREADABLE. KEEP EVERY DISK BYTE.\n\nENCRYPTED ARCHIVE\nAES-256-GCM \u00b7 key K7\n1 retained key copy \u00b7 no recovery copy\nDISK BYTES\nMUST STAY\nFORMAT IT\nOVERWRITE IT\nDESTROY K7\nRENAME IT\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "FORMAT IT",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 506,
+            "w": 486,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "OVERWRITE IT",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 506,
+            "w": 486,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DESTROY K7",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 642,
+            "w": 486,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "RENAME IT",
+          "disabled": false,
+          "rect": {
+            "x": 978,
+            "y": 642,
+            "w": 486,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q04-key-erasure-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\nPROPERTIES\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 34 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect selected file properties",
+          "disabled": true,
+          "rect": {
+            "x": 535.4000244140625,
+            "y": 251.16000366210938,
+            "w": 107.010009765625,
+            "h": 36.899993896484375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-initial-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\nPROPERTIES\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 34 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect selected file properties",
+          "disabled": true,
+          "rect": {
+            "x": 800,
+            "y": 396,
+            "w": 116,
+            "h": 40
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": true,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-initial-1920"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\nPROPERTIES\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 34 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nFILE PROPERTIES\nCLOSE \u00d7\nName\npayroll-2.1.release\nType\nFile\nSize\n76 bytes\nLocation\nDEVICE 04 / Approved\nSHA-256\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect selected file properties",
+          "disabled": false,
+          "rect": {
+            "x": 535.4000244140625,
+            "y": 251.16000366210938,
+            "w": 107.010009765625,
+            "h": 36.899993896484375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 291.75,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 406.1400146484375,
+            "w": 416.9700012207031,
+            "h": 103.32000732421875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 227.28500366210938,
+            "y": 514.072509765625,
+            "w": 95.94000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 264.07501220703125,
+            "w": 208.48504638671875,
+            "h": 94.09500122070312
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 926.5400390625,
+            "y": 264.07501220703125,
+            "w": 208.4849853515625,
+            "h": 94.09500122070312
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 708.8300170898438,
+            "y": 514.072509765625,
+            "w": 105.16497802734375,
+            "h": 59.9625244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 970.8200073242188,
+            "y": 514.072509765625,
+            "w": 166.04998779296875,
+            "h": 59.9625244140625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "File SHA-256",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 494.70001220703125,
+            "w": 889.2900390625,
+            "h": 71.95501708984375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-file-properties-1366"
+    },
+    {
+      "text": "10.\nDEVICE 04 FAILS. KEEP A COPY OF THE APPROVED FILE.\n\nSOURCE \u00b7 DEVICE 04\nApproved /\nPROPERTIES\npayroll-2.1.release\nFILE \u00b7 76 bytes\npayroll-2.1.lnk\nSHORTCUT \u2192 DEVICE 04 \u00b7 34 bytes\nCOPY\nClipboard empty\nPASTE DESTINATION\nBACKUP FOLDER\nDEVICE 04\nREMOVABLE DRIVE\nDEVICE 09\nON DEVICE 04\n(empty)\nPASTE\n\u23cf EJECT 09\nFILE PROPERTIES\nCLOSE \u00d7\nName\npayroll-2.1.release\nType\nFile\nSize\n76 bytes\nLocation\nDEVICE 04 / Approved\nSHA-256\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect selected file properties",
+          "disabled": false,
+          "rect": {
+            "x": 800,
+            "y": 396,
+            "w": 116,
+            "h": 40
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select approved file",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 440,
+            "w": 452,
+            "h": 112
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select shortcut",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 564,
+            "w": 452,
+            "h": 112
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "COPY",
+          "disabled": false,
+          "rect": {
+            "x": 466,
+            "y": 681,
+            "w": 104,
+            "h": 65
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 04",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select destination device 09",
+          "disabled": false,
+          "rect": {
+            "x": 1224,
+            "y": 410,
+            "w": 226,
+            "h": 102
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "PASTE",
+          "disabled": true,
+          "rect": {
+            "x": 988,
+            "y": 681,
+            "w": 114,
+            "h": 65
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "\u23cf EJECT 09",
+          "disabled": true,
+          "rect": {
+            "x": 1272,
+            "y": 681,
+            "w": 180,
+            "h": 65
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "File SHA-256",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 660,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q10-file-properties-1920"
+    },
+    {
+      "text": "13.\nWHICH BADGE HAS DIFFERENT PIXELS?\n\nA\nB\nC\nD\nDIFFERENCE VIEWER\n\u2295\nequal pixels cancel\nA\nB\nC\nD\nAPPROVED\nA\nB\nC\nD\nLOAD APPROVED\nA\nB\nC\nD\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "LOAD APPROVED",
+          "disabled": false,
+          "rect": {
+            "x": 935.7650146484375,
+            "y": 494.70001220703125,
+            "w": 221.4000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge A",
+          "disabled": false,
+          "rect": {
+            "x": 902.5549926757812,
+            "y": 569.4224853515625,
+            "w": 57.19500732421875,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge B",
+          "disabled": false,
+          "rect": {
+            "x": 967.1300048828125,
+            "y": 569.4224853515625,
+            "w": 59.0399169921875,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge C",
+          "disabled": false,
+          "rect": {
+            "x": 1033.550048828125,
+            "y": 569.4224853515625,
+            "w": 59.0400390625,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge D",
+          "disabled": false,
+          "rect": {
+            "x": 1099.969970703125,
+            "y": 569.4224853515625,
+            "w": 57.195068359375,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q13-raw-badges-1366"
+    },
+    {
+      "text": "13.\nWHICH BADGE HAS DIFFERENT PIXELS?\n\nA\nB\nC\nD\nDIFFERENCE VIEWER\n\u2295\nequal pixels cancel\nA\nB\nC\nD\nAPPROVED\nA\nB\nC\nD\nLOAD APPROVED\nA\nB\nC\nD\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "LOAD APPROVED",
+          "disabled": false,
+          "rect": {
+            "x": 1234,
+            "y": 660,
+            "w": 240,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge A",
+          "disabled": false,
+          "rect": {
+            "x": 1198,
+            "y": 741,
+            "w": 62,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge B",
+          "disabled": false,
+          "rect": {
+            "x": 1268,
+            "y": 741,
+            "w": 64,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge C",
+          "disabled": false,
+          "rect": {
+            "x": 1340,
+            "y": 741,
+            "w": 64,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge D",
+          "disabled": false,
+          "rect": {
+            "x": 1412,
+            "y": 741,
+            "w": 62,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q13-raw-badges-1920"
+    },
+    {
+      "text": "13.\nWHICH BADGE HAS DIFFERENT PIXELS?\n\nA\nB\nC\nD\nDIFFERENCE VIEWER\n\u2295\nequal pixels cancel\nA\nB\nC\nD\nAPPROVED\nA\nB\nC\nD\nUNLOAD\nA\nB\nC\nD\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "UNLOAD",
+          "disabled": false,
+          "rect": {
+            "x": 935.7650146484375,
+            "y": 494.70001220703125,
+            "w": 221.4000244140625,
+            "h": 59.9625244140625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge A",
+          "disabled": false,
+          "rect": {
+            "x": 902.5549926757812,
+            "y": 569.4224853515625,
+            "w": 57.19500732421875,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge B",
+          "disabled": false,
+          "rect": {
+            "x": 967.1300048828125,
+            "y": 569.4224853515625,
+            "w": 59.0399169921875,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge C",
+          "disabled": false,
+          "rect": {
+            "x": 1033.550048828125,
+            "y": 569.4224853515625,
+            "w": 59.0400390625,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge D",
+          "disabled": false,
+          "rect": {
+            "x": 1099.969970703125,
+            "y": 569.4224853515625,
+            "w": 57.195068359375,
+            "h": 52.58251953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image left",
+          "disabled": false,
+          "rect": {
+            "x": 230.97500610351562,
+            "y": 562.9650268554688,
+            "w": 46.125,
+            "h": 40.5899658203125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image right",
+          "disabled": false,
+          "rect": {
+            "x": 282.635009765625,
+            "y": 562.9650268554688,
+            "w": 46.125,
+            "h": 40.5899658203125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image up",
+          "disabled": false,
+          "rect": {
+            "x": 334.29498291015625,
+            "y": 562.9650268554688,
+            "w": 44.280029296875,
+            "h": 40.5899658203125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image down",
+          "disabled": false,
+          "rect": {
+            "x": 384.1099853515625,
+            "y": 562.9650268554688,
+            "w": 44.280029296875,
+            "h": 40.5899658203125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate image",
+          "disabled": false,
+          "rect": {
+            "x": 433.9250183105469,
+            "y": 562.9650268554688,
+            "w": 44.279998779296875,
+            "h": 40.5899658203125
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q13-real-difference-1366"
+    },
+    {
+      "text": "13.\nWHICH BADGE HAS DIFFERENT PIXELS?\n\nA\nB\nC\nD\nDIFFERENCE VIEWER\n\u2295\nequal pixels cancel\nA\nB\nC\nD\nAPPROVED\nA\nB\nC\nD\nUNLOAD\nA\nB\nC\nD\n\u2190\n\u2192\n\u2191\n\u2193\n\u21bb\n0,0 \u00b7 0\u00b0\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "UNLOAD",
+          "disabled": false,
+          "rect": {
+            "x": 1234,
+            "y": 660,
+            "w": 240,
+            "h": 65
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge A",
+          "disabled": false,
+          "rect": {
+            "x": 1198,
+            "y": 741,
+            "w": 62,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge B",
+          "disabled": false,
+          "rect": {
+            "x": 1268,
+            "y": 741,
+            "w": 64,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge C",
+          "disabled": false,
+          "rect": {
+            "x": 1340,
+            "y": 741,
+            "w": 64,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Answer badge D",
+          "disabled": false,
+          "rect": {
+            "x": 1412,
+            "y": 741,
+            "w": 62,
+            "h": 57
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image left",
+          "disabled": false,
+          "rect": {
+            "x": 470,
+            "y": 734,
+            "w": 50,
+            "h": 44
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image right",
+          "disabled": false,
+          "rect": {
+            "x": 526,
+            "y": 734,
+            "w": 50,
+            "h": 44
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image up",
+          "disabled": false,
+          "rect": {
+            "x": 582,
+            "y": 734,
+            "w": 48,
+            "h": 44
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move image down",
+          "disabled": false,
+          "rect": {
+            "x": 636,
+            "y": 734,
+            "w": 48,
+            "h": 44
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate image",
+          "disabled": false,
+          "rect": {
+            "x": 690,
+            "y": 734,
+            "w": 48,
+            "h": 44
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q13-real-difference-1920"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n4 + 2 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 968.9750366210938,
+            "y": 336.0299987792969,
+            "w": 153.13494873046875,
+            "h": 70.11001586914062
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 703.2949829101562,
+            "y": 533.4450073242188,
+            "w": 442.79998779296875,
+            "h": 79.33502197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-reference-1366"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n4 + 2 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 1270,
+            "y": 488,
+            "w": 166,
+            "h": 76
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 982,
+            "y": 702,
+            "w": 480,
+            "h": 86
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-reference-1920"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 968.9750366210938,
+            "y": 336.0299987792969,
+            "w": 153.13494873046875,
+            "h": 70.11001586914062
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 703.2949829101562,
+            "y": 533.4450073242188,
+            "w": 442.79998779296875,
+            "h": 79.33502197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-collision-1366"
+    },
+    {
+      "text": "16.\nCHANGE THE COUNT. KEEP THE CHECKSUM.\n\nLEGACY FILE CHECK\nChecksum = first digit + second digit\nORIGINAL FILE\nCOUNT\n42\nStored checksum: 6\n4 + 2 = 6\nREPLACEMENT FILE\nCOUNT\nCalculated checksum: 6\n0 + 6 = 6\nREPLACE FILE\nThe stored checksum stays 6.\nOnly the COUNT field is editable.\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Revised two-digit count",
+          "disabled": false,
+          "rect": {
+            "x": 1270,
+            "y": 488,
+            "w": 166,
+            "h": 76
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "REPLACE FILE",
+          "disabled": false,
+          "rect": {
+            "x": 982,
+            "y": 702,
+            "w": 480,
+            "h": 86
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q16-collision-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 194.8874969482422,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 288.9825134277344,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 383.0775146484375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 524.219970703125,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 548.2050170898438,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-no-receipt-1366"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 335,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 437,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 539,
+            "w": 92,
+            "h": 52
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 692,
+            "w": 778,
+            "h": 66
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 1252,
+            "y": 718,
+            "w": 216,
+            "h": 84
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-no-receipt-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nrel-k7m2\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 194.8874969482422,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 288.9825134277344,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 712.52001953125,
+            "y": 383.0775146484375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 524.219970703125,
+            "w": 717.7049560546875,
+            "h": 60.885009765625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 952.3699951171875,
+            "y": 548.2050170898438,
+            "w": 199.260009765625,
+            "h": 77.489990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-release-details-1366"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nrel-k7m2\nCLOSE \u00d7\nSHA-256\nPAYROLL RELEASE\nversion=2.1\nbuild=410\nreview=APPROVED\nrounding=nearest-even\n\nLIVES: 3\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 335,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 437,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 992,
+            "y": 539,
+            "w": 92,
+            "h": 52
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 692,
+            "w": 778,
+            "h": 66
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 1252,
+            "y": 718,
+            "w": 216,
+            "h": 84
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Artifact digest",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 450,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q17-release-details-1920"
+    },
+    {
+      "text": "17.\nDEPLOY THE RELEASE YOU COPIED IN QUESTION 10.\n\n2.1\nrel-v3p9\nDETAILS\n2.1\nrel-k7m2\nDETAILS\n2.1\nrel-c8r4\nDETAILS\nTHE APPROVED FILE.\nNOW.\nBAD DEPLOY: \u22122 LIVES\nDEPLOY REFERENCE\nLATEST \u2192 rel-v3p9\nDEPLOY \u2192\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302\nNOPE. TWO LIVES. The goose is furious.\n\u00d7",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Inspect rel-v3p9",
+          "disabled": false,
+          "rect": {
+            "x": 717.7281494140625,
+            "y": 194.8874969482422,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-k7m2",
+          "disabled": false,
+          "rect": {
+            "x": 717.7281494140625,
+            "y": 288.9825134277344,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect rel-c8r4",
+          "disabled": false,
+          "rect": {
+            "x": 717.7281494140625,
+            "y": 383.0775146484375,
+            "w": 84.8699951171875,
+            "h": 47.970001220703125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Deployment reference",
+          "disabled": false,
+          "rect": {
+            "x": 221.42315673828125,
+            "y": 524.219970703125,
+            "w": 717.7050170898438,
+            "h": 60.885009765625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "DEPLOY \u2192",
+          "disabled": false,
+          "rect": {
+            "x": 957.5781860351562,
+            "y": 548.2050170898438,
+            "w": 199.25994873046875,
+            "h": 77.489990234375
+          },
+          "covered": true,
+          "outside": false
+        }
+      ],
+      "name": "q17-wrong-deployment"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page1-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page1-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 300.9750061035156,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 415.3650207519531,
+            "w": 889.2900390625,
+            "h": 71.95498657226562
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-target-full-details-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n1\u20134 / 8\n\u2192\nEV-V8H\nALLOW\nTHIS bc2100ad\nPREV db245334\nDETAILS\nARCHIVE\nEV-D9T\nDENY\nTHIS 9b7d5a5f\nPREV 3bc6a390\nDETAILS\nARCHIVE\nQ15 CHECKPOINT\nDENY\nTHIS c8f347ad\nPREV \u2014\nDETAILS\nARCHIVE\nEV-B4Q\nDENY\nTHIS 249be457\nPREV 9b7d5a5f\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLOG EV-B4Q\nCLOSE \u00d7\nRecord fingerprint\nPrevious record\nFIREWALL EVENT EV-B4Q\ntimestamp=09:41:12\nsubject=workstation-12\nprotocol=TCP\nport=443\naction=DENY\npreviousHash=9b7d5a5f155b4aeed9127d4319d869a1a05556affa639e9c57b718b0b88dfa84\nnote=request denied\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-V8H",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-D9T",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log Q15-CHECKPOINT",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-B4Q",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Record fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 450,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous fingerprint",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 574,
+            "w": 964,
+            "h": 78
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-target-full-details-1920"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n5\u20138 / 8\n\u2192\nEV-H3F\nALLOW\nTHIS 7e9b6d1d\nPREV 249be457\nDETAILS\nARCHIVE\nEV-R7M\nDENY\nTHIS 24b4bc41\nPREV c8f347ad\nDETAILS\nARCHIVE\nEV-N6K\nDENY\nTHIS 3bc6a390\nPREV bc2100ad\nDETAILS\nARCHIVE\nEV-C2P\nDENY\nTHIS db245334\nPREV 24b4bc41\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1028.649169921875,
+            "y": 175.51499938964844,
+            "w": 117.44580078125,
+            "h": 44.279998779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": false,
+          "rect": {
+            "x": 922.8500366210938,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1098.125,
+            "y": 227.1750030517578,
+            "w": 46.125,
+            "h": 38.74497985839844
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 374.7749938964844,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 374.7749938964844,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 374.7749938964844,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 374.7749938964844,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 238.35499572753906,
+            "y": 524.219970703125,
+            "w": 84.87001037597656,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 570.4550170898438,
+            "y": 524.219970703125,
+            "w": 88.55999755859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 706.9849853515625,
+            "y": 524.219970703125,
+            "w": 84.8699951171875,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 1039.0849609375,
+            "y": 524.219970703125,
+            "w": 88.56005859375,
+            "h": 33.21002197265625
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page2-1366"
+    },
+    {
+      "text": "19.\nSAVE THE MOST RECENT DENIAL. KEEP LOGGING.\n\nSECURITY EVENTS\n\u25cf LOGGING\n09:41:12 \u00b7 CLOCK FROZEN\n\u2190\n5\u20138 / 8\n\u2192\nEV-H3F\nALLOW\nTHIS 7e9b6d1d\nPREV 249be457\nDETAILS\nARCHIVE\nEV-R7M\nDENY\nTHIS 24b4bc41\nPREV c8f347ad\nDETAILS\nARCHIVE\nEV-N6K\nDENY\nTHIS 3bc6a390\nPREV bc2100ad\nDETAILS\nARCHIVE\nEV-C2P\nDENY\nTHIS db245334\nPREV 24b4bc41\nDETAILS\nARCHIVE\n\nPREV is the preceding record\u2019s fingerprint. Every clock reading is identical.\n\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Stop security logging",
+          "disabled": false,
+          "rect": {
+            "x": 1334.6875,
+            "y": 314,
+            "w": 127.3125,
+            "h": 48
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Previous journal page",
+          "disabled": false,
+          "rect": {
+            "x": 1220,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Next journal page",
+          "disabled": true,
+          "rect": {
+            "x": 1410,
+            "y": 370,
+            "w": 50,
+            "h": 42
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-H3F",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 530,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-R7M",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 530,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 478,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-N6K",
+          "disabled": false,
+          "rect": {
+            "x": 838,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Inspect log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 986,
+            "y": 692,
+            "w": 92,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Archive log EV-C2P",
+          "disabled": false,
+          "rect": {
+            "x": 1346,
+            "y": 692,
+            "w": 96,
+            "h": 36
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q19-page2-1920"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nTOKEN 2\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nXOR VIEWER \u2295\n0 INPUTS\nMAGNIFY \u2315\nNO INPUT LAYERS\n\u25a1 1 \u00b7 EMPTY\n\u25a1 2 \u00b7 EMPTY\n\u25a1 3 \u00b7 EMPTY\n\nBlack toggles a pixel; matching black pixels cancel.\n\nNO LAYER SELECTED\nX: \u2014 \u00b7 Y: \u2014 \u00b7 ANGLE: \u2014\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Show token 1 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 1 layer",
+          "disabled": true,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 247.47000122070312,
+            "w": 191.88003540039062,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 2 layer",
+          "disabled": true,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 276.989990234375,
+            "w": 191.88003540039062,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 3 layer",
+          "disabled": true,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 742.0400390625,
+            "y": 329.572509765625,
+            "w": 101.4749755859375,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": true,
+          "rect": {
+            "x": 219.90499877929688,
+            "y": 454.1100158691406,
+            "w": 204.16079711914062,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": true,
+          "rect": {
+            "x": 429.60076904296875,
+            "y": 454.1100158691406,
+            "w": 204.18963623046875,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": true,
+          "rect": {
+            "x": 639.325439453125,
+            "y": 454.1100158691406,
+            "w": 204.1607666015625,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 208.83499145507812,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 337.0625,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 465.2900085449219,
+            "y": 564.8099975585938,
+            "w": 122.69253540039062,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 593.5175170898438,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": true,
+          "rect": {
+            "x": 721.7449951171875,
+            "y": 564.8099975585938,
+            "w": 132.84002685546875,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 904.4000244140625,
+            "y": 430.125,
+            "w": 228.7799072265625,
+            "h": 68.2650146484375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 945.9125366210938,
+            "y": 513.1500244140625,
+            "w": 145.75494384765625,
+            "h": 63.9984130859375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-empty-viewer-1366"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nTOKEN 2\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n+ ADD LAYER\nXOR VIEWER \u2295\n0 INPUTS\nMAGNIFY \u2315\nNO INPUT LAYERS\n\u25a1 1 \u00b7 EMPTY\n\u25a1 2 \u00b7 EMPTY\n\u25a1 3 \u00b7 EMPTY\n\nBlack toggles a pixel; matching black pixels cancel.\n\nNO LAYER SELECTED\nX: \u2014 \u00b7 Y: \u2014 \u00b7 ANGLE: \u2014\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Show token 1 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 1 layer",
+          "disabled": true,
+          "rect": {
+            "x": 454,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 2 layer",
+          "disabled": true,
+          "rect": {
+            "x": 692,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Add token 3 layer",
+          "disabled": true,
+          "rect": {
+            "x": 930,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 1024,
+            "y": 481,
+            "w": 110,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": true,
+          "rect": {
+            "x": 458,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": true,
+          "rect": {
+            "x": 685.3125,
+            "y": 616,
+            "w": 221.34375,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": true,
+          "rect": {
+            "x": 912.65625,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 446,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 585,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 724,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": true,
+          "rect": {
+            "x": 863,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": true,
+          "rect": {
+            "x": 1002,
+            "y": 736,
+            "w": 144,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 1200,
+            "y": 590,
+            "w": 248,
+            "h": 74
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 1245,
+            "y": 680,
+            "w": 158,
+            "h": 69.375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-empty-viewer-1920"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 203.19000244140625,
+            "w": 191.88003540039062,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 247.47000122070312,
+            "w": 191.88003540039062,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 276.989990234375,
+            "w": 191.88003540039062,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 3 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 front",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 742.0400390625,
+            "y": 329.572509765625,
+            "w": 101.4749755859375,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 219.90499877929688,
+            "y": 454.1100158691406,
+            "w": 204.16079711914062,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 429.60076904296875,
+            "y": 454.1100158691406,
+            "w": 204.18963623046875,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 639.325439453125,
+            "y": 454.1100158691406,
+            "w": 204.1607666015625,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 208.83499145507812,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 337.0625,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 465.2900085449219,
+            "y": 564.8099975585938,
+            "w": 122.69253540039062,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 593.5175170898438,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 721.7449951171875,
+            "y": 564.8099975585938,
+            "w": 132.84002685546875,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 904.4000244140625,
+            "y": 430.125,
+            "w": 228.7799072265625,
+            "h": 68.2650146484375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 945.9125366210938,
+            "y": 513.1500244140625,
+            "w": 145.75494384765625,
+            "h": 63.9984130859375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-aligned-three-1366"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 3 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 front",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 1024,
+            "y": 481,
+            "w": 110,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 458,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 685.3125,
+            "y": 616,
+            "w": 221.34375,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 912.65625,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 446,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 585,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 724,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 863,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 1002,
+            "y": 736,
+            "w": 144,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 1200,
+            "y": 590,
+            "w": 248,
+            "h": 74
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 1245,
+            "y": 680,
+            "w": 158,
+            "h": 69.375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-aligned-three-1920"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 1 \u00b7 Y: 0 \u00b7 ANGLE: 180\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 203.19000244140625,
+            "w": 191.88003540039062,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 247.47000122070312,
+            "w": 191.88003540039062,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 276.989990234375,
+            "w": 191.88003540039062,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 3 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 front",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 742.0400390625,
+            "y": 329.572509765625,
+            "w": 101.4749755859375,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 219.90499877929688,
+            "y": 454.1100158691406,
+            "w": 204.16079711914062,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 429.60076904296875,
+            "y": 454.1100158691406,
+            "w": 204.18963623046875,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 639.325439453125,
+            "y": 454.1100158691406,
+            "w": 204.1607666015625,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 208.83499145507812,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 337.0625,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 465.2900085449219,
+            "y": 564.8099975585938,
+            "w": 122.69253540039062,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 593.5175170898438,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 721.7449951171875,
+            "y": 564.8099975585938,
+            "w": 132.84002685546875,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 904.4000244140625,
+            "y": 430.125,
+            "w": 228.7799072265625,
+            "h": 68.2650146484375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 945.9125366210938,
+            "y": 513.1500244140625,
+            "w": 145.75494384765625,
+            "h": 63.9984130859375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-misaligned-rotated-1366"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 1 \u00b7 Y: 0 \u00b7 ANGLE: 180\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 3 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 front",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 1024,
+            "y": 481,
+            "w": 110,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 458,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 685.3125,
+            "y": 616,
+            "w": 221.34375,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 912.65625,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 446,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 585,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 724,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 863,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 1002,
+            "y": 736,
+            "w": 144,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 1200,
+            "y": 590,
+            "w": 248,
+            "h": 74
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 1245,
+            "y": 680,
+            "w": 158,
+            "h": 69.375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-misaligned-rotated-1920"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nMagnified difference viewer\nCLOSE \u00d7\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 203.19000244140625,
+            "w": 191.88003540039062,
+            "h": 42.43499755859375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 247.47000122070312,
+            "w": 191.88003540039062,
+            "h": 27.67498779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 276.989990234375,
+            "w": 191.88003540039062,
+            "h": 31.365020751953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 742.0400390625,
+            "y": 329.572509765625,
+            "w": 101.4749755859375,
+            "h": 27.67498779296875
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 219.90499877929688,
+            "y": 454.1100158691406,
+            "w": 204.16079711914062,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 429.60076904296875,
+            "y": 454.1100158691406,
+            "w": 204.18963623046875,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 639.325439453125,
+            "y": 454.1100158691406,
+            "w": 204.1607666015625,
+            "h": 31.364990234375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 208.83499145507812,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 337.0625,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 465.2900085449219,
+            "y": 564.8099975585938,
+            "w": 122.69253540039062,
+            "h": 59.0400390625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 593.5175170898438,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 721.7449951171875,
+            "y": 564.8099975585938,
+            "w": 132.84002685546875,
+            "h": 59.0400390625
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1016.9450073242188,
+            "y": 197.65499877929688,
+            "w": 116.23492431640625,
+            "h": 53.5050048828125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 904.4000244140625,
+            "y": 430.125,
+            "w": 228.7799072265625,
+            "h": 68.2650146484375
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 945.9125366210938,
+            "y": 513.1500244140625,
+            "w": 145.75494384765625,
+            "h": 63.9984130859375
+          },
+          "covered": true,
+          "outside": false
+        }
+      ],
+      "name": "q20-magnified-1366"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nMagnified difference viewer\nCLOSE \u00d7\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 1024,
+            "y": 481,
+            "w": 110,
+            "h": 30
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 458,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 685.3125,
+            "y": 616,
+            "w": 221.34375,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 912.65625,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 446,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 585,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 724,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 863,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 1002,
+            "y": 736,
+            "w": 144,
+            "h": 64
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "Close evidence",
+          "disabled": false,
+          "rect": {
+            "x": 1322,
+            "y": 338,
+            "w": 126,
+            "h": 58
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 1200,
+            "y": 590,
+            "w": 248,
+            "h": 74
+          },
+          "covered": true,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 1245,
+            "y": 680,
+            "w": 158,
+            "h": 69.375
+          },
+          "covered": true,
+          "outside": false
+        }
+      ],
+      "name": "q20-magnified-1920"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 203.19000244140625,
+            "w": 191.8800048828125,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 216.21499633789062,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 203.19000244140625,
+            "w": 191.88003540039062,
+            "h": 42.43499755859375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 247.47000122070312,
+            "w": 191.88003540039062,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 435.7699890136719,
+            "y": 276.989990234375,
+            "w": 191.88003540039062,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 247.47000122070312,
+            "w": 191.8800048828125,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 655.3250122070312,
+            "y": 276.989990234375,
+            "w": 191.8800048828125,
+            "h": 31.365020751953125
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 742.0400390625,
+            "y": 329.572509765625,
+            "w": 101.4749755859375,
+            "h": 27.67498779296875
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 219.90499877929688,
+            "y": 454.1100158691406,
+            "w": 204.16079711914062,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 429.60076904296875,
+            "y": 454.1100158691406,
+            "w": 204.18963623046875,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 639.325439453125,
+            "y": 454.1100158691406,
+            "w": 204.1607666015625,
+            "h": 31.364990234375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 208.83499145507812,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 337.0625,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 465.2900085449219,
+            "y": 564.8099975585938,
+            "w": 122.69253540039062,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 593.5175170898438,
+            "y": 564.8099975585938,
+            "w": 122.6925048828125,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 721.7449951171875,
+            "y": 564.8099975585938,
+            "w": 132.84002685546875,
+            "h": 59.0400390625
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 904.4000244140625,
+            "y": 430.125,
+            "w": 228.7799072265625,
+            "h": 68.2650146484375
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 945.9125366210938,
+            "y": 513.1500244140625,
+            "w": 145.75494384765625,
+            "h": 63.9984130859375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-reduced-motion-1366"
+    },
+    {
+      "text": "20.\nUNLOCK YOUR CERTIFICATE.\n\nTOKEN 1\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 2\nREVERSE\nSHOW FRONT \u21b6\n\u2212 REMOVE LAYER\nTOKEN 3\nFRONT\n\u279c\nSHOW REVERSE \u21b6\n\u2212 REMOVE LAYER\nXOR VIEWER \u2295\n3 INPUTS\nMAGNIFY \u2315\n\u25a3 1 \u00b7 PINNED\n\u25a3 2 \u00b7 PINNED\n\u25a3 3 \u00b7 SELECTED\n\nBlack toggles a pixel; matching black pixels cancel.\n\nTOKEN 3 SELECTED\nX: 0 \u00b7 Y: 0 \u00b7 ANGLE: 0\u00b0\nMOVE LEFT\n\u2190 1 px\nMOVE RIGHT\n1 px \u2192\nMOVE UP\n\u2191 1 px\nMOVE DOWN\n\u2193 1 px\nROTATE\n\u21bb 180\u00b0\nPIN\nUNLOCK\nLIVES: 1\nSKIPS\n\u279c\n\u279c\n\u279c\n\u25a4\nNOTES\n\u266b\n\u2302",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [
+        {
+          "name": "Pick up token 1 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 1 front",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 454,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Pick up token 2 reverse image",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 344,
+            "w": 208,
+            "h": 46
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 2 front",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 692,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Show token 3 reverse",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 392,
+            "w": 208,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Remove token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 930,
+            "y": 424,
+            "w": 208,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Magnify combined token pixels",
+          "disabled": false,
+          "rect": {
+            "x": 1024,
+            "y": 481,
+            "w": 110,
+            "h": 30
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 1 layer",
+          "disabled": false,
+          "rect": {
+            "x": 458,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 2 layer",
+          "disabled": false,
+          "rect": {
+            "x": 685.3125,
+            "y": 616,
+            "w": 221.34375,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Select token 3 layer",
+          "disabled": false,
+          "rect": {
+            "x": 912.65625,
+            "y": 616,
+            "w": 221.3125,
+            "h": 34
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image left by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 446,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image right by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 585,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image up by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 724,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Move selected image down by 1 pixel",
+          "disabled": false,
+          "rect": {
+            "x": 863,
+            "y": 736,
+            "w": 133,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Rotate selected image by 180 degrees",
+          "disabled": false,
+          "rect": {
+            "x": 1002,
+            "y": 736,
+            "w": 144,
+            "h": 64
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "Certificate PIN",
+          "disabled": false,
+          "rect": {
+            "x": 1200,
+            "y": 590,
+            "w": 248,
+            "h": 74
+          },
+          "covered": false,
+          "outside": false
+        },
+        {
+          "name": "UNLOCK",
+          "disabled": false,
+          "rect": {
+            "x": 1245,
+            "y": 680,
+            "w": 158,
+            "h": 69.375
+          },
+          "covered": false,
+          "outside": false
+        }
+      ],
+      "name": "q20-reduced-motion-1920"
+    },
+    {
+      "text": "\u2726\n\u2726\n\u2726\nCERTIFIED!\nPROVISIONALLY EMPLOYABLE\n\nSY0-NOPE \u00b7 All twenty questions passed.\n\nYou questioned the exam.\nThe exam has conceded.\nRCC{certified_to_question_everything}\nCOPY FLAGBack to menu",
+      "viewport": [
+        1366,
+        768
+      ],
+      "scroll": [
+        1366,
+        768
+      ],
+      "controls": [],
+      "name": "q20-reward-1366"
+    },
+    {
+      "text": "\u2726\n\u2726\n\u2726\nCERTIFIED!\nPROVISIONALLY EMPLOYABLE\n\nSY0-NOPE \u00b7 All twenty questions passed.\n\nYou questioned the exam.\nThe exam has conceded.\nRCC{certified_to_question_everything}\nCOPY FLAGBack to menu",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        1920,
+        1080
+      ],
+      "controls": [],
+      "name": "q20-reward-1920"
+    }
+  ],
+  "errors": [],
+  "questionVersion": 4,
+  "q10_observed_hash": "b4676b370aa7f5b836f0948ec8463286db3d0441c5a59bb89807782ba2a9834f",
+  "status": "focused checks completed; individual failures retained"
+}

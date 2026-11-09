@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+  Lucky(TM) Channel v2.004  ::  hand-coded in Notepad, best viewed in IE6 @ 1024x768
+  TODO(intern): we moved session tokens to RS256 this spring, but backstage
+  still has the old HS compat path turned on from the 2003 build. clean up l8r!!
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=5">
+<title>{% block title %}Lucky Channel{% endblock %} :: Konata's Otaku Densetsu HQ</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="webring">
+  &laquo; <a href="#">ANIME WEBRING</a> &laquo;
+  <marquee scrollamount="4">&#9733; welcome to Lucky Channel ~ now with 100% more Konata ~ sign the guestbook!! ~ don't forget to vote in the Haruhi poll ~ &#9733; Tanabata is coming &#9733; this site is under eternal construction &#9733;</marquee>
+  &raquo; <a href="#">NEXT SITE</a> &raquo;
+</div>
+
+<table id="frame" width="760" align="center" cellpadding="0" cellspacing="0">
+<tr><td id="banner">
+  <img class="bannerstar left" src="{{ url_for('static', filename='img/star_sparkle.gif') }}" alt="*">
+  <img class="bannerstar right" src="{{ url_for('static', filename='img/star_sparkle.gif') }}" alt="*">
+  <h1>&#9733; Lucky&#9733;Channel &#9733;</h1>
+  <div class="tag">~ Konata Izumi's Otaku Densetsu Headquarters ~ est. 2004 ~</div>
+</td></tr>
+<tr>
+  <td>
+    <table width="100%" cellpadding="0" cellspacing="0"><tr>
+    <td id="nav" valign="top" width="150">
+      <div class="navbox">
+        <div class="navhead">&#9733; NAVI &#9733;</div>
+        <a href="{{ url_for('index') }}">&#9654; Home</a>
+        <a href="{{ url_for('guestbook') }}">&#9654; Guestbook</a>
+        <a href="{{ url_for('backstage') }}">&#9654; Backstage (staff)</a>
+        {% if user %}
+          <a href="{{ url_for('logout') }}">&#9654; Logout</a>
+        {% else %}
+          <a href="{{ url_for('login') }}">&#9654; Login</a>
+          <a href="{{ url_for('register') }}">&#9654; Register</a>
+        {% endif %}
+      </div>
+      <div class="navbox">
+        <div class="navhead">&#9733; FAVE CHARAS &#9733;</div>
+        <div class="chara"><img src="{{ chara_imgs.konata }}" alt="">Konata Izumi</div>
+        <div class="chara"><img src="{{ chara_imgs.kagami }}" alt="">Kagami Hiiragi</div>
+        <div class="chara"><img src="{{ chara_imgs.tsukasa }}" alt="">Tsukasa Hiiragi</div>
+        <div class="chara"><img src="{{ chara_imgs.miyuki }}" alt="">Miyuki Takara</div>
+      </div>
+      <div class="navbox">
+        <div class="navhead">&#9733; VISITORS &#9733;</div>
+        <div class="counter">{{ '%07d' % (visits if visits is defined else 1337) }}</div>
+        <div class="smol">you are visitor #{{ visits if visits is defined else '???' }}</div>
+      </div>
+      <div class="buttons">
+        <span class="88x31">BEST&nbsp;VIEWED<br>IN&nbsp;IE6</span>
+        <span class="88x31">GET&nbsp;FLASH<br>PLAYER&reg;</span>
+        <span class="88x31">HTML&nbsp;4.01<br>VALID!</span>
+        <span class="88x31">NO&nbsp;STEP<br>ON&nbsp;SNEK</span>
+      </div>
+    </td>
+    <td id="content" valign="top">
+      {% block content %}{% endblock %}
+    </td>
+    </tr></table>
+  </td>
+</tr>
+<tr><td id="footer">
+  <div style="text-align:center;padding:4px 0">
+    <img src="{{ url_for('static', filename='img/construction.gif') }}" alt="under construction">
+  </div>
+  &copy; 2004-2009 Lucky Channel Webmaster (konata@luckychannel.jp.invalid) &middot;
+  sign my guestbook! &middot; <span class="blink">UNDER CONSTRUCTION</span> &middot;
+  this page has been lucky since forever
+</td></tr>
+</table>
+</body>
+</html>

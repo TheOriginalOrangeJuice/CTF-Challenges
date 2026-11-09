@@ -1,0 +1,38 @@
+# Question version 2 integration contract
+
+Organizer-only. This contract names the server operations; answer predicates stay in the server.
+
+Four API routes remain: `POST /api/session`, `GET /api/state`, `POST /api/action`, `GET /api/reward`. Health remains `/health`.
+
+Every action body has `requestId`, `attempt`, `revision`, `q`, and `kind`; optional `questionVersion` must equal `2`. `kind:'play'` additionally has `op` and `args` (a plain object, default `{}`). Other kinds: `notes` with `notes:string`, `restart`, `skip`. The client never chooses whether an action is graded. Exact replay of a requestId returns the stored response. A different payload using an existing requestId receives 409. Stale attempt, revision, or question receives 409 plus current state. Old `draft`, `experiment`, and `submit` actions are unsupported.
+
+State: `{attempt,revision,questionVersion:2,q,lives,skips,status,draft,facts,notebook,notes,earned,tokens,title,subtitle}`. `status` is `playing|gameover|won`. `notebook` contains acquired artifacts only: `{id,q,title,text,bytes?,sha256?,bitmap?}`. `tokens` contains earned current-attempt skips: `{id,earnedAt,spent,share:{width,height,pixels}}`; each pixels value is a row-major string of `0`/`1`. Free actions return `event:'saved'`; commits produce `correct|wrong|gameover|won`. Other events: `restart|skip`. Optional `message` is ordinary feedback. Notes and acquired notebook artifacts survive restart. No automatic solutions, solved list, future facts, scouting flag, or early finale requirement appears in public state.
+
+All operations below use `kind:'play'`. Unlisted fields and invalid enums are rejected without spending a life. Common `answer {id:string}` commits the advertised ordinary answer choices, which are generally distractors (Q1 and Q13 have explicit answer operations). Do not display returned `correct`/validity fields on inspection: the API does not return any.
+
+| Q | Initial draft / facts | Operations and arguments |
+|---|---|---|
+|1|draft `{plusAt:null}`, facts `numbers:[20,21,23,25]`|`place-plus {index:null|0..3}` free; `answer {index:0..3}` commit. Render displayed number plus one at `plusAt`.|
+|2|`{inspected:false,installed:'2.1',loaded:'2.0',running:true,restarts:0}`|`inspect {}` free; `restart-service {}` commit. Facts expose service name, version labels.|
+|3|`{selected:[]}`; facts `factors:[{id,label}]`|`select-factor {id:'password'|'pin'|'passphrase'|'question'|'key'}` toggles first selection freely; adding second distinct choice commits. `clear {}` free.|
+|4|`{keyLocation:'header',keyCopies:1,diskPresent:true,shredded:false,archive:{algorithm,iv,ciphertext,tag}}`|`move-key {to:'header'|'shredder'}` free; `shred {}` commit. The actual AES-256-GCM archive is public; private modeled key records are persisted server-side and omitted from public state. No real external files.|
+|5|`{internInAdmin:true,direct:[]}`; facts admin permissions|`move-intern {inside:boolean}` free; `grant {permission:'READ'|'PRINT'|'ADMIN'|'DENY'}` commit.|
+|6|`{gate:'password',active:false}`; facts routes|`move-gate {to:'password'|'pin'|'backup'|'junction'|'off'}` free; `activate {}` commit.|
+|7|`{power:true,ethernet:true,wifi:true,usb:true}`|`toggle {target:'power'|'ethernet'|'wifi'|'usb',on:boolean}`; turning off the last network connection commits; other manipulation free.|
+|8|`{folded:false,envelope:null}`; facts memo and Bob/Alice public keys|`fold {folded:boolean}` free; `encrypt {recipient:'Bob'|'Alice'}` free produces actual ciphertext; `send {}` commit. Envelope fields are `recipient,algorithm,wrappedKey,iv,ciphertext,tag`. The key encapsulation uses fixed X25519 public keys, HKDF-SHA256 and AES-256-GCM. `wrappedKey` is the ephemeral public key contribution, not private material.|
+|9|`{overlay:true,employeeId:'EMP-4107',comment:'Employee EMP-4107 requested this adjustment.',title:'Q4 Budget',budget:'48000'}`|`overlay {visible:boolean}` free; `edit {field:'employeeId'|'comment'|'title'|'budget',value:string}` free; `publish {}` commit.|
+|10|`{device:'04',copied:null,ejected:false}`; facts folders and releases with real bytes/digests|`select-device {id:'04'|'09'}` free; `copy {folder:'approved'|'draft'|'archive'|'shortcut',mode:'bytes'|'shortcut'}` free; `eject {}` commit. Correct result acquires `approved-release` notebook artifact.|
+|11|`{outer:false,inner:false,hatch:true,footerOpen:false,candidate:'outside',visitor:'outside'}`; facts candidate `C-701`|`footer {open:boolean}`, `outer {open:boolean}`, `hatch {open:boolean}`, `move-person {person:'candidate'|'visitor',to:'outside'|'vestibule'}` free (obeys door movement); `open-inner {}` commit.|
+|12|`{selected:[],revoked:[]}`; facts sessions IDs `desk,phone,tablet,remote,header`|`select-session {id,selected:boolean}` free; `revoke {}` commit. Fifth session is rendered in HUD.|
+|13|`{selected:null}`; facts badges `[{id,approved:{width,height,pixels},current:{width,height,pixels}}]`|XOR/rotate/translate actual pixels locally, no server oracle. `answer {id:'A'|'B'|'C'|'D'}` commit.|
+|14|`{recording:true,tape:'demo-user: ********\\n',inputIndex:0}`|`type-demo {}` free appends fixed fictional samples if recording; `pull-tab {}` commit.|
+|15|`{order:['header','intern','staff443','any','deny']}`; facts rules and ordinary fixed traffic|`reorder {order:string[5]}` free, exact permutation; `apply {}` commit. Passing acquires `denial-tape` containing the actual first-match denied event.|
+|16|`{side:'front',loginEnabled:true,debugEnabled:true}`|`flip {side:'front'|'back'}` free; `disable-debug {}` commit; `set-login {enabled:boolean}` free. Debug is fictional diagram state only.|
+|17|`{binding:'LATEST',deployed:null}`; facts releases plus current mutable alias|`bind {id:'LATEST'|'release-410'|'release-411'|'release-412'}` free; `deploy {}` commit compares bytes with approval evidence.|
+|18|`{revocations:[],certificatePresent:true,published:[],issuedRecords:['CT-2048']}`; facts issuer, public verification key, issued certificate and serial|`add-revocation {serial:string}` free; `remove-revocation {serial:string}` free; `publish {}` commit creates `publication:{issuer,sequence,revoked,algorithm,signature}` signed by the actual modeled issuer; `shred {}` wrong commit.|
+|19|`{logging:true,tape:string,copied:null,preserved:null}` from actual acquired Q15 event; empty if none was acquired|`tear-copy {}` free copies actual tape; `preserve {}` commit envelopes copied bytes; `pull-tab {}` wrong commit stops required logging; `resume-recording {}` free resumes it so a wrong stop can be recovered.|
+|20|`{pin:''}`; facts viewer instructions and final slot labels|`unlock {pin:string}` commit. Requires all 19 solves and three unspent tokens, then atomically spends them. Wrong PIN/eligibility costs one life. No transform history is required.|
+
+Final viewer: use earned token share bitmaps directly. XOR transformed row-major pixels at user-controlled position and quarter-turn rotation; never show a prepared image on matching positions. All three untransformed share bitmaps have the same dimensions. They XOR to the PIN image. The displayed token positions may begin apart/rotated, but the bitmap values themselves are unchanged. Token image downloads can use PBM (`P1`) or PNG created from these bits. Public state never contains plaintext PIN or private keys.
+
+Migration: pre-v2 sessions start a fresh v2 attempt and preserve personal `notes` only; all old request dedupe rows are cleared. Current v2 notebook artifacts survive ordinary restart. A won certificate remains recoverable through `/api/reward` even after a subsequent restart.

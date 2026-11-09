@@ -1,0 +1,21 @@
+{
+  "execution_boundary": "Condev only",
+  "stage_helper": "C:/Users/fbhimani/.codex/skills/condev-development/scripts/stage_tree.ps1",
+  "source": "C:/Users/fbhimani/Documents/VS Code Projects/Rowdy Con 2026/CTF Challenges/The Impossible Security+ Quiz",
+  "host_stage": "C:/Users/Public/Docker/iq-v2-quality-inspector01/The Impossible Security+ Quiz",
+  "source_files": 540,
+  "staged_files": 540,
+  "host_hash_differences": 0,
+  "robocopy_exit_code": 1,
+  "transfer": "Complete verified tar archive transferred with docker cp into a new Condev directory; no shared-mount access.",
+  "condev_stage": "/tmp/iq-v2-quality-inspector01/The Impossible Security+ Quiz",
+  "condev_verified_files": 540,
+  "condev_hash_differences": 0,
+  "live_tree": "/tmp/iq-v2-stage08/The Impossible Security+ Quiz",
+  "live_application_files_compared": 44,
+  "live_application_hash_differences": 0,
+  "evidence_source": "/tmp/iq-v2-quality-file-details08",
+  "service_ownership": "Root-owned existing preview; reviewer made no service mutations.",
+  "tested_sources_match_current_host": true,
+  "permission_rejections": 0
+}

@@ -1,0 +1,34 @@
+{
+  "title": "The Impossible Security+ Quiz",
+  "sections": [
+    "Description",
+    "Files",
+    "Hint(s)",
+    "Walkthrough",
+    "Flag"
+  ],
+  "images": [
+    "screenshots/v5/00-title.png",
+    "screenshots/v5/01-start.png",
+    "screenshots/v5/04-expanded.png",
+    "screenshots/v5/08-routed.png",
+    "screenshots/v5/10-properties.png",
+    "screenshots/v5/11-prepared.png",
+    "screenshots/v5/12-prepared.png",
+    "screenshots/v5/13-difference.png",
+    "screenshots/v5/14-rerouted.png",
+    "screenshots/v5/16-collision.png",
+    "screenshots/v5/17-reference.png",
+    "screenshots/v5/19-chain-detail.png",
+    "screenshots/v5/20-reconstructed.png",
+    "screenshots/v5/21-certificate.png"
+  ],
+  "local_links": [
+    "challenge/",
+    "organizer/",
+    "organizer/event.env",
+    "organizer/asset-manifest.json"
+  ],
+  "flag": "RCC{certified_to_question_everything}",
+  "docx": "/tmp/iq-v5-doc05/The Impossible Security+ Quiz/Description.docx"
+}

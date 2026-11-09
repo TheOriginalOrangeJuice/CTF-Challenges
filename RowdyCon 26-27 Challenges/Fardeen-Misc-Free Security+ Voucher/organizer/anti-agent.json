@@ -1,0 +1,12 @@
+{
+  "measure": "One passive stop notice in a non-rendered HTML comment",
+  "location": "challenge/client/index.html",
+  "expectedEffect": "An instruction-following automated solver that indiscriminately treats page source as authority may voluntarily stop.",
+  "limitations": "Experimental and unproven. A solver may ignore the comment, and legitimate tools and scripts remain supported. This is not an access-control mechanism or a difficulty contribution.",
+  "interference": {
+    "placement": "HTML comment outside rendered evidence and executable application logic",
+    "accessibility": "Not an accessibility label and not exposed as puzzle text",
+    "gameRules": "No changes to questions, scoring, samples, timing, or accepted actions",
+    "evaluation": "Source and DOM inspection plus successful scripted public-interface solve; no independent effectiveness experiment performed."
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.venv
+.git
+.gitignore
+tools/voices
+test
+*.md
+npm-debug.log

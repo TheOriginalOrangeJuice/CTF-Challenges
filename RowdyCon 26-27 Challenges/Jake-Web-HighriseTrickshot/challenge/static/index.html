@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Highrise Trickshot</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #000; color: #e8f0d8;
+    font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; text-transform: uppercase; }
+  canvas { display: block; }
+  .hud { position: fixed; pointer-events: none; text-shadow: 0 0 4px #000, 1px 1px 0 #000; letter-spacing: 1px; }
+  #goal { top: 14px; left: 16px; font-size: 14px; }
+  #goal b { color: #b6f06a; }
+  #killfeed { top: 40px; left: 16px; font-size: 13px; line-height: 1.6; }
+  #tricks { bottom: 18px; left: 16px; font-size: 15px; line-height: 1.5; }
+  #tricks .on { color: #b6f06a; }
+  #tricks .off { color: #777; }
+  #weapon { bottom: 18px; right: 20px; text-align: right; font-size: 22px; font-weight: bold; }
+  #weapon small { display: block; font-size: 12px; font-weight: normal; color: #aaa; }
+  #crosshair { top: 50%; left: 50%; width: 24px; height: 24px; margin: -12px 0 0 -12px; display: none; }
+  #crosshair::before, #crosshair::after { content: ""; position: absolute; background: #e8f0d8; }
+  #crosshair::before { left: 11px; top: 0; width: 2px; height: 24px; }
+  #crosshair::after { top: 11px; left: 0; height: 2px; width: 24px; }
+  #hitmarker { top: 50%; left: 50%; width: 30px; height: 30px; margin: -15px 0 0 -15px; opacity: 0; }
+  #hitmarker::before, #hitmarker::after { content: ""; position: absolute; left: 14px; top: 0; width: 2px; height: 30px;
+    background: linear-gradient(#fff 0 35%, transparent 35% 65%, #fff 65%); }
+  #hitmarker::before { transform: rotate(45deg); } #hitmarker::after { transform: rotate(-45deg); }
+  #scope { inset: 0; display: none;
+    background: radial-gradient(circle at center, transparent 0 34vh, #000 34.3vh); }
+  #scope.pop { animation: scopePop .14s ease-out; }
+  @keyframes scopePop { 0% { transform: scale(1.7); filter: brightness(0); } 60% { filter: brightness(.6); } 100% { transform: scale(1); filter: none; } }
+  #scope::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: #000; }
+  #scope::after { content: ""; position: absolute; top: 50%; left: 0; right: 0; height: 1px; background: #000; }
+  #popup { top: 22%; left: 50%; transform: translateX(-50%); text-align: center; opacity: 0; transition: opacity .3s; }
+  #popup h1 { margin: 0; font-size: 46px; color: #ffd23f; font-style: italic; }
+  #popup .line { font-size: 16px; }
+  #popup .total { font-size: 30px; margin-top: 6px; color: #b6f06a; font-weight: bold; }
+  #status { top: 62%; left: 50%; transform: translateX(-50%); font-size: 16px; text-align: center; color: #ffd23f; }
+  #toast { top: 40%; left: 50%; transform: translateX(-50%); font-size: 22px; color: #ff5b4a; opacity: 0; transition: opacity .3s; }
+  .overlay { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: rgba(0,0,0,.72); text-transform: none; }
+  .panel { background: linear-gradient(#26301e, #141a10); border: 1px solid #5d7a3a; padding: 26px 34px; max-width: 560px;
+    box-shadow: 0 0 40px #000; }
+  .panel h1 { margin: 0 0 4px; font-size: 34px; letter-spacing: 3px; color: #b6f06a; text-transform: uppercase; }
+  .panel h2 { margin: 18px 0 6px; font-size: 14px; color: #ffd23f; text-transform: uppercase; letter-spacing: 2px; }
+  .panel p, .panel td { font-size: 14px; color: #d6dfc8; margin: 4px 0; }
+  .panel td { padding: 1px 14px 1px 0; }
+  .panel kbd { background: #3a4630; border: 1px solid #6b8a46; padding: 0 5px; border-radius: 3px; font-size: 12px; }
+  .btn { margin-top: 18px; display: inline-block; padding: 10px 22px; background: #5d7a3a; color: #fff; font-weight: bold;
+    letter-spacing: 2px; cursor: pointer; border: 1px solid #b6f06a; text-transform: uppercase; }
+  #mlg { inset: 0; overflow: hidden; }
+  .mlg-word { position: absolute; font: italic 900 42px Impact, "Arial Black", sans-serif; color: #fff;
+    -webkit-text-stroke: 2px #000; white-space: nowrap; animation: mlgWord 1.6s ease-out forwards; }
+  @keyframes mlgWord { 0% { transform: scale(0) rotate(var(--r)); opacity: 1; }
+    20% { transform: scale(1.3) rotate(var(--r)); } 100% { transform: scale(1) rotate(var(--r)); opacity: 0; } }
+  .mlg-hit { position: absolute; width: 40px; height: 40px; animation: fade .5s forwards; }
+  .mlg-hit::before, .mlg-hit::after { content: ""; position: absolute; left: 19px; top: 0; width: 3px; height: 40px;
+    background: linear-gradient(#fff 0 35%, transparent 35% 65%, #fff 65%); }
+  .mlg-hit::before { transform: rotate(45deg); } .mlg-hit::after { transform: rotate(-45deg); }
+  .mlg-chip { position: absolute; top: -60px; width: 0; height: 0; border-left: 22px solid transparent;
+    border-right: 22px solid transparent; border-bottom: 40px solid #f28c1a; filter: drop-shadow(0 0 2px #a34d00);
+    animation: chipFall var(--d) linear forwards; }
+  @keyframes chipFall { to { transform: translateY(110vh) rotate(var(--spin)); } }
+  .mlg-tri { position: absolute; left: 50%; top: 50%; width: 0; height: 0; margin: -90px 0 0 -100px;
+    border-left: 100px solid transparent; border-right: 100px solid transparent; border-bottom: 170px solid rgba(80,255,80,.35);
+    animation: triSpin 2.4s ease-in-out forwards; }
+  @keyframes triSpin { 0% { transform: scale(0) rotate(0); opacity: 0; } 30% { opacity: 1; }
+    100% { transform: scale(2.2) rotate(720deg); opacity: 0; } }
+  @keyframes fade { to { opacity: 0; } }
+  body.mlg-shake canvas { animation: shake .08s infinite, rainbow .5s linear infinite; }
+  @keyframes shake { 0% { transform: translate(6px,-4px); } 50% { transform: translate(-6px,5px); } 100% { transform: translate(4px,6px); } }
+  @keyframes rainbow { from { filter: hue-rotate(0deg) saturate(2.5); } to { filter: hue-rotate(360deg) saturate(2.5); } }
+  .panel { max-height: 94vh; overflow-y: auto; }
+  .settings input[type=range] { width: 180px; vertical-align: middle; accent-color: #b6f06a; }
+  .settings select, .bind { background: #3a4630; color: #e8f0d8; border: 1px solid #6b8a46; font-size: 12px; padding: 2px 6px; }
+  .bind { min-width: 90px; cursor: pointer; }
+  .bind.listening { background: #ffd23f; color: #000; }
+  .btn.small { margin-top: 10px; padding: 5px 12px; font-size: 11px; background: #3a4630; }
+  #killcam { display: none; top: 70px; left: 50%; transform: translateX(-50%); font: italic 900 34px Impact, "Arial Black", sans-serif;
+    letter-spacing: 4px; color: #fff; background: rgba(140,0,0,.65); padding: 4px 26px; }
+  .perk-fx { font: 12px monospace; color: #9fb88a; }
+  .pips { color: #b6f06a; font-size: 10px; letter-spacing: 1px; }
+  #hud-coins { top: 14px; right: 20px; font-size: 16px; font-weight: bold; color: #ffd23f; }
+  #hud-coins::before { content: "◆ "; }
+  #hud-attempts { top: 38px; right: 20px; font-size: 12px; color: #ccc; text-align: right; }
+  .swatch { display: inline-block; width: 44px; height: 14px; border: 1px solid #000; vertical-align: middle; background-size: cover; }
+  .owned { color: #b6f06a; font-size: 12px; }
+  .buy:disabled { opacity: .45; cursor: default; }
+  #flagbox { display: none; }
+  #flag { font: bold 20px monospace; color: #ffd23f; background: #000; padding: 12px; margin-top: 10px; user-select: all; word-break: break-all; }
+</style>
+</head>
+<body>
+<div id="goal" class="hud">Highrise // Trickshot only — Goal: <b>10,000,000,000</b> pts</div>
+<div id="killfeed" class="hud"></div>
+<div id="hud-coins" class="hud">0 coins</div>
+<div id="hud-attempts" class="hud"></div>
+<div id="tricks" class="hud"></div>
+<div id="weapon" class="hud"></div>
+<div id="scope" class="hud"></div>
+<div id="crosshair" class="hud"></div>
+<div id="hitmarker" class="hud"></div>
+<div id="popup" class="hud"></div>
+<div id="status" class="hud"></div>
+<div id="toast" class="hud"></div>
+<div id="mlg" class="hud"></div>
+<div id="killcam" class="hud">FINAL KILLCAM</div>
+<div id="roundover" class="overlay" style="display:none">
+  <div class="panel" style="text-align:center">
+    <h1>Round over</h1>
+    <div id="ro-score" style="font-size:30px;color:#b6f06a;font-weight:bold;margin:8px 0"></div>
+    <div id="ro-lines" style="font-size:14px;line-height:1.6"></div>
+    <p id="ro-msg" style="color:#ffd23f"></p>
+    <p id="ro-attempts" style="color:#bbb;font-size:13px"></p>
+    <div id="ro-flag" style="display:none;font:bold 20px monospace;color:#ffd23f;background:#000;padding:12px;user-select:all;word-break:break-all"></div>
+    <div class="btn small" id="dl-killcam" style="display:none">Download killcam</div>
+    <div class="btn" id="next-round">Next round</div>
+  </div>
+</div>
+
+<div id="menu" class="overlay">
+  <div class="panel">
+    <h1>Highrise</h1>
+    <p>Trickshot lobby. Host has <i>"trickshot only"</i> on. Hit the dummy on the helipad (east side) with a trickshot worth
+      <b>10,000,000,000 points</b> and the host will hand over the flag.</p>
+    <h2>Controls</h2>
+    <table>
+      <tr><td><kbd>Mouse</kbd> look / spin · <kbd>LMB</kbd> fire · <kbd>RMB</kbd> scope · <kbd>Scroll</kbd> swap · <kbd>Esc</kbd> pause</td></tr>
+      <tr><td><kbd>T</kbd> drops a tactical insertion (checkpoint): fall off the map or press <kbd>R</kbd> and you respawn on it.</td></tr>
+      <tr><td>Movement, jump, sprint, swap and respawn keys are below in Keybinds.</td></tr>
+    </table>
+    <h2>Multipliers (base 100 pts, all multiply together)</h2>
+    <table>
+      <tr><td>Distance</td><td>× (1 + meters / 25)</td></tr>
+      <tr><td>Each 360 (mid-air)</td><td>× (1 + spins)</td></tr>
+      <tr><td>Reverse 360 (360s both ways)</td><td>× 1.5</td></tr>
+      <tr><td>Weapon swaps (mid-air)</td><td>× number of swaps</td></tr>
+      <tr><td>Canswap (swap ≤ 0.5 s before the kill)</td><td>× 1.5</td></tr>
+      <tr><td>No scope / Quick scope / Hard scope</td><td>× 3 / × 2 / × 0.5</td></tr>
+      <tr><td>Throwing knife kill</td><td>× 5</td></tr>
+      <tr><td>Knife wall bounces</td><td>× number of bounces</td></tr>
+      <tr><td>Long throw (knife flight distance)</td><td>× (1 + meters / 50)</td></tr>
+      <tr><td>Full scope-ins (mid-air)</td><td>× number of scope-ins</td></tr>
+      <tr><td>Desert Eagle tags (mid-air)</td><td>× (1 + 3 per tag)</td></tr>
+      <tr><td>Mid-air kill</td><td>× 2</td></tr>
+      <tr><td>Airtime</td><td>× (1 + 0.5 per second)</td></tr>
+      <tr><td>Air travel (distance moved mid-air)</td><td>× (1 + meters / 30)</td></tr>
+      <tr><td>Headshot</td><td>× 1.5</td></tr>
+      <tr><td>Jumped off the crane jib / High perch (catwalks, ledges, roofs)</td><td>× 1.5 / × 1.2</td></tr>
+      <tr><td>Sprint jump</td><td>× 1.2</td></tr>
+      <tr><td>Kamikaze drop (4 m+ below takeoff)</td><td>× 1.5</td></tr>
+      <tr><td>Flick (90°+ in the last 0.15 s)</td><td>× 1.3</td></tr>
+    </table>
+    <p style="color:#999;margin-top:10px">Kills must be mid-air and with the Intervention or a throwing knife (one knife per jump). Desert Eagle is for swaps and tags.</p>
+    <h2>Perk shop <span style="color:#b6f06a;letter-spacing:0">· <span id="coins">0</span> coins</span></h2>
+    <p style="color:#999;font-size:12px">Accepted trickshots earn 10–50 coins. Each perk tweaks one game setting; 5 tiers, price doubles every tier.</p>
+    <table id="shop"></table>
+    <p style="margin-top:8px">Redeem code: <input id="redeem-code" maxlength="32" style="background:#3a4630;color:#e8f0d8;border:1px solid #6b8a46;padding:3px 6px;width:140px;text-transform:uppercase">
+      <button class="bind" id="redeem-btn">Redeem</button> <span id="redeem-msg" style="font-size:12px"></span></p>
+    <h2>Camos <span style="color:#999;font-size:11px;letter-spacing:0">(Intervention)</span></h2>
+    <table id="camo-shop"></table>
+    <h2>Settings</h2>
+    <table class="settings">
+      <tr><td>Sensitivity</td><td><input type="range" id="set-sens" min="0.1" max="100" step="0.1"> <span id="val-sens"></span></td></tr>
+      <tr><td>Volume</td><td><input type="range" id="set-vol" min="0" max="1" step="0.05"> <span id="val-vol"></span></td></tr>
+      <tr><td>Field of view</td><td><input type="range" id="set-fov" min="60" max="110" step="1"> <span id="val-fov"></span></td></tr>
+      <tr><td>Invert Y</td><td><input type="checkbox" id="set-invert"></td></tr>
+      <tr><td>Scope</td><td><select id="set-ads"><option value="hold">Hold RMB</option><option value="toggle">Toggle RMB</option></select></td></tr>
+    </table>
+    <h2>Keybinds <span style="color:#999;font-size:11px;letter-spacing:0">(click, then press a key · Esc cancels)</span></h2>
+    <table id="binds"></table>
+    <div class="btn small" id="reset-settings">Reset to defaults</div>
+    <div class="btn" id="play">Click to play</div>
+    <div id="flagbox">
+      <h2>Host: "ok that was actually insane"</h2>
+      <div id="flag"></div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/game.js"></script>
+</body>
+</html>
